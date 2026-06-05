@@ -1,0 +1,50 @@
+{
+  "syncedAt": "2026-06-05T20:21:59.625Z",
+  "totalCompleted": 3,
+  "totalRoutes": 279,
+  "completedRoutes": [
+    {
+      "routeSlug": "farmland-loop",
+      "routeName": "Farmland Loop",
+      "worldName": "Makuri Islands",
+      "activityId": 18800428930,
+      "activityName": "Zwift - Farmland Loop in Makuri Islands",
+      "date": "2026-06-05T11:20:55Z",
+      "distance": 8.243,
+      "movingTime": 1160,
+      "elapsedTime": 1160,
+      "elevationGain": 57,
+      "averageWatts": 102.5,
+      "stravaUrl": "https://www.strava.com/activities/18800428930"
+    },
+    {
+      "routeSlug": "queens-highway",
+      "routeName": "Queen's Highway",
+      "worldName": "Yorkshire",
+      "activityId": 18750341820,
+      "activityName": "Zwift - Queen's Highway in Yorkshire",
+      "date": "2026-06-01T19:43:26Z",
+      "distance": 5.544,
+      "movingTime": 1013,
+      "elapsedTime": 1013,
+      "elevationGain": 82,
+      "averageWatts": 86.3,
+      "stravaUrl": "https://www.strava.com/activities/18750341820"
+    },
+    {
+      "routeSlug": "the-classic",
+      "routeName": "The Classic",
+      "worldName": "Watopia",
+      "activityId": 18722091055,
+      "activityName": "Zwift - The Classic in Watopia",
+      "date": "2026-05-30T17:19:43Z",
+      "distance": 4.947,
+      "movingTime": 959,
+      "elapsedTime": 959,
+      "elevationGain": 48,
+      "averageWatts": 80.4,
+      "stravaUrl": "https://www.strava.com/activities/18722091055"
+    }
+  ],
+  "unmatchedActivities": []
+}

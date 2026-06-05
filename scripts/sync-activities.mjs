@@ -126,15 +126,35 @@ function matchActivityToRoute(activity, routeIndex) {
   const { name } = activity;
   if (!name) return null;
 
-  // Zwift activities are titled "World - Route Name" or sometimes just the route name
-  const parts = name.split(" - ");
+  // Zwift activity titles can be:
+  //   "Zwift - Route Name in World"    (most common)
+  //   "Zwift - Route Name"             (sometimes)
+  //   "World - Route Name"             (older format)
+  //   Just the route name              (user renamed)
   const candidateNames = [];
 
-  if (parts.length >= 2) {
-    // "Watopia - Tempus Fugit" → try "Tempus Fugit"
-    candidateNames.push(parts.slice(1).join(" - "));
+  // Strip "Zwift - " prefix
+  let stripped = name;
+  if (stripped.startsWith("Zwift - ")) {
+    stripped = stripped.slice("Zwift - ".length);
   }
-  // Also try the full name in case someone named it exactly
+
+  // Try removing " in WorldName" suffix
+  const inWorldMatch = stripped.match(/^(.+?)\s+in\s+[\w\s]+$/i);
+  if (inWorldMatch) {
+    candidateNames.push(inWorldMatch[1]);
+  }
+
+  // Try "World - Route" format
+  const dashParts = stripped.split(" - ");
+  if (dashParts.length >= 2) {
+    candidateNames.push(dashParts.slice(1).join(" - "));
+  }
+
+  // Try the stripped name as-is
+  candidateNames.push(stripped);
+
+  // Try the full original name
   candidateNames.push(name);
 
   for (const candidate of candidateNames) {

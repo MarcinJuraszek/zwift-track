@@ -84,18 +84,28 @@ function getWorldColor(slug: string) {
       />
     </div>
 
-    <!-- World bar chart visualization -->
-    <div class="flex gap-1 h-2 rounded-full overflow-hidden bg-zwift-dark mt-4">
+    <!-- World completion bars -->
+    <div class="flex gap-1 h-4 rounded-full overflow-hidden bg-zwift-dark mt-4">
       {sortedWorlds.map((w: any) => {
         const color = getWorldColor(w.slug);
         const widthPercent = (w.routeCount / totalRoutes) * 100;
+        const wc = worldCompletion[w.slug] || { done: 0, total: 0 };
+        const completionPercent = wc.total > 0 ? (wc.done / wc.total) * 100 : 0;
         return (
           <div
-            class={`${color.accent} opacity-80 hover:opacity-100 transition-opacity cursor-pointer`}
+            class="relative overflow-hidden cursor-pointer group"
             style={`width: ${widthPercent}%`}
-            title={`${w.name}: ${w.routeCount} routes`}
+            title={`${w.name}: ${wc.done}/${wc.total} completed`}
             data-world-bar={w.slug}
-          />
+          >
+            {/* Background (uncompleted portion) */}
+            <div class={`absolute inset-0 ${color.accent} opacity-20 group-hover:opacity-30 transition-opacity`} />
+            {/* Filled (completed portion) */}
+            <div
+              class={`absolute inset-y-0 left-0 ${color.accent} opacity-80 group-hover:opacity-100 transition-opacity`}
+              style={`width: ${completionPercent}%`}
+            />
+          </div>
         );
       })}
     </div>

@@ -1,6 +1,7 @@
 // Sync Zwift rides from Strava and match to known routes.
-// Uses Strava segment matching as the primary method for all activities.
-// Caches detailed activity data locally to avoid repeated API calls.
+// Uses Strava segment matching as source of truth, with manual overrides
+// for routes that can't be detected by segments. Name mismatches are
+// surfaced as warnings for manual review.
 // Run: node scripts/sync-activities.mjs
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
@@ -14,6 +15,10 @@ const rawActivitiesPath = resolve(__dirname, "../src/data/raw-activities.json");
 const detailedActivitiesPath = resolve(
   __dirname,
   "../src/data/detailed-activities.json"
+);
+const manualCompletionsPath = resolve(
+  __dirname,
+  "../src/data/manual-completions.json"
 );
 const outputPath = resolve(__dirname, "../src/data/completed-routes.json");
 
@@ -341,6 +346,7 @@ async function main() {
 
   const completions = [];
   const unmatchedList = [];
+  const reviewItems = []; // Name says one thing, segments say another
 
   for (const activity of virtualRides) {
     const cacheKey = String(activity.id);
@@ -381,30 +387,37 @@ async function main() {
       }
     }
 
-    // Match by segments (primary)
+    // Match by segments (source of truth)
     const segRoutes = matchActivityBySegments(
       detailedCache[cacheKey],
       routeIndex
     );
-    const matchedSlugs = new Set(segRoutes.map((r) => r.slug));
+    const segSlugs = new Set(segRoutes.map((r) => r.slug));
 
     for (const route of segRoutes) {
       addCompletion(completions, route, activity, "segment");
     }
 
-    // Also check name-based matching to catch routes whose Strava segment
-    // IDs don't line up (e.g. Flat Out Fast maps to Tempus Fugit segment)
+    // Check name-based matching — flag mismatches for review
     const nameRoutes = matchActivityToRouteByName(activity, routeIndex);
     if (nameRoutes) {
       for (const route of nameRoutes) {
-        if (!matchedSlugs.has(route.slug)) {
-          addCompletion(completions, route, activity, "name");
-          matchedSlugs.add(route.slug);
+        if (!segSlugs.has(route.slug)) {
+          reviewItems.push({
+            activityId: activity.id,
+            activityName: activity.name,
+            date: activity.start_date_local,
+            stravaUrl: `https://www.strava.com/activities/${activity.id}`,
+            nameMatchedRoute: route.name,
+            nameMatchedSlug: route.slug,
+            nameMatchedWorld: route.worldName,
+            segmentMatchedRoutes: segRoutes.map((r) => r.name),
+          });
         }
       }
     }
 
-    if (matchedSlugs.size === 0) {
+    if (segSlugs.size === 0 && !nameRoutes) {
       unmatchedList.push(activity);
     }
   }
@@ -415,13 +428,73 @@ async function main() {
     console.log(`   API calls made: ${apiCalls} (cached for future runs)`);
   }
 
-  // Summarize match methods
-  const byMethod = { segment: 0, name: 0 };
-  for (const c of completions) byMethod[c.matchMethod]++;
   console.log(
-    `   Matched: ${completions.length} route completions (${byMethod.segment} by segment, ${byMethod.name} by name)`
+    `   Segment matches: ${completions.length} route completions`
   );
   console.log(`   Unmatched: ${unmatchedList.length} activities`);
+
+  // Load manual overrides
+  let manualOverrides = { completions: [], exclusions: [] };
+  if (existsSync(manualCompletionsPath)) {
+    manualOverrides = JSON.parse(
+      readFileSync(manualCompletionsPath, "utf-8")
+    );
+    if (!manualOverrides.exclusions) manualOverrides.exclusions = [];
+  }
+
+  // Apply exclusions — remove segment matches the user says are wrong
+  // Exclusions match on { activityId, routeSlug } or just { routeSlug } (blanket)
+  const exclusionSet = new Set(
+    manualOverrides.exclusions.map((e) =>
+      e.activityId ? `${e.activityId}:${e.routeSlug}` : `*:${e.routeSlug}`
+    )
+  );
+  const beforeExclusions = completions.length;
+  const filtered = completions.filter((c) => {
+    const specificKey = `${c.activityId}:${c.routeSlug}`;
+    const blanketKey = `*:${c.routeSlug}`;
+    return !exclusionSet.has(specificKey) && !exclusionSet.has(blanketKey);
+  });
+  const excluded = beforeExclusions - filtered.length;
+  if (excluded > 0) {
+    console.log(`   Exclusions applied: ${excluded} completions removed`);
+  }
+  completions.length = 0;
+  completions.push(...filtered);
+
+  // Add manual completions
+  const segMatchedSlugs = new Set(completions.map((c) => c.routeSlug));
+  let manualAdded = 0;
+  for (const manual of manualOverrides.completions) {
+    const route = routeData.routes.find((r) => r.slug === manual.routeSlug);
+    if (!route) {
+      console.log(
+        `   ⚠️  Manual completion references unknown route: ${manual.routeSlug}`
+      );
+      continue;
+    }
+    if (segMatchedSlugs.has(manual.routeSlug)) continue; // already found by segments
+
+    completions.push({
+      routeSlug: route.slug,
+      routeName: route.name,
+      worldName: route.worldName,
+      activityId: null,
+      activityName: manual.note || "Manual override",
+      date: manual.date,
+      distance: null,
+      movingTime: null,
+      elapsedTime: null,
+      elevationGain: null,
+      averageWatts: null,
+      stravaUrl: manual.stravaUrl || null,
+      matchMethod: "manual",
+    });
+    manualAdded++;
+  }
+  if (manualAdded > 0) {
+    console.log(`   Manual completions: ${manualAdded} routes added`);
+  }
 
   const unmatchedActivities = unmatchedList.map((a) => ({
     activityId: a.id,
@@ -466,6 +539,41 @@ async function main() {
     `   Total unique routes completed: ${uniqueCompletions.length}/${routeData.routes.length}`
   );
   console.log(`   → ${outputPath}`);
+
+  // Surface name/segment mismatches for manual review
+  // Filter out items already in manual completions or exclusions
+  const manualSlugs = new Set(
+    manualOverrides.completions.map((c) => c.routeSlug)
+  );
+  const pendingReview = reviewItems.filter(
+    (r) =>
+      !manualSlugs.has(r.nameMatchedSlug) &&
+      !exclusionSet.has(`${r.activityId}:${r.nameMatchedSlug}`) &&
+      !exclusionSet.has(`*:${r.nameMatchedSlug}`)
+  );
+
+  if (pendingReview.length > 0) {
+    console.log(
+      `\n🔎 Review needed (${pendingReview.length}): activity title suggests a route not confirmed by segments.`
+    );
+    console.log(
+      `   Check in Zwift and add to manual-completions.json if confirmed:`
+    );
+    for (const r of pendingReview) {
+      console.log(`\n   "${r.activityName}"`);
+      console.log(`     Title says: ${r.nameMatchedRoute} (${r.nameMatchedWorld})`);
+      console.log(
+        `     Segments found: ${r.segmentMatchedRoutes.length > 0 ? r.segmentMatchedRoutes.join(", ") : "none"}`
+      );
+      console.log(`     ${r.stravaUrl}`);
+      console.log(
+        `     → To confirm:  add to "completions" with slug "${r.nameMatchedSlug}"`
+      );
+      console.log(
+        `     → To dismiss:  add to "exclusions" with activityId ${r.activityId} and slug "${r.nameMatchedSlug}"`
+      );
+    }
+  }
 
   if (unmatchedActivities.length > 0) {
     console.log(

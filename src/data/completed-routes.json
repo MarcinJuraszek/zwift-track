@@ -1,6 +1,6 @@
 {
-  "syncedAt": "2026-06-05T20:49:27.369Z",
-  "totalCompleted": 94,
+  "syncedAt": "2026-06-05T20:53:44.372Z",
+  "totalCompleted": 92,
   "totalRoutes": 279,
   "completedRoutes": [
     {
@@ -49,6 +49,21 @@
       "matchMethod": "segment"
     },
     {
+      "routeSlug": "flat-out-fast",
+      "routeName": "Flat Out Fast",
+      "worldName": "Watopia",
+      "activityId": null,
+      "activityName": "Strava segments map to Tempus Fugit, but activity title confirms Flat Out Fast",
+      "date": "2025-11-19T20:00:00Z",
+      "distance": null,
+      "movingTime": null,
+      "elapsedTime": null,
+      "elevationGain": null,
+      "averageWatts": null,
+      "stravaUrl": "https://www.strava.com/activities/16452463276",
+      "matchMethod": "manual"
+    },
+    {
       "routeSlug": "avon-flyer",
       "routeName": "Avon Flyer",
       "worldName": "New York",
@@ -92,21 +107,6 @@
       "averageWatts": 161.3,
       "stravaUrl": "https://www.strava.com/activities/16471415507",
       "matchMethod": "segment"
-    },
-    {
-      "routeSlug": "flat-out-fast",
-      "routeName": "Flat Out Fast",
-      "worldName": "Watopia",
-      "activityId": 16452463276,
-      "activityName": "Zwift - Flat Out Fast in Watopia",
-      "date": "2025-11-13T21:18:45Z",
-      "distance": 23.104,
-      "movingTime": 2601,
-      "elapsedTime": 2668,
-      "elevationGain": 48,
-      "averageWatts": 152.3,
-      "stravaUrl": "https://www.strava.com/activities/16452463276",
-      "matchMethod": "name"
     },
     {
       "routeSlug": "green-to-screen",
@@ -197,21 +197,6 @@
       "averageWatts": 157.6,
       "stravaUrl": "https://www.strava.com/activities/14657329706",
       "matchMethod": "segment"
-    },
-    {
-      "routeSlug": "sacre-bleu",
-      "routeName": "Sacre Bleu",
-      "worldName": "France",
-      "activityId": 14513448115,
-      "activityName": "Zwift - Sacre Bleu in France",
-      "date": "2025-05-17T15:10:11Z",
-      "distance": 72.602,
-      "movingTime": 7949,
-      "elapsedTime": 8194,
-      "elevationGain": 402,
-      "averageWatts": 157.5,
-      "stravaUrl": "https://www.strava.com/activities/14513448115",
-      "matchMethod": "name"
     },
     {
       "routeSlug": "three-musketeers",
@@ -1067,21 +1052,6 @@
       "averageWatts": 138.3,
       "stravaUrl": "https://www.strava.com/activities/8050364767",
       "matchMethod": "segment"
-    },
-    {
-      "routeSlug": "three-village-loop",
-      "routeName": "Three Village Loop",
-      "worldName": "Makuri Islands",
-      "activityId": 8025312695,
-      "activityName": "Zwift - Three Village Loop in Makuri Islands",
-      "date": "2022-10-26T20:08:47Z",
-      "distance": 5.946,
-      "movingTime": 905,
-      "elapsedTime": 959,
-      "elevationGain": 83,
-      "averageWatts": 149.3,
-      "stravaUrl": "https://www.strava.com/activities/8025312695",
-      "matchMethod": "name"
     },
     {
       "routeSlug": "casse-pattes",

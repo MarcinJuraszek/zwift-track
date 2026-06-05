@@ -1,0 +1,12 @@
+{
+  "_comment": "Manual overrides for route completion tracking. 'completions' force-marks routes as done. 'exclusions' prevents specific activities from counting as completion of a route.",
+  "completions": [
+    {
+      "routeSlug": "flat-out-fast",
+      "date": "2025-11-19T20:00:00Z",
+      "note": "Strava segments map to Tempus Fugit, but activity title confirms Flat Out Fast",
+      "stravaUrl": "https://www.strava.com/activities/16452463276"
+    }
+  ],
+  "exclusions": []
+}

@@ -1,13 +1,29 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import routeData from "../data/routes.json";
+import completionData from "../data/completed-routes.json";
 
 const { worlds, routes, totalRoutes } = routeData;
+const { completedRoutes, totalCompleted } = completionData;
+
+// Build a map of completed routes by slug
+const completedMap = new Map<string, any>();
+for (const c of completedRoutes) {
+  completedMap.set(c.routeSlug, c);
+}
 
 // Group routes by world
 const sortedWorlds = worlds
   .filter((w: any) => w.routeCount > 0)
   .sort((a: any, b: any) => b.routeCount - a.routeCount);
+
+// Per-world completion counts
+const worldCompletion: Record<string, { done: number; total: number }> = {};
+for (const route of routes) {
+  if (!worldCompletion[route.world]) worldCompletion[route.world] = { done: 0, total: 0 };
+  worldCompletion[route.world].total++;
+  if (completedMap.has(route.slug)) worldCompletion[route.world].done++;
+}
 
 const routesByWorld: Record<string, any[]> = {};
 for (const route of routes) {
@@ -47,11 +63,25 @@ function getWorldColor(slug: string) {
 <Layout title="Zwift Route Tracker">
   <!-- Hero Stats -->
   <div class="mb-10">
-    <div class="flex flex-wrap items-end gap-6 mb-2">
+    <div class="flex flex-wrap items-end gap-8 mb-2">
       <div>
-        <div class="text-5xl font-extrabold text-white tracking-tight">{totalRoutes}</div>
-        <div class="text-sm text-gray-500 font-medium">cycling routes across {worlds.length} worlds</div>
+        <div class="text-5xl font-extrabold text-white tracking-tight">
+          {totalCompleted}<span class="text-2xl text-gray-500 font-semibold">/{totalRoutes}</span>
+        </div>
+        <div class="text-sm text-gray-500 font-medium">routes completed</div>
       </div>
+      <div>
+        <div class="text-3xl font-bold text-zwift-orange">{Math.round((totalCompleted / totalRoutes) * 100)}%</div>
+        <div class="text-sm text-gray-500 font-medium">completion</div>
+      </div>
+    </div>
+
+    <!-- Overall progress bar -->
+    <div class="h-3 rounded-full overflow-hidden bg-zwift-dark mt-4">
+      <div
+        class="h-full bg-gradient-to-r from-zwift-orange to-zwift-orange-light rounded-full transition-all"
+        style={`width: ${(totalCompleted / totalRoutes) * 100}%`}
+      />
     </div>
 
     <!-- World bar chart visualization -->
@@ -85,6 +115,15 @@ function getWorldColor(slug: string) {
       />
     </div>
 
+    <select
+      id="status-filter"
+      class="bg-zwift-card border border-gray-700/50 rounded-lg px-3 py-2.5 text-sm focus:border-zwift-orange focus:outline-none cursor-pointer transition-colors"
+    >
+      <option value="all">All Routes</option>
+      <option value="completed">✓ Completed</option>
+      <option value="todo">○ To Do</option>
+    </select>
+
     <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
       <button data-sort="name" class="sort-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all">Name</button>
       <button data-sort="distance-asc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Shortest</button>
@@ -102,10 +141,11 @@ function getWorldColor(slug: string) {
       data-world="all"
     >
       All Worlds
-      <span class="ml-1.5 text-xs opacity-60">{totalRoutes}</span>
+      <span class="ml-1.5 text-xs opacity-60">{totalCompleted}/{totalRoutes}</span>
     </button>
     {sortedWorlds.map((w: any) => {
       const color = getWorldColor(w.slug);
+      const wc = worldCompletion[w.slug] || { done: 0, total: 0 };
       return (
         <button
           class={`world-tab whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-all border`}
@@ -115,7 +155,7 @@ function getWorldColor(slug: string) {
           data-color-text={color.text}
         >
           {w.name}
-          <span class="ml-1.5 text-xs opacity-60">{w.routeCount}</span>
+          <span class="ml-1.5 text-xs opacity-60">{wc.done}/{wc.total}</span>
         </button>
       );
     })}
@@ -132,6 +172,8 @@ function getWorldColor(slug: string) {
       const color = getWorldColor(route.world);
       const maxDist = 200;
       const distPercent = Math.min((route.distance / maxDist) * 100, 100);
+      const completion = completedMap.get(route.slug);
+      const isCompleted = !!completion;
       return (
         <div
           class={`route-row group flex items-center gap-4 px-4 py-3 rounded-lg hover:bg-zwift-card/80 transition-all cursor-default border border-transparent hover:border-gray-700/30`}
@@ -142,16 +184,34 @@ function getWorldColor(slug: string) {
           data-gradient={route.gradient}
           data-experience={route.experience}
           data-world-name={route.worldName}
+          data-completed={isCompleted ? "true" : "false"}
         >
+          {/* Completion check */}
+          <div class="w-6 flex-shrink-0 text-center">
+            {isCompleted ? (
+              <span class="text-green-400 text-lg" title={`Completed ${new Date(completion.date).toLocaleDateString()}`}>✓</span>
+            ) : (
+              <span class="text-gray-700 text-lg">○</span>
+            )}
+          </div>
+
           {/* Color indicator */}
-          <div class={`w-1 h-10 rounded-full ${color.accent} opacity-40 group-hover:opacity-80 transition-opacity flex-shrink-0`} />
+          <div class={`w-1 h-10 rounded-full ${color.accent} ${isCompleted ? 'opacity-80' : 'opacity-20'} group-hover:opacity-80 transition-opacity flex-shrink-0`} />
 
           {/* Route name & world */}
           <div class="flex-1 min-w-0">
-            <div class="font-semibold text-white group-hover:text-zwift-orange-light transition-colors truncate">
+            <div class={`font-semibold group-hover:text-zwift-orange-light transition-colors truncate ${isCompleted ? 'text-white' : 'text-gray-400'}`}>
               {route.name}
             </div>
-            <div class={`text-xs ${color.text} opacity-70`}>{route.worldName}</div>
+            <div class="flex items-center gap-2">
+              <span class={`text-xs ${color.text} opacity-70`}>{route.worldName}</span>
+              {isCompleted && (
+                <a href={completion.stravaUrl} target="_blank" rel="noopener"
+                   class="text-[10px] text-gray-600 hover:text-zwift-orange transition-colors">
+                  {new Date(completion.date).toLocaleDateString()} • Strava ↗
+                </a>
+              )}
+            </div>
           </div>
 
           {/* Tags */}
@@ -251,6 +311,7 @@ function getWorldColor(slug: string) {
 
 <script>
   const searchInput = document.getElementById("search") as HTMLInputElement;
+  const statusFilter = document.getElementById("status-filter") as HTMLSelectElement;
   const visibleCount = document.getElementById("visible-count")!;
   const routeList = document.getElementById("route-list")!;
   const worldTabs = document.querySelectorAll(".world-tab");
@@ -262,14 +323,18 @@ function getWorldColor(slug: string) {
 
   function applyFilters() {
     const search = searchInput.value.toLowerCase();
+    const status = statusFilter.value;
     const rows = Array.from(routeList.querySelectorAll(".route-row")) as HTMLElement[];
 
     let count = 0;
     for (const row of rows) {
       const worldMatch = activeWorld === "all" || row.dataset.world === activeWorld;
       const searchMatch = !search || row.dataset.name!.includes(search);
+      const statusMatch = status === "all" ||
+        (status === "completed" && row.dataset.completed === "true") ||
+        (status === "todo" && row.dataset.completed === "false");
 
-      const visible = worldMatch && searchMatch;
+      const visible = worldMatch && searchMatch && statusMatch;
       row.style.display = visible ? "" : "none";
       if (visible) count++;
     }
@@ -339,5 +404,6 @@ function getWorldColor(slug: string) {
   });
 
   // Filter inputs
+  statusFilter.addEventListener("change", applyFilters);
   searchInput.addEventListener("input", applyFilters);
 </script>

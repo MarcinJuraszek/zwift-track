@@ -203,7 +203,7 @@ function getWorldColor(slug: string) {
           </div>
 
           {/* Links */}
-          <div class="hidden xl:flex gap-2 flex-shrink-0">
+          <div class="hidden xl:flex gap-2 flex-shrink-0 w-14">
             {route.zwiftInsiderUrl && (
               <a
                 href={route.zwiftInsiderUrl}
@@ -212,16 +212,6 @@ function getWorldColor(slug: string) {
                 class="text-[10px] text-gray-600 hover:text-zwift-orange transition-colors uppercase tracking-wider font-semibold"
               >
                 Insider
-              </a>
-            )}
-            {route.whatsOnZwiftUrl && (
-              <a
-                href={route.whatsOnZwiftUrl}
-                target="_blank"
-                rel="noopener"
-                class="text-[10px] text-gray-600 hover:text-zwift-orange transition-colors uppercase tracking-wider font-semibold"
-              >
-                WoZ
               </a>
             )}
           </div>

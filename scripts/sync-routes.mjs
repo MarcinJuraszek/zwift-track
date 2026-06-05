@@ -27,7 +27,6 @@ const routeData = routes
     levelLocked: route.levelLocked,
     stravaSegmentUrl: route.stravaSegmentUrl ?? null,
     zwiftInsiderUrl: route.zwiftInsiderUrl ?? null,
-    whatsOnZwiftUrl: route.whatsOnZwiftUrl ?? null,
   }));
 
 // Sort by world, then by name

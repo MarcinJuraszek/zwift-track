@@ -24,6 +24,11 @@
       "date": "2023-10-22T17:00:00Z",
       "note": "No Strava segment ID for this route, confirmed completed in Zwift app",
       "stravaUrl": "https://www.strava.com/activities/10180367436"
+    },
+    {
+      "routeSlug": "flatland-loop",
+      "date": "2024-01-01T00:00:00Z",
+      "note": "Confirmed completed in Zwift app, no matching Strava activity found"
     }
   ],
   "exclusions": [

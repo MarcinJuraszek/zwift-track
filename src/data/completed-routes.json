@@ -1,6 +1,6 @@
 {
-  "syncedAt": "2026-06-05T21:06:00.607Z",
-  "totalCompleted": 92,
+  "syncedAt": "2026-06-05T21:07:31.517Z",
+  "totalCompleted": 93,
   "totalRoutes": 279,
   "completedRoutes": [
     {
@@ -827,6 +827,21 @@
       "averageWatts": 150.9,
       "stravaUrl": "https://www.strava.com/activities/10611332260",
       "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "flatland-loop",
+      "routeName": "Flatland Loop",
+      "worldName": "Makuri Islands",
+      "activityId": null,
+      "activityName": "Confirmed completed in Zwift app, no matching Strava activity found",
+      "date": "2024-01-01T00:00:00Z",
+      "distance": null,
+      "movingTime": null,
+      "elapsedTime": null,
+      "elevationGain": null,
+      "averageWatts": null,
+      "stravaUrl": null,
+      "matchMethod": "manual"
     },
     {
       "routeSlug": "the-big-ring",

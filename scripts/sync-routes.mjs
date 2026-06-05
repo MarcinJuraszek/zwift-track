@@ -8,23 +8,25 @@ const outputPath = resolve(__dirname, "../src/data/routes.json");
 
 const worldMap = Object.fromEntries(worlds.map((w) => [w.slug, w]));
 
-const routeData = routes.map((route) => ({
-  id: route.id,
-  name: route.name,
-  slug: route.slug,
-  world: route.world,
-  worldName: worldMap[route.world]?.name ?? route.world,
-  distance: route.distance,
-  elevation: route.elevation,
-  leadInDistance: route.leadInDistance,
-  eventOnly: route.eventOnly,
-  lap: route.lap,
-  sports: route.sports,
-  levelLocked: route.levelLocked,
-  stravaSegmentUrl: route.stravaSegmentUrl ?? null,
-  zwiftInsiderUrl: route.zwiftInsiderUrl ?? null,
-  whatsOnZwiftUrl: route.whatsOnZwiftUrl ?? null,
-}));
+// Only include routes that support cycling
+const routeData = routes
+  .filter((route) => route.sports.includes("cycling"))
+  .map((route) => ({
+    id: route.id,
+    name: route.name,
+    slug: route.slug,
+    world: route.world,
+    worldName: worldMap[route.world]?.name ?? route.world,
+    distance: route.distance,
+    elevation: route.elevation,
+    leadInDistance: route.leadInDistance,
+    eventOnly: route.eventOnly,
+    lap: route.lap,
+    levelLocked: route.levelLocked,
+    stravaSegmentUrl: route.stravaSegmentUrl ?? null,
+    zwiftInsiderUrl: route.zwiftInsiderUrl ?? null,
+    whatsOnZwiftUrl: route.whatsOnZwiftUrl ?? null,
+  }));
 
 // Sort by world, then by name
 routeData.sort((a, b) => {
@@ -35,11 +37,9 @@ routeData.sort((a, b) => {
 const worldSummary = {};
 for (const route of routeData) {
   if (!worldSummary[route.worldName]) {
-    worldSummary[route.worldName] = { total: 0, cycling: 0, running: 0 };
+    worldSummary[route.worldName] = { total: 0 };
   }
   worldSummary[route.worldName].total++;
-  if (route.sports.includes("cycling")) worldSummary[route.worldName].cycling++;
-  if (route.sports.includes("running")) worldSummary[route.worldName].running++;
 }
 
 const output = {

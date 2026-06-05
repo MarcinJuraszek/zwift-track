@@ -23,9 +23,6 @@ function formatElevation(m: number): string {
   return `${Math.round(m)} m`;
 }
 
-const cyclingCount = routes.filter((r: any) => r.sports.includes("cycling")).length;
-const runningCount = routes.filter((r: any) => r.sports.includes("running")).length;
-
 // World colors for visual variety
 const worldColors: Record<string, { bg: string; border: string; text: string; accent: string }> = {
   watopia:        { bg: "bg-emerald-500/10", border: "border-emerald-500/30", text: "text-emerald-400", accent: "bg-emerald-500" },
@@ -53,17 +50,7 @@ function getWorldColor(slug: string) {
     <div class="flex flex-wrap items-end gap-6 mb-2">
       <div>
         <div class="text-5xl font-extrabold text-white tracking-tight">{totalRoutes}</div>
-        <div class="text-sm text-gray-500 font-medium">routes across {worlds.length} worlds</div>
-      </div>
-      <div class="flex gap-4 pb-1">
-        <div class="flex items-center gap-1.5 text-sm text-gray-400">
-          <span class="w-2 h-2 rounded-full bg-zwift-orange inline-block"></span>
-          {cyclingCount} cycling
-        </div>
-        <div class="flex items-center gap-1.5 text-sm text-gray-400">
-          <span class="w-2 h-2 rounded-full bg-blue-400 inline-block"></span>
-          {runningCount} running
-        </div>
+        <div class="text-sm text-gray-500 font-medium">cycling routes across {worlds.length} worlds</div>
       </div>
     </div>
 
@@ -97,15 +84,6 @@ function getWorldColor(slug: string) {
         class="w-full bg-zwift-card border border-gray-700/50 rounded-lg pl-10 pr-4 py-2.5 text-sm focus:border-zwift-orange focus:outline-none focus:ring-1 focus:ring-zwift-orange/30 placeholder-gray-600 transition-all"
       />
     </div>
-
-    <select
-      id="sport-filter"
-      class="bg-zwift-card border border-gray-700/50 rounded-lg px-3 py-2.5 text-sm focus:border-zwift-orange focus:outline-none cursor-pointer transition-colors"
-    >
-      <option value="all">All Sports</option>
-      <option value="cycling">🚴 Cycling</option>
-      <option value="running">🏃 Running</option>
-    </select>
 
     <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
       <button data-sort="name" class="sort-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all">Name</button>
@@ -156,7 +134,6 @@ function getWorldColor(slug: string) {
         <div
           class={`route-row group flex items-center gap-4 px-4 py-3 rounded-lg hover:bg-zwift-card/80 transition-all cursor-default border border-transparent hover:border-gray-700/30`}
           data-world={route.world}
-          data-sports={route.sports.join(",")}
           data-name={route.name.toLowerCase()}
           data-distance={route.distance}
           data-elevation={route.elevation}
@@ -190,12 +167,6 @@ function getWorldColor(slug: string) {
                 🔒
               </span>
             )}
-          </div>
-
-          {/* Sport icons */}
-          <div class="flex gap-1 flex-shrink-0 text-sm opacity-50 group-hover:opacity-80">
-            {route.sports.includes("cycling") && <span title="Cycling">🚴</span>}
-            {route.sports.includes("running") && <span title="Running">🏃</span>}
           </div>
 
           {/* Distance bar */}
@@ -273,7 +244,6 @@ function getWorldColor(slug: string) {
 
 <script>
   const searchInput = document.getElementById("search") as HTMLInputElement;
-  const sportFilter = document.getElementById("sport-filter") as HTMLSelectElement;
   const visibleCount = document.getElementById("visible-count")!;
   const routeList = document.getElementById("route-list")!;
   const worldTabs = document.querySelectorAll(".world-tab");
@@ -284,17 +254,15 @@ function getWorldColor(slug: string) {
   let activeSort = "name";
 
   function applyFilters() {
-    const sport = sportFilter.value;
     const search = searchInput.value.toLowerCase();
     const rows = Array.from(routeList.querySelectorAll(".route-row")) as HTMLElement[];
 
     let count = 0;
     for (const row of rows) {
       const worldMatch = activeWorld === "all" || row.dataset.world === activeWorld;
-      const sportMatch = sport === "all" || row.dataset.sports!.includes(sport);
       const searchMatch = !search || row.dataset.name!.includes(search);
 
-      const visible = worldMatch && sportMatch && searchMatch;
+      const visible = worldMatch && searchMatch;
       row.style.display = visible ? "" : "none";
       if (visible) count++;
     }
@@ -360,6 +328,5 @@ function getWorldColor(slug: string) {
   });
 
   // Filter inputs
-  sportFilter.addEventListener("change", applyFilters);
   searchInput.addEventListener("input", applyFilters);
 </script>

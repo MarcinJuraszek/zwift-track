@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-06-05T20:58:13.273Z",
+  "syncedAt": "2026-06-05T21:06:00.607Z",
   "totalCompleted": 92,
   "totalRoutes": 279,
   "completedRoutes": [
@@ -665,7 +665,7 @@
     },
     {
       "routeSlug": "mountain-route",
-      "routeName": "Watopia Mountain Route",
+      "routeName": "Mountain Route",
       "worldName": "Watopia",
       "activityId": 10650545235,
       "activityName": "Zwift - Mountain Route in Watopia",
@@ -800,7 +800,7 @@
     },
     {
       "routeSlug": "figure-8-reverse",
-      "routeName": "Watopia Figure 8 Reverse",
+      "routeName": "Figure 8 Reverse",
       "worldName": "Watopia",
       "activityId": 10618056730,
       "activityName": "Zwift - Figure 8 Reverse in Watopia",
@@ -815,7 +815,7 @@
     },
     {
       "routeSlug": "figure-8",
-      "routeName": "Watopia Figure 8",
+      "routeName": "Figure 8",
       "worldName": "Watopia",
       "activityId": 10611332260,
       "activityName": "Zwift - Figure 8 in Watopia",
@@ -1205,7 +1205,7 @@
     },
     {
       "routeSlug": "flat-route",
-      "routeName": "Watopia Flat Route",
+      "routeName": "Flat Route",
       "worldName": "Watopia",
       "activityId": 6099963130,
       "activityName": "Watopia",

@@ -5,3 +5,4 @@ dist/
 .env.local
 .DS_Store
 src/data/raw-activities.json
+src/data/detailed-activities.json

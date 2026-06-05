@@ -25,6 +25,7 @@ const routeData = routes
     eventOnly: route.eventOnly,
     lap: route.lap,
     levelLocked: route.levelLocked,
+    stravaSegmentId: route.stravaSegmentId ?? null,
     stravaSegmentUrl: route.stravaSegmentUrl ?? null,
     zwiftInsiderUrl: route.zwiftInsiderUrl ?? null,
   }));

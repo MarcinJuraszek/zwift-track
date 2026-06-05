@@ -1,6 +1,6 @@
 {
-  "syncedAt": "2026-06-05T20:27:39.155Z",
-  "totalCompleted": 69,
+  "syncedAt": "2026-06-05T20:41:37.687Z",
+  "totalCompleted": 93,
   "totalRoutes": 279,
   "completedRoutes": [
     {
@@ -15,7 +15,8 @@
       "elapsedTime": 1160,
       "elevationGain": 57,
       "averageWatts": 102.5,
-      "stravaUrl": "https://www.strava.com/activities/18800428930"
+      "stravaUrl": "https://www.strava.com/activities/18800428930",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "queens-highway",
@@ -29,7 +30,8 @@
       "elapsedTime": 1013,
       "elevationGain": 82,
       "averageWatts": 86.3,
-      "stravaUrl": "https://www.strava.com/activities/18750341820"
+      "stravaUrl": "https://www.strava.com/activities/18750341820",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "the-classic",
@@ -43,7 +45,8 @@
       "elapsedTime": 959,
       "elevationGain": 48,
       "averageWatts": 80.4,
-      "stravaUrl": "https://www.strava.com/activities/18722091055"
+      "stravaUrl": "https://www.strava.com/activities/18722091055",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "jarvis-seaside-sprint",
@@ -57,7 +60,8 @@
       "elapsedTime": 1588,
       "elevationGain": 96,
       "averageWatts": 141,
-      "stravaUrl": "https://www.strava.com/activities/17596095673"
+      "stravaUrl": "https://www.strava.com/activities/17596095673",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "avon-flyer",
@@ -71,7 +75,8 @@
       "elapsedTime": 378,
       "elevationGain": 24,
       "averageWatts": 179.5,
-      "stravaUrl": "https://www.strava.com/activities/16471488639"
+      "stravaUrl": "https://www.strava.com/activities/16471488639",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "loop-de-loop",
@@ -85,7 +90,8 @@
       "elapsedTime": 1495,
       "elevationGain": 146,
       "averageWatts": 167.1,
-      "stravaUrl": "https://www.strava.com/activities/16471473658"
+      "stravaUrl": "https://www.strava.com/activities/16471473658",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "watts-of-the-wild",
@@ -99,7 +105,8 @@
       "elapsedTime": 6652,
       "elevationGain": 308,
       "averageWatts": 161.3,
-      "stravaUrl": "https://www.strava.com/activities/16471415507"
+      "stravaUrl": "https://www.strava.com/activities/16471415507",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "flat-out-fast",
@@ -113,7 +120,8 @@
       "elapsedTime": 2668,
       "elevationGain": 48,
       "averageWatts": 152.3,
-      "stravaUrl": "https://www.strava.com/activities/16452463276"
+      "stravaUrl": "https://www.strava.com/activities/16452463276",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "green-to-screen",
@@ -127,7 +135,8 @@
       "elapsedTime": 3948,
       "elevationGain": 213,
       "averageWatts": 166.1,
-      "stravaUrl": "https://www.strava.com/activities/16370280123"
+      "stravaUrl": "https://www.strava.com/activities/16370280123",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "prospect-park-loop",
@@ -141,7 +150,8 @@
       "elapsedTime": 665,
       "elevationGain": 37,
       "averageWatts": 163.2,
-      "stravaUrl": "https://www.strava.com/activities/16316981732"
+      "stravaUrl": "https://www.strava.com/activities/16316981732",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "double-parked",
@@ -155,7 +165,8 @@
       "elapsedTime": 4934,
       "elevationGain": 336,
       "averageWatts": 159.6,
-      "stravaUrl": "https://www.strava.com/activities/16316926681"
+      "stravaUrl": "https://www.strava.com/activities/16316926681",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "coast-to-coast",
@@ -169,7 +180,8 @@
       "elapsedTime": 3055,
       "elevationGain": 154,
       "averageWatts": 158.4,
-      "stravaUrl": "https://www.strava.com/activities/16257325077"
+      "stravaUrl": "https://www.strava.com/activities/16257325077",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "makuri-madness",
@@ -183,7 +195,8 @@
       "elapsedTime": 1808,
       "elevationGain": 88,
       "averageWatts": 157.6,
-      "stravaUrl": "https://www.strava.com/activities/14657329706"
+      "stravaUrl": "https://www.strava.com/activities/14657329706",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "sacre-bleu",
@@ -197,7 +210,8 @@
       "elapsedTime": 8194,
       "elevationGain": 402,
       "averageWatts": 157.5,
-      "stravaUrl": "https://www.strava.com/activities/14513448115"
+      "stravaUrl": "https://www.strava.com/activities/14513448115",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "three-musketeers",
@@ -211,7 +225,8 @@
       "elapsedTime": 4033,
       "elevationGain": 198,
       "averageWatts": 161.8,
-      "stravaUrl": "https://www.strava.com/activities/14503829868"
+      "stravaUrl": "https://www.strava.com/activities/14503829868",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "the-magnificent-8",
@@ -225,7 +240,8 @@
       "elapsedTime": 3666,
       "elevationGain": 167,
       "averageWatts": 147,
-      "stravaUrl": "https://www.strava.com/activities/13969508810"
+      "stravaUrl": "https://www.strava.com/activities/13969508810",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "navig8",
@@ -239,7 +255,8 @@
       "elapsedTime": 8252,
       "elevationGain": 418,
       "averageWatts": 151.4,
-      "stravaUrl": "https://www.strava.com/activities/12926529617"
+      "stravaUrl": "https://www.strava.com/activities/12926529617",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "loopin-lava",
@@ -253,7 +270,8 @@
       "elapsedTime": 2235,
       "elevationGain": 212,
       "averageWatts": 169.8,
-      "stravaUrl": "https://www.strava.com/activities/12917531201"
+      "stravaUrl": "https://www.strava.com/activities/12917531201",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "waisted-8",
@@ -267,7 +285,8 @@
       "elapsedTime": 3511,
       "elevationGain": 144,
       "averageWatts": 160,
-      "stravaUrl": "https://www.strava.com/activities/12917252095"
+      "stravaUrl": "https://www.strava.com/activities/12917252095",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "mayan-8",
@@ -281,7 +300,8 @@
       "elapsedTime": 3102,
       "elevationGain": 241,
       "averageWatts": 157,
-      "stravaUrl": "https://www.strava.com/activities/12833798010"
+      "stravaUrl": "https://www.strava.com/activities/12833798010",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "london-classique",
@@ -295,7 +315,8 @@
       "elapsedTime": 883,
       "elevationGain": 31,
       "averageWatts": 153.6,
-      "stravaUrl": "https://www.strava.com/activities/11342698918"
+      "stravaUrl": "https://www.strava.com/activities/11342698918",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "big-flat-8",
@@ -309,7 +330,8 @@
       "elapsedTime": 3496,
       "elevationGain": 103,
       "averageWatts": 151.4,
-      "stravaUrl": "https://www.strava.com/activities/11342669576"
+      "stravaUrl": "https://www.strava.com/activities/11342669576",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "sprinters-playground",
@@ -323,7 +345,8 @@
       "elapsedTime": 1432,
       "elevationGain": 68,
       "averageWatts": 165,
-      "stravaUrl": "https://www.strava.com/activities/11287338410"
+      "stravaUrl": "https://www.strava.com/activities/11287338410",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "country-to-coastal",
@@ -337,7 +360,8 @@
       "elapsedTime": 4609,
       "elevationGain": 290,
       "averageWatts": 139.6,
-      "stravaUrl": "https://www.strava.com/activities/11287140011"
+      "stravaUrl": "https://www.strava.com/activities/11287140011",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "island-hopper",
@@ -351,7 +375,8 @@
       "elapsedTime": 2804,
       "elevationGain": 151,
       "averageWatts": 138.8,
-      "stravaUrl": "https://www.strava.com/activities/11286668208"
+      "stravaUrl": "https://www.strava.com/activities/11286668208",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "spiral-into-the-volcano",
@@ -365,7 +390,8 @@
       "elapsedTime": 7572,
       "elevationGain": 368,
       "averageWatts": 151.1,
-      "stravaUrl": "https://www.strava.com/activities/11228120148"
+      "stravaUrl": "https://www.strava.com/activities/11228120148",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "the-muckle-yin",
@@ -379,7 +405,8 @@
       "elapsedTime": 3046,
       "elevationGain": 283,
       "averageWatts": 160.1,
-      "stravaUrl": "https://www.strava.com/activities/11220725500"
+      "stravaUrl": "https://www.strava.com/activities/11220725500",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "london-triple-loops",
@@ -393,7 +420,8 @@
       "elapsedTime": 5680,
       "elevationGain": 568,
       "averageWatts": 170.5,
-      "stravaUrl": "https://www.strava.com/activities/11121880344"
+      "stravaUrl": "https://www.strava.com/activities/11121880344",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "roule-ma-poule",
@@ -407,7 +435,8 @@
       "elapsedTime": 3782,
       "elevationGain": 263,
       "averageWatts": 154.7,
-      "stravaUrl": "https://www.strava.com/activities/11052941808"
+      "stravaUrl": "https://www.strava.com/activities/11052941808",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "downtown-titans",
@@ -421,7 +450,8 @@
       "elapsedTime": 3022,
       "elevationGain": 291,
       "averageWatts": 156.8,
-      "stravaUrl": "https://www.strava.com/activities/11025085674"
+      "stravaUrl": "https://www.strava.com/activities/11025085674",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "big-loop",
@@ -435,7 +465,8 @@
       "elapsedTime": 6379,
       "elevationGain": 664,
       "averageWatts": 164.5,
-      "stravaUrl": "https://www.strava.com/activities/11018256019"
+      "stravaUrl": "https://www.strava.com/activities/11018256019",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "douce-france",
@@ -449,7 +480,8 @@
       "elapsedTime": 2649,
       "elevationGain": 133,
       "averageWatts": 170.9,
-      "stravaUrl": "https://www.strava.com/activities/10870612017"
+      "stravaUrl": "https://www.strava.com/activities/10870612017",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "big-foot-hills",
@@ -463,7 +495,8 @@
       "elapsedTime": 8745,
       "elevationGain": 714,
       "averageWatts": 158.4,
-      "stravaUrl": "https://www.strava.com/activities/10852128991"
+      "stravaUrl": "https://www.strava.com/activities/10852128991",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "bigger-loop",
@@ -477,7 +510,8 @@
       "elapsedTime": 8303,
       "elevationGain": 692,
       "averageWatts": 154.5,
-      "stravaUrl": "https://www.strava.com/activities/10837570232"
+      "stravaUrl": "https://www.strava.com/activities/10837570232",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "out-and-back-again",
@@ -491,7 +525,38 @@
       "elapsedTime": 5090,
       "elevationGain": 334,
       "averageWatts": 160.7,
-      "stravaUrl": "https://www.strava.com/activities/10829114137"
+      "stravaUrl": "https://www.strava.com/activities/10829114137",
+      "matchMethod": "name"
+    },
+    {
+      "routeSlug": "greater-london-loop",
+      "routeName": "Greater London Loop",
+      "worldName": "London",
+      "activityId": 10719325196,
+      "activityName": "London",
+      "date": "2024-02-07T20:56:41Z",
+      "distance": 42.625,
+      "movingTime": 5442,
+      "elapsedTime": 5846,
+      "elevationGain": 493.2,
+      "averageWatts": 161.3,
+      "stravaUrl": "https://www.strava.com/activities/10719325196",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "london-8",
+      "routeName": "London 8",
+      "worldName": "London",
+      "activityId": 10719325196,
+      "activityName": "London",
+      "date": "2024-02-07T20:56:41Z",
+      "distance": 42.625,
+      "movingTime": 5442,
+      "elapsedTime": 5846,
+      "elevationGain": 493.2,
+      "averageWatts": 161.3,
+      "stravaUrl": "https://www.strava.com/activities/10719325196",
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "castle-to-castle",
@@ -505,7 +570,38 @@
       "elapsedTime": 4211,
       "elevationGain": 204,
       "averageWatts": 172,
-      "stravaUrl": "https://www.strava.com/activities/10678522580"
+      "stravaUrl": "https://www.strava.com/activities/10678522580",
+      "matchMethod": "name"
+    },
+    {
+      "routeSlug": "neokyo-all-nighter",
+      "routeName": "Neokyo All-Nighter",
+      "worldName": "Makuri Islands",
+      "activityId": 10672039764,
+      "activityName": "Makuri Islands",
+      "date": "2024-01-31T20:04:33Z",
+      "distance": 37.118,
+      "movingTime": 4190,
+      "elapsedTime": 4190,
+      "elevationGain": 170.6,
+      "averageWatts": 151.7,
+      "stravaUrl": "https://www.strava.com/activities/10672039764",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "electric-loop",
+      "routeName": "Electric Loop",
+      "worldName": "Makuri Islands",
+      "activityId": 10672039764,
+      "activityName": "Makuri Islands",
+      "date": "2024-01-31T20:04:33Z",
+      "distance": 37.118,
+      "movingTime": 4190,
+      "elapsedTime": 4190,
+      "elevationGain": 170.6,
+      "averageWatts": 151.7,
+      "stravaUrl": "https://www.strava.com/activities/10672039764",
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "sugar-cookie",
@@ -519,7 +615,53 @@
       "elapsedTime": 5921,
       "elevationGain": 258,
       "averageWatts": 149.4,
-      "stravaUrl": "https://www.strava.com/activities/10665399941"
+      "stravaUrl": "https://www.strava.com/activities/10665399941",
+      "matchMethod": "name"
+    },
+    {
+      "routeSlug": "glasgow-crit-circuit",
+      "routeName": "Glasgow Crit Circuit",
+      "worldName": "Scotland",
+      "activityId": 10658024682,
+      "activityName": "Scotland",
+      "date": "2024-01-29T20:49:13Z",
+      "distance": 27.699,
+      "movingTime": 3024,
+      "elapsedTime": 3330,
+      "elevationGain": 213,
+      "averageWatts": 158.2,
+      "stravaUrl": "https://www.strava.com/activities/10658024682",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "loch-loop",
+      "routeName": "Loch Loop",
+      "worldName": "Scotland",
+      "activityId": 10658024682,
+      "activityName": "Scotland",
+      "date": "2024-01-29T20:49:13Z",
+      "distance": 27.699,
+      "movingTime": 3024,
+      "elapsedTime": 3330,
+      "elevationGain": 213,
+      "averageWatts": 158.2,
+      "stravaUrl": "https://www.strava.com/activities/10658024682",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "rolling-highlands",
+      "routeName": "Rolling Highlands",
+      "worldName": "Scotland",
+      "activityId": 10658024682,
+      "activityName": "Scotland",
+      "date": "2024-01-29T20:49:13Z",
+      "distance": 27.699,
+      "movingTime": 3024,
+      "elapsedTime": 3330,
+      "elevationGain": 213,
+      "averageWatts": 158.2,
+      "stravaUrl": "https://www.strava.com/activities/10658024682",
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "mountain-route",
@@ -533,7 +675,38 @@
       "elapsedTime": 4596,
       "elevationGain": 682,
       "averageWatts": 181.2,
-      "stravaUrl": "https://www.strava.com/activities/10650545235"
+      "stravaUrl": "https://www.strava.com/activities/10650545235",
+      "matchMethod": "name"
+    },
+    {
+      "routeSlug": "coast-crusher",
+      "routeName": "Coast Crusher",
+      "worldName": "Watopia",
+      "activityId": 10643927917,
+      "activityName": "Watopia",
+      "date": "2024-01-27T17:35:20Z",
+      "distance": 73.931,
+      "movingTime": 9563,
+      "elapsedTime": 9563,
+      "elevationGain": 483.8,
+      "averageWatts": 152.1,
+      "stravaUrl": "https://www.strava.com/activities/10643927917",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "serpentine-8",
+      "routeName": "Serpentine 8",
+      "worldName": "Watopia",
+      "activityId": 10643927917,
+      "activityName": "Watopia",
+      "date": "2024-01-27T17:35:20Z",
+      "distance": 73.931,
+      "movingTime": 9563,
+      "elapsedTime": 9563,
+      "elevationGain": 483.8,
+      "averageWatts": 152.1,
+      "stravaUrl": "https://www.strava.com/activities/10643927917",
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "temple-trek",
@@ -547,7 +720,8 @@
       "elapsedTime": 1508,
       "elevationGain": 49,
       "averageWatts": 118.1,
-      "stravaUrl": "https://www.strava.com/activities/10634360601"
+      "stravaUrl": "https://www.strava.com/activities/10634360601",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "going-coastal",
@@ -561,7 +735,83 @@
       "elapsedTime": 1921,
       "elevationGain": 63,
       "averageWatts": 149.7,
-      "stravaUrl": "https://www.strava.com/activities/10630927562"
+      "stravaUrl": "https://www.strava.com/activities/10630927562",
+      "matchMethod": "name"
+    },
+    {
+      "routeSlug": "2015-uci-worlds-course",
+      "routeName": "Richmond UCI Worlds",
+      "worldName": "Richmond",
+      "activityId": 10624672298,
+      "activityName": "Richmond",
+      "date": "2024-01-24T20:02:20Z",
+      "distance": 43.24,
+      "movingTime": 5374,
+      "elapsedTime": 5922,
+      "elevationGain": 424.8,
+      "averageWatts": 160,
+      "stravaUrl": "https://www.strava.com/activities/10624672298",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "richmond-uci-rev",
+      "routeName": "Richmond 2015 Worlds Reverse",
+      "worldName": "Richmond",
+      "activityId": 10624672298,
+      "activityName": "Richmond",
+      "date": "2024-01-24T20:02:20Z",
+      "distance": 43.24,
+      "movingTime": 5374,
+      "elapsedTime": 5922,
+      "elevationGain": 424.8,
+      "averageWatts": 160,
+      "stravaUrl": "https://www.strava.com/activities/10624672298",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "cobbled-climbs",
+      "routeName": "Cobbled Climbs",
+      "worldName": "Richmond",
+      "activityId": 10624672298,
+      "activityName": "Richmond",
+      "date": "2024-01-24T20:02:20Z",
+      "distance": 43.24,
+      "movingTime": 5374,
+      "elapsedTime": 5922,
+      "elevationGain": 424.8,
+      "averageWatts": 160,
+      "stravaUrl": "https://www.strava.com/activities/10624672298",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "duchy-estate",
+      "routeName": "Duchy Estate",
+      "worldName": "Yorkshire",
+      "activityId": 10624664879,
+      "activityName": "Yorkshire",
+      "date": "2024-01-24T19:18:07Z",
+      "distance": 17.78,
+      "movingTime": 2580,
+      "elapsedTime": 2580,
+      "elevationGain": 267.2,
+      "averageWatts": 165.4,
+      "stravaUrl": "https://www.strava.com/activities/10624664879",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "tour-of-tewit-well",
+      "routeName": "Tour Of Tewit Well",
+      "worldName": "Yorkshire",
+      "activityId": 10624664879,
+      "activityName": "Yorkshire",
+      "date": "2024-01-24T19:18:07Z",
+      "distance": 17.78,
+      "movingTime": 2580,
+      "elapsedTime": 2580,
+      "elevationGain": 267.2,
+      "averageWatts": 165.4,
+      "stravaUrl": "https://www.strava.com/activities/10624664879",
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "figure-8-reverse",
@@ -575,7 +825,8 @@
       "elapsedTime": 3526,
       "elevationGain": 254,
       "averageWatts": 160.4,
-      "stravaUrl": "https://www.strava.com/activities/10618056730"
+      "stravaUrl": "https://www.strava.com/activities/10618056730",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "figure-8",
@@ -589,63 +840,8 @@
       "elapsedTime": 3711,
       "elevationGain": 254,
       "averageWatts": 150.9,
-      "stravaUrl": "https://www.strava.com/activities/10611332260"
-    },
-    {
-      "routeSlug": "volcano-circuit",
-      "routeName": "Volcano Circuit",
-      "worldName": "Watopia",
-      "activityId": 10573733333,
-      "activityName": "Zwift - Volcano Circuit in Watopia",
-      "date": "2024-01-16T18:17:03Z",
-      "distance": 42.585,
-      "movingTime": 4650,
-      "elapsedTime": 5103,
-      "elevationGain": 211,
-      "averageWatts": 166.1,
-      "stravaUrl": "https://www.strava.com/activities/10573733333"
-    },
-    {
-      "routeSlug": "tempus-fugit",
-      "routeName": "Tempus Fugit",
-      "worldName": "Watopia",
-      "activityId": 10565773756,
-      "activityName": "Zwift - Pacer Group Ride: Tempus Fugit in Watopia with Miguel",
-      "date": "2024-01-15T10:21:57Z",
-      "distance": 100.86,
-      "movingTime": 11024,
-      "elapsedTime": 11024,
-      "elevationGain": 151,
-      "averageWatts": 124,
-      "stravaUrl": "https://www.strava.com/activities/10565773756"
-    },
-    {
-      "routeSlug": "volcano-flat",
-      "routeName": "Volcano Flat",
-      "worldName": "Watopia",
-      "activityId": 10330386261,
-      "activityName": "Zwift - Pacer Group Ride: Volcano Flat in Watopia with Miguel",
-      "date": "2023-12-04T21:30:56Z",
-      "distance": 21.385,
-      "movingTime": 2417,
-      "elapsedTime": 2417,
-      "elevationGain": 91,
-      "averageWatts": 138.1,
-      "stravaUrl": "https://www.strava.com/activities/10330386261"
-    },
-    {
-      "routeSlug": "tick-tock",
-      "routeName": "Tick Tock",
-      "worldName": "Watopia",
-      "activityId": 10298857929,
-      "activityName": "Zwift - Pacer Group Ride: Tick Tock in Watopia with Maria",
-      "date": "2023-11-28T18:57:56Z",
-      "distance": 30.007,
-      "movingTime": 3005,
-      "elapsedTime": 3005,
-      "elevationGain": 87,
-      "averageWatts": 165.3,
-      "stravaUrl": "https://www.strava.com/activities/10298857929"
+      "stravaUrl": "https://www.strava.com/activities/10611332260",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "the-big-ring",
@@ -659,49 +855,8 @@
       "elapsedTime": 6223,
       "elevationGain": 269,
       "averageWatts": 151.1,
-      "stravaUrl": "https://www.strava.com/activities/10168530902"
-    },
-    {
-      "routeSlug": "volcano-circuit-ccw",
-      "routeName": "Volcano Circuit CCW",
-      "worldName": "Watopia",
-      "activityId": 10162238805,
-      "activityName": "Zwift - Volcano Circuit CCW in Watopia",
-      "date": "2023-11-04T22:31:35Z",
-      "distance": 8.101,
-      "movingTime": 899,
-      "elapsedTime": 899,
-      "elevationGain": 38,
-      "averageWatts": 172.5,
-      "stravaUrl": "https://www.strava.com/activities/10162238805"
-    },
-    {
-      "routeSlug": "two-bridges-loop",
-      "routeName": "Two Bridges Loop",
-      "worldName": "Watopia",
-      "activityId": 10162217519,
-      "activityName": "Zwift - Two Bridges Loop in Watopia",
-      "date": "2023-11-04T22:15:55Z",
-      "distance": 7.266,
-      "movingTime": 897,
-      "elapsedTime": 897,
-      "elevationGain": 80,
-      "averageWatts": 162.3,
-      "stravaUrl": "https://www.strava.com/activities/10162217519"
-    },
-    {
-      "routeSlug": "beach-island-loop",
-      "routeName": "Beach Island Loop",
-      "worldName": "Watopia",
-      "activityId": 10162195907,
-      "activityName": "Zwift - Beach Island Loop in Watopia",
-      "date": "2023-11-04T21:49:19Z",
-      "distance": 12.979,
-      "movingTime": 1528,
-      "elapsedTime": 1528,
-      "elevationGain": 48,
-      "averageWatts": 161.2,
-      "stravaUrl": "https://www.strava.com/activities/10162195907"
+      "stravaUrl": "https://www.strava.com/activities/10168530902",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "canopies-and-coastlines",
@@ -715,7 +870,8 @@
       "elapsedTime": 2867,
       "elevationGain": 245,
       "averageWatts": 199.2,
-      "stravaUrl": "https://www.strava.com/activities/10139743417"
+      "stravaUrl": "https://www.strava.com/activities/10139743417",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "eastern-eight",
@@ -729,7 +885,8 @@
       "elapsedTime": 7826,
       "elevationGain": 407,
       "averageWatts": 144.2,
-      "stravaUrl": "https://www.strava.com/activities/10099762454"
+      "stravaUrl": "https://www.strava.com/activities/10099762454",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "wandering-flats",
@@ -743,7 +900,8 @@
       "elapsedTime": 3100,
       "elevationGain": 148,
       "averageWatts": 155,
-      "stravaUrl": "https://www.strava.com/activities/10093788322"
+      "stravaUrl": "https://www.strava.com/activities/10093788322",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "the-london-pretzel",
@@ -757,7 +915,8 @@
       "elapsedTime": 8051,
       "elevationGain": 581,
       "averageWatts": 149.3,
-      "stravaUrl": "https://www.strava.com/activities/10059088653"
+      "stravaUrl": "https://www.strava.com/activities/10059088653",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "neon-flats",
@@ -771,7 +930,8 @@
       "elapsedTime": 1811,
       "elevationGain": 74,
       "averageWatts": 149.3,
-      "stravaUrl": "https://www.strava.com/activities/10034136336"
+      "stravaUrl": "https://www.strava.com/activities/10034136336",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "dust-in-the-wind",
@@ -785,7 +945,8 @@
       "elapsedTime": 7969,
       "elevationGain": 582,
       "averageWatts": 138.5,
-      "stravaUrl": "https://www.strava.com/activities/10016850143"
+      "stravaUrl": "https://www.strava.com/activities/10016850143",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "the-fan-flats",
@@ -799,7 +960,8 @@
       "elapsedTime": 2087,
       "elevationGain": 40,
       "averageWatts": 159.9,
-      "stravaUrl": "https://www.strava.com/activities/9792746760"
+      "stravaUrl": "https://www.strava.com/activities/9792746760",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "two-village-loop",
@@ -813,7 +975,8 @@
       "elapsedTime": 1717,
       "elevationGain": 88,
       "averageWatts": 170.2,
-      "stravaUrl": "https://www.strava.com/activities/9759812928"
+      "stravaUrl": "https://www.strava.com/activities/9759812928",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "triple-flat-loops",
@@ -827,7 +990,8 @@
       "elapsedTime": 4042,
       "elevationGain": 157,
       "averageWatts": 149.7,
-      "stravaUrl": "https://www.strava.com/activities/9753270174"
+      "stravaUrl": "https://www.strava.com/activities/9753270174",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "watopias-waistband",
@@ -841,7 +1005,8 @@
       "elapsedTime": 3633,
       "elevationGain": 105,
       "averageWatts": 150.6,
-      "stravaUrl": "https://www.strava.com/activities/9746650352"
+      "stravaUrl": "https://www.strava.com/activities/9746650352",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "the-6-train",
@@ -855,7 +1020,8 @@
       "elapsedTime": 3618,
       "elevationGain": 296,
       "averageWatts": 134.2,
-      "stravaUrl": "https://www.strava.com/activities/8095173037"
+      "stravaUrl": "https://www.strava.com/activities/8095173037",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "greatest-london-flat",
@@ -869,7 +1035,8 @@
       "elapsedTime": 3616,
       "elevationGain": 132,
       "averageWatts": 136,
-      "stravaUrl": "https://www.strava.com/activities/8085291000"
+      "stravaUrl": "https://www.strava.com/activities/8085291000",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "rgv",
@@ -883,7 +1050,8 @@
       "elapsedTime": 3077,
       "elevationGain": 133,
       "averageWatts": 138.3,
-      "stravaUrl": "https://www.strava.com/activities/8050364767"
+      "stravaUrl": "https://www.strava.com/activities/8050364767",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "three-village-loop",
@@ -897,7 +1065,8 @@
       "elapsedTime": 959,
       "elevationGain": 83,
       "averageWatts": 149.3,
-      "stravaUrl": "https://www.strava.com/activities/8025312695"
+      "stravaUrl": "https://www.strava.com/activities/8025312695",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "casse-pattes",
@@ -911,7 +1080,8 @@
       "elapsedTime": 3236,
       "elevationGain": 154,
       "averageWatts": 152.1,
-      "stravaUrl": "https://www.strava.com/activities/7944142653"
+      "stravaUrl": "https://www.strava.com/activities/7944142653",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "astoria-line-8",
@@ -925,7 +1095,8 @@
       "elapsedTime": 1633,
       "elevationGain": 152,
       "averageWatts": 143.5,
-      "stravaUrl": "https://www.strava.com/activities/6841165799"
+      "stravaUrl": "https://www.strava.com/activities/6841165799",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "ocean-lava-cliffside-loop",
@@ -939,7 +1110,8 @@
       "elapsedTime": 2811,
       "elevationGain": 156,
       "averageWatts": 128.7,
-      "stravaUrl": "https://www.strava.com/activities/6764819129"
+      "stravaUrl": "https://www.strava.com/activities/6764819129",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "lutece-express",
@@ -953,7 +1125,8 @@
       "elapsedTime": 1283,
       "elevationGain": 66,
       "averageWatts": 157.6,
-      "stravaUrl": "https://www.strava.com/activities/6714337843"
+      "stravaUrl": "https://www.strava.com/activities/6714337843",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "whole-lotta-lava",
@@ -967,117 +1140,271 @@
       "elapsedTime": 2168,
       "elevationGain": 178,
       "averageWatts": 144.9,
-      "stravaUrl": "https://www.strava.com/activities/6708921035"
+      "stravaUrl": "https://www.strava.com/activities/6708921035",
+      "matchMethod": "name"
+    },
+    {
+      "routeSlug": "sleepless-city",
+      "routeName": "Sleepless City",
+      "worldName": "Makuri Islands",
+      "activityId": 6695066439,
+      "activityName": "Zwift - Makuri Islands",
+      "date": "2022-02-16T20:04:59Z",
+      "distance": 25.822,
+      "movingTime": 3613,
+      "elapsedTime": 3613,
+      "elevationGain": 175,
+      "averageWatts": 112.2,
+      "stravaUrl": "https://www.strava.com/activities/6695066439",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "twilight-harbor",
+      "routeName": "Twilight Harbor",
+      "worldName": "Makuri Islands",
+      "activityId": 6673793396,
+      "activityName": "Zwift - Makuri Islands",
+      "date": "2022-02-12T13:24:15Z",
+      "distance": 8.14,
+      "movingTime": 967,
+      "elapsedTime": 967,
+      "elevationGain": 38,
+      "averageWatts": 136.7,
+      "stravaUrl": "https://www.strava.com/activities/6673793396",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "jungle-circuit",
+      "routeName": "Jungle Circuit",
+      "worldName": "Watopia",
+      "activityId": 6638149691,
+      "activityName": "Zwift - Watopia",
+      "date": "2022-02-05T19:40:36Z",
+      "distance": 13.959,
+      "movingTime": 2182,
+      "elapsedTime": 2182,
+      "elevationGain": 101,
+      "averageWatts": 146.7,
+      "stravaUrl": "https://www.strava.com/activities/6638149691",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "greater-london-flat",
+      "routeName": "Greater London Flat",
+      "worldName": "London",
+      "activityId": 6623390995,
+      "activityName": "Zwift - London",
+      "date": "2022-02-02T19:31:19Z",
+      "distance": 12.954,
+      "movingTime": 1511,
+      "elapsedTime": 1511,
+      "elevationGain": 32,
+      "averageWatts": 145.5,
+      "stravaUrl": "https://www.strava.com/activities/6623390995",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "volcano-climb",
+      "routeName": "Volcano Climb",
+      "worldName": "Watopia",
+      "activityId": 6109909904,
+      "activityName": "Watopia",
+      "date": "2021-10-13T18:05:58Z",
+      "distance": 23.584,
+      "movingTime": 2980,
+      "elapsedTime": 2980,
+      "elevationGain": 203,
+      "averageWatts": 151.4,
+      "stravaUrl": "https://www.strava.com/activities/6109909904",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "flat-route",
+      "routeName": "Watopia Flat Route",
+      "worldName": "Watopia",
+      "activityId": 6099963130,
+      "activityName": "Watopia",
+      "date": "2021-10-11T18:04:01Z",
+      "distance": 14.009,
+      "movingTime": 1808,
+      "elapsedTime": 1808,
+      "elevationGain": 65,
+      "averageWatts": 120.7,
+      "stravaUrl": "https://www.strava.com/activities/6099963130",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "two-bridges-loop",
+      "routeName": "Two Bridges Loop",
+      "worldName": "Watopia",
+      "activityId": 6089592722,
+      "activityName": "Watopia",
+      "date": "2021-10-09T16:16:14Z",
+      "distance": 14.207,
+      "movingTime": 1956,
+      "elapsedTime": 1956,
+      "elevationGain": 161,
+      "averageWatts": 141.5,
+      "stravaUrl": "https://www.strava.com/activities/6089592722",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "volcano-flat",
+      "routeName": "Volcano Flat",
+      "worldName": "Watopia",
+      "activityId": 6079935255,
+      "activityName": "Watopia",
+      "date": "2021-10-07T17:23:25Z",
+      "distance": 13.103,
+      "movingTime": 1840,
+      "elapsedTime": 1840,
+      "elevationGain": 50,
+      "averageWatts": 110.2,
+      "stravaUrl": "https://www.strava.com/activities/6079935255",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "tempus-fugit",
+      "routeName": "Tempus Fugit",
+      "worldName": "Watopia",
+      "activityId": 6049861687,
+      "activityName": "Watopia",
+      "date": "2021-10-01T18:26:59Z",
+      "distance": 20.113,
+      "movingTime": 2713,
+      "elapsedTime": 2713,
+      "elevationGain": 32,
+      "averageWatts": 102.2,
+      "stravaUrl": "https://www.strava.com/activities/6049861687",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "sand-and-sequoias",
+      "routeName": "Sand And Sequoias",
+      "worldName": "Watopia",
+      "activityId": 6045318945,
+      "activityName": "Watopia",
+      "date": "2021-09-30T16:56:31Z",
+      "distance": 22.802,
+      "movingTime": 2742,
+      "elapsedTime": 2742,
+      "elevationGain": 181,
+      "averageWatts": 157.1,
+      "stravaUrl": "https://www.strava.com/activities/6045318945",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "tick-tock",
+      "routeName": "Tick Tock",
+      "worldName": "Watopia",
+      "activityId": 6040884442,
+      "activityName": "Watopia",
+      "date": "2021-09-29T19:15:34Z",
+      "distance": 30.677,
+      "movingTime": 3615,
+      "elapsedTime": 3615,
+      "elevationGain": 86,
+      "averageWatts": 141.1,
+      "stravaUrl": "https://www.strava.com/activities/6040884442",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "bell-lap",
+      "routeName": "The Bell Lap",
+      "worldName": "Crit City",
+      "activityId": 5972905493,
+      "activityName": "Cycle Nation Joburg Coffee Ride",
+      "date": "2021-09-16T21:00:02Z",
+      "distance": 28.352,
+      "movingTime": 3016,
+      "elapsedTime": 3016,
+      "elevationGain": 237,
+      "averageWatts": 152.3,
+      "stravaUrl": "https://www.strava.com/activities/5972905493",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "innsbruckring",
+      "routeName": "Innsbruckring",
+      "worldName": "Innsbruck",
+      "activityId": 5967740793,
+      "activityName": "EVO CC Sprint Race Series",
+      "date": "2021-09-15T21:01:29Z",
+      "distance": 9.113,
+      "movingTime": 1020,
+      "elapsedTime": 1020,
+      "elevationGain": 77,
+      "averageWatts": 181,
+      "stravaUrl": "https://www.strava.com/activities/5967740793",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "volcano-circuit",
+      "routeName": "Volcano Circuit",
+      "worldName": "Watopia",
+      "activityId": 5967709026,
+      "activityName": "Watopia",
+      "date": "2021-09-15T20:26:20Z",
+      "distance": 15.349,
+      "movingTime": 1921,
+      "elapsedTime": 1921,
+      "elevationGain": 94,
+      "averageWatts": 140,
+      "stravaUrl": "https://www.strava.com/activities/5967709026",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "volcano-circuit-ccw",
+      "routeName": "Volcano Circuit CCW",
+      "worldName": "Watopia",
+      "activityId": 5967709026,
+      "activityName": "Watopia",
+      "date": "2021-09-15T20:26:20Z",
+      "distance": 15.349,
+      "movingTime": 1921,
+      "elapsedTime": 1921,
+      "elevationGain": 94,
+      "averageWatts": 140,
+      "stravaUrl": "https://www.strava.com/activities/5967709026",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "champs-elysees",
+      "routeName": "Champs-Élysées",
+      "worldName": "Paris",
+      "activityId": 5939342046,
+      "activityName": "ZHQ FutureWorks Circuit Race - Anti-sandbagging (C)",
+      "date": "2021-09-10T16:32:24Z",
+      "distance": 10.435,
+      "movingTime": 1043,
+      "elapsedTime": 1043,
+      "elevationGain": 56,
+      "averageWatts": 195.8,
+      "stravaUrl": "https://www.strava.com/activities/5939342046",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "beach-island-loop",
+      "routeName": "Beach Island Loop",
+      "worldName": "Watopia",
+      "activityId": 5900094824,
+      "activityName": "First Zwift Ride",
+      "date": "2021-09-03T11:28:33Z",
+      "distance": 12.917,
+      "movingTime": 1728,
+      "elapsedTime": 1728,
+      "elevationGain": 49,
+      "averageWatts": 148.8,
+      "stravaUrl": "https://www.strava.com/activities/5900094824",
+      "matchMethod": "segment"
     }
   ],
   "unmatchedActivities": [
-    {
-      "activityId": 10719325196,
-      "activityName": "London",
-      "date": "2024-02-07T20:56:41Z",
-      "distance": 42.625
-    },
     {
       "activityId": 10712580126,
       "activityName": "2x Zwift - Climb Portal: Cote de Trebiac at 100% Elevation in Watopia",
       "date": "2024-02-06T21:44:57Z",
       "distance": 20.264
-    },
-    {
-      "activityId": 10672039764,
-      "activityName": "Makuri Islands",
-      "date": "2024-01-31T20:04:33Z",
-      "distance": 37.118
-    },
-    {
-      "activityId": 10658024682,
-      "activityName": "Scotland",
-      "date": "2024-01-29T20:49:13Z",
-      "distance": 27.699
-    },
-    {
-      "activityId": 10643927917,
-      "activityName": "Watopia",
-      "date": "2024-01-27T17:35:20Z",
-      "distance": 73.931
-    },
-    {
-      "activityId": 10624672298,
-      "activityName": "Richmond",
-      "date": "2024-01-24T20:02:20Z",
-      "distance": 43.24
-    },
-    {
-      "activityId": 10624664879,
-      "activityName": "Yorkshire",
-      "date": "2024-01-24T19:18:07Z",
-      "distance": 17.78
-    },
-    {
-      "activityId": 6695066439,
-      "activityName": "Zwift - Makuri Islands",
-      "date": "2022-02-16T20:04:59Z",
-      "distance": 25.822
-    },
-    {
-      "activityId": 6673793396,
-      "activityName": "Zwift - Makuri Islands",
-      "date": "2022-02-12T13:24:15Z",
-      "distance": 8.14
-    },
-    {
-      "activityId": 6638149691,
-      "activityName": "Zwift - Watopia",
-      "date": "2022-02-05T19:40:36Z",
-      "distance": 13.959
-    },
-    {
-      "activityId": 6623390995,
-      "activityName": "Zwift - London",
-      "date": "2022-02-02T19:31:19Z",
-      "distance": 12.954
-    },
-    {
-      "activityId": 6109909904,
-      "activityName": "Watopia",
-      "date": "2021-10-13T18:05:58Z",
-      "distance": 23.584
-    },
-    {
-      "activityId": 6099963130,
-      "activityName": "Watopia",
-      "date": "2021-10-11T18:04:01Z",
-      "distance": 14.009
-    },
-    {
-      "activityId": 6089592722,
-      "activityName": "Watopia",
-      "date": "2021-10-09T16:16:14Z",
-      "distance": 14.207
-    },
-    {
-      "activityId": 6079935255,
-      "activityName": "Watopia",
-      "date": "2021-10-07T17:23:25Z",
-      "distance": 13.103
-    },
-    {
-      "activityId": 6049861687,
-      "activityName": "Watopia",
-      "date": "2021-10-01T18:26:59Z",
-      "distance": 20.113
-    },
-    {
-      "activityId": 6045318945,
-      "activityName": "Watopia",
-      "date": "2021-09-30T16:56:31Z",
-      "distance": 22.802
-    },
-    {
-      "activityId": 6040884442,
-      "activityName": "Watopia",
-      "date": "2021-09-29T19:15:34Z",
-      "distance": 30.677
     },
     {
       "activityId": 6035932084,
@@ -1090,24 +1417,6 @@
       "activityName": "Phil's Cookie Fundough",
       "date": "2021-09-18T19:02:38Z",
       "distance": 23.227
-    },
-    {
-      "activityId": 5972905493,
-      "activityName": "Cycle Nation Joburg Coffee Ride",
-      "date": "2021-09-16T21:00:02Z",
-      "distance": 28.352
-    },
-    {
-      "activityId": 5967740793,
-      "activityName": "EVO CC Sprint Race Series",
-      "date": "2021-09-15T21:01:29Z",
-      "distance": 9.113
-    },
-    {
-      "activityId": 5967709026,
-      "activityName": "Watopia",
-      "date": "2021-09-15T20:26:20Z",
-      "distance": 15.349
     },
     {
       "activityId": 5962466924,
@@ -1128,12 +1437,6 @@
       "distance": 32.55
     },
     {
-      "activityId": 5939342046,
-      "activityName": "ZHQ FutureWorks Circuit Race - Anti-sandbagging (C)",
-      "date": "2021-09-10T16:32:24Z",
-      "distance": 10.435
-    },
-    {
       "activityId": 5939271856,
       "activityName": "London",
       "date": "2021-09-10T16:18:49Z",
@@ -1150,12 +1453,6 @@
       "activityName": "Makuri Islands Recovery-ish Ride",
       "date": "2021-09-05T14:12:13Z",
       "distance": 13.229
-    },
-    {
-      "activityId": 5900094824,
-      "activityName": "First Zwift Ride",
-      "date": "2021-09-03T11:28:33Z",
-      "distance": 12.917
     }
   ]
 }

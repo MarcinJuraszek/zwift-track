@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T20:01:12.333Z",
+  "generatedAt": "2026-06-05T20:41:11.099Z",
   "totalRoutes": 279,
   "worlds": [
     {
@@ -78,6 +78,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 20560239,
       "stravaSegmentUrl": "https://www.strava.com/segments/20560239",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/time-trial-lap"
     },
@@ -95,6 +96,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22445564,
       "stravaSegmentUrl": "https://www.strava.com/segments/22445564",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/downtown-dolphin"
     },
@@ -112,6 +114,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22419554,
       "stravaSegmentUrl": "https://www.strava.com/segments/22419554",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/bell-lap"
     },
@@ -129,6 +132,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 39240977,
       "stravaSegmentUrl": "https://www.strava.com/segments/39240977",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/bon-voyage"
     },
@@ -146,6 +150,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 24674909,
       "stravaSegmentUrl": "https://www.strava.com/segments/24674909",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/casse-pattes"
     },
@@ -163,6 +168,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": null
     },
@@ -180,6 +186,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 39270805,
       "stravaSegmentUrl": "https://www.strava.com/segments/39270805",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/croissant"
     },
@@ -197,6 +204,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 24676071,
       "stravaSegmentUrl": "https://www.strava.com/segments/24676071",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/douce-france"
     },
@@ -214,6 +222,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 33955609,
       "stravaSegmentUrl": "https://www.strava.com/segments/33955609",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/france-classic-fondo"
     },
@@ -231,6 +240,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 38856602,
       "stravaSegmentUrl": "https://www.strava.com/segments/38856602",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/gentil-8"
     },
@@ -248,6 +258,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 38859707,
       "stravaSegmentUrl": "https://www.strava.com/segments/38859707",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/hell-of-the-north"
     },
@@ -265,6 +276,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 38859646,
       "stravaSegmentUrl": "https://www.strava.com/segments/38859646",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/knights-of-the-roundabout"
     },
@@ -282,6 +294,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 24698649,
       "stravaSegmentUrl": "https://www.strava.com/segments/24698649",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/la-reine"
     },
@@ -299,6 +312,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 38876339,
       "stravaSegmentUrl": "https://www.strava.com/segments/38876339",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/macaron"
     },
@@ -316,6 +330,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/peaky-pave"
     },
@@ -333,6 +348,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 24676054,
       "stravaSegmentUrl": "https://www.strava.com/segments/24676054",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/petit-boucle"
     },
@@ -350,6 +366,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 24984611,
       "stravaSegmentUrl": "https://www.strava.com/segments/24984611",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/petite-douleur"
     },
@@ -367,6 +384,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 24685955,
       "stravaSegmentUrl": "https://www.strava.com/segments/24685955",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/rgv"
     },
@@ -384,6 +402,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 24690956,
       "stravaSegmentUrl": "https://www.strava.com/segments/24690956",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/roule-ma-poule"
     },
@@ -401,6 +420,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 39270823,
       "stravaSegmentUrl": "https://www.strava.com/segments/39270823",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/sacre-bleu"
     },
@@ -418,6 +438,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 38873256,
       "stravaSegmentUrl": "https://www.strava.com/segments/38873256",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-musketeers"
     },
@@ -435,6 +456,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 24690941,
       "stravaSegmentUrl": "https://www.strava.com/segments/24690941",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/tire-bouchon"
     },
@@ -452,6 +474,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 38856912,
       "stravaSegmentUrl": "https://www.strava.com/segments/38856912",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/ven-10"
     },
@@ -469,6 +492,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 24682608,
       "stravaSegmentUrl": "https://www.strava.com/segments/24682608",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/ven-top"
     },
@@ -486,6 +510,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 18397725,
       "stravaSegmentUrl": "https://www.strava.com/segments/18397725",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/2018-uci-worlds-course-short-lap"
     },
@@ -503,6 +528,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 18398698,
       "stravaSegmentUrl": "https://www.strava.com/segments/18398698",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/achterbahn"
     },
@@ -520,6 +546,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 20539949,
       "stravaSegmentUrl": "https://www.strava.com/segments/20539949",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/kom-after-party"
     },
@@ -537,6 +564,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 33089178,
       "stravaSegmentUrl": "https://www.strava.com/segments/33089178",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/innsbruck-continentals-hill-climb"
     },
@@ -554,6 +582,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 18398895,
       "stravaSegmentUrl": "https://www.strava.com/segments/18398895",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/innsbruckring"
     },
@@ -571,6 +600,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 18406508,
       "stravaSegmentUrl": "https://www.strava.com/segments/18406508",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/lutscher"
     },
@@ -588,6 +618,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 18407469,
       "stravaSegmentUrl": "https://www.strava.com/segments/18407469",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/lutscher-ccw"
     },
@@ -605,6 +636,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 15158866,
       "stravaSegmentUrl": "https://www.strava.com/segments/15158866",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/greater-london-8"
     },
@@ -622,6 +654,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 15389301,
       "stravaSegmentUrl": "https://www.strava.com/segments/15389301",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/greater-london-flat"
     },
@@ -639,6 +672,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 15158576,
       "stravaSegmentUrl": "https://www.strava.com/segments/15158576",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/greater-london-loop"
     },
@@ -656,6 +690,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 15167351,
       "stravaSegmentUrl": "https://www.strava.com/segments/15167351",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/greater-london-loop-reverse"
     },
@@ -673,6 +708,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 16982511,
       "stravaSegmentUrl": "https://www.strava.com/segments/16982511",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/greatest-london-flat"
     },
@@ -690,6 +726,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 16781177,
       "stravaSegmentUrl": "https://www.strava.com/segments/16781177",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/greatest-london-loop"
     },
@@ -707,6 +744,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 30327200,
       "stravaSegmentUrl": "https://www.strava.com/segments/30327200",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/greatest-london-loop-reverse"
     },
@@ -724,6 +762,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": 19613994,
       "stravaSegmentUrl": "https://www.strava.com/segments/19613994",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/keith-hill-after-party"
     },
@@ -741,6 +780,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 20618179,
       "stravaSegmentUrl": "https://www.strava.com/segments/20618179",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/leith-hill-after-party"
     },
@@ -758,6 +798,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12747814,
       "stravaSegmentUrl": "https://www.strava.com/segments/12747814",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-8"
     },
@@ -775,6 +816,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30327000,
       "stravaSegmentUrl": "https://www.strava.com/segments/30327000",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-8-reverse"
     },
@@ -792,6 +834,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40232835,
       "stravaSegmentUrl": "https://www.strava.com/segments/40232835",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-calling"
     },
@@ -809,6 +852,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12749761,
       "stravaSegmentUrl": "https://www.strava.com/segments/12749761",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-classique"
     },
@@ -826,6 +870,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 19480641,
       "stravaSegmentUrl": "https://www.strava.com/segments/19480641",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/classique-reverse"
     },
@@ -843,6 +888,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 38274994,
       "stravaSegmentUrl": "https://www.strava.com/segments/38274994",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-flat"
     },
@@ -860,6 +906,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12749649,
       "stravaSegmentUrl": "https://www.strava.com/segments/12749649",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-loop"
     },
@@ -877,6 +924,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12744360,
       "stravaSegmentUrl": "https://www.strava.com/segments/12744360",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-loop-reverse"
     },
@@ -894,6 +942,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 12759760,
       "stravaSegmentUrl": "https://www.strava.com/segments/12759760",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-the-prl-full"
     },
@@ -911,6 +960,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 12759713,
       "stravaSegmentUrl": "https://www.strava.com/segments/12759713",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-prl-half"
     },
@@ -928,6 +978,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": 38413079,
       "stravaSegmentUrl": "https://www.strava.com/segments/38413079",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-uprising"
     },
@@ -945,6 +996,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 16786868,
       "stravaSegmentUrl": "https://www.strava.com/segments/16786868",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/surrey-hills"
     },
@@ -962,6 +1014,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 15155838,
       "stravaSegmentUrl": "https://www.strava.com/segments/15155838",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-london-pretzel"
     },
@@ -979,6 +1032,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 16781219,
       "stravaSegmentUrl": "https://www.strava.com/segments/16781219",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-triple-loops"
     },
@@ -996,6 +1050,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": null
     },
@@ -1013,6 +1068,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33221600,
       "stravaSegmentUrl": "https://www.strava.com/segments/33221600",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/bridges-and-boardwalks"
     },
@@ -1030,6 +1086,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30326079,
       "stravaSegmentUrl": "https://www.strava.com/segments/30326079",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/castle-crit"
     },
@@ -1047,6 +1104,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30629803,
       "stravaSegmentUrl": "https://www.strava.com/segments/30629803",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/castle-to-castle"
     },
@@ -1064,6 +1122,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 28430973,
       "stravaSegmentUrl": "https://www.strava.com/segments/28430973",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/chain-chomper"
     },
@@ -1081,6 +1140,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30988311,
       "stravaSegmentUrl": "https://www.strava.com/segments/30988311",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/chasing-the-sun"
     },
@@ -1098,6 +1158,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33238095,
       "stravaSegmentUrl": "https://www.strava.com/segments/33238095",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/country-to-coastal"
     },
@@ -1115,6 +1176,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 28431416,
       "stravaSegmentUrl": "https://www.strava.com/segments/28431416",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/countryside-tour"
     },
@@ -1132,6 +1194,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 40233903,
       "stravaSegmentUrl": "https://www.strava.com/segments/40233903",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/electric-break"
     },
@@ -1149,6 +1212,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30987848,
       "stravaSegmentUrl": "https://www.strava.com/segments/30987848",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/electric-loop"
     },
@@ -1166,6 +1230,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 29534888,
       "stravaSegmentUrl": "https://www.strava.com/segments/29534888",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/farmland-loop"
     },
@@ -1183,6 +1248,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33237114,
       "stravaSegmentUrl": "https://www.strava.com/segments/33237114",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/fine-and-sandy"
     },
@@ -1200,6 +1266,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 28432116,
       "stravaSegmentUrl": "https://www.strava.com/segments/28432116",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/flatland-loop"
     },
@@ -1217,6 +1284,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33236919,
       "stravaSegmentUrl": "https://www.strava.com/segments/33236919",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/island-hopper"
     },
@@ -1234,6 +1302,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33237309,
       "stravaSegmentUrl": "https://www.strava.com/segments/33237309",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/island-outskirts"
     },
@@ -1251,6 +1320,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 28432243,
       "stravaSegmentUrl": "https://www.strava.com/segments/28432243",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/kappa-quest"
     },
@@ -1268,6 +1338,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 29009500,
       "stravaSegmentUrl": "https://www.strava.com/segments/29009500",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/kappa-quest-reverse"
     },
@@ -1285,6 +1356,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/kaze-kicker"
     },
@@ -1302,6 +1374,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33237747,
       "stravaSegmentUrl": "https://www.strava.com/segments/33237747",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/makuri-40"
     },
@@ -1319,6 +1392,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": 38413164,
       "stravaSegmentUrl": "https://www.strava.com/segments/38413164",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/makuri-madness"
     },
@@ -1336,6 +1410,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37684132,
       "stravaSegmentUrl": "https://www.strava.com/segments/37684132",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/makuri-pretzel"
     },
@@ -1353,6 +1428,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33214506,
       "stravaSegmentUrl": "https://www.strava.com/segments/33214506",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mech-isle-loop"
     },
@@ -1370,6 +1446,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30407658,
       "stravaSegmentUrl": "https://www.strava.com/segments/30407658",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-all-nighter"
     },
@@ -1387,6 +1464,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30480835,
       "stravaSegmentUrl": "https://www.strava.com/segments/30480835",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-crit-course"
     },
@@ -1404,6 +1482,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 38754616,
       "stravaSegmentUrl": "https://www.strava.com/segments/38754616",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/neon-after-party"
     },
@@ -1421,6 +1500,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30414842,
       "stravaSegmentUrl": "https://www.strava.com/segments/30414842",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/neon-flats"
     },
@@ -1438,6 +1518,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40657892,
       "stravaSegmentUrl": "https://www.strava.com/segments/40657892",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/neon-shore-loop"
     },
@@ -1455,6 +1536,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30407802,
       "stravaSegmentUrl": "https://www.strava.com/segments/30407802",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/railways-and-rooftops"
     },
@@ -1472,6 +1554,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 39889363,
       "stravaSegmentUrl": "https://www.strava.com/segments/39889363",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/red-zone-repeats"
     },
@@ -1489,6 +1572,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30407898,
       "stravaSegmentUrl": "https://www.strava.com/segments/30407898",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/rooftop-rendezvous"
     },
@@ -1506,6 +1590,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 28432204,
       "stravaSegmentUrl": "https://www.strava.com/segments/28432204",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/sea-to-tree"
     },
@@ -1523,6 +1608,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37300447,
       "stravaSegmentUrl": "https://www.strava.com/segments/37300447",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/shisa-shakedown"
     },
@@ -1540,6 +1626,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30407957,
       "stravaSegmentUrl": "https://www.strava.com/segments/30407957",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/sleepless-city"
     },
@@ -1557,6 +1644,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 28432455,
       "stravaSegmentUrl": "https://www.strava.com/segments/28432455",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/spirit-forest"
     },
@@ -1574,6 +1662,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30412485,
       "stravaSegmentUrl": "https://www.strava.com/segments/30412485",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/sprinters-playground"
     },
@@ -1591,6 +1680,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 29009511,
       "stravaSegmentUrl": "https://www.strava.com/segments/29009511",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/sukis-playground"
     },
@@ -1608,6 +1698,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30408107,
       "stravaSegmentUrl": "https://www.strava.com/segments/30408107",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/temples-and-towers"
     },
@@ -1625,6 +1716,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 28433076,
       "stravaSegmentUrl": "https://www.strava.com/segments/28433076",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-village-loop"
     },
@@ -1642,6 +1734,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40232566,
       "stravaSegmentUrl": "https://www.strava.com/segments/40232566",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/tropic-rush"
     },
@@ -1659,6 +1752,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33238344,
       "stravaSegmentUrl": "https://www.strava.com/segments/33238344",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/turf-n-surf"
     },
@@ -1676,6 +1770,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30629791,
       "stravaSegmentUrl": "https://www.strava.com/segments/30629791",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/twighlight-harbor"
     },
@@ -1693,6 +1788,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 28433439,
       "stravaSegmentUrl": "https://www.strava.com/segments/28433439",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/two-village-loop"
     },
@@ -1710,6 +1806,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 29559312,
       "stravaSegmentUrl": "https://www.strava.com/segments/29559312",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/valley-to-mountaintop"
     },
@@ -1727,6 +1824,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 30408380,
       "stravaSegmentUrl": "https://www.strava.com/segments/30408380",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/wandering-flats"
     },
@@ -1744,6 +1842,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": 30601050,
       "stravaSegmentUrl": "https://www.strava.com/segments/30601050",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-cycling-esports-world-championships-route"
     },
@@ -1761,6 +1860,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 19141340,
       "stravaSegmentUrl": "https://www.strava.com/segments/19141340",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/astoria-line-8"
     },
@@ -1778,6 +1878,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40325105,
       "stravaSegmentUrl": "https://www.strava.com/segments/40325105",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/avon-flyer"
     },
@@ -1795,6 +1896,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40336136,
       "stravaSegmentUrl": "https://www.strava.com/segments/40336136",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/double-parked"
     },
@@ -1812,6 +1914,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40325250,
       "stravaSegmentUrl": "https://www.strava.com/segments/40325250",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/double-span-spin"
     },
@@ -1829,6 +1932,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 40493992,
       "stravaSegmentUrl": "https://www.strava.com/segments/40493992",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/empire-elevation"
     },
@@ -1846,6 +1950,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19141223,
       "stravaSegmentUrl": "https://www.strava.com/segments/19141223",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/everything-bagel"
     },
@@ -1863,6 +1968,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40335851,
       "stravaSegmentUrl": "https://www.strava.com/segments/40335851",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/fuhgeddaboudit"
     },
@@ -1880,6 +1986,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 19820820,
       "stravaSegmentUrl": "https://www.strava.com/segments/19820820",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/gotham-grind"
     },
@@ -1897,6 +2004,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19821300,
       "stravaSegmentUrl": "https://www.strava.com/segments/19821300",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/gotham-grind-reverse"
     },
@@ -1914,6 +2022,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19141192,
       "stravaSegmentUrl": "https://www.strava.com/segments/19141192",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/grand-central-circuit"
     },
@@ -1931,6 +2040,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19178367,
       "stravaSegmentUrl": "https://www.strava.com/segments/19178367",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/grand-central-circuit-reverse"
     },
@@ -1948,6 +2058,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40336212,
       "stravaSegmentUrl": "https://www.strava.com/segments/40336212",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/green-to-screen"
     },
@@ -1965,6 +2076,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/hudson-hustle"
     },
@@ -1982,6 +2094,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40331604,
       "stravaSegmentUrl": "https://www.strava.com/segments/40331604",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/issendorf-express"
     },
@@ -1999,6 +2112,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19141299,
       "stravaSegmentUrl": "https://www.strava.com/segments/19141299",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/knickerbocker"
     },
@@ -2016,6 +2130,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 20721179,
       "stravaSegmentUrl": "https://www.strava.com/segments/20721179",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/knickerbocker-reverse"
     },
@@ -2033,6 +2148,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19141269,
       "stravaSegmentUrl": "https://www.strava.com/segments/19141269",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/lady-liberty"
     },
@@ -2050,6 +2166,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/laguardia-after-party"
     },
@@ -2067,6 +2184,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 19179237,
       "stravaSegmentUrl": "https://www.strava.com/segments/19179237",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/laguardia-loop"
     },
@@ -2084,6 +2202,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 20425705,
       "stravaSegmentUrl": "https://www.strava.com/segments/20425705",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/laguardia-loop-reverse"
     },
@@ -2101,6 +2220,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19141368,
       "stravaSegmentUrl": "https://www.strava.com/segments/19141368",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mighty-metropolitan"
     },
@@ -2118,6 +2238,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 40651003,
       "stravaSegmentUrl": "https://www.strava.com/segments/40651003",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/no-sleep-till-brooklyn"
     },
@@ -2135,6 +2256,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": 19853934,
       "stravaSegmentUrl": "https://www.strava.com/segments/19853934",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/nyc-kom-after-party"
     },
@@ -2152,6 +2274,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 19170651,
       "stravaSegmentUrl": "https://www.strava.com/segments/19170651",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/park-perimeter-loop"
     },
@@ -2169,6 +2292,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19170661,
       "stravaSegmentUrl": "https://www.strava.com/segments/19170661",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/park-perimeter-reverse"
     },
@@ -2186,6 +2310,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40325245,
       "stravaSegmentUrl": "https://www.strava.com/segments/40325245",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/prospect-park-loop"
     },
@@ -2203,6 +2328,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19171748,
       "stravaSegmentUrl": "https://www.strava.com/segments/19171748",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/rising-empire"
     },
@@ -2220,6 +2346,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40331488,
       "stravaSegmentUrl": "https://www.strava.com/segments/40331488",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/spinfinity"
     },
@@ -2237,6 +2364,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40337487,
       "stravaSegmentUrl": "https://www.strava.com/segments/40337487",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/spinfinity-ultra"
     },
@@ -2254,6 +2382,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40368797,
       "stravaSegmentUrl": "https://www.strava.com/segments/40368797",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/stay-puft-pursuit"
     },
@@ -2271,6 +2400,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 19172136,
       "stravaSegmentUrl": "https://www.strava.com/segments/19172136",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-6-train"
     },
@@ -2288,6 +2418,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 19171959,
       "stravaSegmentUrl": "https://www.strava.com/segments/19171959",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-6-train-reverse"
     },
@@ -2305,6 +2436,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 40343676,
       "stravaSegmentUrl": "https://www.strava.com/segments/40343676",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-double-borough"
     },
@@ -2322,6 +2454,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40337514,
       "stravaSegmentUrl": "https://www.strava.com/segments/40337514",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-greenway"
     },
@@ -2339,6 +2472,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19173163,
       "stravaSegmentUrl": "https://www.strava.com/segments/19173163",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-highline"
     },
@@ -2356,6 +2490,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": true,
+      "stravaSegmentId": 19173175,
       "stravaSegmentUrl": "https://www.strava.com/segments/19173175",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-highline-reverse"
     },
@@ -2373,6 +2508,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40342792,
       "stravaSegmentUrl": "https://www.strava.com/segments/40342792",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/times-square-circuit"
     },
@@ -2390,6 +2526,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40337526,
       "stravaSegmentUrl": "https://www.strava.com/segments/40337526",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/toefield-tornado"
     },
@@ -2407,6 +2544,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40337473,
       "stravaSegmentUrl": "https://www.strava.com/segments/40337473",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/watts-the-limit"
     },
@@ -2424,6 +2562,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 24674235,
       "stravaSegmentUrl": "https://www.strava.com/segments/24674235",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/champs-elysees"
     },
@@ -2441,6 +2580,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 24674248,
       "stravaSegmentUrl": "https://www.strava.com/segments/24674248",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/lutece-express"
     },
@@ -2458,6 +2598,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 11308213,
       "stravaSegmentUrl": "https://www.strava.com/segments/11308213",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/cobbled-climbs"
     },
@@ -2475,6 +2616,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22891973,
       "stravaSegmentUrl": "https://www.strava.com/segments/22891973",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/cobbled-climbs-reverse"
     },
@@ -2492,6 +2634,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/cobbled-crown"
     },
@@ -2509,6 +2652,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 22815233,
       "stravaSegmentUrl": "https://www.strava.com/segments/22815233",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/libby-hill-after-party"
     },
@@ -2526,6 +2670,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22809649,
       "stravaSegmentUrl": "https://www.strava.com/segments/22809649",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/richmond-uci-reverse"
     },
@@ -2543,6 +2688,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 38009202,
       "stravaSegmentUrl": "https://www.strava.com/segments/38009202",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/richmond-loop-around"
     },
@@ -2560,6 +2706,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22900025,
       "stravaSegmentUrl": "https://www.strava.com/segments/22900025",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/richmond-rollercoaster"
     },
@@ -2577,6 +2724,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12128718,
       "stravaSegmentUrl": "https://www.strava.com/segments/12128718",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/2015-uci-worlds-course"
     },
@@ -2594,6 +2742,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 19852166,
       "stravaSegmentUrl": "https://www.strava.com/segments/19852166",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-fan-flats"
     },
@@ -2611,6 +2760,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37675052,
       "stravaSegmentUrl": "https://www.strava.com/segments/37675052",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/braek-fast-crits-and-grits"
     },
@@ -2628,6 +2778,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33635722,
       "stravaSegmentUrl": "https://www.strava.com/segments/33635722",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/city-and-the-sgurr"
     },
@@ -2645,6 +2796,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 40233889,
       "stravaSegmentUrl": "https://www.strava.com/segments/40233889",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/dun-dash"
     },
@@ -2662,6 +2814,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33620076,
       "stravaSegmentUrl": "https://www.strava.com/segments/33620076",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/glasgow-crit-circuit"
     },
@@ -2679,6 +2832,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40454428,
       "stravaSegmentUrl": "https://www.strava.com/segments/40454428",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/glasgow-crit-six"
     },
@@ -2696,6 +2850,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33620087,
       "stravaSegmentUrl": "https://www.strava.com/segments/33620087",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/glasgow-crit-circuit-reverse"
     },
@@ -2713,6 +2868,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33620222,
       "stravaSegmentUrl": "https://www.strava.com/segments/33620222",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/loch-loop"
     },
@@ -2730,6 +2886,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 34255102,
       "stravaSegmentUrl": "https://www.strava.com/segments/34255102",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/outer-scotland"
     },
@@ -2747,6 +2904,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33620176,
       "stravaSegmentUrl": "https://www.strava.com/segments/33620176",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/rolling-highlands"
     },
@@ -2764,6 +2922,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 40233914,
       "stravaSegmentUrl": "https://www.strava.com/segments/40233914",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/scotland-after-party"
     },
@@ -2781,6 +2940,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": 38412900,
       "stravaSegmentUrl": "https://www.strava.com/segments/38412900",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/scotland-smash"
     },
@@ -2798,6 +2958,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33636526,
       "stravaSegmentUrl": "https://www.strava.com/segments/33636526",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-epiloch"
     },
@@ -2815,6 +2976,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 33636050,
       "stravaSegmentUrl": "https://www.strava.com/segments/33636050",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-muckle-yin"
     },
@@ -2832,6 +2994,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 35705419,
       "stravaSegmentUrl": "https://www.strava.com/segments/35705419",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/accelerate-to-elevate"
     },
@@ -2849,6 +3012,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 26741693,
       "stravaSegmentUrl": "https://www.strava.com/segments/26741693",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/beach-island-loop"
     },
@@ -2866,6 +3030,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 26974627,
       "stravaSegmentUrl": "https://www.strava.com/segments/26974627",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/big-flat-8"
     },
@@ -2883,6 +3048,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 21911191,
       "stravaSegmentUrl": "https://www.strava.com/segments/21911191",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/big-foot-hills"
     },
@@ -2900,6 +3066,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 16402683,
       "stravaSegmentUrl": "https://www.strava.com/segments/16402683",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/big-loop"
     },
@@ -2917,6 +3084,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 16404624,
       "stravaSegmentUrl": "https://www.strava.com/segments/16404624",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/big-loop-reverse"
     },
@@ -2934,6 +3102,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 20425565,
       "stravaSegmentUrl": "https://www.strava.com/segments/20425565",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/bigger-loop"
     },
@@ -2951,6 +3120,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 35696990,
       "stravaSegmentUrl": "https://www.strava.com/segments/35696990",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/canopies-and-coastlines"
     },
@@ -2968,6 +3138,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 40385661,
       "stravaSegmentUrl": "https://www.strava.com/segments/40385661",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/climb-control"
     },
@@ -2985,6 +3156,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": null
     },
@@ -3002,6 +3174,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 29622065,
       "stravaSegmentUrl": "https://www.strava.com/segments/29622065",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/climbers-gambit"
     },
@@ -3019,6 +3192,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 35697049,
       "stravaSegmentUrl": "https://www.strava.com/segments/35697049",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/coast-crusher"
     },
@@ -3036,6 +3210,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 38138499,
       "stravaSegmentUrl": "https://www.strava.com/segments/38138499",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/coast-to-coast"
     },
@@ -3053,6 +3228,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37039562,
       "stravaSegmentUrl": "https://www.strava.com/segments/37039562",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/coastal-crown-loop"
     },
@@ -3070,6 +3246,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 38326016,
       "stravaSegmentUrl": "https://www.strava.com/segments/38326016",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/danger-noodle"
     },
@@ -3087,6 +3264,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 39270881,
       "stravaSegmentUrl": "https://www.strava.com/segments/39270881",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/deca-dash"
     },
@@ -3104,6 +3282,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": 38413304,
       "stravaSegmentUrl": "https://www.strava.com/segments/38413304",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/downtown-eruption"
     },
@@ -3121,6 +3300,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 23167123,
       "stravaSegmentUrl": "https://www.strava.com/segments/23167123",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/downtown-titans/"
     },
@@ -3138,6 +3318,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 33852827,
       "stravaSegmentUrl": "https://www.strava.com/segments/33852827",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/dust-in-the-wind"
     },
@@ -3155,6 +3336,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22914116,
       "stravaSegmentUrl": "https://www.strava.com/segments/22914116",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/eastern-eight"
     },
@@ -3172,6 +3354,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37049454,
       "stravaSegmentUrl": "https://www.strava.com/segments/37049454",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/elevation-evaluation"
     },
@@ -3189,6 +3372,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": null
     },
@@ -3206,6 +3390,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/flat-route-reverse"
     },
@@ -3223,6 +3408,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 20390815,
       "stravaSegmentUrl": "https://www.strava.com/segments/20390815",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/four-horsemen"
     },
@@ -3240,6 +3426,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37011748,
       "stravaSegmentUrl": "https://www.strava.com/segments/37011748",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/glyph-heights"
     },
@@ -3257,6 +3444,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 35697589,
       "stravaSegmentUrl": "https://www.strava.com/segments/35697589",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/going-coastal"
     },
@@ -3274,6 +3462,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": null
     },
@@ -3291,6 +3480,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12128037,
       "stravaSegmentUrl": "https://www.strava.com/segments/12128037",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/hilly-route-reverse"
     },
@@ -3308,6 +3498,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 40469531,
       "stravaSegmentUrl": "https://www.strava.com/segments/40469531",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/hot-laps"
     },
@@ -3325,6 +3516,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 37097998,
       "stravaSegmentUrl": "https://www.strava.com/segments/37097998",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/itza-climb-finish"
     },
@@ -3342,6 +3534,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 37098941,
       "stravaSegmentUrl": "https://www.strava.com/segments/37098941",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/itza-party"
     },
@@ -3359,6 +3552,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40054523,
       "stravaSegmentUrl": "https://www.strava.com/segments/40054523",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/jarvis-seaside-sprint"
     },
@@ -3376,6 +3570,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 16359363,
       "stravaSegmentUrl": "https://www.strava.com/segments/16359363",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/jungle-circuit"
     },
@@ -3393,6 +3588,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/jungle-circuit-reverse"
     },
@@ -3410,6 +3606,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 36343069,
       "stravaSegmentUrl": "https://www.strava.com/segments/36343069",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/jurassic-coast"
     },
@@ -3427,6 +3624,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 30630421,
       "stravaSegmentUrl": "https://www.strava.com/segments/30630421",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/legends-and-lava"
     },
@@ -3444,6 +3642,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 36342198,
       "stravaSegmentUrl": "https://www.strava.com/segments/36342198",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/loop-de-loop"
     },
@@ -3461,6 +3660,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 38132886,
       "stravaSegmentUrl": "https://www.strava.com/segments/38132886",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/loopin-lava"
     },
@@ -3478,6 +3678,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37683459,
       "stravaSegmentUrl": "https://www.strava.com/segments/37683459",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mayan-8"
     },
@@ -3495,6 +3696,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37039844,
       "stravaSegmentUrl": "https://www.strava.com/segments/37039844",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mayan-mash"
     },
@@ -3512,6 +3714,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 37098607,
       "stravaSegmentUrl": "https://www.strava.com/segments/37098607",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mayan-san-remo"
     },
@@ -3529,6 +3732,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 36342419,
       "stravaSegmentUrl": "https://www.strava.com/segments/36342419",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mountain-mash"
     },
@@ -3546,6 +3750,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22368918,
       "stravaSegmentUrl": "https://www.strava.com/segments/22368918",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/muir-and-the-mountain"
     },
@@ -3563,6 +3768,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37716261,
       "stravaSegmentUrl": "https://www.strava.com/segments/37716261",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/navig8"
     },
@@ -3580,6 +3786,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 26741663,
       "stravaSegmentUrl": "https://www.strava.com/segments/26741663",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/ocean-lava-cliffside-loop"
     },
@@ -3597,6 +3804,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37011743,
       "stravaSegmentUrl": "https://www.strava.com/segments/37011743",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/oh-hill-no"
     },
@@ -3614,6 +3822,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 20350104,
       "stravaSegmentUrl": "https://www.strava.com/segments/20350104",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/out-and-back-again"
     },
@@ -3631,6 +3840,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37047817,
       "stravaSegmentUrl": "https://www.strava.com/segments/37047817",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/peak-performance"
     },
@@ -3648,6 +3858,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": null
     },
@@ -3665,6 +3876,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/power-to-the-portal"
     },
@@ -3682,6 +3894,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 37731230,
       "stravaSegmentUrl": "https://www.strava.com/segments/37731230",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/power-to-the-tower"
     },
@@ -3699,6 +3912,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 21344377,
       "stravaSegmentUrl": "https://www.strava.com/segments/21344377",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/quatch-quest"
     },
@@ -3716,6 +3930,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 37716248,
       "stravaSegmentUrl": "https://www.strava.com/segments/37716248",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/radio-rendezvous"
     },
@@ -3733,6 +3948,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 34612602,
       "stravaSegmentUrl": "https://www.strava.com/segments/34612602",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/repack-rush"
     },
@@ -3750,6 +3966,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 16404154,
       "stravaSegmentUrl": "https://www.strava.com/segments/16404154",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/road-to-ruins"
     },
@@ -3767,6 +3984,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 16404387,
       "stravaSegmentUrl": "https://www.strava.com/segments/16404387",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/road-to-ruins-reverse"
     },
@@ -3784,6 +4002,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 22280036,
       "stravaSegmentUrl": "https://www.strava.com/segments/22280036",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/road-to-sky"
     },
@@ -3801,6 +4020,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 21911197,
       "stravaSegmentUrl": "https://www.strava.com/segments/21911197",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/sand-and-sequoias"
     },
@@ -3818,6 +4038,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22913457,
       "stravaSegmentUrl": "https://www.strava.com/segments/22913457",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/seaside-sprint"
     },
@@ -3835,6 +4056,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 26742092,
       "stravaSegmentUrl": "https://www.strava.com/segments/26742092",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/serpentine-8"
     },
@@ -3852,6 +4074,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 35697595,
       "stravaSegmentUrl": "https://www.strava.com/segments/35697595",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/shorelines-and-summits"
     },
@@ -3869,6 +4092,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37049460,
       "stravaSegmentUrl": "https://www.strava.com/segments/37049460",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/snowman"
     },
@@ -3886,6 +4110,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40097976,
       "stravaSegmentUrl": "https://www.strava.com/segments/40097976",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/southern-coast-cruise"
     },
@@ -3903,6 +4128,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 20522725,
       "stravaSegmentUrl": "https://www.strava.com/segments/20522725",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/spiral-into-the-volcano"
     },
@@ -3920,6 +4146,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 35705425,
       "stravaSegmentUrl": "https://www.strava.com/segments/35705425",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/sugar-cookie"
     },
@@ -3937,6 +4164,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 38008828,
       "stravaSegmentUrl": "https://www.strava.com/segments/38008828",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/tair-dringfa-fechan"
     },
@@ -3954,6 +4182,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 35705430,
       "stravaSegmentUrl": "https://www.strava.com/segments/35705430",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/temple-trek"
     },
@@ -3971,6 +4200,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 20350088,
       "stravaSegmentUrl": "https://www.strava.com/segments/20350088",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/tempus-fugit"
     },
@@ -3988,6 +4218,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 35696945,
       "stravaSegmentUrl": "https://www.strava.com/segments/35696945",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-big-ring"
     },
@@ -4005,6 +4236,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 38132897,
       "stravaSegmentUrl": "https://www.strava.com/segments/38132897",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-classic"
     },
@@ -4022,6 +4254,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22180287,
       "stravaSegmentUrl": "https://www.strava.com/segments/22180287",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-magnificent-8"
     },
@@ -4039,6 +4272,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 16939150,
       "stravaSegmentUrl": "https://www.strava.com/segments/16939150",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-mega-pretzel"
     },
@@ -4056,6 +4290,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 27313482,
       "stravaSegmentUrl": "https://www.strava.com/segments/27313482",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-uber-pretzel"
     },
@@ -4073,6 +4308,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 22943213,
       "stravaSegmentUrl": "https://www.strava.com/segments/22943213",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-little-sisters"
     },
@@ -4090,6 +4326,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 15159137,
       "stravaSegmentUrl": "https://www.strava.com/segments/15159137",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-sisters"
     },
@@ -4107,6 +4344,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 15175857,
       "stravaSegmentUrl": "https://www.strava.com/segments/15175857",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-sisters-reverse"
     },
@@ -4124,6 +4362,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": 40621964,
       "stravaSegmentUrl": "https://www.strava.com/segments/40621964",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-step-sisters"
     },
@@ -4141,6 +4380,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 20350376,
       "stravaSegmentUrl": "https://www.strava.com/segments/20350376",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/tick-tock"
     },
@@ -4158,6 +4398,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 37041912,
       "stravaSegmentUrl": "https://www.strava.com/segments/37041912",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/tides-and-temples"
     },
@@ -4175,6 +4416,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 17265057,
       "stravaSegmentUrl": "https://www.strava.com/segments/17265057",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/tour-of-fire-and-ice"
     },
@@ -4192,6 +4434,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 20453276,
       "stravaSegmentUrl": "https://www.strava.com/segments/20453276",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/triple-flat-loops"
     },
@@ -4209,6 +4452,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 38138494,
       "stravaSegmentUrl": "https://www.strava.com/segments/38138494",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/triple-twist"
     },
@@ -4226,6 +4470,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 26741685,
       "stravaSegmentUrl": "https://www.strava.com/segments/26741685",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/two-bridges-loop"
     },
@@ -4243,6 +4488,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 14032406,
       "stravaSegmentUrl": "https://www.strava.com/segments/14032406",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-circuit"
     },
@@ -4260,6 +4506,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 14032426,
       "stravaSegmentUrl": "https://www.strava.com/segments/14032426",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-circuit-ccw"
     },
@@ -4277,6 +4524,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 16425130,
       "stravaSegmentUrl": "https://www.strava.com/segments/16425130",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-climb"
     },
@@ -4294,6 +4542,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 19635842,
       "stravaSegmentUrl": "https://www.strava.com/segments/19635842",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-climb-after-party"
     },
@@ -4311,6 +4560,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 14032442,
       "stravaSegmentUrl": "https://www.strava.com/segments/14032442",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-flat"
     },
@@ -4328,6 +4578,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-flat-reverse"
     },
@@ -4345,6 +4596,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 38138483,
       "stravaSegmentUrl": "https://www.strava.com/segments/38138483",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/waisted-8"
     },
@@ -4362,6 +4614,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12118421,
       "stravaSegmentUrl": "https://www.strava.com/segments/12118421",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/figure-8"
     },
@@ -4379,6 +4632,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 27177732,
       "stravaSegmentUrl": "https://www.strava.com/segments/27177732",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/figure-8-reverse"
     },
@@ -4396,6 +4650,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 27130302,
       "stravaSegmentUrl": "https://www.strava.com/segments/27130302",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/flat-route"
     },
@@ -4413,6 +4668,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12118362,
       "stravaSegmentUrl": "https://www.strava.com/segments/12118362",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/hilly-route"
     },
@@ -4430,6 +4686,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12118544,
       "stravaSegmentUrl": "https://www.strava.com/segments/12118544",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mountain-8"
     },
@@ -4447,6 +4704,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12483517,
       "stravaSegmentUrl": "https://www.strava.com/segments/12483517",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mountain-route"
     },
@@ -4464,6 +4722,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 12118762,
       "stravaSegmentUrl": "https://www.strava.com/segments/12118762",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-pretzel"
     },
@@ -4481,6 +4740,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 20469780,
       "stravaSegmentUrl": "https://www.strava.com/segments/20469780",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/watopias-waistband"
     },
@@ -4498,6 +4758,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 40234360,
       "stravaSegmentUrl": "https://www.strava.com/segments/40234360",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/watts-of-the-wild"
     },
@@ -4515,6 +4776,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 28776598,
       "stravaSegmentUrl": "https://www.strava.com/segments/28776598",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/wbr-climbing-series"
     },
@@ -4532,6 +4794,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 20545879,
       "stravaSegmentUrl": "https://www.strava.com/segments/20545879",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/whole-lotta-lava"
     },
@@ -4549,6 +4812,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": true,
+      "stravaSegmentId": 38412699,
       "stravaSegmentUrl": "https://www.strava.com/segments/38412699",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/zg25-queen"
     },
@@ -4566,6 +4830,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 19641904,
       "stravaSegmentUrl": "https://www.strava.com/segments/19641904",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/bambino-fondo"
     },
@@ -4583,6 +4848,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 30601013,
       "stravaSegmentUrl": "https://www.strava.com/segments/30601013",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-bambino-fondo"
     },
@@ -4600,6 +4866,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 36343341,
       "stravaSegmentUrl": "https://www.strava.com/segments/36343341",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/zwift-games-2024-epic"
     },
@@ -4617,6 +4884,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 20456686,
       "stravaSegmentUrl": "https://www.strava.com/segments/20456686",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/gran-fond"
     },
@@ -4634,6 +4902,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 30601015,
       "stravaSegmentUrl": "https://www.strava.com/segments/30601015",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-gran-fondo"
     },
@@ -4651,6 +4920,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 20655505,
       "stravaSegmentUrl": "https://www.strava.com/segments/20655505",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/medio-fondo"
     },
@@ -4668,6 +4938,7 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 30600597,
       "stravaSegmentUrl": "https://www.strava.com/segments/30600597",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-medio-fondo"
     },
@@ -4685,6 +4956,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 21738724,
       "stravaSegmentUrl": "https://www.strava.com/segments/21738724",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/2019-uci-worlds-harrogate-circuit"
     },
@@ -4702,6 +4974,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 21748097,
       "stravaSegmentUrl": "https://www.strava.com/segments/21748097",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/duchy-estate"
     },
@@ -4719,6 +4992,7 @@
       "eventOnly": true,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 21747707,
       "stravaSegmentUrl": "https://www.strava.com/segments/21747707",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/harrogate-circuit-reverse"
     },
@@ -4736,6 +5010,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 21748253,
       "stravaSegmentUrl": "https://www.strava.com/segments/21748253",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/queens-highway"
     },
@@ -4753,6 +5028,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": null,
       "stravaSegmentUrl": null,
       "zwiftInsiderUrl": null
     },
@@ -4770,6 +5046,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 21757792,
       "stravaSegmentUrl": "https://www.strava.com/segments/21757792",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/royal-pump-room-8"
     },
@@ -4787,6 +5064,7 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
+      "stravaSegmentId": 21758283,
       "stravaSegmentUrl": "https://www.strava.com/segments/21758283",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/tour-of-tewit-well"
     },
@@ -4804,6 +5082,7 @@
       "eventOnly": false,
       "lap": false,
       "levelLocked": false,
+      "stravaSegmentId": 37300398,
       "stravaSegmentUrl": "https://www.strava.com/segments/37300398",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/yorkshire-double-loops"
     }

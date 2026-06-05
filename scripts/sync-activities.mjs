@@ -9,6 +9,7 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const envPath = resolve(__dirname, "../.env.local");
 const routesPath = resolve(__dirname, "../src/data/routes.json");
+const rawActivitiesPath = resolve(__dirname, "../src/data/raw-activities.json");
 const outputPath = resolve(__dirname, "../src/data/completed-routes.json");
 
 // --- Env helpers ---
@@ -116,36 +117,53 @@ function normalizeRouteName(name) {
 
 function buildRouteIndex(routes) {
   const byName = new Map();
+  const worldNames = new Set();
   for (const route of routes) {
     byName.set(normalizeRouteName(route.name), route);
+    worldNames.add(route.worldName.toLowerCase());
   }
-  return { byName };
+  return { byName, worldNames, routes };
 }
 
 function matchActivityToRoute(activity, routeIndex) {
   const { name } = activity;
   if (!name) return null;
 
-  // Zwift activity titles can be:
-  //   "Zwift - Route Name in World"    (most common)
-  //   "Zwift - Route Name"             (sometimes)
-  //   "World - Route Name"             (older format)
-  //   Just the route name              (user renamed)
   const candidateNames = [];
 
-  // Strip "Zwift - " prefix
+  // Strip common prefixes
   let stripped = name;
+  stripped = stripped.replace(/^\d+x\s+/i, "");
   if (stripped.startsWith("Zwift - ")) {
     stripped = stripped.slice("Zwift - ".length);
   }
 
-  // Try removing " in WorldName" suffix
-  const inWorldMatch = stripped.match(/^(.+?)\s+in\s+[\w\s]+$/i);
-  if (inWorldMatch) {
-    candidateNames.push(inWorldMatch[1]);
+  // Handle "Pacer Group Ride: Route in World with PacerName"
+  const pacerMatch = stripped.match(/^Pacer Group Ride:\s+(.+?)\s+in\s+.+?\s+with\s+\w+$/i);
+  if (pacerMatch) {
+    candidateNames.push(pacerMatch[1]);
   }
 
-  // Try "World - Route" format
+  // Handle "Group Ride: ... on Route in World"
+  const groupOnMatch = stripped.match(/on\s+(.+?)\s+in\s+[\w\s]+$/i);
+  if (groupOnMatch) {
+    candidateNames.push(groupOnMatch[1]);
+  }
+
+  // Handle "Route in KnownWorld" — only strip if suffix is a known world name
+  for (const world of routeIndex.worldNames) {
+    const suffix = ` in ${world}`;
+    if (stripped.toLowerCase().endsWith(suffix)) {
+      const routePart = stripped.slice(0, -suffix.length);
+      candidateNames.push(routePart);
+      // Some routes are named "World Route" (e.g. "London Classique")
+      const worldCapitalized = stripped.slice(stripped.length - suffix.length + 4);
+      candidateNames.push(`${worldCapitalized} ${routePart}`);
+      break;
+    }
+  }
+
+  // Handle "World - Route" format
   const dashParts = stripped.split(" - ");
   if (dashParts.length >= 2) {
     candidateNames.push(dashParts.slice(1).join(" - "));
@@ -171,12 +189,6 @@ function matchActivityToRoute(activity, routeIndex) {
 async function main() {
   const env = loadEnv();
 
-  if (!env.STRAVA_REFRESH_TOKEN) {
-    console.error("❌ No Strava tokens found. Run the auth script first:");
-    console.error("   node scripts/strava-auth.mjs");
-    process.exit(1);
-  }
-
   // Load route data
   if (!existsSync(routesPath)) {
     console.error("❌ No routes.json found. Run the route sync first:");
@@ -188,20 +200,33 @@ async function main() {
   const routeIndex = buildRouteIndex(routeData.routes);
   console.log(`📋 Loaded ${routeData.routes.length} known routes`);
 
-  // Get access token (refreshes if needed)
-  const accessToken = await getAccessToken(env);
+  // Load virtual rides — prefer cached raw data, fall back to API
+  let virtualRides;
 
-  // Fetch activities from the last 2 weeks
-  const twoWeeksAgo = Math.floor(Date.now() / 1000) - 14 * 24 * 60 * 60;
-  console.log(`\n🔍 Fetching activities since ${new Date(twoWeeksAgo * 1000).toLocaleDateString()}...`);
-  const allActivities = await fetchActivities(accessToken, twoWeeksAgo);
-  console.log(`   Total activities: ${allActivities.length}`);
+  if (existsSync(rawActivitiesPath)) {
+    console.log(`\n📂 Using cached activities from ${rawActivitiesPath}`);
+    const raw = JSON.parse(readFileSync(rawActivitiesPath, "utf-8"));
+    virtualRides = raw.virtualRides;
+    console.log(`   Virtual rides: ${virtualRides.length} (fetched ${raw.fetchedAt})`);
+  } else {
+    if (!env.STRAVA_REFRESH_TOKEN) {
+      console.error("❌ No cached data and no Strava tokens. Run one of:");
+      console.error("   node scripts/fetch-all-activities.mjs  (preferred)");
+      console.error("   node scripts/strava-auth.mjs           (then re-run)");
+      process.exit(1);
+    }
 
-  // Filter to virtual rides only
-  const virtualRides = allActivities.filter(
-    (a) => a.type === "VirtualRide" || a.sport_type === "VirtualRide"
-  );
-  console.log(`   Virtual rides: ${virtualRides.length}`);
+    const accessToken = await getAccessToken(env);
+    const twoWeeksAgo = Math.floor(Date.now() / 1000) - 14 * 24 * 60 * 60;
+    console.log(`\n🔍 Fetching activities since ${new Date(twoWeeksAgo * 1000).toLocaleDateString()}...`);
+    const allActivities = await fetchActivities(accessToken, twoWeeksAgo);
+    console.log(`   Total activities: ${allActivities.length}`);
+
+    virtualRides = allActivities.filter(
+      (a) => a.type === "VirtualRide" || a.sport_type === "VirtualRide"
+    );
+    console.log(`   Virtual rides: ${virtualRides.length}`);
+  }
 
   // Load existing completed routes (for merging)
   let existing = { completedRoutes: [], unmatchedActivities: [] };

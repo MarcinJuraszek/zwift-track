@@ -6,7 +6,31 @@
       "date": "2025-11-19T20:00:00Z",
       "note": "Strava segments map to Tempus Fugit, but activity title confirms Flat Out Fast",
       "stravaUrl": "https://www.strava.com/activities/16452463276"
+    },
+    {
+      "routeSlug": "triple-flat-loops",
+      "date": "2024-01-14T17:00:00Z",
+      "note": "No Strava segment ID for this route, confirmed completed in Zwift app",
+      "stravaUrl": "https://www.strava.com/activities/10507839613"
+    },
+    {
+      "routeSlug": "the-big-ring",
+      "date": "2024-01-15T17:00:00Z",
+      "note": "Segments show Going Coastal instead, confirmed completed in Zwift app",
+      "stravaUrl": "https://www.strava.com/activities/10514277795"
+    },
+    {
+      "routeSlug": "wandering-flats",
+      "date": "2023-10-22T17:00:00Z",
+      "note": "No Strava segment ID for this route, confirmed completed in Zwift app",
+      "stravaUrl": "https://www.strava.com/activities/10180367436"
     }
   ],
-  "exclusions": []
+  "exclusions": [
+    {
+      "activityId": 8025312695,
+      "routeSlug": "three-village-loop",
+      "note": "Confirmed NOT completed in Zwift app"
+    }
+  ]
 }

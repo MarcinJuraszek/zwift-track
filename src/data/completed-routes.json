@@ -1,6 +1,6 @@
 {
-  "syncedAt": "2026-06-05T20:41:37.687Z",
-  "totalCompleted": 93,
+  "syncedAt": "2026-06-05T20:46:04.910Z",
+  "totalCompleted": 92,
   "totalRoutes": 279,
   "completedRoutes": [
     {
@@ -16,7 +16,7 @@
       "elevationGain": 57,
       "averageWatts": 102.5,
       "stravaUrl": "https://www.strava.com/activities/18800428930",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "queens-highway",
@@ -31,22 +31,7 @@
       "elevationGain": 82,
       "averageWatts": 86.3,
       "stravaUrl": "https://www.strava.com/activities/18750341820",
-      "matchMethod": "name"
-    },
-    {
-      "routeSlug": "the-classic",
-      "routeName": "The Classic",
-      "worldName": "Watopia",
-      "activityId": 18722091055,
-      "activityName": "Zwift - The Classic in Watopia",
-      "date": "2026-05-30T17:19:43Z",
-      "distance": 4.947,
-      "movingTime": 959,
-      "elapsedTime": 959,
-      "elevationGain": 48,
-      "averageWatts": 80.4,
-      "stravaUrl": "https://www.strava.com/activities/18722091055",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "jarvis-seaside-sprint",
@@ -61,7 +46,7 @@
       "elevationGain": 96,
       "averageWatts": 141,
       "stravaUrl": "https://www.strava.com/activities/17596095673",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "avon-flyer",
@@ -76,7 +61,7 @@
       "elevationGain": 24,
       "averageWatts": 179.5,
       "stravaUrl": "https://www.strava.com/activities/16471488639",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "loop-de-loop",
@@ -91,7 +76,7 @@
       "elevationGain": 146,
       "averageWatts": 167.1,
       "stravaUrl": "https://www.strava.com/activities/16471473658",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "watts-of-the-wild",
@@ -106,22 +91,7 @@
       "elevationGain": 308,
       "averageWatts": 161.3,
       "stravaUrl": "https://www.strava.com/activities/16471415507",
-      "matchMethod": "name"
-    },
-    {
-      "routeSlug": "flat-out-fast",
-      "routeName": "Flat Out Fast",
-      "worldName": "Watopia",
-      "activityId": 16452463276,
-      "activityName": "Zwift - Flat Out Fast in Watopia",
-      "date": "2025-11-13T21:18:45Z",
-      "distance": 23.104,
-      "movingTime": 2601,
-      "elapsedTime": 2668,
-      "elevationGain": 48,
-      "averageWatts": 152.3,
-      "stravaUrl": "https://www.strava.com/activities/16452463276",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "green-to-screen",
@@ -136,7 +106,7 @@
       "elevationGain": 213,
       "averageWatts": 166.1,
       "stravaUrl": "https://www.strava.com/activities/16370280123",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "prospect-park-loop",
@@ -151,7 +121,7 @@
       "elevationGain": 37,
       "averageWatts": 163.2,
       "stravaUrl": "https://www.strava.com/activities/16316981732",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "double-parked",
@@ -166,7 +136,7 @@
       "elevationGain": 336,
       "averageWatts": 159.6,
       "stravaUrl": "https://www.strava.com/activities/16316926681",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "coast-to-coast",
@@ -181,7 +151,22 @@
       "elevationGain": 154,
       "averageWatts": 158.4,
       "stravaUrl": "https://www.strava.com/activities/16257325077",
-      "matchMethod": "name"
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "the-classic",
+      "routeName": "The Classic",
+      "worldName": "Watopia",
+      "activityId": 16257325077,
+      "activityName": "Zwift - Coast to Coast in Watopia",
+      "date": "2025-10-25T19:34:59Z",
+      "distance": 24.326,
+      "movingTime": 2817,
+      "elapsedTime": 3055,
+      "elevationGain": 154,
+      "averageWatts": 158.4,
+      "stravaUrl": "https://www.strava.com/activities/16257325077",
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "makuri-madness",
@@ -196,22 +181,7 @@
       "elevationGain": 88,
       "averageWatts": 157.6,
       "stravaUrl": "https://www.strava.com/activities/14657329706",
-      "matchMethod": "name"
-    },
-    {
-      "routeSlug": "sacre-bleu",
-      "routeName": "Sacre Bleu",
-      "worldName": "France",
-      "activityId": 14513448115,
-      "activityName": "Zwift - Sacre Bleu in France",
-      "date": "2025-05-17T15:10:11Z",
-      "distance": 72.602,
-      "movingTime": 7949,
-      "elapsedTime": 8194,
-      "elevationGain": 402,
-      "averageWatts": 157.5,
-      "stravaUrl": "https://www.strava.com/activities/14513448115",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "three-musketeers",
@@ -226,7 +196,22 @@
       "elevationGain": 198,
       "averageWatts": 161.8,
       "stravaUrl": "https://www.strava.com/activities/14503829868",
-      "matchMethod": "name"
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "macaron",
+      "routeName": "Macaron",
+      "worldName": "France",
+      "activityId": 14503829868,
+      "activityName": "Zwift - Three Musketeers in France",
+      "date": "2025-05-16T18:58:46Z",
+      "distance": 36.004,
+      "movingTime": 4033,
+      "elapsedTime": 4033,
+      "elevationGain": 198,
+      "averageWatts": 161.8,
+      "stravaUrl": "https://www.strava.com/activities/14503829868",
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "the-magnificent-8",
@@ -241,7 +226,7 @@
       "elevationGain": 167,
       "averageWatts": 147,
       "stravaUrl": "https://www.strava.com/activities/13969508810",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "navig8",
@@ -256,7 +241,7 @@
       "elevationGain": 418,
       "averageWatts": 151.4,
       "stravaUrl": "https://www.strava.com/activities/12926529617",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "loopin-lava",
@@ -271,7 +256,7 @@
       "elevationGain": 212,
       "averageWatts": 169.8,
       "stravaUrl": "https://www.strava.com/activities/12917531201",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "waisted-8",
@@ -286,7 +271,7 @@
       "elevationGain": 144,
       "averageWatts": 160,
       "stravaUrl": "https://www.strava.com/activities/12917252095",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "mayan-8",
@@ -301,7 +286,7 @@
       "elevationGain": 241,
       "averageWatts": 157,
       "stravaUrl": "https://www.strava.com/activities/12833798010",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "london-classique",
@@ -316,7 +301,7 @@
       "elevationGain": 31,
       "averageWatts": 153.6,
       "stravaUrl": "https://www.strava.com/activities/11342698918",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "big-flat-8",
@@ -331,7 +316,7 @@
       "elevationGain": 103,
       "averageWatts": 151.4,
       "stravaUrl": "https://www.strava.com/activities/11342669576",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "sprinters-playground",
@@ -346,7 +331,7 @@
       "elevationGain": 68,
       "averageWatts": 165,
       "stravaUrl": "https://www.strava.com/activities/11287338410",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "country-to-coastal",
@@ -361,7 +346,7 @@
       "elevationGain": 290,
       "averageWatts": 139.6,
       "stravaUrl": "https://www.strava.com/activities/11287140011",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "island-hopper",
@@ -376,7 +361,7 @@
       "elevationGain": 151,
       "averageWatts": 138.8,
       "stravaUrl": "https://www.strava.com/activities/11286668208",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "spiral-into-the-volcano",
@@ -391,7 +376,7 @@
       "elevationGain": 368,
       "averageWatts": 151.1,
       "stravaUrl": "https://www.strava.com/activities/11228120148",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "the-muckle-yin",
@@ -406,7 +391,7 @@
       "elevationGain": 283,
       "averageWatts": 160.1,
       "stravaUrl": "https://www.strava.com/activities/11220725500",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "london-triple-loops",
@@ -421,7 +406,7 @@
       "elevationGain": 568,
       "averageWatts": 170.5,
       "stravaUrl": "https://www.strava.com/activities/11121880344",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "roule-ma-poule",
@@ -436,7 +421,7 @@
       "elevationGain": 263,
       "averageWatts": 154.7,
       "stravaUrl": "https://www.strava.com/activities/11052941808",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "downtown-titans",
@@ -451,7 +436,7 @@
       "elevationGain": 291,
       "averageWatts": 156.8,
       "stravaUrl": "https://www.strava.com/activities/11025085674",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "big-loop",
@@ -466,7 +451,7 @@
       "elevationGain": 664,
       "averageWatts": 164.5,
       "stravaUrl": "https://www.strava.com/activities/11018256019",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "douce-france",
@@ -481,7 +466,7 @@
       "elevationGain": 133,
       "averageWatts": 170.9,
       "stravaUrl": "https://www.strava.com/activities/10870612017",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "big-foot-hills",
@@ -496,7 +481,7 @@
       "elevationGain": 714,
       "averageWatts": 158.4,
       "stravaUrl": "https://www.strava.com/activities/10852128991",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "bigger-loop",
@@ -511,7 +496,7 @@
       "elevationGain": 692,
       "averageWatts": 154.5,
       "stravaUrl": "https://www.strava.com/activities/10837570232",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "out-and-back-again",
@@ -526,7 +511,7 @@
       "elevationGain": 334,
       "averageWatts": 160.7,
       "stravaUrl": "https://www.strava.com/activities/10829114137",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "greater-london-loop",
@@ -571,7 +556,7 @@
       "elevationGain": 204,
       "averageWatts": 172,
       "stravaUrl": "https://www.strava.com/activities/10678522580",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "neokyo-all-nighter",
@@ -616,7 +601,7 @@
       "elevationGain": 258,
       "averageWatts": 149.4,
       "stravaUrl": "https://www.strava.com/activities/10665399941",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "glasgow-crit-circuit",
@@ -676,7 +661,7 @@
       "elevationGain": 682,
       "averageWatts": 181.2,
       "stravaUrl": "https://www.strava.com/activities/10650545235",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "coast-crusher",
@@ -721,22 +706,7 @@
       "elevationGain": 49,
       "averageWatts": 118.1,
       "stravaUrl": "https://www.strava.com/activities/10634360601",
-      "matchMethod": "name"
-    },
-    {
-      "routeSlug": "going-coastal",
-      "routeName": "Going Coastal",
-      "worldName": "Watopia",
-      "activityId": 10630927562,
-      "activityName": "Zwift - Going Coastal in Watopia",
-      "date": "2024-01-25T19:46:07Z",
-      "distance": 16.62,
-      "movingTime": 1921,
-      "elapsedTime": 1921,
-      "elevationGain": 63,
-      "averageWatts": 149.7,
-      "stravaUrl": "https://www.strava.com/activities/10630927562",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "2015-uci-worlds-course",
@@ -826,7 +796,7 @@
       "elevationGain": 254,
       "averageWatts": 160.4,
       "stravaUrl": "https://www.strava.com/activities/10618056730",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "figure-8",
@@ -841,7 +811,7 @@
       "elevationGain": 254,
       "averageWatts": 150.9,
       "stravaUrl": "https://www.strava.com/activities/10611332260",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "the-big-ring",
@@ -856,7 +826,22 @@
       "elevationGain": 269,
       "averageWatts": 151.1,
       "stravaUrl": "https://www.strava.com/activities/10168530902",
-      "matchMethod": "name"
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "going-coastal",
+      "routeName": "Going Coastal",
+      "worldName": "Watopia",
+      "activityId": 10168530902,
+      "activityName": "Zwift - The Big Ring in Watopia",
+      "date": "2023-11-05T18:54:11Z",
+      "distance": 49.052,
+      "movingTime": 6223,
+      "elapsedTime": 6223,
+      "elevationGain": 269,
+      "averageWatts": 151.1,
+      "stravaUrl": "https://www.strava.com/activities/10168530902",
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "canopies-and-coastlines",
@@ -871,7 +856,7 @@
       "elevationGain": 245,
       "averageWatts": 199.2,
       "stravaUrl": "https://www.strava.com/activities/10139743417",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "eastern-eight",
@@ -886,7 +871,7 @@
       "elevationGain": 407,
       "averageWatts": 144.2,
       "stravaUrl": "https://www.strava.com/activities/10099762454",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "wandering-flats",
@@ -901,7 +886,7 @@
       "elevationGain": 148,
       "averageWatts": 155,
       "stravaUrl": "https://www.strava.com/activities/10093788322",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "the-london-pretzel",
@@ -916,7 +901,7 @@
       "elevationGain": 581,
       "averageWatts": 149.3,
       "stravaUrl": "https://www.strava.com/activities/10059088653",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "neon-flats",
@@ -931,7 +916,7 @@
       "elevationGain": 74,
       "averageWatts": 149.3,
       "stravaUrl": "https://www.strava.com/activities/10034136336",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "dust-in-the-wind",
@@ -946,7 +931,7 @@
       "elevationGain": 582,
       "averageWatts": 138.5,
       "stravaUrl": "https://www.strava.com/activities/10016850143",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "the-fan-flats",
@@ -961,7 +946,7 @@
       "elevationGain": 40,
       "averageWatts": 159.9,
       "stravaUrl": "https://www.strava.com/activities/9792746760",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "two-village-loop",
@@ -976,7 +961,7 @@
       "elevationGain": 88,
       "averageWatts": 170.2,
       "stravaUrl": "https://www.strava.com/activities/9759812928",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "triple-flat-loops",
@@ -991,7 +976,7 @@
       "elevationGain": 157,
       "averageWatts": 149.7,
       "stravaUrl": "https://www.strava.com/activities/9753270174",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "watopias-waistband",
@@ -1006,7 +991,7 @@
       "elevationGain": 105,
       "averageWatts": 150.6,
       "stravaUrl": "https://www.strava.com/activities/9746650352",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "the-6-train",
@@ -1021,7 +1006,7 @@
       "elevationGain": 296,
       "averageWatts": 134.2,
       "stravaUrl": "https://www.strava.com/activities/8095173037",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "greatest-london-flat",
@@ -1036,7 +1021,7 @@
       "elevationGain": 132,
       "averageWatts": 136,
       "stravaUrl": "https://www.strava.com/activities/8085291000",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "rgv",
@@ -1051,7 +1036,7 @@
       "elevationGain": 133,
       "averageWatts": 138.3,
       "stravaUrl": "https://www.strava.com/activities/8050364767",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "three-village-loop",
@@ -1081,7 +1066,7 @@
       "elevationGain": 154,
       "averageWatts": 152.1,
       "stravaUrl": "https://www.strava.com/activities/7944142653",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "astoria-line-8",
@@ -1096,7 +1081,7 @@
       "elevationGain": 152,
       "averageWatts": 143.5,
       "stravaUrl": "https://www.strava.com/activities/6841165799",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "ocean-lava-cliffside-loop",
@@ -1111,7 +1096,7 @@
       "elevationGain": 156,
       "averageWatts": 128.7,
       "stravaUrl": "https://www.strava.com/activities/6764819129",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "lutece-express",
@@ -1126,7 +1111,7 @@
       "elevationGain": 66,
       "averageWatts": 157.6,
       "stravaUrl": "https://www.strava.com/activities/6714337843",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "whole-lotta-lava",
@@ -1141,7 +1126,7 @@
       "elevationGain": 178,
       "averageWatts": 144.9,
       "stravaUrl": "https://www.strava.com/activities/6708921035",
-      "matchMethod": "name"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "sleepless-city",

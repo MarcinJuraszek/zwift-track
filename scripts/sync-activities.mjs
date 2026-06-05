@@ -1,5 +1,5 @@
 // Sync Zwift rides from Strava and match to known routes.
-// Uses name parsing first, then falls back to Strava segment matching.
+// Uses Strava segment matching as the primary method for all activities.
 // Caches detailed activity data locally to avoid repeated API calls.
 // Run: node scripts/sync-activities.mjs
 
@@ -316,142 +316,114 @@ async function main() {
     console.log(`   Virtual rides: ${virtualRides.length}`);
   }
 
-  // Phase 1: Name-based matching
-  console.log(`\n🔤 Phase 1: Name-based matching...`);
+  // Fetch detailed activity data for all rides (segment-based matching)
+  console.log(`\n🔍 Segment-based matching for all ${virtualRides.length} activities...`);
+  const detailedCache = loadDetailedCache();
+  let apiCalls = 0;
+
+  // Get access token if we need to fetch any uncached activities
+  const uncachedCount = virtualRides.filter(
+    (a) => !detailedCache[String(a.id)]
+  ).length;
+  let accessToken = null;
+  if (uncachedCount > 0) {
+    console.log(`   ${uncachedCount} activities need fetching from API`);
+    if (!env.STRAVA_REFRESH_TOKEN) {
+      console.log(
+        `   ⚠️  No Strava tokens — using only cached detailed data`
+      );
+    } else {
+      accessToken = await getAccessToken(env);
+    }
+  } else {
+    console.log(`   All activities cached — no API calls needed`);
+  }
+
   const completions = [];
-  const unmatchedByName = [];
-  let nameMatches = 0;
+  const unmatchedList = [];
 
   for (const activity of virtualRides) {
-    const routes = matchActivityToRouteByName(activity, routeIndex);
+    const cacheKey = String(activity.id);
 
-    if (routes) {
+    // Fetch detailed activity if not cached
+    if (!detailedCache[cacheKey]) {
+      if (!accessToken) {
+        unmatchedList.push(activity);
+        continue;
+      }
+
+      try {
+        const detailed = await fetchDetailedActivity(
+          activity.id,
+          accessToken
+        );
+        detailedCache[cacheKey] = {
+          id: detailed.id,
+          name: detailed.name,
+          segment_efforts: (detailed.segment_efforts || []).map((se) => ({
+            name: se.name,
+            segment: { id: se.segment?.id, name: se.segment?.name },
+          })),
+          fetchedAt: new Date().toISOString(),
+        };
+        apiCalls++;
+
+        if (apiCalls % 10 === 0) {
+          console.log(`   (${apiCalls} API calls so far, pausing 2s...)`);
+          await new Promise((r) => setTimeout(r, 2000));
+        }
+      } catch (err) {
+        console.log(
+          `   ⚠️  Failed to fetch ${activity.id}: ${err.message}`
+        );
+        unmatchedList.push(activity);
+        continue;
+      }
+    }
+
+    // Match by segments
+    const routes = matchActivityBySegments(
+      detailedCache[cacheKey],
+      routeIndex
+    );
+
+    if (routes.length > 0) {
       for (const route of routes) {
-        addCompletion(completions, route, activity, "name");
+        addCompletion(completions, route, activity, "segment");
       }
-      nameMatches++;
     } else {
-      unmatchedByName.push(activity);
+      // Fall back to name-based matching
+      const nameRoutes = matchActivityToRouteByName(activity, routeIndex);
+      if (nameRoutes) {
+        for (const route of nameRoutes) {
+          addCompletion(completions, route, activity, "name");
+        }
+      } else {
+        unmatchedList.push(activity);
+      }
     }
   }
+
+  // Save detailed activity cache
+  saveDetailedCache(detailedCache);
+  if (apiCalls > 0) {
+    console.log(`   API calls made: ${apiCalls} (cached for future runs)`);
+  }
+
+  // Summarize match methods
+  const byMethod = { segment: 0, name: 0 };
+  for (const c of completions) byMethod[c.matchMethod]++;
   console.log(
-    `   Matched: ${nameMatches} activities → ${completions.length} route completions`
+    `   Matched: ${completions.length} route completions (${byMethod.segment} by segment, ${byMethod.name} by name)`
   );
-  console.log(`   Unmatched: ${unmatchedByName.length} activities`);
+  console.log(`   Unmatched: ${unmatchedList.length} activities`);
 
-  // Phase 2: Segment-based matching for unmatched activities
-  if (unmatchedByName.length > 0) {
-    console.log(`\n🔍 Phase 2: Segment-based matching...`);
-
-    // Load or initialize detailed activity cache
-    const detailedCache = loadDetailedCache();
-    let apiCalls = 0;
-    let segmentMatches = 0;
-    let segmentRouteCount = 0;
-    const stillUnmatched = [];
-
-    // Get access token only if we need to make API calls
-    const needsApi = unmatchedByName.some(
-      (a) => !detailedCache[String(a.id)]
-    );
-    let accessToken = null;
-    if (needsApi) {
-      if (!env.STRAVA_REFRESH_TOKEN) {
-        console.log(
-          `   ⚠️  No Strava tokens — can only use cached detailed data`
-        );
-      } else {
-        accessToken = await getAccessToken(env);
-      }
-    }
-
-    for (const activity of unmatchedByName) {
-      const cacheKey = String(activity.id);
-
-      // Fetch detailed activity if not cached
-      if (!detailedCache[cacheKey]) {
-        if (!accessToken) {
-          stillUnmatched.push(activity);
-          continue;
-        }
-
-        console.log(
-          `   Fetching details for "${activity.name}" (${activity.id})...`
-        );
-        try {
-          const detailed = await fetchDetailedActivity(
-            activity.id,
-            accessToken
-          );
-          // Cache only what we need: segment efforts
-          detailedCache[cacheKey] = {
-            id: detailed.id,
-            name: detailed.name,
-            segment_efforts: (detailed.segment_efforts || []).map((se) => ({
-              name: se.name,
-              segment: { id: se.segment?.id, name: se.segment?.name },
-            })),
-            fetchedAt: new Date().toISOString(),
-          };
-          apiCalls++;
-
-          // Brief delay to be kind to rate limits
-          if (apiCalls % 10 === 0) {
-            console.log(`   (${apiCalls} API calls so far, pausing 2s...)`);
-            await new Promise((r) => setTimeout(r, 2000));
-          }
-        } catch (err) {
-          console.log(
-            `   ⚠️  Failed to fetch ${activity.id}: ${err.message}`
-          );
-          stillUnmatched.push(activity);
-          continue;
-        }
-      }
-
-      // Match by segments
-      const routes = matchActivityBySegments(
-        detailedCache[cacheKey],
-        routeIndex
-      );
-
-      if (routes.length > 0) {
-        for (const route of routes) {
-          addCompletion(completions, route, activity, "segment");
-        }
-        segmentMatches++;
-        segmentRouteCount += routes.length;
-        console.log(
-          `   ✅ "${activity.name}" → ${routes.map((r) => r.name).join(", ")}`
-        );
-      } else {
-        stillUnmatched.push(activity);
-      }
-    }
-
-    // Save detailed activity cache
-    saveDetailedCache(detailedCache);
-    console.log(
-      `   Segment matches: ${segmentMatches} activities → ${segmentRouteCount} route completions`
-    );
-    if (apiCalls > 0) {
-      console.log(`   API calls made: ${apiCalls} (cached for future runs)`);
-    }
-
-    // Record still-unmatched
-    if (stillUnmatched.length > 0) {
-      console.log(`   Still unmatched: ${stillUnmatched.length} activities`);
-    }
-
-    var unmatchedActivities = stillUnmatched.map((a) => ({
-      activityId: a.id,
-      activityName: a.name,
-      date: a.start_date_local,
-      distance: Math.round(a.distance) / 1000,
-    }));
-  } else {
-    var unmatchedActivities = [];
-  }
+  const unmatchedActivities = unmatchedList.map((a) => ({
+    activityId: a.id,
+    activityName: a.name,
+    date: a.start_date_local,
+    distance: Math.round(a.distance) / 1000,
+  }));
 
   // Sort completed routes by date (newest first)
   completions.sort(
@@ -492,7 +464,7 @@ async function main() {
 
   if (unmatchedActivities.length > 0) {
     console.log(
-      `\n⚠️  Still unmatched activities (${unmatchedActivities.length}):`
+      `\n⚠️  Unmatched activities (${unmatchedActivities.length}):`
     );
     for (const u of unmatchedActivities) {
       console.log(

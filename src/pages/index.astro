@@ -182,8 +182,6 @@ function getWorldColor(slug: string) {
   <div class="space-y-1" id="route-list">
     {routes.map((route: any) => {
       const color = getWorldColor(route.world);
-      const maxDist = 200;
-      const distPercent = Math.min((route.distance / maxDist) * 100, 100);
       const completion = completedMap.get(route.slug);
       const isCompleted = !!completion;
       return (
@@ -236,12 +234,9 @@ function getWorldColor(slug: string) {
             )}
           </div>
 
-          {/* Distance bar */}
-          <div class="hidden md:flex items-center gap-2 w-40 flex-shrink-0">
-            <div class="flex-1 h-1.5 bg-zwift-dark rounded-full overflow-hidden">
-              <div class={`h-full ${color.accent} opacity-50 rounded-full`} style={`width: ${distPercent}%`} />
-            </div>
-            <span class="text-xs text-gray-400 w-16 text-right font-mono">{formatDistance(route.distance)}</span>
+          {/* Distance */}
+          <div class="hidden md:flex items-center w-20 flex-shrink-0 justify-end">
+            <span class="text-xs text-gray-400 font-mono distance-val" data-km={route.distance}>{formatDistance(route.distance)}</span>
           </div>
 
           {/* Elevation */}
@@ -249,7 +244,7 @@ function getWorldColor(slug: string) {
             <svg class="w-3 h-3 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 17l6-8 4 5 6-10v13H2z" />
             </svg>
-            <span class="text-xs text-gray-400 font-mono">{formatElevation(route.elevation)}</span>
+            <span class="text-xs text-gray-400 font-mono elevation-val" data-m={route.elevation}>{formatElevation(route.elevation)}</span>
           </div>
 
           {/* Gradient */}
@@ -341,6 +336,8 @@ function getWorldColor(slug: string) {
   const worldTabs = document.querySelectorAll(".world-tab");
   const sortBtns = document.querySelectorAll(".sort-btn");
   const worldBars = document.querySelectorAll("[data-world-bar]");
+  const unitMetricBtn = document.getElementById("unit-metric")!;
+  const unitImperialBtn = document.getElementById("unit-imperial")!;
 
   let activeWorld = "all";
   let activeSort = "name";
@@ -451,4 +448,36 @@ function getWorldColor(slug: string) {
 
   // Filter inputs
   searchInput.addEventListener("input", applyFilters);
+
+  // Unit toggle
+  function applyUnits(imperial: boolean) {
+    document.querySelectorAll(".distance-val").forEach((el) => {
+      const km = parseFloat((el as HTMLElement).dataset.km!);
+      if (imperial) {
+        el.textContent = `${(km * 0.621371).toFixed(1)} mi`;
+      } else {
+        el.textContent = `${km.toFixed(1)} km`;
+      }
+    });
+    document.querySelectorAll(".elevation-val").forEach((el) => {
+      const m = parseFloat((el as HTMLElement).dataset.m!);
+      if (imperial) {
+        el.textContent = `${Math.round(m * 3.28084)} ft`;
+      } else {
+        el.textContent = `${Math.round(m)} m`;
+      }
+    });
+  }
+
+  unitMetricBtn.addEventListener("click", () => {
+    unitMetricBtn.classList.add("active");
+    unitImperialBtn.classList.remove("active");
+    applyUnits(false);
+  });
+
+  unitImperialBtn.addEventListener("click", () => {
+    unitImperialBtn.classList.add("active");
+    unitMetricBtn.classList.remove("active");
+    applyUnits(true);
+  });
 </script>

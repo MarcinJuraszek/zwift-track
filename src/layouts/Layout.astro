@@ -43,6 +43,9 @@ const { title } = Astro.props;
       ::-webkit-scrollbar-track { background: #1a1a2e; }
       ::-webkit-scrollbar-thumb { background: #3a3a5e; border-radius: 3px; }
       ::-webkit-scrollbar-thumb:hover { background: #FC6719; }
+      .unit-btn { color: #6b7280; }
+      .unit-btn:hover { color: #d1d5db; }
+      .unit-btn.active { background: rgba(252, 103, 25, 0.15); color: #FC6719; }
     </style>
   </head>
   <body class="bg-zwift-darkest text-gray-100 min-h-screen font-sans">
@@ -56,6 +59,10 @@ const { title } = Astro.props;
             <h1 class="text-lg font-bold text-white tracking-tight">Zwift Route Tracker</h1>
             <p class="text-xs text-gray-500 -mt-0.5">Every route. Every world.</p>
           </div>
+        </div>
+        <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
+          <button id="unit-metric" class="unit-btn active px-2.5 py-1 text-xs font-medium rounded-md transition-all">km/m</button>
+          <button id="unit-imperial" class="unit-btn px-2.5 py-1 text-xs font-medium rounded-md transition-all">mi/ft</button>
         </div>
       </div>
     </header>

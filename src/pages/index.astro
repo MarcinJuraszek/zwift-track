@@ -115,14 +115,11 @@ function getWorldColor(slug: string) {
       />
     </div>
 
-    <select
-      id="status-filter"
-      class="bg-zwift-card border border-gray-700/50 rounded-lg px-3 py-2.5 text-sm focus:border-zwift-orange focus:outline-none cursor-pointer transition-colors"
-    >
-      <option value="all">All Routes</option>
-      <option value="completed">✓ Completed</option>
-      <option value="todo">○ To Do</option>
-    </select>
+    <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
+      <button data-status="all" class="status-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all">All</button>
+      <button data-status="completed" class="status-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">✓ Done</button>
+      <button data-status="todo" class="status-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">○ To Do</button>
+    </div>
 
     <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
       <button data-sort="name" class="sort-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all">Name</button>
@@ -307,11 +304,21 @@ function getWorldColor(slug: string) {
     background: rgba(252, 103, 25, 0.15);
     color: #FC6719;
   }
+  .status-btn {
+    color: #6b7280;
+  }
+  .status-btn:hover {
+    color: #d1d5db;
+  }
+  .status-btn.active {
+    background: rgba(252, 103, 25, 0.15);
+    color: #FC6719;
+  }
 </style>
 
 <script>
   const searchInput = document.getElementById("search") as HTMLInputElement;
-  const statusFilter = document.getElementById("status-filter") as HTMLSelectElement;
+  const statusBtns = document.querySelectorAll(".status-btn");
   const visibleCount = document.getElementById("visible-count")!;
   const routeList = document.getElementById("route-list")!;
   const worldTabs = document.querySelectorAll(".world-tab");
@@ -320,19 +327,19 @@ function getWorldColor(slug: string) {
 
   let activeWorld = "all";
   let activeSort = "name";
+  let activeStatus = "all";
 
   function applyFilters() {
     const search = searchInput.value.toLowerCase();
-    const status = statusFilter.value;
     const rows = Array.from(routeList.querySelectorAll(".route-row")) as HTMLElement[];
 
     let count = 0;
     for (const row of rows) {
       const worldMatch = activeWorld === "all" || row.dataset.world === activeWorld;
       const searchMatch = !search || row.dataset.name!.includes(search);
-      const statusMatch = status === "all" ||
-        (status === "completed" && row.dataset.completed === "true") ||
-        (status === "todo" && row.dataset.completed === "false");
+      const statusMatch = activeStatus === "all" ||
+        (activeStatus === "completed" && row.dataset.completed === "true") ||
+        (activeStatus === "todo" && row.dataset.completed === "false");
 
       const visible = worldMatch && searchMatch && statusMatch;
       row.style.display = visible ? "" : "none";
@@ -403,7 +410,16 @@ function getWorldColor(slug: string) {
     });
   });
 
+  // Status button clicks
+  statusBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      statusBtns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeStatus = (btn as HTMLElement).dataset.status!;
+      applyFilters();
+    });
+  });
+
   // Filter inputs
-  statusFilter.addEventListener("change", applyFilters);
   searchInput.addEventListener("input", applyFilters);
 </script>

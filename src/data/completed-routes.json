@@ -1,6 +1,6 @@
 {
-  "syncedAt": "2026-06-05T20:46:04.910Z",
-  "totalCompleted": 92,
+  "syncedAt": "2026-06-05T20:49:27.369Z",
+  "totalCompleted": 94,
   "totalRoutes": 279,
   "completedRoutes": [
     {
@@ -94,6 +94,21 @@
       "matchMethod": "segment"
     },
     {
+      "routeSlug": "flat-out-fast",
+      "routeName": "Flat Out Fast",
+      "worldName": "Watopia",
+      "activityId": 16452463276,
+      "activityName": "Zwift - Flat Out Fast in Watopia",
+      "date": "2025-11-13T21:18:45Z",
+      "distance": 23.104,
+      "movingTime": 2601,
+      "elapsedTime": 2668,
+      "elevationGain": 48,
+      "averageWatts": 152.3,
+      "stravaUrl": "https://www.strava.com/activities/16452463276",
+      "matchMethod": "name"
+    },
+    {
       "routeSlug": "green-to-screen",
       "routeName": "Green to Screen",
       "worldName": "New York",
@@ -182,6 +197,21 @@
       "averageWatts": 157.6,
       "stravaUrl": "https://www.strava.com/activities/14657329706",
       "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "sacre-bleu",
+      "routeName": "Sacre Bleu",
+      "worldName": "France",
+      "activityId": 14513448115,
+      "activityName": "Zwift - Sacre Bleu in France",
+      "date": "2025-05-17T15:10:11Z",
+      "distance": 72.602,
+      "movingTime": 7949,
+      "elapsedTime": 8194,
+      "elevationGain": 402,
+      "averageWatts": 157.5,
+      "stravaUrl": "https://www.strava.com/activities/14513448115",
+      "matchMethod": "name"
     },
     {
       "routeSlug": "three-musketeers",

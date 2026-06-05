@@ -381,26 +381,31 @@ async function main() {
       }
     }
 
-    // Match by segments
-    const routes = matchActivityBySegments(
+    // Match by segments (primary)
+    const segRoutes = matchActivityBySegments(
       detailedCache[cacheKey],
       routeIndex
     );
+    const matchedSlugs = new Set(segRoutes.map((r) => r.slug));
 
-    if (routes.length > 0) {
-      for (const route of routes) {
-        addCompletion(completions, route, activity, "segment");
-      }
-    } else {
-      // Fall back to name-based matching
-      const nameRoutes = matchActivityToRouteByName(activity, routeIndex);
-      if (nameRoutes) {
-        for (const route of nameRoutes) {
+    for (const route of segRoutes) {
+      addCompletion(completions, route, activity, "segment");
+    }
+
+    // Also check name-based matching to catch routes whose Strava segment
+    // IDs don't line up (e.g. Flat Out Fast maps to Tempus Fugit segment)
+    const nameRoutes = matchActivityToRouteByName(activity, routeIndex);
+    if (nameRoutes) {
+      for (const route of nameRoutes) {
+        if (!matchedSlugs.has(route.slug)) {
           addCompletion(completions, route, activity, "name");
+          matchedSlugs.add(route.slug);
         }
-      } else {
-        unmatchedList.push(activity);
       }
+    }
+
+    if (matchedSlugs.size === 0) {
+      unmatchedList.push(activity);
     }
   }
 

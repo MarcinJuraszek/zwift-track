@@ -90,6 +90,8 @@ function getWorldColor(slug: string) {
       <button data-sort="distance-asc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Shortest</button>
       <button data-sort="distance-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Longest</button>
       <button data-sort="elevation-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Hilliest</button>
+      <button data-sort="gradient-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Steepest</button>
+      <button data-sort="experience-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Most XP</button>
     </div>
   </div>
 
@@ -137,6 +139,8 @@ function getWorldColor(slug: string) {
           data-name={route.name.toLowerCase()}
           data-distance={route.distance}
           data-elevation={route.elevation}
+          data-gradient={route.gradient}
+          data-experience={route.experience}
           data-world-name={route.worldName}
         >
           {/* Color indicator */}
@@ -183,6 +187,19 @@ function getWorldColor(slug: string) {
               <path d="M2 17l6-8 4 5 6-10v13H2z" />
             </svg>
             <span class="text-xs text-gray-400 font-mono">{formatElevation(route.elevation)}</span>
+          </div>
+
+          {/* Gradient */}
+          <div class="hidden lg:flex items-center gap-1 w-16 flex-shrink-0 justify-end">
+            <span class={`text-xs font-mono ${route.gradient >= 3 ? 'text-red-400' : route.gradient >= 1.5 ? 'text-yellow-400' : 'text-green-400'}`}>
+              {route.gradient.toFixed(1)}%
+            </span>
+          </div>
+
+          {/* XP */}
+          <div class="hidden lg:flex items-center gap-1 w-16 flex-shrink-0 justify-end">
+            <span class="text-xs text-zwift-orange font-mono">{route.experience}</span>
+            <span class="text-[10px] text-gray-600">XP</span>
           </div>
 
           {/* Links */}
@@ -283,6 +300,10 @@ function getWorldColor(slug: string) {
           return parseFloat(b.dataset.distance!) - parseFloat(a.dataset.distance!);
         case "elevation-desc":
           return parseFloat(b.dataset.elevation!) - parseFloat(a.dataset.elevation!);
+        case "gradient-desc":
+          return parseFloat(b.dataset.gradient!) - parseFloat(a.dataset.gradient!);
+        case "experience-desc":
+          return parseFloat(b.dataset.experience!) - parseFloat(a.dataset.experience!);
         default:
           return 0;
       }

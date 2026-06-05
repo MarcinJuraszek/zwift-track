@@ -19,6 +19,8 @@ const routeData = routes
     worldName: worldMap[route.world]?.name ?? route.world,
     distance: route.distance,
     elevation: route.elevation,
+    gradient: route.distance > 0 ? Math.round((route.elevation / (route.distance * 1000)) * 1000) / 10 : 0,
+    experience: route.experience ?? 0,
     leadInDistance: route.leadInDistance,
     eventOnly: route.eventOnly,
     lap: route.lap,

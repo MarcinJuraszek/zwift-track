@@ -1,0 +1,49 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              zwift: {
+                orange: "#FC6719",
+                dark: "#1a1a2e",
+                darker: "#16162a",
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-zwift-darker text-gray-100 min-h-screen">
+    <header class="bg-zwift-dark border-b border-gray-700">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex items-center gap-3">
+        <span class="text-2xl">🚴</span>
+        <h1 class="text-xl font-bold text-zwift-orange">Zwift Route Tracker</h1>
+      </div>
+    </header>
+    <main class="max-w-7xl mx-auto px-4 py-8">
+      <slot />
+    </main>
+    <footer class="border-t border-gray-700 mt-12">
+      <div class="max-w-7xl mx-auto px-4 py-4 text-sm text-gray-500">
+        Route data from <a href="https://github.com/andipaetzold/zwift-data" class="text-zwift-orange hover:underline">zwift-data</a>.
+        Not affiliated with Zwift.
+      </div>
+    </footer>
+  </body>
+</html>

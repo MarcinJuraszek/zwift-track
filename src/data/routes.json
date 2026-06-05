@@ -1,0 +1,6427 @@
+{
+  "generatedAt": "2026-06-05T19:37:08.102Z",
+  "totalRoutes": 320,
+  "worlds": [
+    {
+      "slug": "watopia",
+      "name": "Watopia",
+      "routeCount": 128
+    },
+    {
+      "slug": "richmond",
+      "name": "Richmond",
+      "routeCount": 10
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "routeCount": 24
+    },
+    {
+      "slug": "new-york",
+      "name": "New York",
+      "routeCount": 50
+    },
+    {
+      "slug": "innsbruck",
+      "name": "Innsbruck",
+      "routeCount": 7
+    },
+    {
+      "slug": "bologna",
+      "name": "Bologna",
+      "routeCount": 1
+    },
+    {
+      "slug": "yorkshire",
+      "name": "Yorkshire",
+      "routeCount": 9
+    },
+    {
+      "slug": "crit-city",
+      "name": "Crit City",
+      "routeCount": 2
+    },
+    {
+      "slug": "makuri-islands",
+      "name": "Makuri Islands",
+      "routeCount": 46
+    },
+    {
+      "slug": "france",
+      "name": "France",
+      "routeCount": 23
+    },
+    {
+      "slug": "paris",
+      "name": "Paris",
+      "routeCount": 4
+    },
+    {
+      "slug": "scotland",
+      "name": "Scotland",
+      "routeCount": 16
+    }
+  ],
+  "routes": [
+    {
+      "id": 2843604888,
+      "name": "Bologna Time Trial",
+      "slug": "time-trial",
+      "world": "bologna",
+      "worldName": "Bologna",
+      "distance": 8.05,
+      "elevation": 236,
+      "leadInDistance": 0,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20560239",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/time-trial-lap",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/bologna-tt/route/bologna-time-trial"
+    },
+    {
+      "id": 947394567,
+      "name": "Downtown Dolphin",
+      "slug": "downtown-dolphin",
+      "world": "crit-city",
+      "worldName": "Crit City",
+      "distance": 1.962,
+      "elevation": 17,
+      "leadInDistance": 0.071,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22445564",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/downtown-dolphin",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/crit-city/route/downtown-dolphin"
+    },
+    {
+      "id": 2875658892,
+      "name": "The Bell Lap",
+      "slug": "bell-lap",
+      "world": "crit-city",
+      "worldName": "Crit City",
+      "distance": 1.967,
+      "elevation": 17,
+      "leadInDistance": 0.065,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22419554",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/bell-lap",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/crit-city/route/the-bell-lap"
+    },
+    {
+      "id": 2143464829,
+      "name": "Bon Voyage",
+      "slug": "bon-voyage",
+      "world": "france",
+      "worldName": "France",
+      "distance": 28.208,
+      "elevation": 132,
+      "leadInDistance": 3.241,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/39240977",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/bon-voyage",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/bon-voyage"
+    },
+    {
+      "id": 3919912289,
+      "name": "Casse-Pattes",
+      "slug": "casse-pattes",
+      "world": "france",
+      "worldName": "France",
+      "distance": 22.89,
+      "elevation": 155,
+      "leadInDistance": 0.869,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24674909",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/casse-pattes",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/casse-pattes"
+    },
+    {
+      "id": 4149936043,
+      "name": "Climb Portal - Mont Saint-Michel",
+      "slug": "climb-portal-mont-saint-michel",
+      "world": "france",
+      "worldName": "France",
+      "distance": 2.469,
+      "elevation": 11,
+      "leadInDistance": 6.145,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 1600198346,
+      "name": "Croissant",
+      "slug": "croissant",
+      "world": "france",
+      "worldName": "France",
+      "distance": 9.273,
+      "elevation": 49,
+      "leadInDistance": 3.241,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/39270805",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/croissant",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/croissant"
+    },
+    {
+      "id": 986252325,
+      "name": "Douce France",
+      "slug": "douce-france",
+      "world": "france",
+      "worldName": "France",
+      "distance": 24.004,
+      "elevation": 133,
+      "leadInDistance": 0.78,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24676071",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/douce-france",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/douce-france"
+    },
+    {
+      "id": 2136907048,
+      "name": "France Classic Fondo",
+      "slug": "france-classic-fondo",
+      "world": "france",
+      "worldName": "France",
+      "distance": 145.444,
+      "elevation": 1099,
+      "leadInDistance": 0.98,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33955609",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/france-classic-fondo",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 1538375239,
+      "name": "Gentil 8",
+      "slug": "gentil-8",
+      "world": "france",
+      "worldName": "France",
+      "distance": 23.18,
+      "elevation": 243,
+      "leadInDistance": 2.599,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38856602",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/gentil-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/gentil-8"
+    },
+    {
+      "id": 1793712753,
+      "name": "Hell of the North",
+      "slug": "hell-of-the-north",
+      "world": "france",
+      "worldName": "France",
+      "distance": 19.816,
+      "elevation": 241,
+      "leadInDistance": 0.336,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38859707",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/hell-of-the-north",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/hell-of-the-north"
+    },
+    {
+      "id": 3974965857,
+      "name": "Knights of the Roundabout",
+      "slug": "knights-of-the-roundabout",
+      "world": "france",
+      "worldName": "France",
+      "distance": 51.189,
+      "elevation": 336,
+      "leadInDistance": 3.241,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38859646",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/knights-of-the-roundabout",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/knights-of-the-roundabout"
+    },
+    {
+      "id": 1433431343,
+      "name": "La Reine",
+      "slug": "la-reine",
+      "world": "france",
+      "worldName": "France",
+      "distance": 22.456,
+      "elevation": 1201,
+      "leadInDistance": 0.449,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24698649",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/la-reine",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/la-reine"
+    },
+    {
+      "id": 573843083,
+      "name": "Macaron",
+      "slug": "macaron",
+      "world": "france",
+      "worldName": "France",
+      "distance": 2.436,
+      "elevation": 13,
+      "leadInDistance": 0.164,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38876339",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/macaron",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/macaron"
+    },
+    {
+      "id": 941280950,
+      "name": "Peaky Pavé",
+      "slug": "peaky-pave",
+      "world": "france",
+      "worldName": "France",
+      "distance": 30.622,
+      "elevation": 369,
+      "leadInDistance": 0.187,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/peaky-pave",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2852153296,
+      "name": "Petit Boucle",
+      "slug": "petit-boucle",
+      "world": "france",
+      "worldName": "France",
+      "distance": 60.785,
+      "elevation": 483,
+      "leadInDistance": 0.869,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24676054",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/petit-boucle",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/petit-boucle"
+    },
+    {
+      "id": 4159356920,
+      "name": "Petite Douleur",
+      "slug": "petite-douleur",
+      "world": "france",
+      "worldName": "France",
+      "distance": 13.901,
+      "elevation": 194,
+      "leadInDistance": 10.873,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24984611",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/petite-douleur",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/petite-douleur"
+    },
+    {
+      "id": 1776635757,
+      "name": "R.G.V.",
+      "slug": "rgv",
+      "world": "france",
+      "worldName": "France",
+      "distance": 23.999,
+      "elevation": 133,
+      "leadInDistance": 0.869,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24685955",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/rgv",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/r-g-v"
+    },
+    {
+      "id": 1409345545,
+      "name": "Rapide Run",
+      "slug": "rapide-run",
+      "world": "france",
+      "worldName": "France",
+      "distance": 5.994,
+      "elevation": 38,
+      "leadInDistance": 0.081,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/rapide-run",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/rapide-run"
+    },
+    {
+      "id": 872351836,
+      "name": "Roule Ma Poule",
+      "slug": "roule-ma-poule",
+      "world": "france",
+      "worldName": "France",
+      "distance": 22.887,
+      "elevation": 155,
+      "leadInDistance": 3.091,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24690956",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/roule-ma-poule",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/roule-ma-poule"
+    },
+    {
+      "id": 136140280,
+      "name": "Sacre Bleu",
+      "slug": "sacre-bleu",
+      "world": "france",
+      "worldName": "France",
+      "distance": 71.18,
+      "elevation": 396,
+      "leadInDistance": 2.599,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/39270823",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/sacre-bleu",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 319138658,
+      "name": "Three Musketeers",
+      "slug": "three-musketeers",
+      "world": "france",
+      "worldName": "France",
+      "distance": 35.195,
+      "elevation": 195,
+      "leadInDistance": 2.599,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38873256",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-musketeers",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/three-musketeers"
+    },
+    {
+      "id": 2413440572,
+      "name": "Tire-Bouchon",
+      "slug": "tire-bouchon",
+      "world": "france",
+      "worldName": "France",
+      "distance": 60.782,
+      "elevation": 479,
+      "leadInDistance": 3.092,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24690941",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/tire-bouchon",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/tire-bouchon"
+    },
+    {
+      "id": 358794394,
+      "name": "Ven-10",
+      "slug": "ven-10",
+      "world": "france",
+      "worldName": "France",
+      "distance": 10,
+      "elevation": 780,
+      "leadInDistance": 1.399,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38856912",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/ven-10",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/ven-10"
+    },
+    {
+      "id": 1975694067,
+      "name": "Ven-10 Run",
+      "slug": "ven-10-run",
+      "world": "france",
+      "worldName": "France",
+      "distance": 10,
+      "elevation": 780,
+      "leadInDistance": 1.399,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2573468147,
+      "name": "Ven-Top",
+      "slug": "ven-top",
+      "world": "france",
+      "worldName": "France",
+      "distance": 20.747,
+      "elevation": 1535,
+      "leadInDistance": 0.153,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24682608",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/ven-top",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/france/route/ven-top"
+    },
+    {
+      "id": 3114603308,
+      "name": "2018 Worlds Short Lap",
+      "slug": "2018-uci-worlds-course-short-lap",
+      "world": "innsbruck",
+      "worldName": "Innsbruck",
+      "distance": 23.681,
+      "elevation": 495,
+      "leadInDistance": 0.222,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18397725",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/2018-uci-worlds-course-short-lap",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/innsbruck/route/2018-uci-worlds-short-lap"
+    },
+    {
+      "id": 4009235104,
+      "name": "Achterbahn",
+      "slug": "achterbahn",
+      "world": "innsbruck",
+      "worldName": "Innsbruck",
+      "distance": 47.43,
+      "elevation": 989,
+      "leadInDistance": 0.222,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18398698",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/achterbahn",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/innsbruck/route/achterbahn"
+    },
+    {
+      "id": 3649347250,
+      "name": "Innsbruck KOM After Party",
+      "slug": "innsbruck-kom-after-party",
+      "world": "innsbruck",
+      "worldName": "Innsbruck",
+      "distance": 36.971,
+      "elevation": 657,
+      "leadInDistance": 0.222,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20539949",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/kom-after-party",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/innsbruck/route/innsbruck-kom-after-party"
+    },
+    {
+      "id": 3101693166,
+      "name": "InnsbruckConti",
+      "slug": "2023-continental-qualifiers",
+      "world": "innsbruck",
+      "worldName": "Innsbruck",
+      "distance": 12.478,
+      "elevation": 480,
+      "leadInDistance": 0.464,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33089178",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/innsbruck-continentals-hill-climb",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2592027600,
+      "name": "Innsbruckring",
+      "slug": "innsbruckring",
+      "world": "innsbruck",
+      "worldName": "Innsbruck",
+      "distance": 8.799,
+      "elevation": 77,
+      "leadInDistance": 0.222,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18398895",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/innsbruckring",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/innsbruck/route/innsbruckring"
+    },
+    {
+      "id": 156457316,
+      "name": "Lutscher",
+      "slug": "lutscher",
+      "world": "innsbruck",
+      "worldName": "Innsbruck",
+      "distance": 13.704,
+      "elevation": 402,
+      "leadInDistance": 10.798,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18406508",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/lutscher",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/innsbruck/route/lutscher"
+    },
+    {
+      "id": 3801241714,
+      "name": "Lutscher CCW",
+      "slug": "lutscher-ccw",
+      "world": "innsbruck",
+      "worldName": "Innsbruck",
+      "distance": 13.749,
+      "elevation": 402,
+      "leadInDistance": 8.88,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18407469",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/lutscher-ccw",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/innsbruck/route/lutscher-ccw"
+    },
+    {
+      "id": 87055383,
+      "name": "Greater London 8",
+      "slug": "greater-london-8",
+      "world": "london",
+      "worldName": "London",
+      "distance": 23.808,
+      "elevation": 276,
+      "leadInDistance": 0.462,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/15158866",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/greater-london-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/greater-london-8"
+    },
+    {
+      "id": 928793662,
+      "name": "Greater London Flat",
+      "slug": "greater-london-flat",
+      "world": "london",
+      "worldName": "London",
+      "distance": 11.678,
+      "elevation": 53,
+      "leadInDistance": 5.636,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/15389301",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/greater-london-flat",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/greater-london-flat"
+    },
+    {
+      "id": 3276403604,
+      "name": "Greater London Loop",
+      "slug": "greater-london-loop",
+      "world": "london",
+      "worldName": "London",
+      "distance": 21.029,
+      "elevation": 255,
+      "leadInDistance": 0.462,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/15158576",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/greater-london-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/greater-london-loop"
+    },
+    {
+      "id": 474781994,
+      "name": "Greater London Loop Reverse",
+      "slug": "greater-london-loop-rev",
+      "world": "london",
+      "worldName": "London",
+      "distance": 20.978,
+      "elevation": 255,
+      "leadInDistance": 0.173,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/15167351",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/greater-london-loop-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/greater-london-loop-reverse"
+    },
+    {
+      "id": 1880443431,
+      "name": "Greatest London Flat",
+      "slug": "greatest-london-flat",
+      "world": "london",
+      "worldName": "London",
+      "distance": 23.609,
+      "elevation": 164,
+      "leadInDistance": 7.428,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16982511",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/greatest-london-flat",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/greatest-london-flat"
+    },
+    {
+      "id": 3853654821,
+      "name": "Greatest London Loop",
+      "slug": "greatest-london-loop",
+      "world": "london",
+      "worldName": "London",
+      "distance": 25.667,
+      "elevation": 355,
+      "leadInDistance": 0.462,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16781177",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/greatest-london-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/greatest-london-loop"
+    },
+    {
+      "id": 3976402826,
+      "name": "Greatest London Loop Reverse",
+      "slug": "greatest-london-loop-rev",
+      "world": "london",
+      "worldName": "London",
+      "distance": 25.671,
+      "elevation": 355,
+      "leadInDistance": 0.172,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30327200",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/greatest-london-loop-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/greatest-london-loop-reverse"
+    },
+    {
+      "id": 3569674525,
+      "name": "Keith Hill After Party",
+      "slug": "keith-hill-after-party",
+      "world": "london",
+      "worldName": "London",
+      "distance": 36.188,
+      "elevation": 431,
+      "leadInDistance": 0.461,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19613994",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/keith-hill-after-party",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/keith-hill-after-party"
+    },
+    {
+      "id": 1230300449,
+      "name": "Leith Hill After Party",
+      "slug": "leith-hill-after-party",
+      "world": "london",
+      "worldName": "London",
+      "distance": 41.543,
+      "elevation": 434,
+      "leadInDistance": 0.462,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20618179",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/leith-hill-after-party",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/leith-hill-after-party"
+    },
+    {
+      "id": 4012646479,
+      "name": "London 8",
+      "slug": "london-8",
+      "world": "london",
+      "worldName": "London",
+      "distance": 20.341,
+      "elevation": 256,
+      "leadInDistance": 0.462,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12747814",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/london-8"
+    },
+    {
+      "id": 2165880404,
+      "name": "London 8 Reverse",
+      "slug": "london-8-rev",
+      "world": "london",
+      "worldName": "London",
+      "distance": 20.291,
+      "elevation": 256,
+      "leadInDistance": 0.172,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30327000",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-8-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/london-8-reverse"
+    },
+    {
+      "id": 2836167073,
+      "name": "London Calling",
+      "slug": "london-calling",
+      "world": "london",
+      "worldName": "London",
+      "distance": 31.228,
+      "elevation": 207,
+      "leadInDistance": 0.462,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40232835",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-calling",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/london-calling"
+    },
+    {
+      "id": 2694166390,
+      "name": "London Classique",
+      "slug": "london-classique",
+      "world": "london",
+      "worldName": "London",
+      "distance": 5.459,
+      "elevation": 25,
+      "leadInDistance": 5.638,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12749761",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-classique",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/classique"
+    },
+    {
+      "id": 3599973269,
+      "name": "London Classique Reverse",
+      "slug": "classique-rev",
+      "world": "london",
+      "worldName": "London",
+      "distance": 5.457,
+      "elevation": 25,
+      "leadInDistance": 7.463,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19480641",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/classique-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/classique-reverse"
+    },
+    {
+      "id": 3262665065,
+      "name": "London Flat",
+      "slug": "london-flat",
+      "world": "london",
+      "worldName": "London",
+      "distance": 11.989,
+      "elevation": 115,
+      "leadInDistance": 0.389,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38274994",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-flat",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/london-flat"
+    },
+    {
+      "id": 913172163,
+      "name": "London Loop",
+      "slug": "london-loop",
+      "world": "london",
+      "worldName": "London",
+      "distance": 14.884,
+      "elevation": 231,
+      "leadInDistance": 0.462,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12749649",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/london-loop"
+    },
+    {
+      "id": 1788889233,
+      "name": "London Loop Reverse",
+      "slug": "london-loop-rev",
+      "world": "london",
+      "worldName": "London",
+      "distance": 14.834,
+      "elevation": 231,
+      "leadInDistance": 0.172,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12744360",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-loop-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/london-loop-reverse"
+    },
+    {
+      "id": 2204461619,
+      "name": "London PRL FULL",
+      "slug": "london-the-prl-full",
+      "world": "london",
+      "worldName": "London",
+      "distance": 173.335,
+      "elevation": 2624,
+      "leadInDistance": 0.454,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12759760",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-the-prl-full",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/the-prl-full"
+    },
+    {
+      "id": 764532081,
+      "name": "London PRL Half",
+      "slug": "the-prl-half",
+      "world": "london",
+      "worldName": "London",
+      "distance": 69.159,
+      "elevation": 1009,
+      "leadInDistance": 0.457,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12759713",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-prl-half",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/the-prl-half"
+    },
+    {
+      "id": 3250904331,
+      "name": "London Uprising",
+      "slug": "london-uprising",
+      "world": "london",
+      "worldName": "London",
+      "distance": 20.576,
+      "elevation": 356,
+      "leadInDistance": 0.336,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38413079",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-uprising",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3707791029,
+      "name": "Surrey Hills",
+      "slug": "surrey-hills",
+      "world": "london",
+      "worldName": "London",
+      "distance": 39.125,
+      "elevation": 877,
+      "leadInDistance": 4.994,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16786868",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/surrey-hills",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/surrey-hills"
+    },
+    {
+      "id": 163688809,
+      "name": "The London Pretzel",
+      "slug": "the-london-pretzel",
+      "world": "london",
+      "worldName": "London",
+      "distance": 55.735,
+      "elevation": 572,
+      "leadInDistance": 0.462,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/15155838",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-london-pretzel",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/the-london-pretzel"
+    },
+    {
+      "id": 4210048937,
+      "name": "Triple Loops",
+      "slug": "london-triple-loops",
+      "world": "london",
+      "worldName": "London",
+      "distance": 40.945,
+      "elevation": 565,
+      "leadInDistance": 0.462,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16781219",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/london-triple-loops",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/london/route/triple-loops"
+    },
+    {
+      "id": 938096831,
+      "name": "ZG25 Climb Champs",
+      "slug": "zg25-climb-champs",
+      "world": "london",
+      "worldName": "London",
+      "distance": 4.65,
+      "elevation": 156,
+      "leadInDistance": 0.345,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 1760877317,
+      "name": "Bridges and Boardwalks",
+      "slug": "bridges-and-boardwalks",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 6.345,
+      "elevation": 60,
+      "leadInDistance": 1.923,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33221600",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/bridges-and-boardwalks",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/bridges-and-boardwalks"
+    },
+    {
+      "id": 3706527503,
+      "name": "Castle Crit",
+      "slug": "castle-crit",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 3.47,
+      "elevation": 43,
+      "leadInDistance": 1.501,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30326079",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/castle-crit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/castle-crit"
+    },
+    {
+      "id": 1033940053,
+      "name": "Castle Crit Run",
+      "slug": "castle-crit-run",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 3.47,
+      "elevation": 43,
+      "leadInDistance": 1.501,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30326079",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/castle-crit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/castle-crit-run"
+    },
+    {
+      "id": 3742187716,
+      "name": "Castle to Castle",
+      "slug": "castle-to-castle",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 22.38,
+      "elevation": 140,
+      "leadInDistance": 0.818,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30629803",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/castle-to-castle",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3691918883,
+      "name": "Chain Chomper",
+      "slug": "chain-chomper",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 13.616,
+      "elevation": 183,
+      "leadInDistance": 2.372,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/28430973",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/chain-chomper",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/chain-chomper"
+    },
+    {
+      "id": 2866480562,
+      "name": "Chasing the Sun",
+      "slug": "chasing-the-sun",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 35.056,
+      "elevation": 315,
+      "leadInDistance": 0.041,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30988311",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/chasing-the-sun",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/chasing-the-sun"
+    },
+    {
+      "id": 576953930,
+      "name": "Country to Coastal",
+      "slug": "country-to-coastal",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 33.431,
+      "elevation": 274,
+      "leadInDistance": 0.137,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33238095",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/country-to-coastal",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/country-to-coastal"
+    },
+    {
+      "id": 525689100,
+      "name": "Countryside Tour",
+      "slug": "countryside-tour",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 15.849,
+      "elevation": 185,
+      "leadInDistance": 0.206,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/28431416",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/countryside-tour",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/countryside-tour"
+    },
+    {
+      "id": 65777922,
+      "name": "Electric Break",
+      "slug": "electric-break",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 17.76,
+      "elevation": 190,
+      "leadInDistance": 1.839,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40233903",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/electric-break",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/electric-break"
+    },
+    {
+      "id": 910684583,
+      "name": "Electric Loop",
+      "slug": "electric-loop",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 8.941,
+      "elevation": 42,
+      "leadInDistance": 0.041,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30987848",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/electric-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/electric-loop"
+    },
+    {
+      "id": 2980619755,
+      "name": "Farmland Loop",
+      "slug": "farmland-loop",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 7.758,
+      "elevation": 57,
+      "leadInDistance": 0.206,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/29534888",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/farmland-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/farmland-loop"
+    },
+    {
+      "id": 468624015,
+      "name": "Fine and Sandy",
+      "slug": "fine-and-sandy",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 10.654,
+      "elevation": 77,
+      "leadInDistance": 0.096,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33237114",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/fine-and-sandy",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/fine-and-sandy"
+    },
+    {
+      "id": 3282611437,
+      "name": "Flatland Loop",
+      "slug": "flatland-loop",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 12.855,
+      "elevation": 99,
+      "leadInDistance": 0.199,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/28432116",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/flatland-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/flatland-loop"
+    },
+    {
+      "id": 2140131142,
+      "name": "Island Hopper",
+      "slug": "island-hopper",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 17.991,
+      "elevation": 129,
+      "leadInDistance": 0.157,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33236919",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/island-hopper",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/island-hopper"
+    },
+    {
+      "id": 211138252,
+      "name": "Island Outskirts",
+      "slug": "island-outskirts",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 11.365,
+      "elevation": 90,
+      "leadInDistance": 0.157,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33237309",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/island-outskirts",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/island-outskirts"
+    },
+    {
+      "id": 1562187590,
+      "name": "Kappa Quest",
+      "slug": "kappa-quest",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 9.086,
+      "elevation": 140,
+      "leadInDistance": 3.844,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/28432243",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/kappa-quest",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/kappa-quest"
+    },
+    {
+      "id": 1454553567,
+      "name": "Kappa Quest Reverse",
+      "slug": "kappa-quest-reverse",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 9.087,
+      "elevation": 140,
+      "leadInDistance": 5.131,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/29009500",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/kappa-quest-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/kappa-quest-reverse"
+    },
+    {
+      "id": 2833089100,
+      "name": "Kaze Kicker",
+      "slug": "kaze-kicker",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 16.881,
+      "elevation": 134,
+      "leadInDistance": 0.399,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/kaze-kicker",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 890800649,
+      "name": "Makuri 40",
+      "slug": "makuri-40",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 40.115,
+      "elevation": 307,
+      "leadInDistance": 0.137,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33237747",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/makuri-40",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/makuri-40"
+    },
+    {
+      "id": 186601870,
+      "name": "Makuri Madness",
+      "slug": "makuri-madness",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 15.949,
+      "elevation": 85,
+      "leadInDistance": 0.137,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38413164",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/makuri-madness",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2927651296,
+      "name": "Makuri Pretzel",
+      "slug": "makuri-pretzel",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 77.577,
+      "elevation": 618,
+      "leadInDistance": 1.124,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37684132",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/makuri-pretzel",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/makuri-pretzel"
+    },
+    {
+      "id": 1366943680,
+      "name": "Mech Isle Loop",
+      "slug": "mech-isle-loop",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 4.023,
+      "elevation": 39,
+      "leadInDistance": 0.086,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33214506",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mech-isle-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/mech-isle-loop"
+    },
+    {
+      "id": 525587103,
+      "name": "Mech Isle Loop Run",
+      "slug": "mech-isle-loop-run",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 4.024,
+      "elevation": 39,
+      "leadInDistance": 0.085,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33254295",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mech-isle-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/mech-isle-loop-run"
+    },
+    {
+      "id": 1453570384,
+      "name": "Neokyo All-Nighter",
+      "slug": "neokyo-all-nighter",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 24.337,
+      "elevation": 168,
+      "leadInDistance": 0.228,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30407658",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-all-nighter",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neokyo-all-nighter"
+    },
+    {
+      "id": 1127056801,
+      "name": "Neokyo Crit Course",
+      "slug": "neokyo-crit-course",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 3.882,
+      "elevation": 20,
+      "leadInDistance": 0.778,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30480835",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/neokyo-crit-course",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neokyo-crit-course"
+    },
+    {
+      "id": 1367364772,
+      "name": "Neon After Party",
+      "slug": "neon-after-party",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 16.199,
+      "elevation": 137,
+      "leadInDistance": 1.124,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38754616",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/neon-after-party",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3407362320,
+      "name": "Neon Flats",
+      "slug": "neon-flats",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 14.725,
+      "elevation": 72,
+      "leadInDistance": 0.26,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30414842",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/neon-flats",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/neon-flats"
+    },
+    {
+      "id": 3600776267,
+      "name": "Neon Shore Loop",
+      "slug": "neon-shore-loop",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 32.951,
+      "elevation": 253,
+      "leadInDistance": 1.124,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40657892",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/neon-shore-loop",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 246712730,
+      "name": "Railways and Rooftops",
+      "slug": "railways-and-rooftops",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 6.196,
+      "elevation": 70,
+      "leadInDistance": 2.175,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30407802",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/railways-and-rooftops",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/railways-and-rooftops"
+    },
+    {
+      "id": 2892858917,
+      "name": "Red Zone Repeats",
+      "slug": "red-zone-repeats",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 19.388,
+      "elevation": 87,
+      "leadInDistance": 0.207,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/39889363",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/red-zone-repeats",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/red-zone-repeats"
+    },
+    {
+      "id": 3565430790,
+      "name": "Rooftop Rendezvous",
+      "slug": "rooftop-rendezvous",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 3.745,
+      "elevation": 56,
+      "leadInDistance": 2.939,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30407898",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/rooftop-rendezvous",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/rooftop-rendezvous"
+    },
+    {
+      "id": 3603635554,
+      "name": "Sea to Tree",
+      "slug": "sea-to-tree",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 3.273,
+      "elevation": 108,
+      "leadInDistance": 0.572,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/28432204",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/sea-to-tree",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/sea-to-tree"
+    },
+    {
+      "id": 3330165223,
+      "name": "Shisa Shakedown",
+      "slug": "shisa-shakedown",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 49.443,
+      "elevation": 495,
+      "leadInDistance": 4.038,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37300447",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/shisa-shakedown",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/shisha-shakedown"
+    },
+    {
+      "id": 3302953739,
+      "name": "Sleepless City",
+      "slug": "sleepless-city",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 9.56,
+      "elevation": 43,
+      "leadInDistance": 0.051,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30407957",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/sleepless-city",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/sleepless-city"
+    },
+    {
+      "id": 3523806426,
+      "name": "Spirit Forest",
+      "slug": "spirit-forest",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 8.448,
+      "elevation": 135,
+      "leadInDistance": 4.625,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/28432455",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/spirit-forest",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/spirit-forest"
+    },
+    {
+      "id": 3356878261,
+      "name": "Sprinter's Playground",
+      "slug": "sprinters-playground",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 12.351,
+      "elevation": 67,
+      "leadInDistance": 0.227,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30412485",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/sprinters-playground",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/sprinter-s-playground"
+    },
+    {
+      "id": 3367186349,
+      "name": "Suki's Playground",
+      "slug": "sukis-playground",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 18.311,
+      "elevation": 150,
+      "leadInDistance": 0.206,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/29009511",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/sukis-playground",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/suki-s-playground"
+    },
+    {
+      "id": 2896159042,
+      "name": "Temples and Towers",
+      "slug": "temples-and-towers",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 32.603,
+      "elevation": 318,
+      "leadInDistance": 0.779,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30408107",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/temples-and-towers",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/temples-and-towers"
+    },
+    {
+      "id": 3379779247,
+      "name": "Three Village Loop",
+      "slug": "three-village-loop",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 10.554,
+      "elevation": 93,
+      "leadInDistance": 2.372,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/28433076",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-village-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/three-village-loop"
+    },
+    {
+      "id": 3636436865,
+      "name": "Tropic Rush",
+      "slug": "tropic-rush",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 41.267,
+      "elevation": 327,
+      "leadInDistance": 1.606,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40232566",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/tropic-rush",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/tropic-rush"
+    },
+    {
+      "id": 4258943387,
+      "name": "Turf N Surf",
+      "slug": "turf-n-surf",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 24.628,
+      "elevation": 196,
+      "leadInDistance": 0.075,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33238344",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/turf-n-surf",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/turf-n-surf"
+    },
+    {
+      "id": 1457923570,
+      "name": "Twilight Harbor",
+      "slug": "twilight-harbor",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 6.854,
+      "elevation": 33,
+      "leadInDistance": 0.248,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30629791",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/twighlight-harbor",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2653858696,
+      "name": "Two Village Loop",
+      "slug": "two-village-loop",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 12.804,
+      "elevation": 88,
+      "leadInDistance": 0.206,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/28433439",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/two-village-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/two-village-loop"
+    },
+    {
+      "id": 1941800093,
+      "name": "Valley to Mountaintop",
+      "slug": "valley-to-mountaintop",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 5.009,
+      "elevation": 131,
+      "leadInDistance": 0.122,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/29559312",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/valley-to-mountaintop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/valley-to-mountaintop"
+    },
+    {
+      "id": 3914529041,
+      "name": "Wandering Flats",
+      "slug": "wandering-flats",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 25.101,
+      "elevation": 146,
+      "leadInDistance": 0.109,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30408380",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/wandering-flats",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/wandering-flats"
+    },
+    {
+      "id": 152965568,
+      "name": "Yoru Run",
+      "slug": "yoru-run",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 6.89,
+      "elevation": 32,
+      "leadInDistance": 1.124,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/yoru-run",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/makuri-islands/route/yoru-run"
+    },
+    {
+      "id": 2436095601,
+      "name": "2022 Cycling Esports World Championships Route",
+      "slug": "2022-cycling-esports-world-championships-route",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 54.744,
+      "elevation": 941,
+      "leadInDistance": 0.22,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30601050",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-cycling-esports-world-championships-route",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 1509089537,
+      "name": "Astoria Line 8",
+      "slug": "astoria-line-8",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 11.569,
+      "elevation": 141,
+      "leadInDistance": 0.42,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19141340",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/astoria-line-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/astoria-line-8"
+    },
+    {
+      "id": 975408707,
+      "name": "Avon Flyer",
+      "slug": "avon-flyer",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 3.307,
+      "elevation": 25,
+      "leadInDistance": 1.823,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40325105",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/avon-flyer",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/avon-flyer"
+    },
+    {
+      "id": 494933300,
+      "name": "Avon Flyer Run",
+      "slug": "avon-flyer-run",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 3.307,
+      "elevation": 25,
+      "leadInDistance": 1.823,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40325105",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/avon-flyer",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/avon-flyer"
+    },
+    {
+      "id": 1790569309,
+      "name": "Couch To Sky K",
+      "slug": "couch-to-sky-k",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 6.75,
+      "elevation": 68,
+      "leadInDistance": 0.14,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/couch-to-sky-k",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/couch-to-sky-k"
+    },
+    {
+      "id": 2101060245,
+      "name": "Double Parked",
+      "slug": "double-parked",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 42.171,
+      "elevation": 330,
+      "leadInDistance": 0.072,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40336136",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/double-parked",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/double-parked"
+    },
+    {
+      "id": 1099226581,
+      "name": "Double Span Spin",
+      "slug": "double-span-spin",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 7.018,
+      "elevation": 80,
+      "leadInDistance": 5.567,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40325250",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/double-span-spin",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/double-span-spin"
+    },
+    {
+      "id": 1671282746,
+      "name": "Empire Elevation",
+      "slug": "empire-elevation",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 24.155,
+      "elevation": 261,
+      "leadInDistance": 1.824,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40493992",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/empire-elevation",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/empire-elevation"
+    },
+    {
+      "id": 1327665278,
+      "name": "Everything Bagel",
+      "slug": "everything-bagel",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 34.285,
+      "elevation": 545,
+      "leadInDistance": 0.051,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19141223",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/everything-bagel",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/everything-bagel"
+    },
+    {
+      "id": 711818913,
+      "name": "Flat Irons",
+      "slug": "flat-irons",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 14.85,
+      "elevation": 146,
+      "leadInDistance": 0.574,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/flat-irons",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/flat-irons"
+    },
+    {
+      "id": 3678866163,
+      "name": "Fuhgeddaboudit",
+      "slug": "fuhgeddaboudit",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 78.905,
+      "elevation": 838,
+      "leadInDistance": 0.072,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40335851",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/fuhgeddaboudit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/fuhgeddaboudit"
+    },
+    {
+      "id": 480315274,
+      "name": "Gotham Grind",
+      "slug": "gotham-grind",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 9.257,
+      "elevation": 96,
+      "leadInDistance": 0.046,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19820820",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/gotham-grind",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/gotham-grind"
+    },
+    {
+      "id": 352245150,
+      "name": "Gotham Grind Reverse",
+      "slug": "gotham-grind-rev",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 9.259,
+      "elevation": 96,
+      "leadInDistance": 0.391,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19821300",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/gotham-grind-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/gotham-grind-reverse"
+    },
+    {
+      "id": 2945813240,
+      "name": "Grand Central Circuit",
+      "slug": "grand-central-circuit",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 6.857,
+      "elevation": 144,
+      "leadInDistance": 1.424,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19141192",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/grand-central-circuit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/grand-central-circuit"
+    },
+    {
+      "id": 3687251774,
+      "name": "Grand Central Circuit Reverse",
+      "slug": "grand-central-circuit-rev",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 6.857,
+      "elevation": 144,
+      "leadInDistance": 2.356,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19178367",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/grand-central-circuit-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/grand-central-circuit-reverse"
+    },
+    {
+      "id": 1178708985,
+      "name": "Green to Screen",
+      "slug": "green-to-screen",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 28.377,
+      "elevation": 207,
+      "leadInDistance": 0.072,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40336212",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/green-to-screen",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/green-to-screen"
+    },
+    {
+      "id": 750613981,
+      "name": "Hudson Hustle",
+      "slug": "hudson-hustle",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 20.324,
+      "elevation": 216,
+      "leadInDistance": 0.051,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/hudson-hustle",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3665959404,
+      "name": "Hudson Roll",
+      "slug": "hudson-roll",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 9.021,
+      "elevation": 80,
+      "leadInDistance": 0.175,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/hudson-roll",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/hudson-roll"
+    },
+    {
+      "id": 112312944,
+      "name": "Issendorf Express",
+      "slug": "issendorf-express",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 7.234,
+      "elevation": 53,
+      "leadInDistance": 0.072,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40331604",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/issendorf-express",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/issendorf-express"
+    },
+    {
+      "id": 2954366662,
+      "name": "Knickerbocker",
+      "slug": "knickerbocker",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 22.546,
+      "elevation": 365,
+      "leadInDistance": 0.155,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19141299",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/knickerbocker",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/knickerbocker"
+    },
+    {
+      "id": 2001106885,
+      "name": "Knickerbocker Reverse",
+      "slug": "knickerbocker-reverse",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 22.545,
+      "elevation": 365,
+      "leadInDistance": 0.051,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20721179",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/knickerbocker-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/knickerbocker-reverse"
+    },
+    {
+      "id": 5103974,
+      "name": "Lady Liberty",
+      "slug": "lady-liberty",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 12.361,
+      "elevation": 206,
+      "leadInDistance": 0.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19141269",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/lady-liberty",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/lady-liberty"
+    },
+    {
+      "id": 3669622170,
+      "name": "LaGuardia After Party",
+      "slug": "laguardia-after-party",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 20.74,
+      "elevation": 295,
+      "leadInDistance": 0.051,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/laguardia-after-party",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2422779354,
+      "name": "LaGuardia Loop",
+      "slug": "laguardia-loop",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 2.79,
+      "elevation": 26,
+      "leadInDistance": 1.424,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19179237",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/laguardia-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/laguardia-loop"
+    },
+    {
+      "id": 3774003351,
+      "name": "LaGuardia Loop Reverse",
+      "slug": "laguardia-loop-reverse",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 2.791,
+      "elevation": 26,
+      "leadInDistance": 2.356,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20425705",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/laguardia-loop-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/laguardia-loop-reverse"
+    },
+    {
+      "id": 3872978134,
+      "name": "Mighty Metropolitan",
+      "slug": "mighty-metropolitan",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 20.095,
+      "elevation": 318,
+      "leadInDistance": 0.412,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19141368",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mighty-metropolitan",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/mighty-metropolitan"
+    },
+    {
+      "id": 104170948,
+      "name": "No Sleep Till Brooklyn",
+      "slug": "no-sleep-till-brooklyn",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 31.787,
+      "elevation": 251,
+      "leadInDistance": 0.615,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40651003",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/no-sleep-till-brooklyn",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2372883204,
+      "name": "NYC KOM After Party",
+      "slug": "new-york-kom-after-party",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 36.626,
+      "elevation": 475,
+      "leadInDistance": 0.377,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19853934",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/nyc-kom-after-party",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/nyc-kom-after-party"
+    },
+    {
+      "id": 1919980508,
+      "name": "Park Perimeter Loop",
+      "slug": "park-perimeter-loop",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 9.762,
+      "elevation": 126,
+      "leadInDistance": 0.406,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19170651",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/park-perimeter-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/park-perimeter-loop"
+    },
+    {
+      "id": 2202609830,
+      "name": "Park Perimeter Reverse",
+      "slug": "park-perimeter-rev",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 9.762,
+      "elevation": 126,
+      "leadInDistance": 0.154,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19170661",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/park-perimeter-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/park-perimeter-reverse"
+    },
+    {
+      "id": 1378559127,
+      "name": "Park To Peak",
+      "slug": "park-to-peak",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 4.576,
+      "elevation": 126,
+      "leadInDistance": 0.14,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/park-to-peak",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/park-to-peak"
+    },
+    {
+      "id": 22757204,
+      "name": "Prospect Park Loop",
+      "slug": "prospect-park-loop",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 5.428,
+      "elevation": 37,
+      "leadInDistance": 0.072,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40325245",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/prospect-park-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/prospect-park-loop"
+    },
+    {
+      "id": 3835625237,
+      "name": "Prospect Park Loop Run",
+      "slug": "prospect-park-loop-run",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 5.428,
+      "elevation": 37,
+      "leadInDistance": 0.072,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40325245",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/prospect-park-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/prospect-park-loop"
+    },
+    {
+      "id": 3078665969,
+      "name": "Rising Empire",
+      "slug": "rising-empire",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 20.816,
+      "elevation": 377,
+      "leadInDistance": 0.38,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19171748",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/rising-empire",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/rising-empire"
+    },
+    {
+      "id": 2590569306,
+      "name": "Shuman Trail Loop",
+      "slug": "shuman-trail-loop",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 2.535,
+      "elevation": 9,
+      "leadInDistance": 0.312,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/shuman-trail-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/shuman-trail-loop"
+    },
+    {
+      "id": 274775181,
+      "name": "Shuman Trail Reverse",
+      "slug": "shuman-trial-loop-rev",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 2.535,
+      "elevation": 9,
+      "leadInDistance": 0.11,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/shuman-trail-loop-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/shuman-trail-reverse"
+    },
+    {
+      "id": 3314406972,
+      "name": "Spinfinity",
+      "slug": "spinfinity",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 19.284,
+      "elevation": 155,
+      "leadInDistance": 0.615,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40331488",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/spinfinity",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/spinfinity"
+    },
+    {
+      "id": 730052368,
+      "name": "Spinfinity Ultra",
+      "slug": "spinfinity-ultra",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 35.007,
+      "elevation": 291,
+      "leadInDistance": 0.615,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40337487",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/spinfinity-ultra",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/spinfinity-ultra"
+    },
+    {
+      "id": 3079921742,
+      "name": "Stay Puft Pursuit",
+      "slug": "stay-puft-pursuit",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 31.184,
+      "elevation": 416,
+      "leadInDistance": 0.615,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40368797",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/stay-puft-pursuit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/stay-puft-pursuit"
+    },
+    {
+      "id": 3597939700,
+      "name": "The 6 Train",
+      "slug": "the-6-train",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 6.468,
+      "elevation": 69,
+      "leadInDistance": 0.051,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19172136",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-6-train",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/the-6-train"
+    },
+    {
+      "id": 274639515,
+      "name": "The 6 Train Reverse",
+      "slug": "the-6-train-rev",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 6.469,
+      "elevation": 69,
+      "leadInDistance": 0.374,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19171959",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-6-train-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/the-6-train-reverse"
+    },
+    {
+      "id": 1552189318,
+      "name": "The Double Borough",
+      "slug": "the-double-borough",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 17.809,
+      "elevation": 147,
+      "leadInDistance": 0.051,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40343676",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-double-borough",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/the-double-borough"
+    },
+    {
+      "id": 3051823795,
+      "name": "The Greenway",
+      "slug": "the-greenway",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 36.223,
+      "elevation": 290,
+      "leadInDistance": 0.582,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40337514",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-greenway",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/the-greenway"
+    },
+    {
+      "id": 1732356505,
+      "name": "The Highline",
+      "slug": "the-highline",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 10.526,
+      "elevation": 179,
+      "leadInDistance": 10,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19173163",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-highline",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/the-highline"
+    },
+    {
+      "id": 1763213625,
+      "name": "The Highline Reverse",
+      "slug": "the-highline-rev",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 10.529,
+      "elevation": 179,
+      "leadInDistance": 10.482,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19173175",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-highline-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/the-highline-reverse"
+    },
+    {
+      "id": 1942591558,
+      "name": "Times Square Circuit",
+      "slug": "times-square-circuit",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 3.5,
+      "elevation": 20,
+      "leadInDistance": 0.615,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40342792",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/times-square-circuit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/times-square-circuit"
+    },
+    {
+      "id": 2949228237,
+      "name": "Times Square Circuit Run",
+      "slug": "times-square-circuit-run",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 3.5,
+      "elevation": 20,
+      "leadInDistance": 0.615,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40342792",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/times-square-circuit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/times-square-circuit"
+    },
+    {
+      "id": 4232620535,
+      "name": "Toefield Tornado",
+      "slug": "toefield-tornado",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 10.216,
+      "elevation": 53,
+      "leadInDistance": 0.072,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40337526",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/toefield-tornado",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/toefield-tornado"
+    },
+    {
+      "id": 1472166107,
+      "name": "Toefield Tornado Run",
+      "slug": "toefield-tornado-run",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 10.219,
+      "elevation": 53,
+      "leadInDistance": 0.072,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40337526",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/toefield-tornado",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/toefield-tornado"
+    },
+    {
+      "id": 2898229208,
+      "name": "Watts the Limit",
+      "slug": "watts-the-limit",
+      "world": "new-york",
+      "worldName": "New York",
+      "distance": 29.532,
+      "elevation": 200,
+      "leadInDistance": 1.424,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40337473",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/watts-the-limit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/new-york/route/watts-the-limit"
+    },
+    {
+      "id": 3364574135,
+      "name": "Champs-Élysées",
+      "slug": "champs-elysees",
+      "world": "paris",
+      "worldName": "Paris",
+      "distance": 6.616,
+      "elevation": 39,
+      "leadInDistance": 3.185,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24674235",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/champs-elysees",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/paris/route/champs-elysees"
+    },
+    {
+      "id": 2818536273,
+      "name": "Champs-Élysées Run",
+      "slug": "champs-elysees-run",
+      "world": "paris",
+      "worldName": "Paris",
+      "distance": 6.616,
+      "elevation": 39,
+      "leadInDistance": 3.185,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37538726",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/champs-elysees",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/paris/route/champs-elysees-run"
+    },
+    {
+      "id": 1236439870,
+      "name": "Lutece Express",
+      "slug": "lutece-express",
+      "world": "paris",
+      "worldName": "Paris",
+      "distance": 6.617,
+      "elevation": 39,
+      "leadInDistance": 3.561,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/24674248",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/lutece-express",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/paris/route/lutece-express"
+    },
+    {
+      "id": 86621553,
+      "name": "Lutece Express Run",
+      "slug": "lutece-express-run",
+      "world": "paris",
+      "worldName": "Paris",
+      "distance": 6.616,
+      "elevation": 39,
+      "leadInDistance": 3.561,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37539085",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/lutece-express",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/paris/route/lutece-express-run"
+    },
+    {
+      "id": 1545087483,
+      "name": "Cobbled Climbs",
+      "slug": "cobbled-climbs",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 9.179,
+      "elevation": 134,
+      "leadInDistance": 0.284,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/11308213",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/cobbled-climbs",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/cobbled-climbs"
+    },
+    {
+      "id": 4194352271,
+      "name": "Cobbled Climbs Reverse",
+      "slug": "cobbled-climbs-rev",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 9.177,
+      "elevation": 134,
+      "leadInDistance": 0.1,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22891973",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/cobbled-climbs-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/cobbled-climbs-reverse"
+    },
+    {
+      "id": 3166535632,
+      "name": "Cobbled Climbs Run",
+      "slug": "cobbled-climbs-run",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 9.178,
+      "elevation": 134,
+      "leadInDistance": 0.285,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37547501",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/cobbled-climbs",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/cobbled-climbs-run"
+    },
+    {
+      "id": 2244765560,
+      "name": "Cobbled Crown",
+      "slug": "cobbled-crown",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 24.04,
+      "elevation": 288,
+      "leadInDistance": 0.265,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/cobbled-crown",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 54700404,
+      "name": "Libby Hill After Party",
+      "slug": "libby-hill-after-party",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 32.898,
+      "elevation": 160,
+      "leadInDistance": 0.285,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22815233",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/libby-hill-after-party",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/libby-hill-after-party"
+    },
+    {
+      "id": 1039983620,
+      "name": "Richmond 2015 Worlds Reverse",
+      "slug": "richmond-uci-rev",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 16.249,
+      "elevation": 158,
+      "leadInDistance": 0.1,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22809649",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/richmond-uci-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/richmond-uci-reverse"
+    },
+    {
+      "id": 3912793970,
+      "name": "Richmond Loop Around",
+      "slug": "richmond-loop-around",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 42.552,
+      "elevation": 556,
+      "leadInDistance": 0.111,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38009202",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/richmond-loop-around",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/richmond-loop-around"
+    },
+    {
+      "id": 948831673,
+      "name": "Richmond Rollercoaster",
+      "slug": "richmond-rollercoaster",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 5.059,
+      "elevation": 20,
+      "leadInDistance": 12.062,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22900025",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/richmond-rollercoaster",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/richmond-rollercoaster"
+    },
+    {
+      "id": 2196019512,
+      "name": "Richmond UCI Worlds",
+      "slug": "2015-uci-worlds-course",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 16.249,
+      "elevation": 158,
+      "leadInDistance": 0.284,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12128718",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/2015-uci-worlds-course",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/2015-uci-worlds-course"
+    },
+    {
+      "id": 1638640398,
+      "name": "The Fan Flats",
+      "slug": "the-fan-flats",
+      "world": "richmond",
+      "worldName": "Richmond",
+      "distance": 5.06,
+      "elevation": 20,
+      "leadInDistance": 4.249,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19852166",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-fan-flats",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/richmond/route/the-fan-flats"
+    },
+    {
+      "id": 377566656,
+      "name": "BRAEk-fast Crits and Grits",
+      "slug": "braek-fast-crits-and-grits",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 20.792,
+      "elevation": 226,
+      "leadInDistance": 1.353,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37675052",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/braek-fast-crits-and-grits",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 4107749591,
+      "name": "City and the Sgurr",
+      "slug": "city-and-the-sgurr",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 5.917,
+      "elevation": 103,
+      "leadInDistance": 2.725,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33635722",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/city-and-the-sgurr",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/city-and-the-sgurr"
+    },
+    {
+      "id": 2312882507,
+      "name": "Dùn Dash",
+      "slug": "dun-dash",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 12.419,
+      "elevation": 138,
+      "leadInDistance": 0.048,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40233889",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/dun-dash",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/dun-dash"
+    },
+    {
+      "id": 3765339356,
+      "name": "Glasgow Crit Circuit",
+      "slug": "glasgow-crit-circuit",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 3.012,
+      "elevation": 33,
+      "leadInDistance": 0.247,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33620076",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/glasgow-crit-circuit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/glasgow-crit-circuit"
+    },
+    {
+      "id": 3351665212,
+      "name": "Glasgow Crit Circuit Run",
+      "slug": "glasgow-crit-circuit-run",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 3.011,
+      "elevation": 33,
+      "leadInDistance": 0.249,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33816215",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/glasgow-crit-circuit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/glasgow-crit-circuit-run"
+    },
+    {
+      "id": 79243399,
+      "name": "Glasgow Crit Six",
+      "slug": "glasgow-crit-six",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 18.07,
+      "elevation": 199,
+      "leadInDistance": 0.248,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40454428",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/glasgow-crit-six",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/glasgow-crit-six"
+    },
+    {
+      "id": 1258415487,
+      "name": "Glasgow Reverse",
+      "slug": "glasgow-reverse",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 3.012,
+      "elevation": 33,
+      "leadInDistance": 1.196,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33620087",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/glasgow-crit-circuit-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/glasgow-reverse"
+    },
+    {
+      "id": 2773927650,
+      "name": "Highland Run",
+      "slug": "highland-run",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 5.729,
+      "elevation": 52,
+      "leadInDistance": 1.138,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/highland-run",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/highland-run"
+    },
+    {
+      "id": 742057576,
+      "name": "Loch Loop",
+      "slug": "loch-loop",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 8.057,
+      "elevation": 71,
+      "leadInDistance": 0.048,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33620222",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/loch-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/loch-loop"
+    },
+    {
+      "id": 1384155764,
+      "name": "Loch Loop Run",
+      "slug": "loch-loop-run",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 8.057,
+      "elevation": 71,
+      "leadInDistance": 0.048,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37547806",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/loch-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/loch-loop-run"
+    },
+    {
+      "id": 2826340040,
+      "name": "Outer Scotland",
+      "slug": "outer-scotland",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 11.113,
+      "elevation": 104,
+      "leadInDistance": 0.248,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/34255102",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/outer-scotland",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/outer-scotland"
+    },
+    {
+      "id": 46799750,
+      "name": "Rolling Highlands",
+      "slug": "rolling-highlands",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 8.953,
+      "elevation": 77,
+      "leadInDistance": 5.144,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33620176",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/rolling-highlands",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/rolling-highlands"
+    },
+    {
+      "id": 4227232797,
+      "name": "Scotland After Party",
+      "slug": "scotland-after-party",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 13.634,
+      "elevation": 189,
+      "leadInDistance": 1.138,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40233914",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/scotland-after-party",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/scotland-after-party"
+    },
+    {
+      "id": 172610229,
+      "name": "Scotland Smash",
+      "slug": "scotland-smash",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 17.82,
+      "elevation": 167,
+      "leadInDistance": 0.249,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38412900",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/scotland-smash",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3486338362,
+      "name": "The Epiloch",
+      "slug": "the-epiloch",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 8.057,
+      "elevation": 71,
+      "leadInDistance": 3.048,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33636526",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-epiloch",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3662705581,
+      "name": "The Muckle Yin",
+      "slug": "the-muckle-yin",
+      "world": "scotland",
+      "worldName": "Scotland",
+      "distance": 23.414,
+      "elevation": 282,
+      "leadInDistance": 0.248,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33636050",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-muckle-yin",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/scotland/route/the-muckle-yin"
+    },
+    {
+      "id": 4240327959,
+      "name": "11.1 Ocean Blvd",
+      "slug": "ocean-blvd",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 10.469,
+      "elevation": 48,
+      "leadInDistance": 0.537,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18993273",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/ocean-blvd",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/11-1-ocean-blvd"
+    },
+    {
+      "id": 3819095753,
+      "name": "5K Loop",
+      "slug": "5k-loop",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 4.999,
+      "elevation": 31,
+      "leadInDistance": 0.307,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18960184",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/5k-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/5k-loop"
+    },
+    {
+      "id": 1115260805,
+      "name": "Accelerate to Elevate",
+      "slug": "accelerate-to-elevate",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 41.265,
+      "elevation": 1152,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/35705419",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/accelerate-to-elevate",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/accelerate-to-elevate"
+    },
+    {
+      "id": 2474227587,
+      "name": "Beach Island Loop",
+      "slug": "beach-island-loop",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 12.781,
+      "elevation": 49,
+      "leadInDistance": 0.193,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/26741693",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/beach-island-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/beach-island-loop"
+    },
+    {
+      "id": 1917017591,
+      "name": "Big Flat 8",
+      "slug": "big-flat-8",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 29.211,
+      "elevation": 103,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/26974627",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/big-flat-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/big-flat-8"
+    },
+    {
+      "id": 3921412335,
+      "name": "Big Foot Hills",
+      "slug": "big-foot-hills",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 67.588,
+      "elevation": 708,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/21911191",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/big-foot-hills",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/big-foot-hills"
+    },
+    {
+      "id": 2947111049,
+      "name": "Big Loop",
+      "slug": "big-loop",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 42.604,
+      "elevation": 662,
+      "leadInDistance": 0.522,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16402683",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/big-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/big-loop"
+    },
+    {
+      "id": 4107844490,
+      "name": "Big Loop Reverse",
+      "slug": "big-loop-rev",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 42.601,
+      "elevation": 658,
+      "leadInDistance": 0.211,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16404624",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/big-loop-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/big-loop-reverse"
+    },
+    {
+      "id": 2139708890,
+      "name": "Bigger Loop",
+      "slug": "bigger-loop",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 53.198,
+      "elevation": 691,
+      "leadInDistance": 0.506,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20425565",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/bigger-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/bigger-loop"
+    },
+    {
+      "id": 2595459121,
+      "name": "Canopies and Coastlines",
+      "slug": "canopies-and-coastlines",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 22.607,
+      "elevation": 124,
+      "leadInDistance": 5.185,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/35696990",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/canopies-and-coastlines",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/canopies-and-coastlines"
+    },
+    {
+      "id": 1373909093,
+      "name": "Chili Pepper",
+      "slug": "chili-pepper",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 7.957,
+      "elevation": 48,
+      "leadInDistance": 0.302,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18993284",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/chili-pepper",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/chili-pepper"
+    },
+    {
+      "id": 3694952104,
+      "name": "Chili Pepper Reverse",
+      "slug": "chili-pepper-rev",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 7.347,
+      "elevation": 46,
+      "leadInDistance": 0.155,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/chili-pepper-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/chili-pepper-reverse"
+    },
+    {
+      "id": 1464561389,
+      "name": "Climb Control",
+      "slug": "climb-control",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 23.672,
+      "elevation": 191,
+      "leadInDistance": 0.301,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40385661",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/climb-control",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/climb-control"
+    },
+    {
+      "id": 2681889340,
+      "name": "Climb Portal - Volcano",
+      "slug": "climb-portal-volcano",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 7.354,
+      "elevation": 20,
+      "leadInDistance": 1.99,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3023359358,
+      "name": "Climber's Gambit",
+      "slug": "climbers-gambit",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 27.823,
+      "elevation": 671,
+      "leadInDistance": 0.204,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/29622065",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/climbers-gambit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/climber-s-gambit"
+    },
+    {
+      "id": 2569385980,
+      "name": "Coast Crusher",
+      "slug": "coast-crusher",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 34.567,
+      "elevation": 175,
+      "leadInDistance": 8.135,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/35697049",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/coast-crusher",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/coast-crusher"
+    },
+    {
+      "id": 4199497144,
+      "name": "Coast to Coast",
+      "slug": "coast-to-coast",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 24.092,
+      "elevation": 154,
+      "leadInDistance": 2.669,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38138499",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/coast-to-coast",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/coast-to-coast"
+    },
+    {
+      "id": 2768300955,
+      "name": "Coastal Crown Loop",
+      "slug": "coastal-crown-loop",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 15.074,
+      "elevation": 185,
+      "leadInDistance": 8.611,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37039562",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/coastal-crown-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/coastal-crown-loop"
+    },
+    {
+      "id": 2888820995,
+      "name": "Danger Noodle",
+      "slug": "danger-noodle",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 32.07,
+      "elevation": 414,
+      "leadInDistance": 0.194,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38326016",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/danger-noodle",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/danger-noodle"
+    },
+    {
+      "id": 454871454,
+      "name": "Deca Dash",
+      "slug": "deca-dash",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 48.35,
+      "elevation": 484,
+      "leadInDistance": 4.226,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/39270881",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/deca-dash",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/deca-dash"
+    },
+    {
+      "id": 1675611962,
+      "name": "Downtown Eruption",
+      "slug": "downtown-eruoption",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 19.441,
+      "elevation": 275,
+      "leadInDistance": 0.499,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38413304",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/downtown-eruption",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 5745690,
+      "name": "Downtown Titans",
+      "slug": "downtown-titans",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 24.645,
+      "elevation": 292,
+      "leadInDistance": 0.95,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/23167123",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/downtown-titans/",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2675063596,
+      "name": "Dust In The Wind",
+      "slug": "dust-in-the-wind",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 52.11,
+      "elevation": 583,
+      "leadInDistance": 0.34,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/33852827",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/dust-in-the-wind",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/dust-in-the-wind"
+    },
+    {
+      "id": 2746475460,
+      "name": "Eastern Eight",
+      "slug": "eastern-eight",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 51.679,
+      "elevation": 407,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22914116",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/eastern-eight",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 183635628,
+      "name": "Elevation Evaluation",
+      "slug": "elevation-evaluation",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 24.624,
+      "elevation": 396,
+      "leadInDistance": 3.09,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37049454",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/elevation-evaluation",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/elevation-evaluation"
+    },
+    {
+      "id": 1695691428,
+      "name": "Epic Run",
+      "slug": "epic-run",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 6.214,
+      "elevation": 262,
+      "leadInDistance": 4.121,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37501292",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/epic-run",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/epic-run"
+    },
+    {
+      "id": 1258526800,
+      "name": "Flat Out Fast",
+      "slug": "flat-out-fast",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 21.382,
+      "elevation": 46,
+      "leadInDistance": 0.949,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3811569265,
+      "name": "Flat Route Reverse",
+      "slug": "flat-route-rev",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 10.269,
+      "elevation": 61,
+      "leadInDistance": 0.201,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/flat-route-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/flat-route-reverse"
+    },
+    {
+      "id": 2878180967,
+      "name": "Four Horsemen",
+      "slug": "four-horsemen",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 89.789,
+      "elevation": 2109,
+      "leadInDistance": 0.595,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20390815",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/four-horsemen",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/four-horsemen"
+    },
+    {
+      "id": 1631692097,
+      "name": "Glyph Heights",
+      "slug": "glyph-heights",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 25.404,
+      "elevation": 537,
+      "leadInDistance": 8.615,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37011748",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/glyph-heights",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/glyph-heights"
+    },
+    {
+      "id": 1635842477,
+      "name": "Going Coastal",
+      "slug": "going-coastal",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 16.393,
+      "elevation": 63,
+      "leadInDistance": 2.328,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/35697589",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/going-coastal",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/going-coastal"
+    },
+    {
+      "id": 1993374659,
+      "name": "Handful Of Gravel",
+      "slug": "handful-of-gravel",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 6.13,
+      "elevation": 75,
+      "leadInDistance": 4.254,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2708527018,
+      "name": "Handful of Gravel Run",
+      "slug": "handful-of-gravel-run",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 6.13,
+      "elevation": 75,
+      "leadInDistance": 4.254,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 107363867,
+      "name": "Hilly Route Reverse",
+      "slug": "hilly-route-rev",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 9.193,
+      "elevation": 109,
+      "leadInDistance": 0.214,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12128037",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/hilly-route-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/hilly-route-reverse"
+    },
+    {
+      "id": 1696938496,
+      "name": "Hilly Route Reverse Run",
+      "slug": "hilly-route-rev-run",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 9.192,
+      "elevation": 109,
+      "leadInDistance": 0.194,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37501806",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/hilly-route-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/hilly-route-reverse-run"
+    },
+    {
+      "id": 2251715424,
+      "name": "Hot Laps",
+      "slug": "hot-laps",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 23.28,
+      "elevation": 149,
+      "leadInDistance": 0.194,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40469531",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/hot-laps",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/hot-laps"
+    },
+    {
+      "id": 3573087582,
+      "name": "Italian Villas Circuit",
+      "slug": "italian-villas-circuit",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 1.937,
+      "elevation": 15,
+      "leadInDistance": 2.405,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/26792130",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/italian-villas-sprint-circuit",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2333249368,
+      "name": "Itza Climb Finish",
+      "slug": "itza-climb-finish",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 30.094,
+      "elevation": 290,
+      "leadInDistance": 0.949,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37097998",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/itza-climb-finish",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/itza-climb-finish"
+    },
+    {
+      "id": 4131664304,
+      "name": "Itza Party",
+      "slug": "itza-party",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 45.753,
+      "elevation": 506,
+      "leadInDistance": 0.497,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37098941",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/itza-party",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/itza-party"
+    },
+    {
+      "id": 2661047295,
+      "name": "Jarvis Seaside Sprint",
+      "slug": "jarvis-seaside-sprint",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 12.501,
+      "elevation": 95,
+      "leadInDistance": 2.831,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40054523",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/jarvis-seaside-sprint",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/jarvis-seaside-sprint"
+    },
+    {
+      "id": 136957568,
+      "name": "Jon's Route",
+      "slug": "jons-route",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 12.497,
+      "elevation": 59,
+      "leadInDistance": 0.302,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18993345",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/jons-route",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/jon-s-route"
+    },
+    {
+      "id": 743730361,
+      "name": "Jungle Circuit",
+      "slug": "jungle-circuit",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 7.862,
+      "elevation": 83,
+      "leadInDistance": 5.658,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16359363",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/jungle-circuit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/jungle-circuit"
+    },
+    {
+      "id": 2839057126,
+      "name": "Jungle Circuit Reverse",
+      "slug": "jungle-circuit-rev",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 7.862,
+      "elevation": 83,
+      "leadInDistance": 6.289,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/jungle-circuit-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/jungle-circuit-reverse"
+    },
+    {
+      "id": 4009130866,
+      "name": "Jurassic Coast",
+      "slug": "jurassic-coast",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 19.315,
+      "elevation": 212,
+      "leadInDistance": 0.225,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/36343069",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/jurassic-coast",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/jurassic-coast"
+    },
+    {
+      "id": 3864857876,
+      "name": "Legends and Lava",
+      "slug": "legends-and-lava",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 24.51,
+      "elevation": 352,
+      "leadInDistance": 0.155,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30630421",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/legends-and-lava",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/legends-and-lava"
+    },
+    {
+      "id": 243949867,
+      "name": "Loop de Loop",
+      "slug": "loop-de-loop",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 12.416,
+      "elevation": 144,
+      "leadInDistance": 0.194,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/36342198",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/loop-de-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/loop-de-loop"
+    },
+    {
+      "id": 1092181131,
+      "name": "Loopin Lava",
+      "slug": "loopin-lava",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 14.214,
+      "elevation": 196,
+      "leadInDistance": 4.181,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38132886",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/loopin-lava",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/loopin-lava"
+    },
+    {
+      "id": 3012588561,
+      "name": "May Field",
+      "slug": "may-field",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 0.412,
+      "elevation": 0,
+      "leadInDistance": 0.049,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22540731",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/may-field",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/may-field"
+    },
+    {
+      "id": 4084028627,
+      "name": "Mayan 8",
+      "slug": "mayan-8",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 23.071,
+      "elevation": 241,
+      "leadInDistance": 3.077,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37683459",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mayan-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/mayan-8"
+    },
+    {
+      "id": 1082034232,
+      "name": "Mayan Bridge Loop",
+      "slug": "mayan-bridge-loop",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 5.274,
+      "elevation": 48,
+      "leadInDistance": 5.658,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/26774640",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mayan-bridge-loop",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 4280627426,
+      "name": "Mayan Mash",
+      "slug": "mayan-mash",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 34.624,
+      "elevation": 755,
+      "leadInDistance": 3.077,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37039844",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mayan-mash",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/mayan-mash"
+    },
+    {
+      "id": 226950646,
+      "name": "Mayan San Remo",
+      "slug": "mayan-san-remo",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 21.09,
+      "elevation": 217,
+      "leadInDistance": 0.322,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37098607",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mayan-san-remo",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/mayan-san-remo"
+    },
+    {
+      "id": 2953010285,
+      "name": "Mountain Mash",
+      "slug": "mountain-mash",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 5.79,
+      "elevation": 335,
+      "leadInDistance": 0.21,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/36342419",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mountain-mash",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/mountain-mash"
+    },
+    {
+      "id": 2139465450,
+      "name": "Muir And The Mountain",
+      "slug": "muir-and-the-mountain",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 34.14,
+      "elevation": 792,
+      "leadInDistance": 5.108,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22368918",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/muir-and-the-mountain",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/muir-and-the-mountain"
+    },
+    {
+      "id": 806114032,
+      "name": "Navig8",
+      "slug": "navig8",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 63.857,
+      "elevation": 417,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37716261",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/navig8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/navig8"
+    },
+    {
+      "id": 1386460176,
+      "name": "Ocean Lava Cliffside Loop",
+      "slug": "ocean-lava-cliffside-loop",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 19.054,
+      "elevation": 156,
+      "leadInDistance": 0.193,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/26741663",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/ocean-lava-cliffside-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/ocean-lava-cliffside-loop"
+    },
+    {
+      "id": 3532866973,
+      "name": "Oh Hill No",
+      "slug": "oh-hill-no",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 7.889,
+      "elevation": 306,
+      "leadInDistance": 0.164,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37011743",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/oh-hill-no",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/oh-hill-no"
+    },
+    {
+      "id": 2748657713,
+      "name": "Out And Back Again",
+      "slug": "out-and-back-again",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 39.901,
+      "elevation": 328,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20350104",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/out-and-back-again",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/out-and-back-again"
+    },
+    {
+      "id": 3558689342,
+      "name": "Peak Performance",
+      "slug": "peak-performance",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 45.818,
+      "elevation": 726,
+      "leadInDistance": 0.949,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37047817",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/peak-performance",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/peak-performance"
+    },
+    {
+      "id": 1201172818,
+      "name": "Power Punches",
+      "slug": "power-punches",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 23.48,
+      "elevation": 205,
+      "leadInDistance": 0.19,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3030004732,
+      "name": "Power to the Portal",
+      "slug": "power-to-the-portal",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 17.576,
+      "elevation": 99,
+      "leadInDistance": 0.949,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/power-to-the-portal",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2064290391,
+      "name": "Power to the Tower",
+      "slug": "power-to-the-tower",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 44.704,
+      "elevation": 1493,
+      "leadInDistance": 0.945,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37731230",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/power-to-the-tower",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/power-to-the-tower"
+    },
+    {
+      "id": 2969952077,
+      "name": "Quatch Quest",
+      "slug": "quatch-quest",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 46.47,
+      "elevation": 1706,
+      "leadInDistance": 0.331,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/21344377",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/quatch-quest",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/quatch-quest"
+    },
+    {
+      "id": 4102513789,
+      "name": "Radio Rendezvous",
+      "slug": "radio-rendezvous",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 20.521,
+      "elevation": 736,
+      "leadInDistance": 3.077,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37716248",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/radio-rendezvous",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/radio-rendezvous"
+    },
+    {
+      "id": 762747962,
+      "name": "Repack Rush",
+      "slug": "repack-rush",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 2.776,
+      "elevation": 28,
+      "leadInDistance": 0.042,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/34612602",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/repack-rush",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/repack-rush"
+    },
+    {
+      "id": 3701568815,
+      "name": "Road to Ruins",
+      "slug": "road-to-ruins",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 29.647,
+      "elevation": 275,
+      "leadInDistance": 0.517,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16404154",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/road-to-ruins",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/road-to-ruins"
+    },
+    {
+      "id": 2967612381,
+      "name": "Road To Ruins Reverse",
+      "slug": "road-to-ruins-rev",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 29.646,
+      "elevation": 275,
+      "leadInDistance": 0.201,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16404387",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/road-to-ruins-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/road-to-ruins-reverse"
+    },
+    {
+      "id": 2663908549,
+      "name": "Road to Sky",
+      "slug": "road-to-sky",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 17.496,
+      "elevation": 1044,
+      "leadInDistance": 0.103,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22280036",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/road-to-sky",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/road-to-sky"
+    },
+    {
+      "id": 772562418,
+      "name": "Run Path Reverse",
+      "slug": "run-path-reverse",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 4.999,
+      "elevation": 31,
+      "leadInDistance": 0.169,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/run-path-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/run-path-reverse"
+    },
+    {
+      "id": 604330868,
+      "name": "Sand And Sequoias",
+      "slug": "sand-and-sequoias",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 20.149,
+      "elevation": 175,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/21911197",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/sand-and-sequoias",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/sand-and-sequoias"
+    },
+    {
+      "id": 3454338139,
+      "name": "Seaside Sprint",
+      "slug": "seaside-sprint",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 6.291,
+      "elevation": 47,
+      "leadInDistance": 2.962,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22913457",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/seaside-sprint",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/seaside-sprint"
+    },
+    {
+      "id": 2829629527,
+      "name": "Serpentine 8",
+      "slug": "serpentine-8",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 19.265,
+      "elevation": 206,
+      "leadInDistance": 7.445,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/26742092",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/serpentine-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/serpentine-8"
+    },
+    {
+      "id": 2328501978,
+      "name": "Shorelines and Summits",
+      "slug": "shorelines-and-summits",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 46.186,
+      "elevation": 773,
+      "leadInDistance": 4.163,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/35697595",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/shorelines-and-summits",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/shorelines-and-summits"
+    },
+    {
+      "id": 3324272424,
+      "name": "Snowman",
+      "slug": "snowman",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 44.037,
+      "elevation": 578,
+      "leadInDistance": 0.194,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37049460",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/snowman",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/snowman"
+    },
+    {
+      "id": 3680493479,
+      "name": "Southern Coast Cruise",
+      "slug": "southern-coast-cruise",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 23.627,
+      "elevation": 136,
+      "leadInDistance": 2.669,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40097976",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/southern-coast-cruise",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/southern-coast-cruise"
+    },
+    {
+      "id": 3261167746,
+      "name": "Spiral into the Volcano",
+      "slug": "spiral-into-the-volcano",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 55.634,
+      "elevation": 355,
+      "leadInDistance": 0.194,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20522725",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/spiral-into-the-volcano",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/spiral-into-the-volcano"
+    },
+    {
+      "id": 1988847319,
+      "name": "Splash and Dash",
+      "slug": "splash-and-dash",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 5.933,
+      "elevation": 26,
+      "leadInDistance": 0.32,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 240388043,
+      "name": "Sugar Cookie",
+      "slug": "sugar-cookie",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 33.553,
+      "elevation": 250,
+      "leadInDistance": 5.659,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/35705425",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/sugar-cookie",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/sugar-cookie"
+    },
+    {
+      "id": 4232726854,
+      "name": "Surfin' Safari",
+      "slug": "surfin-safari",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 9.77,
+      "elevation": 43,
+      "leadInDistance": 0.197,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2062126722,
+      "name": "Tair Dringfa Fechan",
+      "slug": "tair-dringfa-fechan",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 31.115,
+      "elevation": 372,
+      "leadInDistance": 0.949,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38008828",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/tair-dringfa-fechan",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/tair-dringfa-fechan"
+    },
+    {
+      "id": 2330634655,
+      "name": "Temple Trek",
+      "slug": "temple-trek",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 6.51,
+      "elevation": 25,
+      "leadInDistance": 4.2,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/35705430",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/temple-trek",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/temple-trek"
+    },
+    {
+      "id": 2128890027,
+      "name": "Tempus Fugit",
+      "slug": "tempus-fugit",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 17.231,
+      "elevation": 26,
+      "leadInDistance": 2.356,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20350088",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/tempus-fugit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/tempus-fugit"
+    },
+    {
+      "id": 263936293,
+      "name": "That's Amore",
+      "slug": "thats-amore",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 6.439,
+      "elevation": 55,
+      "leadInDistance": 0.288,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/18993582",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/thats-amore",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/that-s-amore"
+    },
+    {
+      "id": 1586193601,
+      "name": "That's Amore Reverse",
+      "slug": "thats-amore-rev",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 5.829,
+      "elevation": 54,
+      "leadInDistance": 0.125,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/thats-amore-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/that-s-amore-reverse"
+    },
+    {
+      "id": 1656629976,
+      "name": "The Big Ring",
+      "slug": "the-big-ring",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 48.865,
+      "elevation": 268,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/35696945",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-big-ring",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/the-big-ring"
+    },
+    {
+      "id": 2698009951,
+      "name": "The Classic",
+      "slug": "the-classic",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 4.836,
+      "elevation": 48,
+      "leadInDistance": 4.181,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38132897",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-classic",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/the-classic"
+    },
+    {
+      "id": 3068694512,
+      "name": "The Classic Run",
+      "slug": "the-classic-run",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 4.836,
+      "elevation": 48,
+      "leadInDistance": 4.181,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38132897",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-classic",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/the-classic-run"
+    },
+    {
+      "id": 2207442179,
+      "name": "The Magnificent 8",
+      "slug": "the-magnificent-8",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 28.932,
+      "elevation": 155,
+      "leadInDistance": 0.205,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22180287",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-magnificent-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/the-magnificent-8"
+    },
+    {
+      "id": 3848492017,
+      "name": "The Mega Pretzel",
+      "slug": "the-mega-pretzel",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 107.275,
+      "elevation": 1638,
+      "leadInDistance": 3.709,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16939150",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-mega-pretzel",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/the-mega-pretzel"
+    },
+    {
+      "id": 1475638265,
+      "name": "The Uber Pretzel",
+      "slug": "the-uber-pretzel",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 128.299,
+      "elevation": 2380,
+      "leadInDistance": 0.523,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/27313482",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-uber-pretzel",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/the-uber-pretzel"
+    },
+    {
+      "id": 2627606248,
+      "name": "Three Little Sisters",
+      "slug": "three-little-sisters",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 37.736,
+      "elevation": 435,
+      "leadInDistance": 0.69,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/22943213",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-little-sisters",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 4142772830,
+      "name": "Three Sisters",
+      "slug": "three-sisters",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 48.011,
+      "elevation": 896,
+      "leadInDistance": 0.457,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/15159137",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-sisters",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/three-sisters"
+    },
+    {
+      "id": 4263172118,
+      "name": "Three Sisters Reverse",
+      "slug": "three-sisters-rev",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 45.693,
+      "elevation": 878,
+      "leadInDistance": 0.2,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/15175857",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-sisters-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/three-sisters-reverse"
+    },
+    {
+      "id": 3536020075,
+      "name": "Three Step Sisters",
+      "slug": "three-step-sisters",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 37.859,
+      "elevation": 586,
+      "leadInDistance": 0.194,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40621964",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/three-step-sisters",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3366225080,
+      "name": "Tick Tock",
+      "slug": "tick-tock",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 16.861,
+      "elevation": 53,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20350376",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/tick-tock",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/tick-tock"
+    },
+    {
+      "id": 270817258,
+      "name": "Tides and Temples",
+      "slug": "tides-and-temples",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 36.471,
+      "elevation": 460,
+      "leadInDistance": 2.669,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37041912",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/tides-and-temples",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/tides-and-temples"
+    },
+    {
+      "id": 3099224394,
+      "name": "Titan's Run",
+      "slug": "titans-run",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 5.883,
+      "elevation": 122,
+      "leadInDistance": 0.69,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37495683",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/titans-run",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/titan-s-run"
+    },
+    {
+      "id": 1766405776,
+      "name": "Tour of Fire and Ice",
+      "slug": "tour-of-fire-and-ice",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 25.361,
+      "elevation": 1164,
+      "leadInDistance": 2.765,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/17265057",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/tour-of-fire-and-ice",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/tour-of-fire-and-ice"
+    },
+    {
+      "id": 3871332877,
+      "name": "Track Meet",
+      "slug": "track-meet",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 6.073,
+      "elevation": 22,
+      "leadInDistance": 0.462,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/track-meet",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/track-meet"
+    },
+    {
+      "id": 3453194200,
+      "name": "Triple Flat Loops",
+      "slug": "triple-flat-loops",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 33.979,
+      "elevation": 157,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20453276",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/triple-flat-loops",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2644664789,
+      "name": "Triple Twist",
+      "slug": "triple-twist",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 19.877,
+      "elevation": 180,
+      "leadInDistance": 4.645,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38138494",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/triple-twist",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/triple-twist"
+    },
+    {
+      "id": 3312037616,
+      "name": "Two Bridges Loop",
+      "slug": "two-bridges-loop",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 7.11,
+      "elevation": 81,
+      "leadInDistance": 0.193,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/26741685",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/two-bridges-loop",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/two-bridges-loop"
+    },
+    {
+      "id": 686828068,
+      "name": "Volcano Circuit",
+      "slug": "volcano-circuit",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 4.104,
+      "elevation": 20,
+      "leadInDistance": 2.758,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/14032406",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-circuit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/volcano-circuit"
+    },
+    {
+      "id": 3866241330,
+      "name": "Volcano Circuit CCW",
+      "slug": "volcano-circuit-ccw",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 4.104,
+      "elevation": 20,
+      "leadInDistance": 4.84,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/14032426",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-circuit-ccw",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/volcano-circuit-ccw"
+    },
+    {
+      "id": 849508252,
+      "name": "Volcano Climb",
+      "slug": "volcano-climb",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 22.861,
+      "elevation": 203,
+      "leadInDistance": 0.478,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/16425130",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-climb",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/volcano-climb"
+    },
+    {
+      "id": 387309391,
+      "name": "Volcano Climb After Party",
+      "slug": "volcano-climb-after-party",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 39.854,
+      "elevation": 285,
+      "leadInDistance": 0.466,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19635842",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-climb-after-party",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/volcano-climb-after-party"
+    },
+    {
+      "id": 3994934674,
+      "name": "Volcano Flat",
+      "slug": "volcano-flat",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 12.35,
+      "elevation": 50,
+      "leadInDistance": 0.492,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/14032442",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-flat",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/volcano-flat"
+    },
+    {
+      "id": 1397026382,
+      "name": "Volcano Flat Reverse",
+      "slug": "volcano-flat-rev",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 12.349,
+      "elevation": 50,
+      "leadInDistance": 0.237,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/volcano-flat-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/volcano-flat-reverse"
+    },
+    {
+      "id": 3378411990,
+      "name": "Waisted 8",
+      "slug": "waisted-8",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 30.687,
+      "elevation": 144,
+      "leadInDistance": 0.194,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38138483",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/waisted-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/waisted-8"
+    },
+    {
+      "id": 3382019812,
+      "name": "Watopia Figure 8",
+      "slug": "figure-8",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 29.695,
+      "elevation": 254,
+      "leadInDistance": 0.492,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12118421",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/figure-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/figure-8"
+    },
+    {
+      "id": 553661379,
+      "name": "Watopia Figure 8 Reverse",
+      "slug": "figure-8-reverse",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 29.698,
+      "elevation": 254,
+      "leadInDistance": 0.193,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/27177732",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/figure-8-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/figure-8-reverse"
+    },
+    {
+      "id": 3395698268,
+      "name": "Watopia Flat Route",
+      "slug": "flat-route",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 10.269,
+      "elevation": 61,
+      "leadInDistance": 0.457,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/27130302",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/flat-route",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/flat-route"
+    },
+    {
+      "id": 2737483381,
+      "name": "Watopia Hilly Route",
+      "slug": "hilly-route",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 9.193,
+      "elevation": 109,
+      "leadInDistance": 0.502,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12118362",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/hilly-route",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/hilly-route"
+    },
+    {
+      "id": 3219074012,
+      "name": "Watopia Mountain 8",
+      "slug": "mountain-8",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 32.256,
+      "elevation": 691,
+      "leadInDistance": 0.492,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12118544",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mountain-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/mountain-8"
+    },
+    {
+      "id": 2966818006,
+      "name": "Watopia Mountain Route",
+      "slug": "mountain-route",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 29.723,
+      "elevation": 683,
+      "leadInDistance": 0.466,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12483517",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/mountain-route",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/mountain-route"
+    },
+    {
+      "id": 2494975884,
+      "name": "Watopia Pretzel",
+      "slug": "the-pretzel",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 72.536,
+      "elevation": 1361,
+      "leadInDistance": 0.485,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/12118762",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-pretzel",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/the-pretzel"
+    },
+    {
+      "id": 1064303857,
+      "name": "Watopia's Waistband",
+      "slug": "watopias-waistband",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 25.46,
+      "elevation": 95,
+      "leadInDistance": 2.28,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20469780",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/watopias-waistband",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/watopia-s-waistband"
+    },
+    {
+      "id": 979250573,
+      "name": "Watts of the Wild",
+      "slug": "watts-of-the-wild",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 42.023,
+      "elevation": 309,
+      "leadInDistance": 0.194,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/40234360",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/watts-of-the-wild",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/watts-of-the-wild"
+    },
+    {
+      "id": 2218409282,
+      "name": "WBR Climbing Series",
+      "slug": "wbr-climbing-series",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 43.209,
+      "elevation": 1116,
+      "leadInDistance": 0.466,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/28776598",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/wbr-climbing-series",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/wbr-climbing-series"
+    },
+    {
+      "id": 982239385,
+      "name": "Whole Lotta Lava",
+      "slug": "whole-lotta-lava",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 12.294,
+      "elevation": 161,
+      "leadInDistance": 4.84,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20545879",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/whole-lotta-lava",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/whole-lotta-lava"
+    },
+    {
+      "id": 1724903700,
+      "name": "ZG25 Queen",
+      "slug": "zg25-queen",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 44.61,
+      "elevation": 894,
+      "leadInDistance": 0.194,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": true,
+      "stravaSegmentUrl": "https://www.strava.com/segments/38412699",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/zg25-queen",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3621162212,
+      "name": "Zwift Bambino Fondo",
+      "slug": "bambino-fondo",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 51.885,
+      "elevation": 580,
+      "leadInDistance": 0.492,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/19641904",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/bambino-fondo",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/zwift-bambino-fondo"
+    },
+    {
+      "id": 3368626651,
+      "name": "Zwift Bambino Fondo 2022",
+      "slug": "2022-bambino-fondo",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 53.057,
+      "elevation": 397,
+      "leadInDistance": 0.194,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30601013",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-bambino-fondo",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 762151244,
+      "name": "Zwift Games 2024 Epic",
+      "slug": "zwift-games-2024-epic",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 79.725,
+      "elevation": 822,
+      "leadInDistance": 1.945,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/36343341",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/zwift-games-2024-epic",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/zwift-games-2024-epic"
+    },
+    {
+      "id": 242381847,
+      "name": "Zwift Gran Fondo",
+      "slug": "gran-fondo",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 97.507,
+      "elevation": 1193,
+      "leadInDistance": 0.457,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20456686",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/gran-fond",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/zwift-gran-fondo"
+    },
+    {
+      "id": 1327147942,
+      "name": "Zwift Gran Fondo 2022",
+      "slug": "2022-gran-fondo",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 92.564,
+      "elevation": 1114,
+      "leadInDistance": 0.194,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30601015",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-gran-fondo",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 3748780161,
+      "name": "Zwift Medio Fondo",
+      "slug": "medio-fondo",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 72.503,
+      "elevation": 1006,
+      "leadInDistance": 0.496,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/20655505",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/medio-fondo",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/watopia/route/zwift-medio-fondo"
+    },
+    {
+      "id": 2900074211,
+      "name": "Zwift Medio Fondo 2022",
+      "slug": "2022-medio-fondo",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 79.125,
+      "elevation": 918,
+      "leadInDistance": 0.194,
+      "eventOnly": true,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/30600597",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/2022-medio-fondo",
+      "whatsOnZwiftUrl": null
+    },
+    {
+      "id": 2007026433,
+      "name": "2019 Worlds Harrogate Circuit",
+      "slug": "harrogate-circuit",
+      "world": "yorkshire",
+      "worldName": "Yorkshire",
+      "distance": 13.834,
+      "elevation": 245,
+      "leadInDistance": 0.111,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/21738724",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/2019-uci-worlds-harrogate-circuit",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/2019-uci-worlds-harrogate-circuit"
+    },
+    {
+      "id": 1233527301,
+      "name": "Duchy Estate",
+      "slug": "duchy-estate",
+      "world": "yorkshire",
+      "worldName": "Yorkshire",
+      "distance": 3,
+      "elevation": 41,
+      "leadInDistance": 1.697,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/21748097",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/duchy-estate",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/duchy-estate"
+    },
+    {
+      "id": 620436060,
+      "name": "Harrogate Circuit Reverse",
+      "slug": "harrogate-circuit-rev",
+      "world": "yorkshire",
+      "worldName": "Yorkshire",
+      "distance": 13.833,
+      "elevation": 245,
+      "leadInDistance": 0.022,
+      "eventOnly": true,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/21747707",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/harrogate-circuit-reverse",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/harrogate-circuit-reverse"
+    },
+    {
+      "id": 3007266671,
+      "name": "Queen's Highway",
+      "slug": "queens-highway",
+      "world": "yorkshire",
+      "worldName": "Yorkshire",
+      "distance": 2.999,
+      "elevation": 41,
+      "leadInDistance": 2.692,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/21748253",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/queens-highway",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/queen-s-highway"
+    },
+    {
+      "id": 87631443,
+      "name": "Queen's Highway After Party",
+      "slug": "queens-highway-after-party",
+      "world": "yorkshire",
+      "worldName": "Yorkshire",
+      "distance": 17.149,
+      "elevation": 259,
+      "leadInDistance": 2.764,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": null,
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/queens-highway-after-party"
+    },
+    {
+      "id": 3878295865,
+      "name": "Queen's Highway Run",
+      "slug": "queens-highway-run",
+      "world": "yorkshire",
+      "worldName": "Yorkshire",
+      "distance": 2.996,
+      "elevation": 41,
+      "leadInDistance": 2.696,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37502819",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/queens-highway",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/queen-s-highway-run"
+    },
+    {
+      "id": 2905381067,
+      "name": "Royal Pump Room 8",
+      "slug": "royal-pump-room-8",
+      "world": "yorkshire",
+      "worldName": "Yorkshire",
+      "distance": 27.712,
+      "elevation": 491,
+      "leadInDistance": 0.022,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/21757792",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/royal-pump-room-8",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/royal-pump-room-8"
+    },
+    {
+      "id": 1086718516,
+      "name": "Tour Of Tewit Well",
+      "slug": "tour-of-tewit-well",
+      "world": "yorkshire",
+      "worldName": "Yorkshire",
+      "distance": 10.877,
+      "elevation": 205,
+      "leadInDistance": 0.027,
+      "eventOnly": false,
+      "lap": true,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/21758283",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/tour-of-tewit-well",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/tour-of-tewit-well"
+    },
+    {
+      "id": 1788218813,
+      "name": "Yorkshire Double Loop",
+      "slug": "yorkshire-double-loop",
+      "world": "yorkshire",
+      "worldName": "Yorkshire",
+      "distance": 29.621,
+      "elevation": 547,
+      "leadInDistance": 0.049,
+      "eventOnly": false,
+      "lap": false,
+      "sports": [
+        "running",
+        "cycling"
+      ],
+      "levelLocked": false,
+      "stravaSegmentUrl": "https://www.strava.com/segments/37300398",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/yorkshire-double-loops",
+      "whatsOnZwiftUrl": "https://whatsonzwift.com/world/yorkshire/route/yorkshire-double-loop"
+    }
+  ]
+}

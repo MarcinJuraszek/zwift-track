@@ -1,0 +1,242 @@
+---
+import Layout from "../layouts/Layout.astro";
+import routeData from "../data/routes.json";
+
+const { worlds, routes, totalRoutes } = routeData;
+
+const sportIcons: Record<string, string> = {
+  cycling: "🚴",
+  running: "🏃",
+};
+
+function formatDistance(km: number): string {
+  return `${km.toFixed(1)} km`;
+}
+
+function formatElevation(m: number): string {
+  return `${Math.round(m)} m`;
+}
+---
+
+<Layout title="Zwift Route Tracker">
+  <!-- Summary Cards -->
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
+    <div class="bg-zwift-dark rounded-lg p-4 border border-gray-700">
+      <div class="text-3xl font-bold text-zwift-orange">{totalRoutes}</div>
+      <div class="text-sm text-gray-400">Total Routes</div>
+    </div>
+    <div class="bg-zwift-dark rounded-lg p-4 border border-gray-700">
+      <div class="text-3xl font-bold text-zwift-orange">{worlds.length}</div>
+      <div class="text-sm text-gray-400">Worlds</div>
+    </div>
+    <div class="bg-zwift-dark rounded-lg p-4 border border-gray-700">
+      <div class="text-3xl font-bold text-zwift-orange">
+        {routes.filter((r: any) => r.sports.includes("cycling")).length}
+      </div>
+      <div class="text-sm text-gray-400">Cycling Routes</div>
+    </div>
+    <div class="bg-zwift-dark rounded-lg p-4 border border-gray-700">
+      <div class="text-3xl font-bold text-zwift-orange">
+        {routes.filter((r: any) => r.sports.includes("running")).length}
+      </div>
+      <div class="text-sm text-gray-400">Running Routes</div>
+    </div>
+  </div>
+
+  <!-- Filters -->
+  <div class="flex flex-wrap gap-3 mb-6" id="filters">
+    <select
+      id="world-filter"
+      class="bg-zwift-dark border border-gray-600 rounded px-3 py-2 text-sm focus:border-zwift-orange focus:outline-none"
+    >
+      <option value="all">All Worlds</option>
+      {worlds
+        .sort((a: any, b: any) => a.name.localeCompare(b.name))
+        .map((w: any) => (
+          <option value={w.slug}>
+            {w.name} ({w.routeCount})
+          </option>
+        ))}
+    </select>
+
+    <select
+      id="sport-filter"
+      class="bg-zwift-dark border border-gray-600 rounded px-3 py-2 text-sm focus:border-zwift-orange focus:outline-none"
+    >
+      <option value="all">All Sports</option>
+      <option value="cycling">🚴 Cycling</option>
+      <option value="running">🏃 Running</option>
+    </select>
+
+    <select
+      id="sort-by"
+      class="bg-zwift-dark border border-gray-600 rounded px-3 py-2 text-sm focus:border-zwift-orange focus:outline-none"
+    >
+      <option value="name">Sort by Name</option>
+      <option value="distance">Sort by Distance</option>
+      <option value="elevation">Sort by Elevation</option>
+      <option value="world">Sort by World</option>
+    </select>
+
+    <input
+      type="text"
+      id="search"
+      placeholder="Search routes..."
+      class="bg-zwift-dark border border-gray-600 rounded px-3 py-2 text-sm focus:border-zwift-orange focus:outline-none flex-1 min-w-[200px]"
+    />
+  </div>
+
+  <!-- Route count -->
+  <div class="text-sm text-gray-400 mb-4">
+    Showing <span id="visible-count">{totalRoutes}</span> of {totalRoutes} routes
+  </div>
+
+  <!-- Route Table -->
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="border-b border-gray-700 text-gray-400 text-left">
+          <th class="py-3 px-3">Route</th>
+          <th class="py-3 px-3">World</th>
+          <th class="py-3 px-3 text-right">Distance</th>
+          <th class="py-3 px-3 text-right">Elevation</th>
+          <th class="py-3 px-3 text-center">Sport</th>
+          <th class="py-3 px-3 text-center">Info</th>
+          <th class="py-3 px-3 text-center">Links</th>
+        </tr>
+      </thead>
+      <tbody id="route-table">
+        {routes.map((route: any) => (
+          <tr
+            class="border-b border-gray-800 hover:bg-zwift-dark/50 transition-colors route-row"
+            data-world={route.world}
+            data-sports={route.sports.join(",")}
+            data-name={route.name.toLowerCase()}
+            data-distance={route.distance}
+            data-elevation={route.elevation}
+            data-world-name={route.worldName}
+          >
+            <td class="py-3 px-3 font-medium">{route.name}</td>
+            <td class="py-3 px-3 text-gray-400">{route.worldName}</td>
+            <td class="py-3 px-3 text-right">{formatDistance(route.distance)}</td>
+            <td class="py-3 px-3 text-right">{formatElevation(route.elevation)}</td>
+            <td class="py-3 px-3 text-center">
+              {route.sports.map((s: string) => sportIcons[s] || s).join(" ")}
+            </td>
+            <td class="py-3 px-3 text-center">
+              <span class="inline-flex gap-1">
+                {route.eventOnly && (
+                  <span class="text-xs bg-yellow-900/50 text-yellow-300 px-1.5 py-0.5 rounded" title="Event Only">
+                    Event
+                  </span>
+                )}
+                {route.lap && (
+                  <span class="text-xs bg-blue-900/50 text-blue-300 px-1.5 py-0.5 rounded" title="Lap Route">
+                    Lap
+                  </span>
+                )}
+                {route.levelLocked && (
+                  <span class="text-xs bg-purple-900/50 text-purple-300 px-1.5 py-0.5 rounded" title="Level Locked">
+                    🔒
+                  </span>
+                )}
+              </span>
+            </td>
+            <td class="py-3 px-3 text-center">
+              <span class="inline-flex gap-2">
+                {route.zwiftInsiderUrl && (
+                  <a
+                    href={route.zwiftInsiderUrl}
+                    target="_blank"
+                    rel="noopener"
+                    class="text-zwift-orange hover:underline text-xs"
+                    title="ZwiftInsider"
+                  >
+                    Insider
+                  </a>
+                )}
+                {route.whatsOnZwiftUrl && (
+                  <a
+                    href={route.whatsOnZwiftUrl}
+                    target="_blank"
+                    rel="noopener"
+                    class="text-zwift-orange hover:underline text-xs"
+                    title="What's on Zwift"
+                  >
+                    WoZ
+                  </a>
+                )}
+              </span>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</Layout>
+
+<script>
+  const worldFilter = document.getElementById("world-filter") as HTMLSelectElement;
+  const sportFilter = document.getElementById("sport-filter") as HTMLSelectElement;
+  const sortBy = document.getElementById("sort-by") as HTMLSelectElement;
+  const searchInput = document.getElementById("search") as HTMLInputElement;
+  const visibleCount = document.getElementById("visible-count")!;
+  const tbody = document.getElementById("route-table")!;
+
+  function applyFilters() {
+    const world = worldFilter.value;
+    const sport = sportFilter.value;
+    const search = searchInput.value.toLowerCase();
+    const rows = Array.from(tbody.querySelectorAll(".route-row")) as HTMLTableRowElement[];
+
+    let count = 0;
+    for (const row of rows) {
+      const rowWorld = row.dataset.world!;
+      const rowSports = row.dataset.sports!;
+      const rowName = row.dataset.name!;
+
+      const worldMatch = world === "all" || rowWorld === world;
+      const sportMatch = sport === "all" || rowSports.includes(sport);
+      const searchMatch = !search || rowName.includes(search);
+
+      const visible = worldMatch && sportMatch && searchMatch;
+      row.style.display = visible ? "" : "none";
+      if (visible) count++;
+    }
+
+    visibleCount.textContent = String(count);
+  }
+
+  function applySorting() {
+    const sort = sortBy.value;
+    const rows = Array.from(tbody.querySelectorAll(".route-row")) as HTMLTableRowElement[];
+
+    rows.sort((a, b) => {
+      switch (sort) {
+        case "name":
+          return a.dataset.name!.localeCompare(b.dataset.name!);
+        case "distance":
+          return parseFloat(b.dataset.distance!) - parseFloat(a.dataset.distance!);
+        case "elevation":
+          return parseFloat(b.dataset.elevation!) - parseFloat(a.dataset.elevation!);
+        case "world":
+          return a.dataset.worldName!.localeCompare(b.dataset.worldName!) ||
+            a.dataset.name!.localeCompare(b.dataset.name!);
+        default:
+          return 0;
+      }
+    });
+
+    for (const row of rows) {
+      tbody.appendChild(row);
+    }
+  }
+
+  worldFilter.addEventListener("change", applyFilters);
+  sportFilter.addEventListener("change", applyFilters);
+  searchInput.addEventListener("input", applyFilters);
+  sortBy.addEventListener("change", () => {
+    applySorting();
+    applyFilters();
+  });
+</script>

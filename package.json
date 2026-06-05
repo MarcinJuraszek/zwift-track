@@ -1,0 +1,27 @@
+{
+  "name": "zwift-track",
+  "version": "1.0.0",
+  "description": "Track your Zwift route completion progress",
+  "type": "module",
+  "scripts": {
+    "sync:routes": "node scripts/sync-routes.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinJuraszek/zwift-track.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcinJuraszek/zwift-track/issues"
+  },
+  "homepage": "https://github.com/MarcinJuraszek/zwift-track#readme",
+  "dependencies": {
+    "astro": "^6.4.4",
+    "zwift-data": "^1.48.6"
+  }
+}

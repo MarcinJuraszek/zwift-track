@@ -113,7 +113,7 @@ function getWorldColor(slug: string) {
 
   <!-- Controls Bar -->
   <div class="flex flex-wrap items-center gap-3 mb-6">
-    <div class="relative flex-1 min-w-[220px] max-w-md">
+    <div class="relative flex-1 min-w-[120px]">
       <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
       </svg>
@@ -129,6 +129,11 @@ function getWorldColor(slug: string) {
       <button data-status="all" class="status-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all">All</button>
       <button data-status="completed" class="status-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">✓ Done</button>
       <button data-status="todo" class="status-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">○ To Do</button>
+    </div>
+
+    <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
+      <button data-event-filter="include" class="event-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all">All Routes</button>
+      <button data-event-filter="exclude" class="event-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Hide Events</button>
     </div>
 
     <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
@@ -192,6 +197,7 @@ function getWorldColor(slug: string) {
           data-experience={route.experience}
           data-world-name={route.worldName}
           data-completed={isCompleted ? "true" : "false"}
+          data-event-only={route.eventOnly ? "true" : "false"}
         >
           {/* Completion check */}
           <div class="w-6 flex-shrink-0 text-center">
@@ -324,11 +330,22 @@ function getWorldColor(slug: string) {
     background: rgba(252, 103, 25, 0.15);
     color: #FC6719;
   }
+  .event-btn {
+    color: #6b7280;
+  }
+  .event-btn:hover {
+    color: #d1d5db;
+  }
+  .event-btn.active {
+    background: rgba(252, 103, 25, 0.15);
+    color: #FC6719;
+  }
 </style>
 
 <script>
   const searchInput = document.getElementById("search") as HTMLInputElement;
   const statusBtns = document.querySelectorAll(".status-btn");
+  const eventBtns = document.querySelectorAll(".event-btn");
   const visibleCount = document.getElementById("visible-count")!;
   const routeList = document.getElementById("route-list")!;
   const worldTabs = document.querySelectorAll(".world-tab");
@@ -338,6 +355,7 @@ function getWorldColor(slug: string) {
   let activeWorld = "all";
   let activeSort = "name";
   let activeStatus = "all";
+  let activeEventFilter = "include";
 
   function applyFilters() {
     const search = searchInput.value.toLowerCase();
@@ -350,8 +368,9 @@ function getWorldColor(slug: string) {
       const statusMatch = activeStatus === "all" ||
         (activeStatus === "completed" && row.dataset.completed === "true") ||
         (activeStatus === "todo" && row.dataset.completed === "false");
+      const eventMatch = activeEventFilter === "include" || row.dataset.eventOnly !== "true";
 
-      const visible = worldMatch && searchMatch && statusMatch;
+      const visible = worldMatch && searchMatch && statusMatch && eventMatch;
       row.style.display = visible ? "" : "none";
       if (visible) count++;
     }
@@ -426,6 +445,16 @@ function getWorldColor(slug: string) {
       statusBtns.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
       activeStatus = (btn as HTMLElement).dataset.status!;
+      applyFilters();
+    });
+  });
+
+  // Event filter button clicks
+  eventBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      eventBtns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeEventFilter = (btn as HTMLElement).dataset.eventFilter!;
       applyFilters();
     });
   });

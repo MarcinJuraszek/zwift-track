@@ -157,7 +157,7 @@ function getWorldColor(slug: string) {
           {/* Tags */}
           <div class="hidden sm:flex items-center gap-1.5 flex-shrink-0">
             {route.eventOnly && (
-              <span class="text-[10px] font-semibold uppercase tracking-wider bg-yellow-500/15 text-yellow-400 px-2 py-0.5 rounded-full border border-yellow-500/20">
+              <span class="text-[10px] font-semibold uppercase tracking-wider bg-yellow-500/15 text-yellow-400 px-2 py-0.5 rounded-full border border-yellow-500/20 cursor-help" title="Only available during events, not in free ride">
                 Event
               </span>
             )}
@@ -167,7 +167,7 @@ function getWorldColor(slug: string) {
               </span>
             )}
             {route.levelLocked && (
-              <span class="text-[10px] font-semibold uppercase tracking-wider bg-purple-500/15 text-purple-400 px-2 py-0.5 rounded-full border border-purple-500/20">
+              <span class="text-[10px] font-semibold uppercase tracking-wider bg-purple-500/15 text-purple-400 px-2 py-0.5 rounded-full border border-purple-500/20 cursor-help" title="Locked until you reach a certain level in Zwift">
                 🔒
               </span>
             )}

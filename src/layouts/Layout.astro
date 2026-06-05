@@ -12,37 +12,60 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            },
             colors: {
               zwift: {
-                orange: "#FC6719",
-                dark: "#1a1a2e",
-                darker: "#16162a",
+                orange: '#FC6719',
+                'orange-light': '#FF8A47',
+                dark: '#1a1a2e',
+                darker: '#111125',
+                darkest: '#0a0a1a',
+                card: '#1e1e35',
               },
             },
           },
         },
       };
     </script>
+    <style>
+      /* Custom scrollbar */
+      ::-webkit-scrollbar { width: 6px; height: 6px; }
+      ::-webkit-scrollbar-track { background: #1a1a2e; }
+      ::-webkit-scrollbar-thumb { background: #3a3a5e; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #FC6719; }
+    </style>
   </head>
-  <body class="bg-zwift-darker text-gray-100 min-h-screen">
-    <header class="bg-zwift-dark border-b border-gray-700">
-      <div class="max-w-7xl mx-auto px-4 py-4 flex items-center gap-3">
-        <span class="text-2xl">🚴</span>
-        <h1 class="text-xl font-bold text-zwift-orange">Zwift Route Tracker</h1>
+  <body class="bg-zwift-darkest text-gray-100 min-h-screen font-sans">
+    <header class="bg-gradient-to-r from-zwift-darker to-zwift-dark border-b border-gray-800 sticky top-0 z-50 backdrop-blur-sm bg-opacity-95">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 bg-gradient-to-br from-zwift-orange to-zwift-orange-light rounded-xl flex items-center justify-center shadow-lg shadow-zwift-orange/20">
+            <span class="text-xl">🚴</span>
+          </div>
+          <div>
+            <h1 class="text-lg font-bold text-white tracking-tight">Zwift Route Tracker</h1>
+            <p class="text-xs text-gray-500 -mt-0.5">Every route. Every world.</p>
+          </div>
+        </div>
       </div>
     </header>
-    <main class="max-w-7xl mx-auto px-4 py-8">
+    <main class="max-w-7xl mx-auto px-6 py-8">
       <slot />
     </main>
-    <footer class="border-t border-gray-700 mt-12">
-      <div class="max-w-7xl mx-auto px-4 py-4 text-sm text-gray-500">
-        Route data from <a href="https://github.com/andipaetzold/zwift-data" class="text-zwift-orange hover:underline">zwift-data</a>.
-        Not affiliated with Zwift.
+    <footer class="border-t border-gray-800/50 mt-16">
+      <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-600">
+        <span>Route data from <a href="https://github.com/andipaetzold/zwift-data" class="text-gray-400 hover:text-zwift-orange transition-colors">zwift-data</a>. Not affiliated with Zwift.</span>
+        <a href="https://github.com/MarcinJuraszek/zwift-track" class="text-gray-400 hover:text-zwift-orange transition-colors">GitHub</a>
       </div>
     </footer>
   </body>

@@ -4,10 +4,16 @@ import routeData from "../data/routes.json";
 
 const { worlds, routes, totalRoutes } = routeData;
 
-const sportIcons: Record<string, string> = {
-  cycling: "🚴",
-  running: "🏃",
-};
+// Group routes by world
+const sortedWorlds = worlds
+  .filter((w: any) => w.routeCount > 0)
+  .sort((a: any, b: any) => b.routeCount - a.routeCount);
+
+const routesByWorld: Record<string, any[]> = {};
+for (const route of routes) {
+  if (!routesByWorld[route.world]) routesByWorld[route.world] = [];
+  routesByWorld[route.world].push(route);
+}
 
 function formatDistance(km: number): string {
   return `${km.toFixed(1)} km`;
@@ -16,188 +22,277 @@ function formatDistance(km: number): string {
 function formatElevation(m: number): string {
   return `${Math.round(m)} m`;
 }
+
+const cyclingCount = routes.filter((r: any) => r.sports.includes("cycling")).length;
+const runningCount = routes.filter((r: any) => r.sports.includes("running")).length;
+
+// World colors for visual variety
+const worldColors: Record<string, { bg: string; border: string; text: string; accent: string }> = {
+  watopia:        { bg: "bg-emerald-500/10", border: "border-emerald-500/30", text: "text-emerald-400", accent: "bg-emerald-500" },
+  "new-york":     { bg: "bg-blue-500/10",    border: "border-blue-500/30",    text: "text-blue-400",    accent: "bg-blue-500" },
+  "makuri-islands": { bg: "bg-pink-500/10",  border: "border-pink-500/30",    text: "text-pink-400",    accent: "bg-pink-500" },
+  london:         { bg: "bg-red-500/10",     border: "border-red-500/30",     text: "text-red-400",     accent: "bg-red-500" },
+  france:         { bg: "bg-indigo-500/10",  border: "border-indigo-500/30",  text: "text-indigo-400",  accent: "bg-indigo-500" },
+  scotland:       { bg: "bg-cyan-500/10",    border: "border-cyan-500/30",    text: "text-cyan-400",    accent: "bg-cyan-500" },
+  richmond:       { bg: "bg-amber-500/10",   border: "border-amber-500/30",   text: "text-amber-400",   accent: "bg-amber-500" },
+  yorkshire:      { bg: "bg-lime-500/10",    border: "border-lime-500/30",    text: "text-lime-400",    accent: "bg-lime-500" },
+  innsbruck:      { bg: "bg-violet-500/10",  border: "border-violet-500/30",  text: "text-violet-400",  accent: "bg-violet-500" },
+  paris:          { bg: "bg-rose-500/10",    border: "border-rose-500/30",    text: "text-rose-400",    accent: "bg-rose-500" },
+  "crit-city":    { bg: "bg-orange-500/10",  border: "border-orange-500/30",  text: "text-orange-400",  accent: "bg-orange-500" },
+  bologna:        { bg: "bg-teal-500/10",    border: "border-teal-500/30",    text: "text-teal-400",    accent: "bg-teal-500" },
+};
+
+function getWorldColor(slug: string) {
+  return worldColors[slug] || { bg: "bg-gray-500/10", border: "border-gray-500/30", text: "text-gray-400", accent: "bg-gray-500" };
+}
 ---
 
 <Layout title="Zwift Route Tracker">
-  <!-- Summary Cards -->
-  <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
-    <div class="bg-zwift-dark rounded-lg p-4 border border-gray-700">
-      <div class="text-3xl font-bold text-zwift-orange">{totalRoutes}</div>
-      <div class="text-sm text-gray-400">Total Routes</div>
-    </div>
-    <div class="bg-zwift-dark rounded-lg p-4 border border-gray-700">
-      <div class="text-3xl font-bold text-zwift-orange">{worlds.length}</div>
-      <div class="text-sm text-gray-400">Worlds</div>
-    </div>
-    <div class="bg-zwift-dark rounded-lg p-4 border border-gray-700">
-      <div class="text-3xl font-bold text-zwift-orange">
-        {routes.filter((r: any) => r.sports.includes("cycling")).length}
+  <!-- Hero Stats -->
+  <div class="mb-10">
+    <div class="flex flex-wrap items-end gap-6 mb-2">
+      <div>
+        <div class="text-5xl font-extrabold text-white tracking-tight">{totalRoutes}</div>
+        <div class="text-sm text-gray-500 font-medium">routes across {worlds.length} worlds</div>
       </div>
-      <div class="text-sm text-gray-400">Cycling Routes</div>
-    </div>
-    <div class="bg-zwift-dark rounded-lg p-4 border border-gray-700">
-      <div class="text-3xl font-bold text-zwift-orange">
-        {routes.filter((r: any) => r.sports.includes("running")).length}
+      <div class="flex gap-4 pb-1">
+        <div class="flex items-center gap-1.5 text-sm text-gray-400">
+          <span class="w-2 h-2 rounded-full bg-zwift-orange inline-block"></span>
+          {cyclingCount} cycling
+        </div>
+        <div class="flex items-center gap-1.5 text-sm text-gray-400">
+          <span class="w-2 h-2 rounded-full bg-blue-400 inline-block"></span>
+          {runningCount} running
+        </div>
       </div>
-      <div class="text-sm text-gray-400">Running Routes</div>
+    </div>
+
+    <!-- World bar chart visualization -->
+    <div class="flex gap-1 h-2 rounded-full overflow-hidden bg-zwift-dark mt-4">
+      {sortedWorlds.map((w: any) => {
+        const color = getWorldColor(w.slug);
+        const widthPercent = (w.routeCount / totalRoutes) * 100;
+        return (
+          <div
+            class={`${color.accent} opacity-80 hover:opacity-100 transition-opacity cursor-pointer`}
+            style={`width: ${widthPercent}%`}
+            title={`${w.name}: ${w.routeCount} routes`}
+            data-world-bar={w.slug}
+          />
+        );
+      })}
     </div>
   </div>
 
-  <!-- Filters -->
-  <div class="flex flex-wrap gap-3 mb-6" id="filters">
-    <select
-      id="world-filter"
-      class="bg-zwift-dark border border-gray-600 rounded px-3 py-2 text-sm focus:border-zwift-orange focus:outline-none"
-    >
-      <option value="all">All Worlds</option>
-      {worlds
-        .sort((a: any, b: any) => a.name.localeCompare(b.name))
-        .map((w: any) => (
-          <option value={w.slug}>
-            {w.name} ({w.routeCount})
-          </option>
-        ))}
-    </select>
+  <!-- Controls Bar -->
+  <div class="flex flex-wrap items-center gap-3 mb-6">
+    <div class="relative flex-1 min-w-[220px] max-w-md">
+      <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+      <input
+        type="text"
+        id="search"
+        placeholder="Search routes..."
+        class="w-full bg-zwift-card border border-gray-700/50 rounded-lg pl-10 pr-4 py-2.5 text-sm focus:border-zwift-orange focus:outline-none focus:ring-1 focus:ring-zwift-orange/30 placeholder-gray-600 transition-all"
+      />
+    </div>
 
     <select
       id="sport-filter"
-      class="bg-zwift-dark border border-gray-600 rounded px-3 py-2 text-sm focus:border-zwift-orange focus:outline-none"
+      class="bg-zwift-card border border-gray-700/50 rounded-lg px-3 py-2.5 text-sm focus:border-zwift-orange focus:outline-none cursor-pointer transition-colors"
     >
       <option value="all">All Sports</option>
       <option value="cycling">🚴 Cycling</option>
       <option value="running">🏃 Running</option>
     </select>
 
-    <select
-      id="sort-by"
-      class="bg-zwift-dark border border-gray-600 rounded px-3 py-2 text-sm focus:border-zwift-orange focus:outline-none"
-    >
-      <option value="name">Sort by Name</option>
-      <option value="distance">Sort by Distance</option>
-      <option value="elevation">Sort by Elevation</option>
-      <option value="world">Sort by World</option>
-    </select>
+    <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
+      <button data-sort="name" class="sort-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all">Name</button>
+      <button data-sort="distance-asc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Shortest</button>
+      <button data-sort="distance-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Longest</button>
+      <button data-sort="elevation-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Hilliest</button>
+    </div>
+  </div>
 
-    <input
-      type="text"
-      id="search"
-      placeholder="Search routes..."
-      class="bg-zwift-dark border border-gray-600 rounded px-3 py-2 text-sm focus:border-zwift-orange focus:outline-none flex-1 min-w-[200px]"
-    />
+  <!-- World Tabs -->
+  <div class="flex gap-2 mb-6 overflow-x-auto pb-2 scrollbar-thin" id="world-tabs">
+    <button
+      class="world-tab active whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-all border"
+      data-world="all"
+    >
+      All Worlds
+      <span class="ml-1.5 text-xs opacity-60">{totalRoutes}</span>
+    </button>
+    {sortedWorlds.map((w: any) => {
+      const color = getWorldColor(w.slug);
+      return (
+        <button
+          class={`world-tab whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-all border`}
+          data-world={w.slug}
+          data-color-bg={color.bg}
+          data-color-border={color.border}
+          data-color-text={color.text}
+        >
+          {w.name}
+          <span class="ml-1.5 text-xs opacity-60">{w.routeCount}</span>
+        </button>
+      );
+    })}
   </div>
 
   <!-- Route count -->
-  <div class="text-sm text-gray-400 mb-4">
-    Showing <span id="visible-count">{totalRoutes}</span> of {totalRoutes} routes
+  <div class="text-xs text-gray-500 mb-3 font-medium uppercase tracking-wider">
+    <span id="visible-count">{totalRoutes}</span> routes
   </div>
 
-  <!-- Route Table -->
-  <div class="overflow-x-auto">
-    <table class="w-full text-sm">
-      <thead>
-        <tr class="border-b border-gray-700 text-gray-400 text-left">
-          <th class="py-3 px-3">Route</th>
-          <th class="py-3 px-3">World</th>
-          <th class="py-3 px-3 text-right">Distance</th>
-          <th class="py-3 px-3 text-right">Elevation</th>
-          <th class="py-3 px-3 text-center">Sport</th>
-          <th class="py-3 px-3 text-center">Info</th>
-          <th class="py-3 px-3 text-center">Links</th>
-        </tr>
-      </thead>
-      <tbody id="route-table">
-        {routes.map((route: any) => (
-          <tr
-            class="border-b border-gray-800 hover:bg-zwift-dark/50 transition-colors route-row"
-            data-world={route.world}
-            data-sports={route.sports.join(",")}
-            data-name={route.name.toLowerCase()}
-            data-distance={route.distance}
-            data-elevation={route.elevation}
-            data-world-name={route.worldName}
-          >
-            <td class="py-3 px-3 font-medium">{route.name}</td>
-            <td class="py-3 px-3 text-gray-400">{route.worldName}</td>
-            <td class="py-3 px-3 text-right">{formatDistance(route.distance)}</td>
-            <td class="py-3 px-3 text-right">{formatElevation(route.elevation)}</td>
-            <td class="py-3 px-3 text-center">
-              {route.sports.map((s: string) => sportIcons[s] || s).join(" ")}
-            </td>
-            <td class="py-3 px-3 text-center">
-              <span class="inline-flex gap-1">
-                {route.eventOnly && (
-                  <span class="text-xs bg-yellow-900/50 text-yellow-300 px-1.5 py-0.5 rounded" title="Event Only">
-                    Event
-                  </span>
-                )}
-                {route.lap && (
-                  <span class="text-xs bg-blue-900/50 text-blue-300 px-1.5 py-0.5 rounded" title="Lap Route">
-                    Lap
-                  </span>
-                )}
-                {route.levelLocked && (
-                  <span class="text-xs bg-purple-900/50 text-purple-300 px-1.5 py-0.5 rounded" title="Level Locked">
-                    🔒
-                  </span>
-                )}
+  <!-- Route Cards / Table -->
+  <div class="space-y-1" id="route-list">
+    {routes.map((route: any) => {
+      const color = getWorldColor(route.world);
+      const maxDist = 200;
+      const distPercent = Math.min((route.distance / maxDist) * 100, 100);
+      return (
+        <div
+          class={`route-row group flex items-center gap-4 px-4 py-3 rounded-lg hover:bg-zwift-card/80 transition-all cursor-default border border-transparent hover:border-gray-700/30`}
+          data-world={route.world}
+          data-sports={route.sports.join(",")}
+          data-name={route.name.toLowerCase()}
+          data-distance={route.distance}
+          data-elevation={route.elevation}
+          data-world-name={route.worldName}
+        >
+          {/* Color indicator */}
+          <div class={`w-1 h-10 rounded-full ${color.accent} opacity-40 group-hover:opacity-80 transition-opacity flex-shrink-0`} />
+
+          {/* Route name & world */}
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold text-white group-hover:text-zwift-orange-light transition-colors truncate">
+              {route.name}
+            </div>
+            <div class={`text-xs ${color.text} opacity-70`}>{route.worldName}</div>
+          </div>
+
+          {/* Tags */}
+          <div class="hidden sm:flex items-center gap-1.5 flex-shrink-0">
+            {route.eventOnly && (
+              <span class="text-[10px] font-semibold uppercase tracking-wider bg-yellow-500/15 text-yellow-400 px-2 py-0.5 rounded-full border border-yellow-500/20">
+                Event
               </span>
-            </td>
-            <td class="py-3 px-3 text-center">
-              <span class="inline-flex gap-2">
-                {route.zwiftInsiderUrl && (
-                  <a
-                    href={route.zwiftInsiderUrl}
-                    target="_blank"
-                    rel="noopener"
-                    class="text-zwift-orange hover:underline text-xs"
-                    title="ZwiftInsider"
-                  >
-                    Insider
-                  </a>
-                )}
-                {route.whatsOnZwiftUrl && (
-                  <a
-                    href={route.whatsOnZwiftUrl}
-                    target="_blank"
-                    rel="noopener"
-                    class="text-zwift-orange hover:underline text-xs"
-                    title="What's on Zwift"
-                  >
-                    WoZ
-                  </a>
-                )}
+            )}
+            {route.lap && (
+              <span class="text-[10px] font-semibold uppercase tracking-wider bg-blue-500/15 text-blue-400 px-2 py-0.5 rounded-full border border-blue-500/20">
+                Lap
               </span>
-            </td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+            )}
+            {route.levelLocked && (
+              <span class="text-[10px] font-semibold uppercase tracking-wider bg-purple-500/15 text-purple-400 px-2 py-0.5 rounded-full border border-purple-500/20">
+                🔒
+              </span>
+            )}
+          </div>
+
+          {/* Sport icons */}
+          <div class="flex gap-1 flex-shrink-0 text-sm opacity-50 group-hover:opacity-80">
+            {route.sports.includes("cycling") && <span title="Cycling">🚴</span>}
+            {route.sports.includes("running") && <span title="Running">🏃</span>}
+          </div>
+
+          {/* Distance bar */}
+          <div class="hidden md:flex items-center gap-2 w-40 flex-shrink-0">
+            <div class="flex-1 h-1.5 bg-zwift-dark rounded-full overflow-hidden">
+              <div class={`h-full ${color.accent} opacity-50 rounded-full`} style={`width: ${distPercent}%`} />
+            </div>
+            <span class="text-xs text-gray-400 w-16 text-right font-mono">{formatDistance(route.distance)}</span>
+          </div>
+
+          {/* Elevation */}
+          <div class="hidden lg:flex items-center gap-1 w-20 flex-shrink-0 justify-end">
+            <svg class="w-3 h-3 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 17l6-8 4 5 6-10v13H2z" />
+            </svg>
+            <span class="text-xs text-gray-400 font-mono">{formatElevation(route.elevation)}</span>
+          </div>
+
+          {/* Links */}
+          <div class="hidden xl:flex gap-2 flex-shrink-0">
+            {route.zwiftInsiderUrl && (
+              <a
+                href={route.zwiftInsiderUrl}
+                target="_blank"
+                rel="noopener"
+                class="text-[10px] text-gray-600 hover:text-zwift-orange transition-colors uppercase tracking-wider font-semibold"
+              >
+                Insider
+              </a>
+            )}
+            {route.whatsOnZwiftUrl && (
+              <a
+                href={route.whatsOnZwiftUrl}
+                target="_blank"
+                rel="noopener"
+                class="text-[10px] text-gray-600 hover:text-zwift-orange transition-colors uppercase tracking-wider font-semibold"
+              >
+                WoZ
+              </a>
+            )}
+          </div>
+        </div>
+      );
+    })}
   </div>
 </Layout>
 
+<style>
+  .world-tab {
+    background: transparent;
+    border-color: transparent;
+    color: #9ca3af;
+  }
+  .world-tab:hover {
+    background: rgba(255,255,255,0.03);
+    border-color: rgba(255,255,255,0.08);
+    color: #e5e7eb;
+  }
+  .world-tab.active {
+    background: rgba(252, 103, 25, 0.1);
+    border-color: rgba(252, 103, 25, 0.3);
+    color: #FC6719;
+  }
+  .sort-btn {
+    color: #6b7280;
+  }
+  .sort-btn:hover {
+    color: #d1d5db;
+  }
+  .sort-btn.active {
+    background: rgba(252, 103, 25, 0.15);
+    color: #FC6719;
+  }
+</style>
+
 <script>
-  const worldFilter = document.getElementById("world-filter") as HTMLSelectElement;
-  const sportFilter = document.getElementById("sport-filter") as HTMLSelectElement;
-  const sortBy = document.getElementById("sort-by") as HTMLSelectElement;
   const searchInput = document.getElementById("search") as HTMLInputElement;
+  const sportFilter = document.getElementById("sport-filter") as HTMLSelectElement;
   const visibleCount = document.getElementById("visible-count")!;
-  const tbody = document.getElementById("route-table")!;
+  const routeList = document.getElementById("route-list")!;
+  const worldTabs = document.querySelectorAll(".world-tab");
+  const sortBtns = document.querySelectorAll(".sort-btn");
+  const worldBars = document.querySelectorAll("[data-world-bar]");
+
+  let activeWorld = "all";
+  let activeSort = "name";
 
   function applyFilters() {
-    const world = worldFilter.value;
     const sport = sportFilter.value;
     const search = searchInput.value.toLowerCase();
-    const rows = Array.from(tbody.querySelectorAll(".route-row")) as HTMLTableRowElement[];
+    const rows = Array.from(routeList.querySelectorAll(".route-row")) as HTMLElement[];
 
     let count = 0;
     for (const row of rows) {
-      const rowWorld = row.dataset.world!;
-      const rowSports = row.dataset.sports!;
-      const rowName = row.dataset.name!;
-
-      const worldMatch = world === "all" || rowWorld === world;
-      const sportMatch = sport === "all" || rowSports.includes(sport);
-      const searchMatch = !search || rowName.includes(search);
+      const worldMatch = activeWorld === "all" || row.dataset.world === activeWorld;
+      const sportMatch = sport === "all" || row.dataset.sports!.includes(sport);
+      const searchMatch = !search || row.dataset.name!.includes(search);
 
       const visible = worldMatch && sportMatch && searchMatch;
       row.style.display = visible ? "" : "none";
@@ -208,35 +303,63 @@ function formatElevation(m: number): string {
   }
 
   function applySorting() {
-    const sort = sortBy.value;
-    const rows = Array.from(tbody.querySelectorAll(".route-row")) as HTMLTableRowElement[];
+    const rows = Array.from(routeList.querySelectorAll(".route-row")) as HTMLElement[];
 
     rows.sort((a, b) => {
-      switch (sort) {
+      switch (activeSort) {
         case "name":
           return a.dataset.name!.localeCompare(b.dataset.name!);
-        case "distance":
+        case "distance-asc":
+          return parseFloat(a.dataset.distance!) - parseFloat(b.dataset.distance!);
+        case "distance-desc":
           return parseFloat(b.dataset.distance!) - parseFloat(a.dataset.distance!);
-        case "elevation":
+        case "elevation-desc":
           return parseFloat(b.dataset.elevation!) - parseFloat(a.dataset.elevation!);
-        case "world":
-          return a.dataset.worldName!.localeCompare(b.dataset.worldName!) ||
-            a.dataset.name!.localeCompare(b.dataset.name!);
         default:
           return 0;
       }
     });
 
     for (const row of rows) {
-      tbody.appendChild(row);
+      routeList.appendChild(row);
     }
   }
 
-  worldFilter.addEventListener("change", applyFilters);
+  // World tab clicks
+  worldTabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      worldTabs.forEach((t) => t.classList.remove("active"));
+      tab.classList.add("active");
+      activeWorld = (tab as HTMLElement).dataset.world!;
+      applyFilters();
+    });
+  });
+
+  // World bar clicks
+  worldBars.forEach((bar) => {
+    bar.addEventListener("click", () => {
+      const slug = (bar as HTMLElement).dataset.worldBar!;
+      worldTabs.forEach((t) => {
+        t.classList.remove("active");
+        if ((t as HTMLElement).dataset.world === slug) t.classList.add("active");
+      });
+      activeWorld = slug;
+      applyFilters();
+    });
+  });
+
+  // Sort button clicks
+  sortBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      sortBtns.forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeSort = (btn as HTMLElement).dataset.sort!;
+      applySorting();
+      applyFilters();
+    });
+  });
+
+  // Filter inputs
   sportFilter.addEventListener("change", applyFilters);
   searchInput.addEventListener("input", applyFilters);
-  sortBy.addEventListener("change", () => {
-    applySorting();
-    applyFilters();
-  });
 </script>

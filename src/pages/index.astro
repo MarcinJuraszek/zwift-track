@@ -394,6 +394,65 @@ function getWorldColor(slug: string) {
   let activeSortDir: "asc" | "desc" = "asc";
   let activeStatus = "all";
   let activeEventFilter = "include";
+  let activeUnits: "metric" | "imperial" = "imperial";
+
+  function saveState() {
+    localStorage.setItem("zwift-state", JSON.stringify({
+      world: activeWorld,
+      sortField: activeSortField,
+      sortDir: activeSortDir,
+      status: activeStatus,
+      eventFilter: activeEventFilter,
+      units: activeUnits,
+      search: searchInput.value,
+    }));
+  }
+
+  // Restore saved state
+  try {
+    const saved = JSON.parse(localStorage.getItem("zwift-state") || "{}");
+    if (saved.world) activeWorld = saved.world;
+    if (saved.sortField) activeSortField = saved.sortField;
+    if (saved.sortDir) activeSortDir = saved.sortDir;
+    if (saved.status) activeStatus = saved.status;
+    if (saved.eventFilter) activeEventFilter = saved.eventFilter;
+    if (saved.units) activeUnits = saved.units;
+    if (saved.search) searchInput.value = saved.search;
+  } catch {}
+
+  // Apply restored UI state to buttons/tabs
+  function activateBtn(group: NodeListOf<Element>, attr: string, value: string) {
+    group.forEach((b) => {
+      b.classList.toggle("active", (b as HTMLElement).dataset[attr] === value);
+    });
+  }
+  activateBtn(worldTabs, "world", activeWorld);
+  activateBtn(statusBtns, "status", activeStatus);
+  activateBtn(eventBtns, "eventFilter", activeEventFilter);
+
+  // Restore sort button state
+  sortBtns.forEach((b) => {
+    const arrow = b.querySelector(".sort-arrow");
+    if (arrow) arrow.remove();
+    if ((b as HTMLElement).dataset.sort === activeSortField) {
+      b.classList.add("active");
+      const arrowEl = document.createElement("span");
+      arrowEl.className = "sort-arrow";
+      arrowEl.textContent = activeSortDir === "asc" ? "↑" : "↓";
+      b.appendChild(arrowEl);
+    } else {
+      b.classList.remove("active");
+    }
+  });
+
+  // Restore unit toggle
+  if (activeUnits === "metric") {
+    unitMetricBtn.classList.add("active");
+    unitImperialBtn.classList.remove("active");
+  } else {
+    unitImperialBtn.classList.add("active");
+    unitMetricBtn.classList.remove("active");
+  }
 
   function applyFilters() {
     const search = searchInput.value.toLowerCase();
@@ -439,6 +498,7 @@ function getWorldColor(slug: string) {
       worldTabs.forEach((t) => t.classList.remove("active"));
       tab.classList.add("active");
       activeWorld = (tab as HTMLElement).dataset.world!;
+      saveState();
       applyFilters();
     });
   });
@@ -452,6 +512,7 @@ function getWorldColor(slug: string) {
         if ((t as HTMLElement).dataset.world === slug) t.classList.add("active");
       });
       activeWorld = slug;
+      saveState();
       applyFilters();
     });
   });
@@ -477,6 +538,7 @@ function getWorldColor(slug: string) {
       arrow.className = "sort-arrow";
       arrow.textContent = activeSortDir === "asc" ? "↑" : "↓";
       btn.appendChild(arrow);
+      saveState();
       applySorting();
       applyFilters();
     });
@@ -488,6 +550,7 @@ function getWorldColor(slug: string) {
       statusBtns.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
       activeStatus = (btn as HTMLElement).dataset.status!;
+      saveState();
       applyFilters();
     });
   });
@@ -498,12 +561,13 @@ function getWorldColor(slug: string) {
       eventBtns.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
       activeEventFilter = (btn as HTMLElement).dataset.eventFilter!;
+      saveState();
       applyFilters();
     });
   });
 
   // Filter inputs
-  searchInput.addEventListener("input", applyFilters);
+  searchInput.addEventListener("input", () => { saveState(); applyFilters(); });
 
   // Unit toggle
   function applyUnits(imperial: boolean) {
@@ -556,15 +620,21 @@ function getWorldColor(slug: string) {
   unitMetricBtn.addEventListener("click", () => {
     unitMetricBtn.classList.add("active");
     unitImperialBtn.classList.remove("active");
+    activeUnits = "metric";
+    saveState();
     applyUnits(false);
   });
 
   unitImperialBtn.addEventListener("click", () => {
     unitImperialBtn.classList.add("active");
     unitMetricBtn.classList.remove("active");
+    activeUnits = "imperial";
+    saveState();
     applyUnits(true);
   });
 
-  // Initial sort on page load
+  // Initial apply on page load
   applySorting();
+  applyFilters();
+  applyUnits(activeUnits === "imperial");
 </script>

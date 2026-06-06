@@ -1,36 +1,250 @@
 {
-  "month": "2026-06",
-  "note": "Watopia is always available and not listed. Each day shows 2 guest worlds.",
+  "note": "Auto-generated from Zwift Insider. Watopia is always available and not listed.",
+  "lastUpdated": "2026-06-06",
   "schedule": {
-    "2026-06-01": ["yorkshire", "london"],
-    "2026-06-02": ["yorkshire", "london"],
-    "2026-06-03": ["makuri-islands", "scotland"],
-    "2026-06-04": ["makuri-islands", "scotland"],
-    "2026-06-05": ["new-york", "makuri-islands"],
-    "2026-06-06": ["new-york", "makuri-islands"],
-    "2026-06-07": ["paris", "france"],
-    "2026-06-08": ["paris", "france"],
-    "2026-06-09": ["yorkshire", "london"],
-    "2026-06-10": ["yorkshire", "london"],
-    "2026-06-11": ["london", "richmond"],
-    "2026-06-12": ["london", "richmond"],
-    "2026-06-13": ["richmond", "innsbruck"],
-    "2026-06-14": ["new-york", "makuri-islands"],
-    "2026-06-15": ["new-york", "makuri-islands"],
-    "2026-06-16": ["makuri-islands", "scotland"],
-    "2026-06-17": ["makuri-islands", "scotland"],
-    "2026-06-18": ["paris", "france"],
-    "2026-06-19": ["paris", "france"],
-    "2026-06-20": ["yorkshire", "london"],
-    "2026-06-21": ["yorkshire", "london"],
-    "2026-06-22": ["london", "richmond"],
-    "2026-06-23": ["london", "richmond"],
-    "2026-06-24": ["richmond", "innsbruck"],
-    "2026-06-25": ["makuri-islands", "scotland"],
-    "2026-06-26": ["makuri-islands", "scotland"],
-    "2026-06-27": ["new-york", "makuri-islands"],
-    "2026-06-28": ["new-york", "makuri-islands"],
-    "2026-06-29": ["yorkshire", "london"],
-    "2026-06-30": ["yorkshire", "london"]
+    "2026-05-01": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-05-02": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-05-03": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-05-04": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-05-05": [
+      "richmond",
+      "innsbruck"
+    ],
+    "2026-05-06": [
+      "london",
+      "richmond"
+    ],
+    "2026-05-07": [
+      "london",
+      "richmond"
+    ],
+    "2026-05-08": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-05-09": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-05-10": [
+      "paris",
+      "france"
+    ],
+    "2026-05-11": [
+      "paris",
+      "france"
+    ],
+    "2026-05-12": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-05-13": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-05-14": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-05-15": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-05-16": [
+      "paris",
+      "france"
+    ],
+    "2026-05-17": [
+      "paris",
+      "france"
+    ],
+    "2026-05-18": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-05-19": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-05-20": [
+      "london",
+      "richmond"
+    ],
+    "2026-05-21": [
+      "london",
+      "richmond"
+    ],
+    "2026-05-22": [
+      "richmond",
+      "innsbruck"
+    ],
+    "2026-05-23": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-05-24": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-05-25": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-05-26": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-05-27": [
+      "paris",
+      "france"
+    ],
+    "2026-05-28": [
+      "paris",
+      "france"
+    ],
+    "2026-05-29": [
+      "richmond",
+      "innsbruck"
+    ],
+    "2026-05-30": [
+      "london",
+      "richmond"
+    ],
+    "2026-05-31": [
+      "london",
+      "richmond"
+    ],
+    "2026-06-01": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-06-02": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-06-03": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-06-04": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-06-05": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-06-06": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-06-07": [
+      "paris",
+      "france"
+    ],
+    "2026-06-08": [
+      "paris",
+      "france"
+    ],
+    "2026-06-09": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-06-10": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-06-11": [
+      "london",
+      "richmond"
+    ],
+    "2026-06-12": [
+      "london",
+      "richmond"
+    ],
+    "2026-06-13": [
+      "richmond",
+      "innsbruck"
+    ],
+    "2026-06-14": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-06-15": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-06-16": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-06-17": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-06-18": [
+      "paris",
+      "france"
+    ],
+    "2026-06-19": [
+      "paris",
+      "france"
+    ],
+    "2026-06-20": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-06-21": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-06-22": [
+      "london",
+      "richmond"
+    ],
+    "2026-06-23": [
+      "london",
+      "richmond"
+    ],
+    "2026-06-24": [
+      "richmond",
+      "innsbruck"
+    ],
+    "2026-06-25": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-06-26": [
+      "makuri-islands",
+      "scotland"
+    ],
+    "2026-06-27": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-06-28": [
+      "new-york",
+      "makuri-islands"
+    ],
+    "2026-06-29": [
+      "yorkshire",
+      "london"
+    ],
+    "2026-06-30": [
+      "yorkshire",
+      "london"
+    ]
   }
 }

@@ -14,6 +14,15 @@ for (const c of completedRoutes) {
   completedMap.set(c.routeSlug, c);
 }
 
+// Compute today's worlds (build-time, will be correct after daily redeploy)
+const todayKey = new Date().toLocaleDateString("en-CA");
+const todayGuestWorlds: string[] = schedule[todayKey] || [];
+const todayWorlds = todayGuestWorlds.length > 0 ? ["watopia", ...todayGuestWorlds] : [];
+const todayCompletion = todayWorlds.length > 0 ? {
+  done: routes.filter((r: any) => todayWorlds.includes(r.world) && completedMap.has(r.slug)).length,
+  total: routes.filter((r: any) => todayWorlds.includes(r.world)).length,
+} : { done: 0, total: 0 };
+
 // Group routes by world
 const sortedWorlds = worlds
   .filter((w: any) => w.routeCount > 0)
@@ -164,8 +173,6 @@ function getWorldColor(slug: string) {
       <button data-event-filter="exclude" class="event-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Hide Events</button>
     </div>
 
-    <button id="today-worlds-btn" class="today-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all bg-zwift-card border border-gray-700/50" data-schedule={JSON.stringify(schedule)}>Today's Worlds</button>
-
     <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
       <button data-sort="name" class="sort-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all flex items-center gap-1">Name<span class="sort-arrow">↑</span></button>
       <button data-sort="distance" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all flex items-center gap-1">Distance</button>
@@ -184,6 +191,16 @@ function getWorldColor(slug: string) {
       All Worlds
       <span class="ml-1.5 text-xs opacity-60">{totalCompleted}/{totalRoutes}</span>
     </button>
+    {todayWorlds.length > 0 && (
+      <button
+        class="world-tab whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-all border"
+        data-world="today"
+        data-today-worlds={JSON.stringify(todayWorlds)}
+      >
+        🗓 Today
+        <span class="ml-1.5 text-xs opacity-60">{todayCompletion.done}/{todayCompletion.total}</span>
+      </button>
+    )}
     {sortedWorlds.map((w: any) => {
       const color = getWorldColor(w.slug);
       const wc = worldCompletion[w.slug] || { done: 0, total: 0 };
@@ -334,17 +351,6 @@ function getWorldColor(slug: string) {
     background: rgba(252, 103, 25, 0.15);
     color: #FC6719;
   }
-  .today-btn {
-    color: #6b7280;
-  }
-  .today-btn:hover {
-    color: #d1d5db;
-  }
-  .today-btn.active {
-    background: rgba(252, 103, 25, 0.15);
-    color: #FC6719;
-    border-color: rgba(252, 103, 25, 0.3);
-  }
   .status-btn {
     color: #6b7280;
   }
@@ -378,19 +384,16 @@ function getWorldColor(slug: string) {
   const worldBars = document.querySelectorAll("[data-world-bar]");
   const unitMetricBtn = document.getElementById("unit-metric")!;
   const unitImperialBtn = document.getElementById("unit-imperial")!;
-  const todayBtn = document.getElementById("today-worlds-btn")!;
 
-  // Parse world calendar and get today's worlds
-  const schedule = JSON.parse(todayBtn.dataset.schedule!);
-  const todayKey = new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD in local time
-  const todayWorlds: string[] = schedule[todayKey] ? ["watopia", ...schedule[todayKey]] : [];
+  // Parse today's worlds from the tab's data attribute (if it exists)
+  const todayTab = document.querySelector('[data-world="today"]') as HTMLElement | null;
+  const todayWorlds: string[] = todayTab ? JSON.parse(todayTab.dataset.todayWorlds!) : [];
 
   let activeWorld = "all";
   let activeSortField = "name";
   let activeSortDir: "asc" | "desc" = "asc";
   let activeStatus = "all";
   let activeEventFilter = "include";
-  let todayFilter = false;
 
   function applyFilters() {
     const search = searchInput.value.toLowerCase();
@@ -398,15 +401,15 @@ function getWorldColor(slug: string) {
 
     let count = 0;
     for (const row of rows) {
-      const worldMatch = activeWorld === "all" || row.dataset.world === activeWorld;
+      const worldMatch = activeWorld === "all" ||
+        (activeWorld === "today" ? todayWorlds.includes(row.dataset.world!) : row.dataset.world === activeWorld);
       const searchMatch = !search || row.dataset.name!.includes(search);
       const statusMatch = activeStatus === "all" ||
         (activeStatus === "completed" && row.dataset.completed === "true") ||
         (activeStatus === "todo" && row.dataset.completed === "false");
       const eventMatch = activeEventFilter === "include" || row.dataset.eventOnly !== "true";
-      const todayMatch = !todayFilter || todayWorlds.includes(row.dataset.world!);
 
-      const visible = worldMatch && searchMatch && statusMatch && eventMatch && todayMatch;
+      const visible = worldMatch && searchMatch && statusMatch && eventMatch;
       row.style.display = visible ? "" : "none";
       if (visible) count++;
     }
@@ -501,16 +504,6 @@ function getWorldColor(slug: string) {
 
   // Filter inputs
   searchInput.addEventListener("input", applyFilters);
-
-  // Today's Worlds toggle
-  if (todayWorlds.length === 0) {
-    todayBtn.style.display = "none";
-  }
-  todayBtn.addEventListener("click", () => {
-    todayFilter = !todayFilter;
-    todayBtn.classList.toggle("active", todayFilter);
-    applyFilters();
-  });
 
   // Unit toggle
   function applyUnits(imperial: boolean) {

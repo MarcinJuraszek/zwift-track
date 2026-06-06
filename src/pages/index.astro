@@ -71,34 +71,34 @@ function getWorldColor(slug: string) {
 <Layout title="Zwift Route Tracker">
   <!-- Hero Stats -->
   <div class="mb-10">
-    <div class="flex flex-wrap items-end gap-8 mb-2">
-      <div>
+    <div class="flex flex-wrap items-end gap-10 mb-2">
+      <div class="text-center">
         <div class="text-5xl font-extrabold text-white tracking-tight">
           {totalCompleted}<span class="text-2xl text-gray-500 font-semibold">/{totalRoutes}</span>
+          <span class="text-3xl font-bold text-zwift-orange ml-2">{Math.round((totalCompleted / totalRoutes) * 100)}%</span>
         </div>
         <div class="text-sm text-gray-500 font-medium">routes completed</div>
       </div>
-      <div>
-        <div class="text-3xl font-bold text-zwift-orange">{Math.round((totalCompleted / totalRoutes) * 100)}%</div>
-        <div class="text-sm text-gray-500 font-medium">completion</div>
-      </div>
-      <div>
+      <div class="text-center">
         <div class="text-xl font-bold text-white">
           {doneXP.toLocaleString()}<span class="text-sm text-gray-500 font-semibold">/{totalXP.toLocaleString()}</span>
+          <span class="text-lg font-bold text-zwift-orange ml-2">{Math.round((doneXP / totalXP) * 100)}%</span>
         </div>
-        <div class="text-sm text-gray-500 font-medium">XP</div>
+        <div class="text-sm text-gray-500 font-medium">xp earned</div>
       </div>
-      <div>
+      <div class="text-center">
         <div class="text-xl font-bold text-white hero-dist-val" data-done-km={doneDist.toFixed(1)} data-total-km={totalDist.toFixed(1)}>
           {(doneDist * 0.621371).toFixed(0)}<span class="text-sm text-gray-500 font-semibold">/{(totalDist * 0.621371).toFixed(0)} mi</span>
+          <span class="text-lg font-bold text-zwift-orange ml-2">{Math.round((doneDist / totalDist) * 100)}%</span>
         </div>
-        <div class="text-sm text-gray-500 font-medium">distance</div>
+        <div class="text-sm text-gray-500 font-medium">distance ridden</div>
       </div>
-      <div>
+      <div class="text-center">
         <div class="text-xl font-bold text-white hero-elev-val" data-done-m={doneElev.toFixed(0)} data-total-m={totalElev.toFixed(0)}>
           {Math.round(doneElev * 3.28084).toLocaleString()}<span class="text-sm text-gray-500 font-semibold">/{Math.round(totalElev * 3.28084).toLocaleString()} ft</span>
+          <span class="text-lg font-bold text-zwift-orange ml-2">{Math.round((doneElev / totalElev) * 100)}%</span>
         </div>
-        <div class="text-sm text-gray-500 font-medium">elevation</div>
+        <div class="text-sm text-gray-500 font-medium">elevation climbed</div>
       </div>
     </div>
 
@@ -497,24 +497,28 @@ function getWorldColor(slug: string) {
     document.querySelectorAll(".hero-dist-val").forEach((el) => {
       const doneKm = parseFloat((el as HTMLElement).dataset.doneKm!);
       const totalKm = parseFloat((el as HTMLElement).dataset.totalKm!);
+      const pct = Math.round((doneKm / totalKm) * 100);
+      const pctSpan = `<span class="text-lg font-bold text-zwift-orange ml-2">${pct}%</span>`;
       if (imperial) {
         const doneMi = (doneKm * 0.621371).toFixed(0);
         const totalMi = (totalKm * 0.621371).toFixed(0);
-        el.innerHTML = `${doneMi}<span class="text-sm text-gray-500 font-semibold">/${totalMi} mi</span>`;
+        el.innerHTML = `${doneMi}<span class="text-sm text-gray-500 font-semibold">/${totalMi} mi</span>${pctSpan}`;
       } else {
-        el.innerHTML = `${doneKm.toFixed(0)}<span class="text-sm text-gray-500 font-semibold">/${totalKm.toFixed(0)} km</span>`;
+        el.innerHTML = `${doneKm.toFixed(0)}<span class="text-sm text-gray-500 font-semibold">/${totalKm.toFixed(0)} km</span>${pctSpan}`;
       }
     });
     // Hero elevation
     document.querySelectorAll(".hero-elev-val").forEach((el) => {
       const doneM = parseFloat((el as HTMLElement).dataset.doneM!);
       const totalM = parseFloat((el as HTMLElement).dataset.totalM!);
+      const pct = Math.round((doneM / totalM) * 100);
+      const pctSpan = `<span class="text-lg font-bold text-zwift-orange ml-2">${pct}%</span>`;
       if (imperial) {
         const doneFt = Math.round(doneM * 3.28084).toLocaleString();
         const totalFt = Math.round(totalM * 3.28084).toLocaleString();
-        el.innerHTML = `${doneFt}<span class="text-sm text-gray-500 font-semibold">/${totalFt} ft</span>`;
+        el.innerHTML = `${doneFt}<span class="text-sm text-gray-500 font-semibold">/${totalFt} ft</span>${pctSpan}`;
       } else {
-        el.innerHTML = `${doneM.toLocaleString()}<span class="text-sm text-gray-500 font-semibold">/${totalM.toLocaleString()} m</span>`;
+        el.innerHTML = `${doneM.toLocaleString()}<span class="text-sm text-gray-500 font-semibold">/${totalM.toLocaleString()} m</span>${pctSpan}`;
       }
     });
   }

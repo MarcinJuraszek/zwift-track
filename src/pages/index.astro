@@ -2,9 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import routeData from "../data/routes.json";
 import completionData from "../data/completed-routes.json";
+import calendarData from "../data/world-calendar.json";
 
 const { worlds, routes, totalRoutes } = routeData;
 const { completedRoutes, totalCompleted } = completionData;
+const schedule = calendarData.schedule as Record<string, string[]>;
 
 // Build a map of completed routes by slug
 const completedMap = new Map<string, any>();
@@ -161,6 +163,8 @@ function getWorldColor(slug: string) {
       <button data-event-filter="include" class="event-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all">All Routes</button>
       <button data-event-filter="exclude" class="event-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Hide Events</button>
     </div>
+
+    <button id="today-worlds-btn" class="today-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all bg-zwift-card border border-gray-700/50" data-schedule={JSON.stringify(schedule)}>Today's Worlds</button>
 
     <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
       <button data-sort="name" class="sort-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all flex items-center gap-1">Name<span class="sort-arrow">↑</span></button>
@@ -330,6 +334,17 @@ function getWorldColor(slug: string) {
     background: rgba(252, 103, 25, 0.15);
     color: #FC6719;
   }
+  .today-btn {
+    color: #6b7280;
+  }
+  .today-btn:hover {
+    color: #d1d5db;
+  }
+  .today-btn.active {
+    background: rgba(252, 103, 25, 0.15);
+    color: #FC6719;
+    border-color: rgba(252, 103, 25, 0.3);
+  }
   .status-btn {
     color: #6b7280;
   }
@@ -363,12 +378,19 @@ function getWorldColor(slug: string) {
   const worldBars = document.querySelectorAll("[data-world-bar]");
   const unitMetricBtn = document.getElementById("unit-metric")!;
   const unitImperialBtn = document.getElementById("unit-imperial")!;
+  const todayBtn = document.getElementById("today-worlds-btn")!;
+
+  // Parse world calendar and get today's worlds
+  const schedule = JSON.parse(todayBtn.dataset.schedule!);
+  const todayKey = new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD in local time
+  const todayWorlds: string[] = schedule[todayKey] ? ["watopia", ...schedule[todayKey]] : [];
 
   let activeWorld = "all";
   let activeSortField = "name";
   let activeSortDir: "asc" | "desc" = "asc";
   let activeStatus = "all";
   let activeEventFilter = "include";
+  let todayFilter = false;
 
   function applyFilters() {
     const search = searchInput.value.toLowerCase();
@@ -382,8 +404,9 @@ function getWorldColor(slug: string) {
         (activeStatus === "completed" && row.dataset.completed === "true") ||
         (activeStatus === "todo" && row.dataset.completed === "false");
       const eventMatch = activeEventFilter === "include" || row.dataset.eventOnly !== "true";
+      const todayMatch = !todayFilter || todayWorlds.includes(row.dataset.world!);
 
-      const visible = worldMatch && searchMatch && statusMatch && eventMatch;
+      const visible = worldMatch && searchMatch && statusMatch && eventMatch && todayMatch;
       row.style.display = visible ? "" : "none";
       if (visible) count++;
     }
@@ -478,6 +501,16 @@ function getWorldColor(slug: string) {
 
   // Filter inputs
   searchInput.addEventListener("input", applyFilters);
+
+  // Today's Worlds toggle
+  if (todayWorlds.length === 0) {
+    todayBtn.style.display = "none";
+  }
+  todayBtn.addEventListener("click", () => {
+    todayFilter = !todayFilter;
+    todayBtn.classList.toggle("active", todayFilter);
+    applyFilters();
+  });
 
   // Unit toggle
   function applyUnits(imperial: boolean) {

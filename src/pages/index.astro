@@ -25,6 +25,14 @@ for (const route of routes) {
   if (completedMap.has(route.slug)) worldCompletion[route.world].done++;
 }
 
+// Aggregate stats
+const totalXP = routes.reduce((s: number, r: any) => s + (r.experience || 0), 0);
+const doneXP = routes.filter((r: any) => completedMap.has(r.slug)).reduce((s: number, r: any) => s + (r.experience || 0), 0);
+const totalDist = routes.reduce((s: number, r: any) => s + r.distance, 0);
+const doneDist = routes.filter((r: any) => completedMap.has(r.slug)).reduce((s: number, r: any) => s + r.distance, 0);
+const totalElev = routes.reduce((s: number, r: any) => s + r.elevation, 0);
+const doneElev = routes.filter((r: any) => completedMap.has(r.slug)).reduce((s: number, r: any) => s + r.elevation, 0);
+
 const routesByWorld: Record<string, any[]> = {};
 for (const route of routes) {
   if (!routesByWorld[route.world]) routesByWorld[route.world] = [];
@@ -73,6 +81,24 @@ function getWorldColor(slug: string) {
       <div>
         <div class="text-3xl font-bold text-zwift-orange">{Math.round((totalCompleted / totalRoutes) * 100)}%</div>
         <div class="text-sm text-gray-500 font-medium">completion</div>
+      </div>
+      <div>
+        <div class="text-xl font-bold text-white">
+          {doneXP.toLocaleString()}<span class="text-sm text-gray-500 font-semibold">/{totalXP.toLocaleString()}</span>
+        </div>
+        <div class="text-sm text-gray-500 font-medium">XP</div>
+      </div>
+      <div>
+        <div class="text-xl font-bold text-white hero-dist-val" data-done-km={doneDist.toFixed(1)} data-total-km={totalDist.toFixed(1)}>
+          {doneDist.toFixed(0)}<span class="text-sm text-gray-500 font-semibold">/{totalDist.toFixed(0)} km</span>
+        </div>
+        <div class="text-sm text-gray-500 font-medium">distance</div>
+      </div>
+      <div>
+        <div class="text-xl font-bold text-white hero-elev-val" data-done-m={doneElev.toFixed(0)} data-total-m={totalElev.toFixed(0)}>
+          {doneElev.toLocaleString()}<span class="text-sm text-gray-500 font-semibold">/{totalElev.toLocaleString()} m</span>
+        </div>
+        <div class="text-sm text-gray-500 font-medium">elevation</div>
       </div>
     </div>
 
@@ -465,6 +491,30 @@ function getWorldColor(slug: string) {
         el.textContent = `${Math.round(m * 3.28084)} ft`;
       } else {
         el.textContent = `${Math.round(m)} m`;
+      }
+    });
+    // Hero distance
+    document.querySelectorAll(".hero-dist-val").forEach((el) => {
+      const doneKm = parseFloat((el as HTMLElement).dataset.doneKm!);
+      const totalKm = parseFloat((el as HTMLElement).dataset.totalKm!);
+      if (imperial) {
+        const doneMi = (doneKm * 0.621371).toFixed(0);
+        const totalMi = (totalKm * 0.621371).toFixed(0);
+        el.innerHTML = `${doneMi}<span class="text-sm text-gray-500 font-semibold">/${totalMi} mi</span>`;
+      } else {
+        el.innerHTML = `${doneKm.toFixed(0)}<span class="text-sm text-gray-500 font-semibold">/${totalKm.toFixed(0)} km</span>`;
+      }
+    });
+    // Hero elevation
+    document.querySelectorAll(".hero-elev-val").forEach((el) => {
+      const doneM = parseFloat((el as HTMLElement).dataset.doneM!);
+      const totalM = parseFloat((el as HTMLElement).dataset.totalM!);
+      if (imperial) {
+        const doneFt = Math.round(doneM * 3.28084).toLocaleString();
+        const totalFt = Math.round(totalM * 3.28084).toLocaleString();
+        el.innerHTML = `${doneFt}<span class="text-sm text-gray-500 font-semibold">/${totalFt} ft</span>`;
+      } else {
+        el.innerHTML = `${doneM.toLocaleString()}<span class="text-sm text-gray-500 font-semibold">/${totalM.toLocaleString()} m</span>`;
       }
     });
   }

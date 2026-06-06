@@ -163,12 +163,11 @@ function getWorldColor(slug: string) {
     </div>
 
     <div class="flex items-center gap-1 bg-zwift-card border border-gray-700/50 rounded-lg p-1">
-      <button data-sort="name" class="sort-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all">Name</button>
-      <button data-sort="distance-asc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Shortest</button>
-      <button data-sort="distance-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Longest</button>
-      <button data-sort="elevation-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Hilliest</button>
-      <button data-sort="gradient-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Steepest</button>
-      <button data-sort="experience-desc" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all">Most XP</button>
+      <button data-sort="name" class="sort-btn active px-3 py-1.5 text-xs font-medium rounded-md transition-all flex items-center gap-1">Name<span class="sort-arrow">↑</span></button>
+      <button data-sort="distance" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all flex items-center gap-1">Distance</button>
+      <button data-sort="elevation" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all flex items-center gap-1">Elevation</button>
+      <button data-sort="gradient" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all flex items-center gap-1">Gradient</button>
+      <button data-sort="experience" class="sort-btn px-3 py-1.5 text-xs font-medium rounded-md transition-all flex items-center gap-1">XP</button>
     </div>
   </div>
 
@@ -366,7 +365,8 @@ function getWorldColor(slug: string) {
   const unitImperialBtn = document.getElementById("unit-imperial")!;
 
   let activeWorld = "all";
-  let activeSort = "name";
+  let activeSortField = "name";
+  let activeSortDir: "asc" | "desc" = "asc";
   let activeStatus = "all";
   let activeEventFilter = "include";
 
@@ -393,24 +393,13 @@ function getWorldColor(slug: string) {
 
   function applySorting() {
     const rows = Array.from(routeList.querySelectorAll(".route-row")) as HTMLElement[];
+    const dir = activeSortDir === "asc" ? 1 : -1;
 
     rows.sort((a, b) => {
-      switch (activeSort) {
-        case "name":
-          return a.dataset.name!.localeCompare(b.dataset.name!);
-        case "distance-asc":
-          return parseFloat(a.dataset.distance!) - parseFloat(b.dataset.distance!);
-        case "distance-desc":
-          return parseFloat(b.dataset.distance!) - parseFloat(a.dataset.distance!);
-        case "elevation-desc":
-          return parseFloat(b.dataset.elevation!) - parseFloat(a.dataset.elevation!);
-        case "gradient-desc":
-          return parseFloat(b.dataset.gradient!) - parseFloat(a.dataset.gradient!);
-        case "experience-desc":
-          return parseFloat(b.dataset.experience!) - parseFloat(a.dataset.experience!);
-        default:
-          return 0;
+      if (activeSortField === "name") {
+        return dir * a.dataset.name!.localeCompare(b.dataset.name!);
       }
+      return dir * (parseFloat(a.dataset[activeSortField]!) - parseFloat(b.dataset[activeSortField]!));
     });
 
     for (const row of rows) {
@@ -444,9 +433,24 @@ function getWorldColor(slug: string) {
   // Sort button clicks
   sortBtns.forEach((btn) => {
     btn.addEventListener("click", () => {
-      sortBtns.forEach((b) => b.classList.remove("active"));
+      const field = (btn as HTMLElement).dataset.sort!;
+      if (field === activeSortField) {
+        activeSortDir = activeSortDir === "asc" ? "desc" : "asc";
+      } else {
+        activeSortField = field;
+        activeSortDir = "asc";
+      }
+      // Update button states and arrows
+      sortBtns.forEach((b) => {
+        b.classList.remove("active");
+        const arrow = b.querySelector(".sort-arrow");
+        if (arrow) arrow.remove();
+      });
       btn.classList.add("active");
-      activeSort = (btn as HTMLElement).dataset.sort!;
+      const arrow = document.createElement("span");
+      arrow.className = "sort-arrow";
+      arrow.textContent = activeSortDir === "asc" ? "↑" : "↓";
+      btn.appendChild(arrow);
       applySorting();
       applyFilters();
     });

@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-05T21:07:31.517Z",
-  "totalCompleted": 93,
+  "syncedAt": "2026-06-06T17:18:10.496Z",
+  "totalCompleted": 94,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "toefield-tornado",
+      "routeName": "Toefield Tornado",
+      "worldName": "New York",
+      "activityId": 18813364820,
+      "activityName": "Zwift - Toefield Tornado in New York",
+      "date": "2026-06-06T09:52:47Z",
+      "distance": 10.372,
+      "movingTime": 1459,
+      "elapsedTime": 1459,
+      "elevationGain": 52,
+      "averageWatts": 107.3,
+      "stravaUrl": "https://www.strava.com/activities/18813364820",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "farmland-loop",
       "routeName": "Farmland Loop",

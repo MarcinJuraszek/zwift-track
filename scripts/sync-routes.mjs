@@ -32,6 +32,7 @@ const routeData = routes
       gradient: route.distance > 0 ? Math.round((route.elevation / (route.distance * 1000)) * 1000) / 10 : 0,
       experience: route.experience ?? 0,
       leadInDistance: route.leadInDistance,
+      leadInElevation: route.leadInElevation ?? 0,
       eventOnly: route.eventOnly,
       lap: route.lap,
       levelLocked: route.levelLocked,

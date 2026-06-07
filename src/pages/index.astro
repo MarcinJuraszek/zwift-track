@@ -14,14 +14,8 @@ for (const c of completedRoutes) {
   completedMap.set(c.routeSlug, c);
 }
 
-// Compute today's worlds (build-time, will be correct after daily redeploy)
-const todayKey = new Date().toLocaleDateString("en-CA");
-const todayGuestWorlds: string[] = schedule[todayKey] || [];
-const todayWorlds = todayGuestWorlds.length > 0 ? ["watopia", ...todayGuestWorlds] : [];
-const todayCompletion = todayWorlds.length > 0 ? {
-  done: routes.filter((r: any) => todayWorlds.includes(r.world) && completedMap.has(r.slug)).length,
-  total: routes.filter((r: any) => todayWorlds.includes(r.world)).length,
-} : { done: 0, total: 0 };
+// Pass full schedule to client-side JS for dynamic "today" computation
+const calendarSchedule = schedule;
 
 // Group routes by world
 const sortedWorlds = worlds
@@ -191,16 +185,16 @@ function getWorldColor(slug: string) {
       All Worlds
       <span class="ml-1.5 text-xs opacity-60">{totalCompleted}/{totalRoutes}</span>
     </button>
-    {todayWorlds.length > 0 && (
-      <button
-        class="world-tab whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-all border"
-        data-world="today"
-        data-today-worlds={JSON.stringify(todayWorlds)}
-      >
-        🗓 Today
-        <span class="ml-1.5 text-xs opacity-60">{todayCompletion.done}/{todayCompletion.total}</span>
-      </button>
-    )}
+    <button
+      id="today-tab"
+      class="world-tab whitespace-nowrap px-4 py-2 rounded-lg text-sm font-medium transition-all border"
+      data-world="today"
+      data-schedule={JSON.stringify(calendarSchedule)}
+      style="display: none;"
+    >
+      🗓 Today
+      <span class="ml-1.5 text-xs opacity-60" id="today-count"></span>
+    </button>
     {sortedWorlds.map((w: any) => {
       const color = getWorldColor(w.slug);
       const wc = worldCompletion[w.slug] || { done: 0, total: 0 };
@@ -385,9 +379,21 @@ function getWorldColor(slug: string) {
   const unitMetricBtn = document.getElementById("unit-metric")!;
   const unitImperialBtn = document.getElementById("unit-imperial")!;
 
-  // Parse today's worlds from the tab's data attribute (if it exists)
-  const todayTab = document.querySelector('[data-world="today"]') as HTMLElement | null;
-  const todayWorlds: string[] = todayTab ? JSON.parse(todayTab.dataset.todayWorlds!) : [];
+  // Compute today's worlds client-side so it's always current
+  const todayTab = document.getElementById("today-tab") as HTMLElement;
+  const schedule = JSON.parse(todayTab.dataset.schedule!);
+  const todayKey = new Date().toLocaleDateString("en-CA"); // YYYY-MM-DD local time
+  const todayGuestWorlds: string[] = schedule[todayKey] || [];
+  const todayWorlds: string[] = todayGuestWorlds.length > 0 ? ["watopia", ...todayGuestWorlds] : [];
+
+  if (todayWorlds.length > 0) {
+    todayTab.style.display = "";
+    // Compute today's completion count
+    const allRows = Array.from(routeList.querySelectorAll(".route-row")) as HTMLElement[];
+    const todayTotal = allRows.filter(r => todayWorlds.includes(r.dataset.world!)).length;
+    const todayDone = allRows.filter(r => todayWorlds.includes(r.dataset.world!) && r.dataset.completed === "true").length;
+    document.getElementById("today-count")!.textContent = `${todayDone}/${todayTotal}`;
+  }
 
   let activeWorld = "all";
   let activeSortField = "name";

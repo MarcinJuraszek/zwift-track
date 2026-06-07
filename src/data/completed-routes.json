@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-06T17:18:10.496Z",
-  "totalCompleted": 94,
+  "syncedAt": "2026-06-07T17:42:42.403Z",
+  "totalCompleted": 95,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "croissant",
+      "routeName": "Croissant",
+      "worldName": "France",
+      "activityId": 18827914240,
+      "activityName": "Zwift - Croissant in France",
+      "date": "2026-06-07T10:07:53Z",
+      "distance": 13.088,
+      "movingTime": 1805,
+      "elapsedTime": 2041,
+      "elevationGain": 74,
+      "averageWatts": 102.4,
+      "stravaUrl": "https://www.strava.com/activities/18827914240",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "toefield-tornado",
       "routeName": "Toefield Tornado",

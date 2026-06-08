@@ -81,7 +81,16 @@ const { title, lastSynced } = Astro.props;
       <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-600">
         <span>Route data from <a href="https://github.com/andipaetzold/zwift-data" class="text-gray-400 hover:text-zwift-orange transition-colors">zwift-data</a>. Not affiliated with Zwift.</span>
         <div class="flex items-center gap-4">
-          {lastSynced && <span>Last synced: {new Date(lastSynced).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}</span>}
+          {lastSynced && <span id="last-synced" data-utc={lastSynced}>Last synced: {lastSynced}</span>}
+          <script is:inline>
+            (function() {
+              const el = document.getElementById('last-synced');
+              if (el) {
+                const utc = el.dataset.utc;
+                el.textContent = 'Last synced: ' + new Date(utc).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+              }
+            })();
+          </script>
           <a href="https://github.com/MarcinJuraszek/zwift-track" class="text-gray-400 hover:text-zwift-orange transition-colors">GitHub</a>
         </div>
       </div>

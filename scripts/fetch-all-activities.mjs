@@ -59,6 +59,7 @@ async function getAccessToken(env) {
   if (!data.access_token) {
     throw new Error(`Token refresh failed: ${data.message || JSON.stringify(data)}`);
   }
+  console.log(`✅ Token refreshed (scope: ${data.scope || "unknown"})`);
 
   env.STRAVA_ACCESS_TOKEN = data.access_token;
   env.STRAVA_REFRESH_TOKEN = data.refresh_token;

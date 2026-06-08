@@ -4973,5 +4973,40 @@
       }
     ],
     "fetchedAt": "2026-06-07T17:42:42.396Z"
+  },
+  "18831970884": {
+    "id": 18831970884,
+    "name": "Zwift - Hilly Route in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Hilly Route (Banner to Banner)",
+        "segment": {
+          "id": 12118362,
+          "name": "Hilly Route (Banner to Banner)"
+        }
+      },
+      {
+        "name": "Hilly KOM",
+        "segment": {
+          "id": 12109030,
+          "name": "Hilly KOM"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-08T03:28:31.390Z"
   }
 }

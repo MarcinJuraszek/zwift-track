@@ -1,8 +1,560 @@
 {
-  "fetchedAt": "2026-06-07T17:42:41.804Z",
-  "totalActivities": 113,
-  "virtualRideCount": 113,
+  "fetchedAt": "2026-06-08T03:28:30.825Z",
+  "totalActivities": 114,
+  "virtualRideCount": 114,
   "virtualRides": [
+    {
+      "resource_state": 3,
+      "athlete": {
+        "id": 29432659,
+        "resource_state": 1
+      },
+      "name": "Zwift - Hilly Route in Watopia",
+      "distance": 9709.9,
+      "moving_time": 1526,
+      "elapsed_time": 1553,
+      "total_elevation_gain": 111,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Zwift",
+      "id": 18831970884,
+      "start_date": "2026-06-08T03:02:15Z",
+      "start_date_local": "2026-06-07T20:02:15Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "utc_offset": -25200,
+      "location_city": null,
+      "location_state": null,
+      "location_country": null,
+      "achievement_count": 0,
+      "kudos_count": 0,
+      "comment_count": 0,
+      "athlete_count": 1,
+      "photo_count": 0,
+      "map": {
+        "id": "a18831970884",
+        "polyline": "lq_fAqu~y^CGIs@A{@J{@Pe@d@k@j@e@xDiCh@a@Z]JWBMAYQ_@a@a@wA}@QOM]?UDGPKPEtAMtBI|@?b@BVDHFDH@LCVKb@S`@GFKBUCSGGGGSHeHJi@JWLOJEH@JHLT\\jA`AhE^hANRVNXDTEROFOD[C_@Q{@uA}E[sAEk@?QDMLEh@Eh@MhAIh@Gj@O\\OhAw@rCiCv@m@j@_@p@Y`@Ib@CpFHzAHr@Hp@N`@Rf@b@b@n@Xx@Jl@B`@A`@ANO\\_@d@cAbA_@b@Yd@Ql@Et@?x@NtEAn@ETOPUDSCaCy@]E]BYL]XuAdB]\\WN[Lo@JiBNsHfAgCh@wBx@OJKNGPId@GrAAbABn@Ln@NRVJX?ZEr@QtDkAr@OtDi@rCYdAEl@?j@D|@L~DhA|K~BfBj@P@PAPELKJMP[Ty@f@_CT_APa@TWPITGd@@t@HV?j@E|AUh@Cf@@hADdALj@RPRFJD\\DtAFd@FPT^~@dAV\\FNJb@?b@ENILOJ{AZSFKNATBRb@vA?PENGNMHO@]Ic@_@gAqAs@s@c@W]GMBKFSTYv@y@rCOZIJODMCMISWqAiCY_@WQQEK@QHm@d@wHrEQP[l@KFMAIGYa@_@u@]_AeAcC_@s@_@a@UM[Mw@Ke@?i@B}@N_@NKNEP?j@Hh@Pj@JRNNPLfAf@NJDPCNSXaAz@[N[TMFMEIIg@m@KIMGk@GIKK}@GO[i@W[OKQEQA_@DYJYZQ\\Ib@@VRT|@\\LL@RIp@?NBLFJ^Rx@VRNDHALGHi@XIHCJ?JLb@CJe@Tm@Lo@Fa@COEYSUWYg@_@{@qA}D_@u@e@q@a@[w@a@{@YiEmAw@]wAu@qA}@u@w@m@{@g@oAe@aBQqA?o@B_@F_@J[f@q@l@i@nD_Cl@c@f@m@J[A]CMOW_@[uA{@QQKUAUDOJG",
+        "resource_state": 3,
+        "summary_polyline": ""
+      },
+      "trainer": false,
+      "commute": false,
+      "manual": false,
+      "private": true,
+      "visibility": "only_me",
+      "flagged": false,
+      "gear_id": "b8659402",
+      "start_latlng": [],
+      "end_latlng": [],
+      "average_speed": 6.363,
+      "max_speed": 15.68,
+      "average_cadence": 77.9,
+      "average_watts": 108.2,
+      "max_watts": 219,
+      "weighted_average_watts": 108,
+      "device_watts": true,
+      "kilojoules": 165.1,
+      "has_heartrate": false,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "elev_high": 57.8,
+      "elev_low": 1.2,
+      "upload_id": 19943043705,
+      "upload_id_str": "19943043705",
+      "external_id": "zwift-activity-2155696810914496544.fit",
+      "from_accepted_tag": false,
+      "pr_count": 0,
+      "total_photo_count": 2,
+      "has_kudoed": false,
+      "description": null,
+      "calories": 156,
+      "perceived_exertion": null,
+      "prefer_perceived_exertion": null,
+      "segment_efforts": [
+        {
+          "id": 3498907227694335000,
+          "resource_state": 2,
+          "name": "Hilly Route (Banner to Banner)",
+          "activity": {
+            "id": 18831970884,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 1463,
+          "moving_time": 1426,
+          "start_date": "2026-06-08T03:02:36Z",
+          "start_date_local": "2026-06-07T20:02:36Z",
+          "distance": 9145.8,
+          "start_index": 21,
+          "end_index": 1458,
+          "average_cadence": 75.6,
+          "device_watts": true,
+          "average_watts": 107.7,
+          "segment": {
+            "id": 12118362,
+            "resource_state": 2,
+            "name": "Hilly Route (Banner to Banner)",
+            "activity_type": "VirtualRide",
+            "distance": 9145.8,
+            "average_grade": 0,
+            "maximum_grade": 8.8,
+            "elevation_high": 58,
+            "elevation_low": 1.4,
+            "start_latlng": [
+              -11.635495,
+              166.951836
+            ],
+            "end_latlng": [
+              -11.635491,
+              166.951879
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Temotu Province",
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3498907227697277000,
+          "resource_state": 2,
+          "name": "Hilly KOM",
+          "activity": {
+            "id": 18831970884,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 386,
+          "moving_time": 376,
+          "start_date": "2026-06-08T03:05:03Z",
+          "start_date_local": "2026-06-07T20:05:03Z",
+          "distance": 900.8,
+          "start_index": 168,
+          "end_index": 549,
+          "average_cadence": 72.9,
+          "device_watts": true,
+          "average_watts": 111,
+          "segment": {
+            "id": 12109030,
+            "resource_state": 2,
+            "name": "Hilly KOM",
+            "activity_type": "VirtualRide",
+            "distance": 900.8,
+            "average_grade": 5.5,
+            "maximum_grade": 9.7,
+            "elevation_high": 58,
+            "elevation_low": 8,
+            "start_latlng": [
+              -11.637937,
+              166.955827
+            ],
+            "end_latlng": [
+              -11.640456,
+              166.957855
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Temotu Province",
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3498907227697554400,
+          "resource_state": 2,
+          "name": "Sprint Forward",
+          "activity": {
+            "id": 18831970884,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 47,
+          "moving_time": 47,
+          "start_date": "2026-06-08T03:20:23Z",
+          "start_date_local": "2026-06-07T20:20:23Z",
+          "distance": 352.9,
+          "start_index": 1062,
+          "end_index": 1109,
+          "average_cadence": 59,
+          "device_watts": true,
+          "average_watts": 72.2,
+          "segment": {
+            "id": 12109305,
+            "resource_state": 2,
+            "name": "Sprint Forward",
+            "activity_type": "VirtualRide",
+            "distance": 352.9,
+            "average_grade": -0.1,
+            "maximum_grade": 0.9,
+            "elevation_high": 11,
+            "elevation_low": 9.8,
+            "start_latlng": [
+              -11.649098,
+              166.94939
+            ],
+            "end_latlng": [
+              -11.647242,
+              166.949251
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Temotu Province",
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3498907227696019500,
+          "resource_state": 2,
+          "name": "The Esses",
+          "activity": {
+            "id": 18831970884,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 233,
+          "moving_time": 233,
+          "start_date": "2026-06-08T03:21:40Z",
+          "start_date_local": "2026-06-07T20:21:40Z",
+          "distance": 1523.6,
+          "start_index": 1139,
+          "end_index": 1372,
+          "average_cadence": 78.6,
+          "device_watts": true,
+          "average_watts": 115.4,
+          "segment": {
+            "id": 28383456,
+            "resource_state": 2,
+            "name": "The Esses",
+            "activity_type": "VirtualRide",
+            "distance": 1523.6,
+            "average_grade": 0.2,
+            "maximum_grade": 6.1,
+            "elevation_high": 23,
+            "elevation_low": 9.6,
+            "start_latlng": [
+              -11.645733,
+              166.948242
+            ],
+            "end_latlng": [
+              -11.640787,
+              166.946129
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Temotu Province",
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        }
+      ],
+      "splits_metric": [
+        {
+          "distance": 1002.1,
+          "elapsed_time": 170,
+          "elevation_difference": 6.8,
+          "moving_time": 170,
+          "split": 1,
+          "average_speed": 5.89,
+          "average_grade_adjusted_speed": 6,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1000.8,
+          "elapsed_time": 399,
+          "elevation_difference": 47.2,
+          "moving_time": 399,
+          "split": 2,
+          "average_speed": 2.51,
+          "average_grade_adjusted_speed": 2.99,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1004.9,
+          "elapsed_time": 111,
+          "elevation_difference": -11.4,
+          "moving_time": 111,
+          "split": 3,
+          "average_speed": 9.05,
+          "average_grade_adjusted_speed": 8.85,
+          "pace_zone": 0
+        },
+        {
+          "distance": 994.3,
+          "elapsed_time": 103,
+          "elevation_difference": -18.6,
+          "moving_time": 103,
+          "split": 4,
+          "average_speed": 9.65,
+          "average_grade_adjusted_speed": 9.44,
+          "pace_zone": 0
+        },
+        {
+          "distance": 998.9,
+          "elapsed_time": 91,
+          "elevation_difference": -14.8,
+          "moving_time": 91,
+          "split": 5,
+          "average_speed": 10.98,
+          "average_grade_adjusted_speed": 10.69,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1006,
+          "elapsed_time": 190,
+          "elevation_difference": 0.2,
+          "moving_time": 163,
+          "split": 6,
+          "average_speed": 6.17,
+          "average_grade_adjusted_speed": 6.25,
+          "pace_zone": 0
+        },
+        {
+          "distance": 995.2,
+          "elapsed_time": 166,
+          "elevation_difference": 8.6,
+          "moving_time": 166,
+          "split": 7,
+          "average_speed": 6,
+          "average_grade_adjusted_speed": 6.21,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1005.1,
+          "elapsed_time": 132,
+          "elevation_difference": -6,
+          "moving_time": 132,
+          "split": 8,
+          "average_speed": 7.61,
+          "average_grade_adjusted_speed": 7.68,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1001.1,
+          "elapsed_time": 103,
+          "elevation_difference": -12,
+          "moving_time": 103,
+          "split": 9,
+          "average_speed": 9.72,
+          "average_grade_adjusted_speed": 9.49,
+          "pace_zone": 0
+        },
+        {
+          "distance": 701.9,
+          "elapsed_time": 88,
+          "elevation_difference": 2.6,
+          "moving_time": 88,
+          "split": 10,
+          "average_speed": 7.98,
+          "average_grade_adjusted_speed": 8.05,
+          "pace_zone": 0
+        }
+      ],
+      "splits_standard": [
+        {
+          "distance": 1610.9,
+          "elapsed_time": 469,
+          "elevation_difference": 45.8,
+          "moving_time": 469,
+          "split": 1,
+          "average_speed": 3.43,
+          "average_grade_adjusted_speed": 3.81,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608.8,
+          "elapsed_time": 239,
+          "elevation_difference": 3,
+          "moving_time": 239,
+          "split": 2,
+          "average_speed": 6.73,
+          "average_grade_adjusted_speed": 6.87,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1615.2,
+          "elapsed_time": 148,
+          "elevation_difference": -38.6,
+          "moving_time": 148,
+          "split": 3,
+          "average_speed": 10.91,
+          "average_grade_adjusted_speed": 10.44,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1605.9,
+          "elapsed_time": 260,
+          "elevation_difference": -1.4,
+          "moving_time": 233,
+          "split": 4,
+          "average_speed": 6.89,
+          "average_grade_adjusted_speed": 6.95,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1610.7,
+          "elapsed_time": 252,
+          "elevation_difference": 4.4,
+          "moving_time": 252,
+          "split": 5,
+          "average_speed": 6.39,
+          "average_grade_adjusted_speed": 6.58,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1609.3,
+          "elapsed_time": 173,
+          "elevation_difference": -11.8,
+          "moving_time": 173,
+          "split": 6,
+          "average_speed": 9.3,
+          "average_grade_adjusted_speed": 9.17,
+          "pace_zone": 0
+        },
+        {
+          "distance": 49.5,
+          "elapsed_time": 12,
+          "elevation_difference": 1.2,
+          "moving_time": 12,
+          "split": 7,
+          "average_speed": 4.13,
+          "average_grade_adjusted_speed": 4.43,
+          "pace_zone": 0
+        }
+      ],
+      "laps": [
+        {
+          "id": 67353952966,
+          "resource_state": 2,
+          "name": "Lap 1",
+          "activity": {
+            "id": 18831970884,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 1553,
+          "moving_time": 1528,
+          "start_date": "2026-06-08T03:02:15Z",
+          "start_date_local": "2026-06-07T20:02:15Z",
+          "distance": 9710.33,
+          "average_speed": 6.35,
+          "max_speed": 15.68,
+          "lap_index": 1,
+          "split": 1,
+          "start_index": 0,
+          "end_index": 0,
+          "total_elevation_gain": 103.6,
+          "average_cadence": 77.9,
+          "device_watts": true,
+          "average_watts": 108.2
+        }
+      ],
+      "gear": {
+        "id": "b8659402",
+        "primary": false,
+        "name": "Canyon Grail CF SL 8",
+        "nickname": "Canyon Grail CF SL 8",
+        "resource_state": 2,
+        "retired": false,
+        "distance": 20855607,
+        "converted_distance": 12959.1
+      },
+      "photos": {
+        "primary": {
+          "unique_id": "d40876ee-d60c-4bdb-8838-377ed3283d97",
+          "urls": {
+            "100": "https://dgtzuqphqg23d.cloudfront.net/0b-E7cF2RHjmKivmHUz8WWtfxvxCrK7IYT7SAUnNnf0-128x72.jpg",
+            "600": "https://dgtzuqphqg23d.cloudfront.net/0b-E7cF2RHjmKivmHUz8WWtfxvxCrK7IYT7SAUnNnf0-768x432.jpg"
+          },
+          "source": 1,
+          "media_type": 1
+        },
+        "use_primary_photo": true,
+        "count": 2
+      },
+      "stats_visibility": [
+        {
+          "type": "heart_rate",
+          "visibility": "everyone"
+        },
+        {
+          "type": "pace",
+          "visibility": "everyone"
+        },
+        {
+          "type": "power",
+          "visibility": "everyone"
+        },
+        {
+          "type": "speed",
+          "visibility": "everyone"
+        },
+        {
+          "type": "calories",
+          "visibility": "everyone"
+        }
+      ],
+      "hide_from_home": false,
+      "embed_token": "bd15ec0f50dbae8c52ed68800f9e02b25547acc3",
+      "available_zones": [
+        "power"
+      ]
+    },
     {
       "resource_state": 2,
       "athlete": {

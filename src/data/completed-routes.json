@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-08T02:53:27.618Z",
-  "totalCompleted": 95,
+  "syncedAt": "2026-06-08T03:28:31.395Z",
+  "totalCompleted": 96,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "hilly-route",
+      "routeName": "Watopia Hilly Route",
+      "worldName": "Watopia",
+      "activityId": 18831970884,
+      "activityName": "Zwift - Hilly Route in Watopia",
+      "date": "2026-06-07T20:02:15Z",
+      "distance": 9.71,
+      "movingTime": 1526,
+      "elapsedTime": 1553,
+      "elevationGain": 111,
+      "averageWatts": 108.2,
+      "stravaUrl": "https://www.strava.com/activities/18831970884",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "croissant",
       "routeName": "Croissant",

@@ -1,0 +1,12 @@
+{
+  "name": "zwift-track-webhook",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/functions/*.mjs",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0"
+  }
+}

@@ -12,17 +12,23 @@ const envPath = resolve(__dirname, "../.env.local");
 const outputPath = resolve(__dirname, "../src/data/raw-activities.json");
 
 function loadEnv() {
-  if (!existsSync(envPath)) return {};
-  const lines = readFileSync(envPath, "utf-8").split("\n");
-  const env = {};
-  for (const line of lines) {
-    const match = line.match(/^([^=]+)=(.*)$/);
-    if (match) env[match[1].trim()] = match[2].trim();
+  if (existsSync(envPath)) {
+    const lines = readFileSync(envPath, "utf-8").split("\n");
+    const env = {};
+    for (const line of lines) {
+      const match = line.match(/^([^=]+)=(.*)$/);
+      if (match) env[match[1].trim()] = match[2].trim();
+    }
+    return env;
   }
-  return env;
+  // Fall back to process.env (for CI)
+  return { ...process.env };
 }
 
 function saveEnv(env) {
+  // Only write .env.local when running locally
+  if (!existsSync(envPath) && !process.env.CI) return;
+  if (process.env.CI) return;
   const content = Object.entries(env)
     .map(([k, v]) => `${k}=${v}`)
     .join("\n") + "\n";

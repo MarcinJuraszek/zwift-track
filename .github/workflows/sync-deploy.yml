@@ -46,6 +46,15 @@ jobs:
       - name: Sync world calendar
         run: node scripts/sync-calendar.mjs
 
+      - name: Update Strava refresh token secret
+        if: hashFiles('.strava-refresh-token') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          gh secret set STRAVA_REFRESH_TOKEN --body "$(cat .strava-refresh-token)"
+          rm .strava-refresh-token
+          echo "✅ Updated STRAVA_REFRESH_TOKEN secret"
+
       - name: Build site
         run: npx astro build
 

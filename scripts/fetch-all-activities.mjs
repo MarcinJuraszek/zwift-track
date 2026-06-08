@@ -64,6 +64,13 @@ async function getAccessToken(env) {
   env.STRAVA_REFRESH_TOKEN = data.refresh_token;
   env.STRAVA_TOKEN_EXPIRES_AT = String(data.expires_at);
   saveEnv(env);
+
+  // In CI, write the new refresh token so the workflow can update the secret
+  if (process.env.CI) {
+    const tokenPath = resolve(__dirname, "../.strava-refresh-token");
+    writeFileSync(tokenPath, data.refresh_token);
+  }
+
   return data.access_token;
 }
 

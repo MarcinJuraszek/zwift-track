@@ -8,6 +8,8 @@
 //   GITHUB_PAT                  — GitHub fine-grained PAT with "contents" write access
 //   GITHUB_REPO_OWNER           — "MarcinJuraszek"
 //   GITHUB_REPO_NAME            — "zwift-track"
+//   STRAVA_SUBSCRIPTION_ID      — webhook subscription ID (e.g. "352581")
+//   STRAVA_OWNER_ID             — your Strava athlete ID (e.g. "29432659")
 
 import { app } from "@azure/functions";
 
@@ -37,7 +39,21 @@ app.http("strava-webhook", {
 
     // POST — activity event from Strava
     const body = await request.json();
-    context.log(`📥 Strava event: object_type=${body.object_type}, aspect_type=${body.aspect_type}, object_id=${body.object_id}, owner_id=${body.owner_id}`);
+    context.log(`📥 Strava event: object_type=${body.object_type}, aspect_type=${body.aspect_type}, object_id=${body.object_id}, owner_id=${body.owner_id}, subscription_id=${body.subscription_id}`);
+
+    // Validate the request is from our Strava subscription
+    const expectedSubId = process.env.STRAVA_SUBSCRIPTION_ID;
+    const expectedOwnerId = process.env.STRAVA_OWNER_ID;
+
+    if (expectedSubId && String(body.subscription_id) !== expectedSubId) {
+      context.warn(`🚫 Rejected: subscription_id ${body.subscription_id} doesn't match expected ${expectedSubId}`);
+      return { status: 403, jsonBody: { error: "invalid subscription" } };
+    }
+
+    if (expectedOwnerId && String(body.owner_id) !== expectedOwnerId) {
+      context.warn(`🚫 Rejected: owner_id ${body.owner_id} doesn't match expected ${expectedOwnerId}`);
+      return { status: 403, jsonBody: { error: "invalid owner" } };
+    }
 
     // Only trigger on activity creation
     if (body.object_type !== "activity" || body.aspect_type !== "create") {

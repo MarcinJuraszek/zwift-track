@@ -123,10 +123,72 @@ async function fetchActivitiesAfter(accessToken, afterEpoch) {
   return activities;
 }
 
+async function fetchSingleActivity(accessToken, activityId) {
+  const res = await fetch(
+    `https://www.strava.com/api/v3/activities/${activityId}`,
+    { headers: { Authorization: `Bearer ${accessToken}` } }
+  );
+
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`Strava API error ${res.status}: ${body}`);
+  }
+
+  return await res.json();
+}
+
 async function main() {
   const fullRefresh = process.argv.includes("--full");
+  const activityFlag = process.argv.indexOf("--activity");
+  const singleActivityId = activityFlag !== -1 ? process.argv[activityFlag + 1] : null;
   const env = loadEnv();
   const accessToken = await getAccessToken(env);
+
+  // Single activity mode — fetch one activity and merge into cache
+  if (singleActivityId) {
+    console.log(`🎯 Fetching single activity: ${singleActivityId}`);
+    const activity = await fetchSingleActivity(accessToken, singleActivityId);
+
+    if (activity.type !== "VirtualRide" && activity.sport_type !== "VirtualRide") {
+      console.log(`⏭️ Activity ${singleActivityId} is ${activity.type}/${activity.sport_type}, not a VirtualRide — skipping`);
+      // Still need to write updated data so sync scripts don't fail
+      if (!existsSync(outputPath)) {
+        writeFileSync(outputPath, JSON.stringify({ fetchedAt: new Date().toISOString(), totalActivities: 0, virtualRideCount: 0, virtualRides: [] }, null, 2));
+      }
+      return;
+    }
+
+    // Load existing cache and merge
+    let existingVirtualRides = [];
+    if (existsSync(outputPath)) {
+      const existing = JSON.parse(readFileSync(outputPath, "utf-8"));
+      existingVirtualRides = existing.virtualRides || [];
+    }
+
+    // Replace if exists, otherwise add
+    const existingIdx = existingVirtualRides.findIndex(a => a.id === activity.id);
+    if (existingIdx !== -1) {
+      existingVirtualRides[existingIdx] = activity;
+      console.log(`🔄 Updated existing activity in cache`);
+    } else {
+      existingVirtualRides.push(activity);
+      console.log(`➕ Added new activity to cache`);
+    }
+
+    existingVirtualRides.sort(
+      (a, b) => new Date(b.start_date).getTime() - new Date(a.start_date).getTime()
+    );
+
+    const output = {
+      fetchedAt: new Date().toISOString(),
+      totalActivities: existingVirtualRides.length,
+      virtualRideCount: existingVirtualRides.length,
+      virtualRides: existingVirtualRides,
+    };
+    writeFileSync(outputPath, JSON.stringify(output, null, 2));
+    console.log(`✅ Done! Virtual rides: ${existingVirtualRides.length}`);
+    return;
+  }
 
   // Load existing cache
   let existingVirtualRides = [];

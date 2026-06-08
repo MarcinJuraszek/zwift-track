@@ -31,20 +31,22 @@ jobs:
 
       - run: npm ci
 
-      - name: Install Playwright Chromium
-        run: npx playwright install chromium
-
-      - name: Fetch activities from Strava
-        run: node scripts/fetch-all-activities.mjs
+      - name: Fetch activity from Strava
+        run: |
+          ACTIVITY_ID="${{ github.event.client_payload.activity_id }}"
+          if [ -n "$ACTIVITY_ID" ] && [ "$ACTIVITY_ID" != "null" ]; then
+            echo "Fetching single activity: $ACTIVITY_ID"
+            node scripts/fetch-all-activities.mjs --activity "$ACTIVITY_ID"
+          else
+            echo "No activity ID — fetching recent activities"
+            node scripts/fetch-all-activities.mjs
+          fi
 
       - name: Sync routes
         run: node scripts/sync-routes.mjs
 
       - name: Sync activities
         run: node scripts/sync-activities.mjs
-
-      - name: Sync world calendar
-        run: node scripts/sync-calendar.mjs
 
       - name: Update Strava refresh token secret
         if: hashFiles('.strava-refresh-token') != ''

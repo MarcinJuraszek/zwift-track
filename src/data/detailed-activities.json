@@ -1,0 +1,4977 @@
+{
+  "10719325196": {
+    "id": 10719325196,
+    "name": "London",
+    "segment_efforts": [
+      {
+        "name": "Greater London Loop",
+        "segment": {
+          "id": 15158576,
+          "name": "Greater London Loop"
+        }
+      },
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      },
+      {
+        "name": "Box Hill KOM",
+        "segment": {
+          "id": 12744502,
+          "name": "Box Hill KOM"
+        }
+      },
+      {
+        "name": "Fox Hill Descent",
+        "segment": {
+          "id": 27190651,
+          "name": "Fox Hill Descent"
+        }
+      },
+      {
+        "name": "Classique Reverse Leadin from Start Banner",
+        "segment": {
+          "id": 19480660,
+          "name": "Classique Reverse Leadin from Start Banner"
+        }
+      },
+      {
+        "name": "London 8 Forward",
+        "segment": {
+          "id": 12747814,
+          "name": "London 8 Forward"
+        }
+      },
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      },
+      {
+        "name": "The Mall Sprint Reverse",
+        "segment": {
+          "id": 12749402,
+          "name": "The Mall Sprint Reverse"
+        }
+      },
+      {
+        "name": "Box Hill KOM",
+        "segment": {
+          "id": 12744502,
+          "name": "Box Hill KOM"
+        }
+      },
+      {
+        "name": "Fox Hill Descent",
+        "segment": {
+          "id": 27190651,
+          "name": "Fox Hill Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:15.501Z"
+  },
+  "10712580126": {
+    "id": 10712580126,
+    "name": "2x Zwift - Climb Portal: Cote de Trebiac at 100% Elevation in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Cote de Trebiac (Watopia Climb Portal)",
+        "segment": {
+          "id": 34992583,
+          "name": "Cote de Trebiac (Watopia Climb Portal)"
+        }
+      },
+      {
+        "name": "Cote de Trebiac Descent (Watopia Climb Portal)",
+        "segment": {
+          "id": 34992590,
+          "name": "Cote de Trebiac Descent (Watopia Climb Portal)"
+        }
+      },
+      {
+        "name": "Cote de Trebiac (Watopia Climb Portal)",
+        "segment": {
+          "id": 34992583,
+          "name": "Cote de Trebiac (Watopia Climb Portal)"
+        }
+      },
+      {
+        "name": "Cote de Trebiac Descent (Watopia Climb Portal)",
+        "segment": {
+          "id": 34992590,
+          "name": "Cote de Trebiac Descent (Watopia Climb Portal)"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:15.895Z"
+  },
+  "10672039764": {
+    "id": 10672039764,
+    "name": "Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Neokyo All-Nighter",
+        "segment": {
+          "id": 30407658,
+          "name": "Neokyo All-Nighter"
+        }
+      },
+      {
+        "name": "Alley Sprint Reverse",
+        "segment": {
+          "id": 30412916,
+          "name": "Alley Sprint Reverse"
+        }
+      },
+      {
+        "name": "Tower Sprint",
+        "segment": {
+          "id": 30412571,
+          "name": "Tower Sprint"
+        }
+      },
+      {
+        "name": "Rooftop KOM",
+        "segment": {
+          "id": 30407861,
+          "name": "Rooftop KOM"
+        }
+      },
+      {
+        "name": "Electric Loop",
+        "segment": {
+          "id": 30987848,
+          "name": "Electric Loop"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:16.310Z"
+  },
+  "10658024682": {
+    "id": 10658024682,
+    "name": "Scotland",
+    "segment_efforts": [
+      {
+        "name": "Glasgow Crit Circuit",
+        "segment": {
+          "id": 33620076,
+          "name": "Glasgow Crit Circuit"
+        }
+      },
+      {
+        "name": "Loch Loop",
+        "segment": {
+          "id": 33620222,
+          "name": "Loch Loop"
+        }
+      },
+      {
+        "name": "Breakaway Brae",
+        "segment": {
+          "id": 33620168,
+          "name": "Breakaway Brae"
+        }
+      },
+      {
+        "name": "Breakaway Brae",
+        "segment": {
+          "id": 33620168,
+          "name": "Breakaway Brae"
+        }
+      },
+      {
+        "name": "Rolling Highlands",
+        "segment": {
+          "id": 33620176,
+          "name": "Rolling Highlands"
+        }
+      },
+      {
+        "name": "Breakaway Brae",
+        "segment": {
+          "id": 33620168,
+          "name": "Breakaway Brae"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:16.783Z"
+  },
+  "10643927917": {
+    "id": 10643927917,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "Jungle CCW Descent",
+        "segment": {
+          "id": 27215934,
+          "name": "Jungle CCW Descent"
+        }
+      },
+      {
+        "name": "Temple Trek",
+        "segment": {
+          "id": 35705430,
+          "name": "Temple Trek"
+        }
+      },
+      {
+        "name": "Coast Crusher",
+        "segment": {
+          "id": 35697049,
+          "name": "Coast Crusher"
+        }
+      },
+      {
+        "name": "Woodland Sprint",
+        "segment": {
+          "id": 35705436,
+          "name": "Woodland Sprint"
+        }
+      },
+      {
+        "name": "Serpentine 8 Lead-In",
+        "segment": {
+          "id": 26742088,
+          "name": "Serpentine 8 Lead-In"
+        }
+      },
+      {
+        "name": "Mayan Bridge Eastbound",
+        "segment": {
+          "id": 27216064,
+          "name": "Mayan Bridge Eastbound"
+        }
+      },
+      {
+        "name": "Serpentine 8",
+        "segment": {
+          "id": 26742092,
+          "name": "Serpentine 8"
+        }
+      },
+      {
+        "name": "Jungle CCW Climb",
+        "segment": {
+          "id": 27215961,
+          "name": "Jungle CCW Climb"
+        }
+      },
+      {
+        "name": "Mayan Bridge Westbound",
+        "segment": {
+          "id": 27216034,
+          "name": "Mayan Bridge Westbound"
+        }
+      },
+      {
+        "name": "Jungle Climb",
+        "segment": {
+          "id": 27215922,
+          "name": "Jungle Climb"
+        }
+      },
+      {
+        "name": "Mayan Bridge Eastbound",
+        "segment": {
+          "id": 27216064,
+          "name": "Mayan Bridge Eastbound"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:17.386Z"
+  },
+  "10624672298": {
+    "id": 10624672298,
+    "name": "Richmond",
+    "segment_efforts": [
+      {
+        "name": "Finishing Straightaway",
+        "segment": {
+          "id": 27139617,
+          "name": "Finishing Straightaway"
+        }
+      },
+      {
+        "name": "Tester",
+        "segment": {
+          "id": 23382688,
+          "name": "Tester"
+        }
+      },
+      {
+        "name": "2015 Worlds Course",
+        "segment": {
+          "id": 12128718,
+          "name": "2015 Worlds Course"
+        }
+      },
+      {
+        "name": "Monument Ave Sprint",
+        "segment": {
+          "id": 12128762,
+          "name": "Monument Ave Sprint"
+        }
+      },
+      {
+        "name": "Broad St Sprint",
+        "segment": {
+          "id": 12128880,
+          "name": "Broad St Sprint"
+        }
+      },
+      {
+        "name": "E Main St Descent",
+        "segment": {
+          "id": 27139760,
+          "name": "E Main St Descent"
+        }
+      },
+      {
+        "name": "Libby Hill KOM",
+        "segment": {
+          "id": 12128826,
+          "name": "Libby Hill KOM"
+        }
+      },
+      {
+        "name": "KOM Reverse Descent",
+        "segment": {
+          "id": 27139725,
+          "name": "KOM Reverse Descent"
+        }
+      },
+      {
+        "name": "Sagan's Winning Move",
+        "segment": {
+          "id": 27139702,
+          "name": "Sagan's Winning Move"
+        }
+      },
+      {
+        "name": "23rd St KOM",
+        "segment": {
+          "id": 12128917,
+          "name": "23rd St KOM"
+        }
+      },
+      {
+        "name": "23rd St KOM Reverse Descent",
+        "segment": {
+          "id": 27139678,
+          "name": "23rd St KOM Reverse Descent"
+        }
+      },
+      {
+        "name": "Governor St Climb",
+        "segment": {
+          "id": 27139657,
+          "name": "Governor St Climb"
+        }
+      },
+      {
+        "name": "Finishing Straightaway",
+        "segment": {
+          "id": 27139617,
+          "name": "Finishing Straightaway"
+        }
+      },
+      {
+        "name": "Richmond 2015 Worlds Reverse - Banner to Banner",
+        "segment": {
+          "id": 22809649,
+          "name": "Richmond 2015 Worlds Reverse - Banner to Banner"
+        }
+      },
+      {
+        "name": "Governor St Descent",
+        "segment": {
+          "id": 27139642,
+          "name": "Governor St Descent"
+        }
+      },
+      {
+        "name": "23rd St KOM Reverse",
+        "segment": {
+          "id": 22813206,
+          "name": "23rd St KOM Reverse"
+        }
+      },
+      {
+        "name": "KOM Reverse",
+        "segment": {
+          "id": 26935782,
+          "name": "KOM Reverse"
+        }
+      },
+      {
+        "name": "Libby Hill KOM Descent",
+        "segment": {
+          "id": 27139734,
+          "name": "Libby Hill KOM Descent"
+        }
+      },
+      {
+        "name": "E Main St Climb",
+        "segment": {
+          "id": 27139746,
+          "name": "E Main St Climb"
+        }
+      },
+      {
+        "name": "Monument Ave Sprint",
+        "segment": {
+          "id": 12128762,
+          "name": "Monument Ave Sprint"
+        }
+      },
+      {
+        "name": "Finishing Straightaway Reverse",
+        "segment": {
+          "id": 27139870,
+          "name": "Finishing Straightaway Reverse"
+        }
+      },
+      {
+        "name": "Broad St Sprint",
+        "segment": {
+          "id": 12128880,
+          "name": "Broad St Sprint"
+        }
+      },
+      {
+        "name": "Cobbled Climbs",
+        "segment": {
+          "id": 11308213,
+          "name": "Cobbled Climbs"
+        }
+      },
+      {
+        "name": "E Main St Descent",
+        "segment": {
+          "id": 27139760,
+          "name": "E Main St Descent"
+        }
+      },
+      {
+        "name": "Libby Hill KOM",
+        "segment": {
+          "id": 12128826,
+          "name": "Libby Hill KOM"
+        }
+      },
+      {
+        "name": "KOM Reverse Descent",
+        "segment": {
+          "id": 27139725,
+          "name": "KOM Reverse Descent"
+        }
+      },
+      {
+        "name": "Sagan's Winning Move",
+        "segment": {
+          "id": 27139702,
+          "name": "Sagan's Winning Move"
+        }
+      },
+      {
+        "name": "23rd St KOM",
+        "segment": {
+          "id": 12128917,
+          "name": "23rd St KOM"
+        }
+      },
+      {
+        "name": "23rd St KOM Reverse Descent",
+        "segment": {
+          "id": 27139678,
+          "name": "23rd St KOM Reverse Descent"
+        }
+      },
+      {
+        "name": "Governor St Climb",
+        "segment": {
+          "id": 27139657,
+          "name": "Governor St Climb"
+        }
+      },
+      {
+        "name": "Finishing Straightaway",
+        "segment": {
+          "id": 27139617,
+          "name": "Finishing Straightaway"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:17.962Z"
+  },
+  "10624664879": {
+    "id": 10624664879,
+    "name": "Yorkshire",
+    "segment_efforts": [
+      {
+        "name": "Cornwall Rd Climb to Sprint Banner",
+        "segment": {
+          "id": 27180127,
+          "name": "Cornwall Rd Climb to Sprint Banner"
+        }
+      },
+      {
+        "name": "Duchy Estate (Banner to Banner)",
+        "segment": {
+          "id": 21748097,
+          "name": "Duchy Estate (Banner to Banner)"
+        }
+      },
+      {
+        "name": "Cornwall Rd Climb to Sprint Banner",
+        "segment": {
+          "id": 27180127,
+          "name": "Cornwall Rd Climb to Sprint Banner"
+        }
+      },
+      {
+        "name": "Tour of Tewit Well (Banner to Banner)",
+        "segment": {
+          "id": 21758283,
+          "name": "Tour of Tewit Well (Banner to Banner)"
+        }
+      },
+      {
+        "name": "Yorkshire KOM Reverse",
+        "segment": {
+          "id": 21747891,
+          "name": "Yorkshire KOM Reverse"
+        }
+      },
+      {
+        "name": "KOM Reverse Descent",
+        "segment": {
+          "id": 27180074,
+          "name": "KOM Reverse Descent"
+        }
+      },
+      {
+        "name": "Climb up from Oak Beck",
+        "segment": {
+          "id": 35518926,
+          "name": "Climb up from Oak Beck"
+        }
+      },
+      {
+        "name": "Pot Bank Climb",
+        "segment": {
+          "id": 27180252,
+          "name": "Pot Bank Climb"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:18.392Z"
+  },
+  "6695066439": {
+    "id": 6695066439,
+    "name": "Zwift - Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Sleepless City",
+        "segment": {
+          "id": 30407957,
+          "name": "Sleepless City"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:18.820Z"
+  },
+  "6673793396": {
+    "id": 6673793396,
+    "name": "Zwift - Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Twilight Harbor",
+        "segment": {
+          "id": 30629791,
+          "name": "Twilight Harbor"
+        }
+      },
+      {
+        "name": "Tower Sprint",
+        "segment": {
+          "id": 30412571,
+          "name": "Tower Sprint"
+        }
+      },
+      {
+        "name": "Alley Sprint Reverse",
+        "segment": {
+          "id": 30412916,
+          "name": "Alley Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:19.325Z"
+  },
+  "6638149691": {
+    "id": 6638149691,
+    "name": "Zwift - Watopia",
+    "segment_efforts": [
+      {
+        "name": "Jungle Circuit Lead-In",
+        "segment": {
+          "id": 22391557,
+          "name": "Jungle Circuit Lead-In"
+        }
+      },
+      {
+        "name": "Jungle Descent",
+        "segment": {
+          "id": 27215991,
+          "name": "Jungle Descent"
+        }
+      },
+      {
+        "name": "Jungle Circuit 1 Lap",
+        "segment": {
+          "id": 16359363,
+          "name": "Jungle Circuit 1 Lap"
+        }
+      },
+      {
+        "name": "Jungle Climb",
+        "segment": {
+          "id": 27215922,
+          "name": "Jungle Climb"
+        }
+      },
+      {
+        "name": "Jungle Descent",
+        "segment": {
+          "id": 27215991,
+          "name": "Jungle Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:19.749Z"
+  },
+  "6623390995": {
+    "id": 6623390995,
+    "name": "Zwift - London",
+    "segment_efforts": [
+      {
+        "name": "The Mall Sprint Forward",
+        "segment": {
+          "id": 12749377,
+          "name": "The Mall Sprint Forward"
+        }
+      },
+      {
+        "name": "Greater London Flat",
+        "segment": {
+          "id": 15389301,
+          "name": "Greater London Flat"
+        }
+      },
+      {
+        "name": "The Mall Sprint Forward",
+        "segment": {
+          "id": 12749377,
+          "name": "The Mall Sprint Forward"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:22.204Z"
+  },
+  "6109909904": {
+    "id": 6109909904,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "Volcano Climb",
+        "segment": {
+          "id": 16425130,
+          "name": "Volcano Climb"
+        }
+      },
+      {
+        "name": "Volcano KOM",
+        "segment": {
+          "id": 14270131,
+          "name": "Volcano KOM"
+        }
+      },
+      {
+        "name": "Volcano Descent",
+        "segment": {
+          "id": 19970445,
+          "name": "Volcano Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:22.595Z"
+  },
+  "6099963130": {
+    "id": 6099963130,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "Flat Route",
+        "segment": {
+          "id": 27130302,
+          "name": "Flat Route"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:23.096Z"
+  },
+  "6089592722": {
+    "id": 6089592722,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Two Bridges Loop",
+        "segment": {
+          "id": 26741685,
+          "name": "Two Bridges Loop"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:23.611Z"
+  },
+  "6079935255": {
+    "id": 6079935255,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "Volcano Flat",
+        "segment": {
+          "id": 14032442,
+          "name": "Volcano Flat"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:24.205Z"
+  },
+  "6049861687": {
+    "id": 6049861687,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Tempus Fugit",
+        "segment": {
+          "id": 20350088,
+          "name": "Tempus Fugit"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:24.731Z"
+  },
+  "6045318945": {
+    "id": 6045318945,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Sand and Sequoias",
+        "segment": {
+          "id": 21911197,
+          "name": "Sand and Sequoias"
+        }
+      },
+      {
+        "name": "Titans Grove, Northbound",
+        "segment": {
+          "id": 21563651,
+          "name": "Titans Grove, Northbound"
+        }
+      },
+      {
+        "name": "Titans Grove KOM",
+        "segment": {
+          "id": 21343975,
+          "name": "Titans Grove KOM"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:25.349Z"
+  },
+  "6040884442": {
+    "id": 6040884442,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Tick Tock",
+        "segment": {
+          "id": 20350376,
+          "name": "Tick Tock"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:25.862Z"
+  },
+  "6035932084": {
+    "id": 6035932084,
+    "name": "USA Cycling Coffee Ride (D)",
+    "segment_efforts": [
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:26.408Z"
+  },
+  "5982965463": {
+    "id": 5982965463,
+    "name": "Phil's Cookie Fundough",
+    "segment_efforts": [
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      },
+      {
+        "name": "Box Hill KOM",
+        "segment": {
+          "id": 12744502,
+          "name": "Box Hill KOM"
+        }
+      },
+      {
+        "name": "Fox Hill Descent",
+        "segment": {
+          "id": 27190651,
+          "name": "Fox Hill Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:27.596Z"
+  },
+  "5972905493": {
+    "id": 5972905493,
+    "name": "Cycle Nation Joburg Coffee Ride",
+    "segment_efforts": [
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      },
+      {
+        "name": "Bell Lap",
+        "segment": {
+          "id": 22419554,
+          "name": "Bell Lap"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:30.367Z"
+  },
+  "5967740793": {
+    "id": 5967740793,
+    "name": "EVO CC Sprint Race Series",
+    "segment_efforts": [
+      {
+        "name": "Innsbruckring",
+        "segment": {
+          "id": 18398895,
+          "name": "Innsbruckring"
+        }
+      },
+      {
+        "name": "Legsnapper OLD",
+        "segment": {
+          "id": 25718000,
+          "name": "Legsnapper OLD"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:30.950Z"
+  },
+  "5967709026": {
+    "id": 5967709026,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit CCW",
+        "segment": {
+          "id": 14032426,
+          "name": "Volcano Circuit CCW"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:31.526Z"
+  },
+  "5962466924": {
+    "id": 5962466924,
+    "name": "Watopia",
+    "segment_efforts": [
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Volcano KOM",
+        "segment": {
+          "id": 14270131,
+          "name": "Volcano KOM"
+        }
+      },
+      {
+        "name": "Volcano Descent",
+        "segment": {
+          "id": 19970445,
+          "name": "Volcano Descent"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Epic KOM Reverse - Start to Jungle Intersection ",
+        "segment": {
+          "id": 28770163,
+          "name": "Epic KOM Reverse - Start to Jungle Intersection "
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:32.108Z"
+  },
+  "5956614045": {
+    "id": 5956614045,
+    "name": "ZA - Recovery Ride",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Titans Grove KOM",
+        "segment": {
+          "id": 21343975,
+          "name": "Titans Grove KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:32.689Z"
+  },
+  "5950785411": {
+    "id": 5950785411,
+    "name": "TFC Group Group Ride",
+    "segment_efforts": [
+      {
+        "name": "Flatland Loop",
+        "segment": {
+          "id": 29129813,
+          "name": "Flatland Loop"
+        }
+      },
+      {
+        "name": "Farmland Flats CW",
+        "segment": {
+          "id": 28488038,
+          "name": "Farmland Flats CW"
+        }
+      },
+      {
+        "name": "Flatland Loop",
+        "segment": {
+          "id": 29129813,
+          "name": "Flatland Loop"
+        }
+      },
+      {
+        "name": "Farmland Flats CW",
+        "segment": {
+          "id": 28488038,
+          "name": "Farmland Flats CW"
+        }
+      },
+      {
+        "name": "Farmland Flats CW",
+        "segment": {
+          "id": 28488038,
+          "name": "Farmland Flats CW"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:33.266Z"
+  },
+  "5939342046": {
+    "id": 5939342046,
+    "name": "ZHQ FutureWorks Circuit Race - Anti-sandbagging (C)",
+    "segment_efforts": [
+      {
+        "name": "Champs-Élysées Lead-In from Start Pens",
+        "segment": {
+          "id": 24710513,
+          "name": "Champs-Élysées Lead-In from Start Pens"
+        }
+      },
+      {
+        "name": "Champs-Élysées",
+        "segment": {
+          "id": 24674235,
+          "name": "Champs-Élysées"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:33.848Z"
+  },
+  "5939271856": {
+    "id": 5939271856,
+    "name": "London",
+    "segment_efforts": [
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:34.315Z"
+  },
+  "5924459979": {
+    "id": 5924459979,
+    "name": "Ramp Test",
+    "segment_efforts": [
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:34.798Z"
+  },
+  "5912665646": {
+    "id": 5912665646,
+    "name": "Makuri Islands Recovery-ish Ride",
+    "segment_efforts": [
+      {
+        "name": "Flatland Loop",
+        "segment": {
+          "id": 29129813,
+          "name": "Flatland Loop"
+        }
+      },
+      {
+        "name": "Farmland Flats CW",
+        "segment": {
+          "id": 28488038,
+          "name": "Farmland Flats CW"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:35.219Z"
+  },
+  "5900094824": {
+    "id": 5900094824,
+    "name": "First Zwift Ride",
+    "segment_efforts": [
+      {
+        "name": "Beach Island Loop",
+        "segment": {
+          "id": 26741693,
+          "name": "Beach Island Loop"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:41:37.684Z"
+  },
+  "18800428930": {
+    "id": 18800428930,
+    "name": "Zwift - Farmland Loop in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Farmland Loop",
+        "segment": {
+          "id": 29534888,
+          "name": "Farmland Loop"
+        }
+      },
+      {
+        "name": "Farmland Flats CW",
+        "segment": {
+          "id": 28488038,
+          "name": "Farmland Flats CW"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:05.351Z"
+  },
+  "18750341820": {
+    "id": 18750341820,
+    "name": "Zwift - Queen's Highway in Yorkshire",
+    "segment_efforts": [
+      {
+        "name": "Queen's Highway (with Lead In)",
+        "segment": {
+          "id": 21748231,
+          "name": "Queen's Highway (with Lead In)"
+        }
+      },
+      {
+        "name": "Kent Rd Climb to Sprint Banner",
+        "segment": {
+          "id": 27180136,
+          "name": "Kent Rd Climb to Sprint Banner"
+        }
+      },
+      {
+        "name": "Yorkshire Sprint Reverse",
+        "segment": {
+          "id": 21748007,
+          "name": "Yorkshire Sprint Reverse"
+        }
+      },
+      {
+        "name": "Queen's Highway",
+        "segment": {
+          "id": 21748253,
+          "name": "Queen's Highway"
+        }
+      },
+      {
+        "name": "Kent Rd Climb to Sprint Banner",
+        "segment": {
+          "id": 27180136,
+          "name": "Kent Rd Climb to Sprint Banner"
+        }
+      },
+      {
+        "name": "Yorkshire Sprint Reverse",
+        "segment": {
+          "id": 21748007,
+          "name": "Yorkshire Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:05.828Z"
+  },
+  "18722091055": {
+    "id": 18722091055,
+    "name": "Zwift - The Classic in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Jarvis Island CCW",
+        "segment": {
+          "id": 38132897,
+          "name": "Jarvis Island CCW"
+        }
+      },
+      {
+        "name": "Jarvis KOM",
+        "segment": {
+          "id": 38138480,
+          "name": "Jarvis KOM"
+        }
+      },
+      {
+        "name": "Jarvis Sprint",
+        "segment": {
+          "id": 38151476,
+          "name": "Jarvis Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:06.225Z"
+  },
+  "17596095673": {
+    "id": 17596095673,
+    "name": "Zwift - Jarvis Seaside Sprint in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Jarvis Seaside Sprint",
+        "segment": {
+          "id": 40054523,
+          "name": "Jarvis Seaside Sprint"
+        }
+      },
+      {
+        "name": "Jarvis Sprint Reverse",
+        "segment": {
+          "id": 38151470,
+          "name": "Jarvis Sprint Reverse"
+        }
+      },
+      {
+        "name": "Jarvis KOM Reverse",
+        "segment": {
+          "id": 38132913,
+          "name": "Jarvis KOM Reverse"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:06.645Z"
+  },
+  "16471488639": {
+    "id": 16471488639,
+    "name": "Zwift - Avon Flyer  in New York",
+    "segment_efforts": [
+      {
+        "name": "Avon Flyer",
+        "segment": {
+          "id": 40325105,
+          "name": "Avon Flyer"
+        }
+      },
+      {
+        "name": "The Peristyle Sprint Reverse",
+        "segment": {
+          "id": 40338223,
+          "name": "The Peristyle Sprint Reverse"
+        }
+      },
+      {
+        "name": "Center Sprint",
+        "segment": {
+          "id": 40338226,
+          "name": "Center Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:07.048Z"
+  },
+  "16471473658": {
+    "id": 16471473658,
+    "name": "Zwift - Loop de Loop in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Loop de Loop",
+        "segment": {
+          "id": 36342198,
+          "name": "Loop de Loop"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      },
+      {
+        "name": "Hilly KOM",
+        "segment": {
+          "id": 12109030,
+          "name": "Hilly KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:07.596Z"
+  },
+  "16471415507": {
+    "id": 16471415507,
+    "name": "Zwift - Watts of the Wild in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Watts of the Wild (1 Lap)",
+        "segment": {
+          "id": 40234360,
+          "name": "Watts of the Wild (1 Lap)"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Jarvis KOM",
+        "segment": {
+          "id": 38138480,
+          "name": "Jarvis KOM"
+        }
+      },
+      {
+        "name": "Jarvis Sprint",
+        "segment": {
+          "id": 38151476,
+          "name": "Jarvis Sprint"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Titans Grove, Northbound",
+        "segment": {
+          "id": 21563651,
+          "name": "Titans Grove, Northbound"
+        }
+      },
+      {
+        "name": "Titans Grove KOM",
+        "segment": {
+          "id": 21343975,
+          "name": "Titans Grove KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:08.165Z"
+  },
+  "16452463276": {
+    "id": 16452463276,
+    "name": "Zwift - Flat Out Fast in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Tempus Fugit",
+        "segment": {
+          "id": 20350088,
+          "name": "Tempus Fugit"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:08.713Z"
+  },
+  "16370280123": {
+    "id": 16370280123,
+    "name": "Zwift - Green to Screen in New York",
+    "segment_efforts": [
+      {
+        "name": "Green to Screen",
+        "segment": {
+          "id": 40336212,
+          "name": "Green to Screen"
+        }
+      },
+      {
+        "name": "The Peristyle Sprint",
+        "segment": {
+          "id": 40338218,
+          "name": "The Peristyle Sprint"
+        }
+      },
+      {
+        "name": "The Hill KOM",
+        "segment": {
+          "id": 40325329,
+          "name": "The Hill KOM"
+        }
+      },
+      {
+        "name": "Manhattan Sprint",
+        "segment": {
+          "id": 40342842,
+          "name": "Manhattan Sprint"
+        }
+      },
+      {
+        "name": "Brooklyn Bridge KOM",
+        "segment": {
+          "id": 40342819,
+          "name": "Brooklyn Bridge KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:09.183Z"
+  },
+  "16316981732": {
+    "id": 16316981732,
+    "name": "Zwift - Prospect Park Loop in New York",
+    "segment_efforts": [
+      {
+        "name": "Prospect Park Loop",
+        "segment": {
+          "id": 40325245,
+          "name": "Prospect Park Loop"
+        }
+      },
+      {
+        "name": "The Peristyle Sprint",
+        "segment": {
+          "id": 40338218,
+          "name": "The Peristyle Sprint"
+        }
+      },
+      {
+        "name": "The Hill KOM",
+        "segment": {
+          "id": 40325329,
+          "name": "The Hill KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:09.556Z"
+  },
+  "16316926681": {
+    "id": 16316926681,
+    "name": "Zwift - Double Parked in New York",
+    "segment_efforts": [
+      {
+        "name": "Double Parked",
+        "segment": {
+          "id": 40336136,
+          "name": "Double Parked"
+        }
+      },
+      {
+        "name": "The Peristyle Sprint",
+        "segment": {
+          "id": 40338218,
+          "name": "The Peristyle Sprint"
+        }
+      },
+      {
+        "name": "The Hill KOM",
+        "segment": {
+          "id": 40325329,
+          "name": "The Hill KOM"
+        }
+      },
+      {
+        "name": "Manhattan Sprint",
+        "segment": {
+          "id": 40342842,
+          "name": "Manhattan Sprint"
+        }
+      },
+      {
+        "name": "East Side - Fulgaz",
+        "segment": {
+          "id": 30349547,
+          "name": "East Side - Fulgaz"
+        }
+      },
+      {
+        "name": "Harlem Hill Climb",
+        "segment": {
+          "id": 27207823,
+          "name": "Harlem Hill Climb"
+        }
+      },
+      {
+        "name": "Three Sisters - Fulgaz",
+        "segment": {
+          "id": 30349583,
+          "name": "Three Sisters - Fulgaz"
+        }
+      },
+      {
+        "name": "ODZ Kidney Kicker",
+        "segment": {
+          "id": 19192732,
+          "name": "ODZ Kidney Kicker"
+        }
+      },
+      {
+        "name": "NY Sprint",
+        "segment": {
+          "id": 38152497,
+          "name": "NY Sprint"
+        }
+      },
+      {
+        "name": "Manhattan Bridge",
+        "segment": {
+          "id": 16061419,
+          "name": "Manhattan Bridge"
+        }
+      },
+      {
+        "name": "Manhattan Sprint Reverse",
+        "segment": {
+          "id": 40342857,
+          "name": "Manhattan Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:12.074Z"
+  },
+  "16257325077": {
+    "id": 16257325077,
+    "name": "Zwift - Coast to Coast in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Coast to Coast",
+        "segment": {
+          "id": 38138499,
+          "name": "Coast to Coast"
+        }
+      },
+      {
+        "name": "Woodland Sprint",
+        "segment": {
+          "id": 35705436,
+          "name": "Woodland Sprint"
+        }
+      },
+      {
+        "name": "Jarvis Island CCW",
+        "segment": {
+          "id": 38132897,
+          "name": "Jarvis Island CCW"
+        }
+      },
+      {
+        "name": "Jarvis KOM",
+        "segment": {
+          "id": 38138480,
+          "name": "Jarvis KOM"
+        }
+      },
+      {
+        "name": "Jarvis Sprint",
+        "segment": {
+          "id": 38151476,
+          "name": "Jarvis Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:12.532Z"
+  },
+  "14657329706": {
+    "id": 14657329706,
+    "name": "Zwift - Makuri Madness in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Makuri Madness",
+        "segment": {
+          "id": 38413164,
+          "name": "Makuri Madness"
+        }
+      },
+      {
+        "name": "Tower Sprint",
+        "segment": {
+          "id": 30412571,
+          "name": "Tower Sprint"
+        }
+      },
+      {
+        "name": "Tidepool Sprint",
+        "segment": {
+          "id": 38169050,
+          "name": "Tidepool Sprint"
+        }
+      },
+      {
+        "name": "Mech Isle Climb CW",
+        "segment": {
+          "id": 33263289,
+          "name": "Mech Isle Climb CW"
+        }
+      },
+      {
+        "name": "Boardwalk Sprint ",
+        "segment": {
+          "id": 38169040,
+          "name": "Boardwalk Sprint "
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:13.057Z"
+  },
+  "14513448115": {
+    "id": 14513448115,
+    "name": "Zwift - Sacre Bleu in France",
+    "segment_efforts": [
+      {
+        "name": "Sprinteur Sprint",
+        "segment": {
+          "id": 38873944,
+          "name": "Sprinteur Sprint"
+        }
+      },
+      {
+        "name": "Three Musketeers",
+        "segment": {
+          "id": 38873256,
+          "name": "Three Musketeers"
+        }
+      },
+      {
+        "name": "Sprint du Cratère Reverse",
+        "segment": {
+          "id": 38873996,
+          "name": "Sprint du Cratère Reverse"
+        }
+      },
+      {
+        "name": "Dos d'Âne Sprint",
+        "segment": {
+          "id": 38873975,
+          "name": "Dos d'Âne Sprint"
+        }
+      },
+      {
+        "name": "Pavé Sprint Reverse",
+        "segment": {
+          "id": 24710570,
+          "name": "Pavé Sprint Reverse"
+        }
+      },
+      {
+        "name": "Aqueduc KOM Reverse",
+        "segment": {
+          "id": 24701010,
+          "name": "Aqueduc KOM Reverse"
+        }
+      },
+      {
+        "name": "Ballon Sprint Reverse",
+        "segment": {
+          "id": 24700963,
+          "name": "Ballon Sprint Reverse"
+        }
+      },
+      {
+        "name": "Dos d'Âne Sprint",
+        "segment": {
+          "id": 38873975,
+          "name": "Dos d'Âne Sprint"
+        }
+      },
+      {
+        "name": "Macaron",
+        "segment": {
+          "id": 38876339,
+          "name": "Macaron"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint",
+        "segment": {
+          "id": 38873944,
+          "name": "Sprinteur Sprint"
+        }
+      },
+      {
+        "name": "Sprint du Cratère Reverse",
+        "segment": {
+          "id": 38873996,
+          "name": "Sprint du Cratère Reverse"
+        }
+      },
+      {
+        "name": "Les Intestins - Inbound",
+        "segment": {
+          "id": 33462687,
+          "name": "Les Intestins - Inbound"
+        }
+      },
+      {
+        "name": "Marina Sprint Reverse",
+        "segment": {
+          "id": 38169137,
+          "name": "Marina Sprint Reverse"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint",
+        "segment": {
+          "id": 38873944,
+          "name": "Sprinteur Sprint"
+        }
+      },
+      {
+        "name": "Sprint du Cratère Reverse",
+        "segment": {
+          "id": 38873996,
+          "name": "Sprint du Cratère Reverse"
+        }
+      },
+      {
+        "name": "Ballon Sprint",
+        "segment": {
+          "id": 38169142,
+          "name": "Ballon Sprint"
+        }
+      },
+      {
+        "name": "Aqueduc KOM",
+        "segment": {
+          "id": 24700976,
+          "name": "Aqueduc KOM"
+        }
+      },
+      {
+        "name": "Pavé Sprint",
+        "segment": {
+          "id": 24710565,
+          "name": "Pavé Sprint"
+        }
+      },
+      {
+        "name": "Dos d'Âne Sprint Reverse",
+        "segment": {
+          "id": 38873968,
+          "name": "Dos d'Âne Sprint Reverse"
+        }
+      },
+      {
+        "name": "Sprint du Cratère",
+        "segment": {
+          "id": 38874008,
+          "name": "Sprint du Cratère"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint Reverse",
+        "segment": {
+          "id": 38873955,
+          "name": "Sprinteur Sprint Reverse"
+        }
+      },
+      {
+        "name": "Marina Sprint",
+        "segment": {
+          "id": 24710590,
+          "name": "Marina Sprint"
+        }
+      },
+      {
+        "name": "Les Intestins - Outbound",
+        "segment": {
+          "id": 33462685,
+          "name": "Les Intestins - Outbound"
+        }
+      },
+      {
+        "name": "Dos d'Âne Sprint",
+        "segment": {
+          "id": 38873975,
+          "name": "Dos d'Âne Sprint"
+        }
+      },
+      {
+        "name": "Macaron",
+        "segment": {
+          "id": 38876339,
+          "name": "Macaron"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint",
+        "segment": {
+          "id": 38873944,
+          "name": "Sprinteur Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:13.736Z"
+  },
+  "14503829868": {
+    "id": 14503829868,
+    "name": "Zwift - Three Musketeers in France",
+    "segment_efforts": [
+      {
+        "name": "Sprinteur Sprint",
+        "segment": {
+          "id": 38873944,
+          "name": "Sprinteur Sprint"
+        }
+      },
+      {
+        "name": "Three Musketeers",
+        "segment": {
+          "id": 38873256,
+          "name": "Three Musketeers"
+        }
+      },
+      {
+        "name": "Sprint du Cratère Reverse",
+        "segment": {
+          "id": 38873996,
+          "name": "Sprint du Cratère Reverse"
+        }
+      },
+      {
+        "name": "Dos d'Âne Sprint",
+        "segment": {
+          "id": 38873975,
+          "name": "Dos d'Âne Sprint"
+        }
+      },
+      {
+        "name": "Pavé Sprint Reverse",
+        "segment": {
+          "id": 24710570,
+          "name": "Pavé Sprint Reverse"
+        }
+      },
+      {
+        "name": "Aqueduc KOM Reverse",
+        "segment": {
+          "id": 24701010,
+          "name": "Aqueduc KOM Reverse"
+        }
+      },
+      {
+        "name": "Ballon Sprint Reverse",
+        "segment": {
+          "id": 24700963,
+          "name": "Ballon Sprint Reverse"
+        }
+      },
+      {
+        "name": "Dos d'Âne Sprint",
+        "segment": {
+          "id": 38873975,
+          "name": "Dos d'Âne Sprint"
+        }
+      },
+      {
+        "name": "Macaron",
+        "segment": {
+          "id": 38876339,
+          "name": "Macaron"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint",
+        "segment": {
+          "id": 38873944,
+          "name": "Sprinteur Sprint"
+        }
+      },
+      {
+        "name": "Sprint du Cratère Reverse",
+        "segment": {
+          "id": 38873996,
+          "name": "Sprint du Cratère Reverse"
+        }
+      },
+      {
+        "name": "Les Intestins - Inbound",
+        "segment": {
+          "id": 33462687,
+          "name": "Les Intestins - Inbound"
+        }
+      },
+      {
+        "name": "Marina Sprint Reverse",
+        "segment": {
+          "id": 38169137,
+          "name": "Marina Sprint Reverse"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint",
+        "segment": {
+          "id": 38873944,
+          "name": "Sprinteur Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:14.344Z"
+  },
+  "13969508810": {
+    "id": 13969508810,
+    "name": "Zwift - The Magnificent 8 in Watopia",
+    "segment_efforts": [
+      {
+        "name": "The Magnificent 8",
+        "segment": {
+          "id": 22180287,
+          "name": "The Magnificent 8"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Hilly KOM Reverse",
+        "segment": {
+          "id": 12128029,
+          "name": "Hilly KOM Reverse"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:14.858Z"
+  },
+  "12926529617": {
+    "id": 12926529617,
+    "name": "Zwift - Navig8 in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Going Coastal",
+        "segment": {
+          "id": 35697589,
+          "name": "Going Coastal"
+        }
+      },
+      {
+        "name": "Navig8",
+        "segment": {
+          "id": 37716261,
+          "name": "Navig8"
+        }
+      },
+      {
+        "name": "Woodland Sprint Reverse",
+        "segment": {
+          "id": 38152352,
+          "name": "Woodland Sprint Reverse"
+        }
+      },
+      {
+        "name": "Sasquatch Sprint Reverse",
+        "segment": {
+          "id": 38152330,
+          "name": "Sasquatch Sprint Reverse"
+        }
+      },
+      {
+        "name": "Acropolis Sprint Reverse",
+        "segment": {
+          "id": 38152312,
+          "name": "Acropolis Sprint Reverse"
+        }
+      },
+      {
+        "name": "Stoneway Sprint Reverse",
+        "segment": {
+          "id": 38152293,
+          "name": "Stoneway Sprint Reverse"
+        }
+      },
+      {
+        "name": "Mayan Mountainside KOM",
+        "segment": {
+          "id": 37049451,
+          "name": "Mayan Mountainside KOM"
+        }
+      },
+      {
+        "name": "Itza KOM",
+        "segment": {
+          "id": 37039571,
+          "name": "Itza KOM"
+        }
+      },
+      {
+        "name": "Sasquatch Sprint",
+        "segment": {
+          "id": 38152327,
+          "name": "Sasquatch Sprint"
+        }
+      },
+      {
+        "name": "Woodland Sprint",
+        "segment": {
+          "id": 35705436,
+          "name": "Woodland Sprint"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:15.466Z"
+  },
+  "12917531201": {
+    "id": 12917531201,
+    "name": "Zwift - Loopin Lava in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Lead-In from Downtown Watopia to Jarvis Lap Arch",
+        "segment": {
+          "id": 38146699,
+          "name": "Lead-In from Downtown Watopia to Jarvis Lap Arch"
+        }
+      },
+      {
+        "name": "Loopin Lava",
+        "segment": {
+          "id": 38132886,
+          "name": "Loopin Lava"
+        }
+      },
+      {
+        "name": "Jarvis KOM",
+        "segment": {
+          "id": 38138480,
+          "name": "Jarvis KOM"
+        }
+      },
+      {
+        "name": "Jarvis Sprint",
+        "segment": {
+          "id": 38151476,
+          "name": "Jarvis Sprint"
+        }
+      },
+      {
+        "name": "Volcano KOM",
+        "segment": {
+          "id": 14270131,
+          "name": "Volcano KOM"
+        }
+      },
+      {
+        "name": "Volcano Descent",
+        "segment": {
+          "id": 19970445,
+          "name": "Volcano Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:16.099Z"
+  },
+  "12917252095": {
+    "id": 12917252095,
+    "name": "Zwift - Waisted 8 in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Lead-In from Downtown Watopia to Jarvis Sprint",
+        "segment": {
+          "id": 38146668,
+          "name": "Lead-In from Downtown Watopia to Jarvis Sprint"
+        }
+      },
+      {
+        "name": "Waisted 8",
+        "segment": {
+          "id": 38138483,
+          "name": "Waisted 8"
+        }
+      },
+      {
+        "name": "Jarvis Sprint Reverse",
+        "segment": {
+          "id": 38151470,
+          "name": "Jarvis Sprint Reverse"
+        }
+      },
+      {
+        "name": "Jarvis KOM Reverse",
+        "segment": {
+          "id": 38132913,
+          "name": "Jarvis KOM Reverse"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:16.698Z"
+  },
+  "12833798010": {
+    "id": 12833798010,
+    "name": "Zwift - Mayan 8 in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Mayan 8",
+        "segment": {
+          "id": 37683459,
+          "name": "Mayan 8"
+        }
+      },
+      {
+        "name": "Mayan Bridge Eastbound",
+        "segment": {
+          "id": 27216064,
+          "name": "Mayan Bridge Eastbound"
+        }
+      },
+      {
+        "name": "Mayan Mountainside KOM",
+        "segment": {
+          "id": 37049451,
+          "name": "Mayan Mountainside KOM"
+        }
+      },
+      {
+        "name": "Itza KOM",
+        "segment": {
+          "id": 37039571,
+          "name": "Itza KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:17.210Z"
+  },
+  "11342698918": {
+    "id": 11342698918,
+    "name": "Zwift - Classique in London",
+    "segment_efforts": [
+      {
+        "name": "The Mall Sprint Forward",
+        "segment": {
+          "id": 12749377,
+          "name": "The Mall Sprint Forward"
+        }
+      },
+      {
+        "name": "Classique",
+        "segment": {
+          "id": 12749761,
+          "name": "Classique"
+        }
+      },
+      {
+        "name": "Whitehall Rd",
+        "segment": {
+          "id": 27191771,
+          "name": "Whitehall Rd"
+        }
+      },
+      {
+        "name": "Classique Final 1km",
+        "segment": {
+          "id": 27191777,
+          "name": "Classique Final 1km"
+        }
+      },
+      {
+        "name": "The Mall Sprint Forward",
+        "segment": {
+          "id": 12749377,
+          "name": "The Mall Sprint Forward"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:19.619Z"
+  },
+  "11342669576": {
+    "id": 11342669576,
+    "name": "Zwift - Big Flat 8 in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Big Flat 8 Banner to Banner",
+        "segment": {
+          "id": 26974627,
+          "name": "Big Flat 8 Banner to Banner"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:20.280Z"
+  },
+  "11287338410": {
+    "id": 11287338410,
+    "name": "Zwift - Sprinter's Playground in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Sprinter's Playground",
+        "segment": {
+          "id": 30412485,
+          "name": "Sprinter's Playground"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Railway Sprint",
+        "segment": {
+          "id": 30412927,
+          "name": "Railway Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:20.794Z"
+  },
+  "11287140011": {
+    "id": 11287140011,
+    "name": "Zwift - Country to Coastal in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Country to Coastal",
+        "segment": {
+          "id": 33238095,
+          "name": "Country to Coastal"
+        }
+      },
+      {
+        "name": "Festival Harbor Climb CCW",
+        "segment": {
+          "id": 33262947,
+          "name": "Festival Harbor Climb CCW"
+        }
+      },
+      {
+        "name": "Connector Canyon Climb",
+        "segment": {
+          "id": 33302102,
+          "name": "Connector Canyon Climb"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:21.301Z"
+  },
+  "11286668208": {
+    "id": 11286668208,
+    "name": "Zwift - Pacer Group Ride: Island Hopper in Makuri Islands with Miguel",
+    "segment_efforts": [
+      {
+        "name": "Bridges and Boardwalks Lead-In from Start Pens",
+        "segment": {
+          "id": 33262797,
+          "name": "Bridges and Boardwalks Lead-In from Start Pens"
+        }
+      },
+      {
+        "name": "Island Hopper",
+        "segment": {
+          "id": 33236919,
+          "name": "Island Hopper"
+        }
+      },
+      {
+        "name": "Mech Isle Climb CW",
+        "segment": {
+          "id": 33263289,
+          "name": "Mech Isle Climb CW"
+        }
+      },
+      {
+        "name": "Festival Harbor Climb CCW",
+        "segment": {
+          "id": 33262947,
+          "name": "Festival Harbor Climb CCW"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:21.815Z"
+  },
+  "11228120148": {
+    "id": 11228120148,
+    "name": "Zwift - Spiral into the Volcano in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Rebel Route: Spiral Into the Volcano",
+        "segment": {
+          "id": 20522725,
+          "name": "Rebel Route: Spiral Into the Volcano"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      },
+      {
+        "name": "Volcano Flat Reverse 1 Lap",
+        "segment": {
+          "id": 14120237,
+          "name": "Volcano Flat Reverse 1 Lap"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      },
+      {
+        "name": "Volcano KOM",
+        "segment": {
+          "id": 14270131,
+          "name": "Volcano KOM"
+        }
+      },
+      {
+        "name": "Volcano Descent",
+        "segment": {
+          "id": 19970445,
+          "name": "Volcano Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:22.533Z"
+  },
+  "11220725500": {
+    "id": 11220725500,
+    "name": "Zwift - The Muckle Yin in Scotland",
+    "segment_efforts": [
+      {
+        "name": "The Muckle Yin",
+        "segment": {
+          "id": 33636050,
+          "name": "The Muckle Yin"
+        }
+      },
+      {
+        "name": "Sgurr Summit North",
+        "segment": {
+          "id": 33636401,
+          "name": "Sgurr Summit North"
+        }
+      },
+      {
+        "name": "Sgurr Summit Northbound Descent",
+        "segment": {
+          "id": 33636407,
+          "name": "Sgurr Summit Northbound Descent"
+        }
+      },
+      {
+        "name": "Breakaway Brae",
+        "segment": {
+          "id": 33620168,
+          "name": "Breakaway Brae"
+        }
+      },
+      {
+        "name": "Sgurr Summit South",
+        "segment": {
+          "id": 33636430,
+          "name": "Sgurr Summit South"
+        }
+      },
+      {
+        "name": "Sgurr Summit Southbound Descent",
+        "segment": {
+          "id": 33636437,
+          "name": "Sgurr Summit Southbound Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:22.952Z"
+  },
+  "11121880344": {
+    "id": 11121880344,
+    "name": "Zwift - Triple Loops in London",
+    "segment_efforts": [
+      {
+        "name": "Triple Loops",
+        "segment": {
+          "id": 16781219,
+          "name": "Triple Loops"
+        }
+      },
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      },
+      {
+        "name": "Whitehall Rd",
+        "segment": {
+          "id": 27191771,
+          "name": "Whitehall Rd"
+        }
+      },
+      {
+        "name": "Classique Final 1km",
+        "segment": {
+          "id": 27191777,
+          "name": "Classique Final 1km"
+        }
+      },
+      {
+        "name": "The Mall Sprint Forward",
+        "segment": {
+          "id": 12749377,
+          "name": "The Mall Sprint Forward"
+        }
+      },
+      {
+        "name": "Leith Hill Full Climb",
+        "segment": {
+          "id": 27191764,
+          "name": "Leith Hill Full Climb"
+        }
+      },
+      {
+        "name": "Leith Hill KOM",
+        "segment": {
+          "id": 16781411,
+          "name": "Leith Hill KOM"
+        }
+      },
+      {
+        "name": "Keith Hill Descent",
+        "segment": {
+          "id": 27191746,
+          "name": "Keith Hill Descent"
+        }
+      },
+      {
+        "name": "Box Hill Climb from Richmond Park side",
+        "segment": {
+          "id": 27190501,
+          "name": "Box Hill Climb from Richmond Park side"
+        }
+      },
+      {
+        "name": "Fox Hill Descent",
+        "segment": {
+          "id": 27190651,
+          "name": "Fox Hill Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:23.537Z"
+  },
+  "11052941808": {
+    "id": 11052941808,
+    "name": "Zwift - Roule Ma Poule in France",
+    "segment_efforts": [
+      {
+        "name": "Start Pens Lead-In to Petit KOM Banner",
+        "segment": {
+          "id": 24690923,
+          "name": "Start Pens Lead-In to Petit KOM Banner"
+        }
+      },
+      {
+        "name": "Roule Ma Poule",
+        "segment": {
+          "id": 24690956,
+          "name": "Roule Ma Poule"
+        }
+      },
+      {
+        "name": "Aqueduc KOM",
+        "segment": {
+          "id": 24700976,
+          "name": "Aqueduc KOM"
+        }
+      },
+      {
+        "name": "Pavé Sprint",
+        "segment": {
+          "id": 24710565,
+          "name": "Pavé Sprint"
+        }
+      },
+      {
+        "name": "Marina Sprint",
+        "segment": {
+          "id": 24710590,
+          "name": "Marina Sprint"
+        }
+      },
+      {
+        "name": "Start Pens Lead-In to Petit KOM Banner",
+        "segment": {
+          "id": 24690923,
+          "name": "Start Pens Lead-In to Petit KOM Banner"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:23.994Z"
+  },
+  "11025085674": {
+    "id": 11025085674,
+    "name": "Zwift - Downtown Titans in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Rebel Route: Downtown Titans",
+        "segment": {
+          "id": 23167123,
+          "name": "Rebel Route: Downtown Titans"
+        }
+      },
+      {
+        "name": "Titans Grove, Southbound",
+        "segment": {
+          "id": 21563640,
+          "name": "Titans Grove, Southbound"
+        }
+      },
+      {
+        "name": "Titans Grove Reverse KOM",
+        "segment": {
+          "id": 21343961,
+          "name": "Titans Grove Reverse KOM"
+        }
+      },
+      {
+        "name": "Hilly KOM",
+        "segment": {
+          "id": 12109030,
+          "name": "Hilly KOM"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:24.492Z"
+  },
+  "11018256019": {
+    "id": 11018256019,
+    "name": "Zwift - Big Loop in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Big Loop from Banner",
+        "segment": {
+          "id": 16402683,
+          "name": "Big Loop from Banner"
+        }
+      },
+      {
+        "name": "Epic KOM",
+        "segment": {
+          "id": 16784833,
+          "name": "Epic KOM"
+        }
+      },
+      {
+        "name": "Epic KOM - Start to Bypass Intersection ",
+        "segment": {
+          "id": 28778305,
+          "name": "Epic KOM - Start to Bypass Intersection "
+        }
+      },
+      {
+        "name": "Jungle Circuit Lead-In",
+        "segment": {
+          "id": 22391557,
+          "name": "Jungle Circuit Lead-In"
+        }
+      },
+      {
+        "name": "Jungle Descent",
+        "segment": {
+          "id": 27215991,
+          "name": "Jungle Descent"
+        }
+      },
+      {
+        "name": "Jungle Climb",
+        "segment": {
+          "id": 27215922,
+          "name": "Jungle Climb"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:27.034Z"
+  },
+  "10870612017": {
+    "id": 10870612017,
+    "name": "Zwift - Douce France in France",
+    "segment_efforts": [
+      {
+        "name": "Douce France from Start Pens",
+        "segment": {
+          "id": 24676071,
+          "name": "Douce France from Start Pens"
+        }
+      },
+      {
+        "name": "Les Intestins - Outbound",
+        "segment": {
+          "id": 33462685,
+          "name": "Les Intestins - Outbound"
+        }
+      },
+      {
+        "name": "Aqueduc KOM",
+        "segment": {
+          "id": 24700976,
+          "name": "Aqueduc KOM"
+        }
+      },
+      {
+        "name": "Pavé Sprint",
+        "segment": {
+          "id": 24710565,
+          "name": "Pavé Sprint"
+        }
+      },
+      {
+        "name": "Marina Sprint",
+        "segment": {
+          "id": 24710590,
+          "name": "Marina Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:27.654Z"
+  },
+  "10852128991": {
+    "id": 10852128991,
+    "name": "Zwift - Big Foot Hills in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Big Foot Hills",
+        "segment": {
+          "id": 21911191,
+          "name": "Big Foot Hills"
+        }
+      },
+      {
+        "name": "Big Foot Hills - ZRL Custom Shorter Route",
+        "segment": {
+          "id": 25971484,
+          "name": "Big Foot Hills - ZRL Custom Shorter Route"
+        }
+      },
+      {
+        "name": "Titans Grove, Northbound",
+        "segment": {
+          "id": 21563651,
+          "name": "Titans Grove, Northbound"
+        }
+      },
+      {
+        "name": "Titans Grove KOM",
+        "segment": {
+          "id": 21343975,
+          "name": "Titans Grove KOM"
+        }
+      },
+      {
+        "name": "Hilly KOM",
+        "segment": {
+          "id": 12109030,
+          "name": "Hilly KOM"
+        }
+      },
+      {
+        "name": "Whole Lotta Lava ",
+        "segment": {
+          "id": 20545879,
+          "name": "Whole Lotta Lava "
+        }
+      },
+      {
+        "name": "Volcano KOM",
+        "segment": {
+          "id": 14270131,
+          "name": "Volcano KOM"
+        }
+      },
+      {
+        "name": "Volcano Descent",
+        "segment": {
+          "id": 19970445,
+          "name": "Volcano Descent"
+        }
+      },
+      {
+        "name": "Titans Grove, Southbound",
+        "segment": {
+          "id": 21563640,
+          "name": "Titans Grove, Southbound"
+        }
+      },
+      {
+        "name": "Titans Grove Reverse KOM",
+        "segment": {
+          "id": 21343961,
+          "name": "Titans Grove Reverse KOM"
+        }
+      },
+      {
+        "name": "Hilly KOM Reverse",
+        "segment": {
+          "id": 12128029,
+          "name": "Hilly KOM Reverse"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:28.191Z"
+  },
+  "10837570232": {
+    "id": 10837570232,
+    "name": "Zwift - Bigger Loop in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Bigger Loop",
+        "segment": {
+          "id": 20425565,
+          "name": "Bigger Loop"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Epic KOM",
+        "segment": {
+          "id": 16784833,
+          "name": "Epic KOM"
+        }
+      },
+      {
+        "name": "Epic KOM - Start to Bypass Intersection ",
+        "segment": {
+          "id": 28778305,
+          "name": "Epic KOM - Start to Bypass Intersection "
+        }
+      },
+      {
+        "name": "Jungle Circuit Lead-In",
+        "segment": {
+          "id": 22391557,
+          "name": "Jungle Circuit Lead-In"
+        }
+      },
+      {
+        "name": "Jungle Descent",
+        "segment": {
+          "id": 27215991,
+          "name": "Jungle Descent"
+        }
+      },
+      {
+        "name": "Jungle Climb",
+        "segment": {
+          "id": 27215922,
+          "name": "Jungle Climb"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:28.783Z"
+  },
+  "10829114137": {
+    "id": 10829114137,
+    "name": "Zwift - Out And Back Again in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Out and Back Again",
+        "segment": {
+          "id": 20350104,
+          "name": "Out and Back Again"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      },
+      {
+        "name": "Volcano KOM",
+        "segment": {
+          "id": 14270131,
+          "name": "Volcano KOM"
+        }
+      },
+      {
+        "name": "Volcano Descent",
+        "segment": {
+          "id": 19970445,
+          "name": "Volcano Descent"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Hilly KOM Reverse",
+        "segment": {
+          "id": 12128029,
+          "name": "Hilly KOM Reverse"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:29.314Z"
+  },
+  "10678522580": {
+    "id": 10678522580,
+    "name": "Zwift - Pacer Group Ride: Castle to Castle in Makuri Islands with Maria",
+    "segment_efforts": [
+      {
+        "name": "Alley Sprint Reverse",
+        "segment": {
+          "id": 30412916,
+          "name": "Alley Sprint Reverse"
+        }
+      },
+      {
+        "name": "Tower Sprint",
+        "segment": {
+          "id": 30412571,
+          "name": "Tower Sprint"
+        }
+      },
+      {
+        "name": "Castle to Castle",
+        "segment": {
+          "id": 30629803,
+          "name": "Castle to Castle"
+        }
+      },
+      {
+        "name": "Alley Sprint Reverse",
+        "segment": {
+          "id": 30412916,
+          "name": "Alley Sprint Reverse"
+        }
+      },
+      {
+        "name": "Tower Sprint",
+        "segment": {
+          "id": 30412571,
+          "name": "Tower Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:29.799Z"
+  },
+  "10665399941": {
+    "id": 10665399941,
+    "name": "Zwift - Sugar Cookie in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Jungle Descent",
+        "segment": {
+          "id": 27215991,
+          "name": "Jungle Descent"
+        }
+      },
+      {
+        "name": "Sugar Cookie",
+        "segment": {
+          "id": 35705425,
+          "name": "Sugar Cookie"
+        }
+      },
+      {
+        "name": "Woodland Sprint",
+        "segment": {
+          "id": 35705436,
+          "name": "Woodland Sprint"
+        }
+      },
+      {
+        "name": "Epic KOM - Start to Bypass Intersection ",
+        "segment": {
+          "id": 28778305,
+          "name": "Epic KOM - Start to Bypass Intersection "
+        }
+      },
+      {
+        "name": "Epic KOM Bypass - Westbound ",
+        "segment": {
+          "id": 28778314,
+          "name": "Epic KOM Bypass - Westbound "
+        }
+      },
+      {
+        "name": "Jungle Circuit Lead-In",
+        "segment": {
+          "id": 22391557,
+          "name": "Jungle Circuit Lead-In"
+        }
+      },
+      {
+        "name": "Jungle Descent",
+        "segment": {
+          "id": 27215991,
+          "name": "Jungle Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:30.257Z"
+  },
+  "10650545235": {
+    "id": 10650545235,
+    "name": "Zwift - Mountain Route in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Mountain Route",
+        "segment": {
+          "id": 12483517,
+          "name": "Mountain Route"
+        }
+      },
+      {
+        "name": "Epic KOM",
+        "segment": {
+          "id": 16784833,
+          "name": "Epic KOM"
+        }
+      },
+      {
+        "name": "Epic KOM - Start to Bypass Intersection ",
+        "segment": {
+          "id": 28778305,
+          "name": "Epic KOM - Start to Bypass Intersection "
+        }
+      },
+      {
+        "name": "Radio Tower Climb",
+        "segment": {
+          "id": 14120182,
+          "name": "Radio Tower Climb"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:30.784Z"
+  },
+  "10634360601": {
+    "id": 10634360601,
+    "name": "Zwift - Temple Trek in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Jungle CCW Descent",
+        "segment": {
+          "id": 27215934,
+          "name": "Jungle CCW Descent"
+        }
+      },
+      {
+        "name": "Temple Trek",
+        "segment": {
+          "id": 35705430,
+          "name": "Temple Trek"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:31.320Z"
+  },
+  "10630927562": {
+    "id": 10630927562,
+    "name": "Zwift - Going Coastal in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Going Coastal",
+        "segment": {
+          "id": 35697589,
+          "name": "Going Coastal"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:31.783Z"
+  },
+  "10618056730": {
+    "id": 10618056730,
+    "name": "Zwift - Figure 8 Reverse in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Figure 8 Reverse",
+        "segment": {
+          "id": 27177732,
+          "name": "Figure 8 Reverse"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Hilly KOM Reverse",
+        "segment": {
+          "id": 12128029,
+          "name": "Hilly KOM Reverse"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      },
+      {
+        "name": "Hilly KOM",
+        "segment": {
+          "id": 12109030,
+          "name": "Hilly KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:34.508Z"
+  },
+  "10611332260": {
+    "id": 10611332260,
+    "name": "Zwift - Figure 8 in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Figure 8",
+        "segment": {
+          "id": 12118421,
+          "name": "Figure 8"
+        }
+      },
+      {
+        "name": "Hilly KOM Reverse",
+        "segment": {
+          "id": 12128029,
+          "name": "Hilly KOM Reverse"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Hilly KOM",
+        "segment": {
+          "id": 12109030,
+          "name": "Hilly KOM"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:35.055Z"
+  },
+  "10603299835": {
+    "id": 10603299835,
+    "name": "Zwift - Group Ride: ZTPL Cycling Club Giant/LIV Coffee Ride (D) on Triple Flat Loops in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:35.965Z"
+  },
+  "10597005075": {
+    "id": 10597005075,
+    "name": "Zwift - Group Ride: AHDR Long Flat (C) on Greatest London Flat in London",
+    "segment_efforts": [
+      {
+        "name": "Classique Reverse Leadin from Start Banner",
+        "segment": {
+          "id": 19480660,
+          "name": "Classique Reverse Leadin from Start Banner"
+        }
+      },
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      },
+      {
+        "name": "The Mall Sprint Reverse",
+        "segment": {
+          "id": 12749402,
+          "name": "The Mall Sprint Reverse"
+        }
+      },
+      {
+        "name": "Greatest London Flat",
+        "segment": {
+          "id": 16982511,
+          "name": "Greatest London Flat"
+        }
+      },
+      {
+        "name": "Classique Reverse Leadin from Start Banner",
+        "segment": {
+          "id": 19480660,
+          "name": "Classique Reverse Leadin from Start Banner"
+        }
+      },
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      },
+      {
+        "name": "The Mall Sprint Reverse",
+        "segment": {
+          "id": 12749402,
+          "name": "The Mall Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:37.041Z"
+  },
+  "10573733333": {
+    "id": 10573733333,
+    "name": "Zwift - Volcano Circuit in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit, 5 Laps",
+        "segment": {
+          "id": 23543709,
+          "name": "Volcano Circuit, 5 Laps"
+        }
+      },
+      {
+        "name": "Volcano Circuit, 10 Laps",
+        "segment": {
+          "id": 23543755,
+          "name": "Volcano Circuit, 10 Laps"
+        }
+      },
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit, 5 Laps",
+        "segment": {
+          "id": 23543709,
+          "name": "Volcano Circuit, 5 Laps"
+        }
+      },
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      },
+      {
+        "name": "Volcano Circuit",
+        "segment": {
+          "id": 14032406,
+          "name": "Volcano Circuit"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:37.581Z"
+  },
+  "10565773756": {
+    "id": 10565773756,
+    "name": "Zwift - Pacer Group Ride: Tempus Fugit in Watopia with Miguel",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Tempus Fugit",
+        "segment": {
+          "id": 20350088,
+          "name": "Tempus Fugit"
+        }
+      },
+      {
+        "name": "Tempus Fugit 2x",
+        "segment": {
+          "id": 22219369,
+          "name": "Tempus Fugit 2x"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Tempus Fugit",
+        "segment": {
+          "id": 20350088,
+          "name": "Tempus Fugit"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Tempus Fugit",
+        "segment": {
+          "id": 20350088,
+          "name": "Tempus Fugit"
+        }
+      },
+      {
+        "name": "Tempus Fugit 2x",
+        "segment": {
+          "id": 22219369,
+          "name": "Tempus Fugit 2x"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Tempus Fugit",
+        "segment": {
+          "id": 20350088,
+          "name": "Tempus Fugit"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:38.338Z"
+  },
+  "10560065826": {
+    "id": 10560065826,
+    "name": "Zwift - Pacer Group Ride: Triple Flat Loops in Watopia with Miguel",
+    "segment_efforts": [
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:39.248Z"
+  },
+  "10559813542": {
+    "id": 10559813542,
+    "name": "Zwift - Pacer Group Ride: The Big Ring in Watopia with Maria",
+    "segment_efforts": [],
+    "fetchedAt": "2026-06-05T20:45:39.639Z"
+  },
+  "10528531852": {
+    "id": 10528531852,
+    "name": "Zwift - Pacer Group Ride: Triple Flat Loops in Watopia with Miguel",
+    "segment_efforts": [
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Rebel Route: Triple Flat Loops",
+        "segment": {
+          "id": 20453276,
+          "name": "Rebel Route: Triple Flat Loops"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:40.208Z"
+  },
+  "10521832743": {
+    "id": 10521832743,
+    "name": "Zwift - Pacer Group Ride: Triple Flat Loops in Watopia with Miguel",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:40.866Z"
+  },
+  "10514277795": {
+    "id": 10514277795,
+    "name": "Zwift - Pacer Group Ride: The Big Ring in Watopia with Miguel",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Going Coastal",
+        "segment": {
+          "id": 35697589,
+          "name": "Going Coastal"
+        }
+      },
+      {
+        "name": "Jungle CCW Climb",
+        "segment": {
+          "id": 27215961,
+          "name": "Jungle CCW Climb"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:43.860Z"
+  },
+  "10507839613": {
+    "id": 10507839613,
+    "name": "Zwift - Pacer Group Ride: Triple Flat Loops in Watopia with Bernie",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:44.691Z"
+  },
+  "10330386261": {
+    "id": 10330386261,
+    "name": "Zwift - Pacer Group Ride: Volcano Flat in Watopia with Miguel",
+    "segment_efforts": [
+      {
+        "name": "Volcano Flat",
+        "segment": {
+          "id": 14032442,
+          "name": "Volcano Flat"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:45.369Z"
+  },
+  "10298857929": {
+    "id": 10298857929,
+    "name": "Zwift - Pacer Group Ride: Tick Tock in Watopia with Maria",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Tick Tock",
+        "segment": {
+          "id": 20350376,
+          "name": "Tick Tock"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:46.102Z"
+  },
+  "10180367436": {
+    "id": 10180367436,
+    "name": "Zwift - Pacer Group Ride: Wandering Flats in Makuri Islands with Maria",
+    "segment_efforts": [
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:46.800Z"
+  },
+  "10174111479": {
+    "id": 10174111479,
+    "name": "Zwift - Triple Flat Loops in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Rebel Route: Triple Flat Loops",
+        "segment": {
+          "id": 20453276,
+          "name": "Rebel Route: Triple Flat Loops"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:47.338Z"
+  },
+  "10168530902": {
+    "id": 10168530902,
+    "name": "Zwift - The Big Ring in Watopia",
+    "segment_efforts": [
+      {
+        "name": "The Big Ring",
+        "segment": {
+          "id": 35696945,
+          "name": "The Big Ring"
+        }
+      },
+      {
+        "name": "Going Coastal",
+        "segment": {
+          "id": 35697589,
+          "name": "Going Coastal"
+        }
+      },
+      {
+        "name": "Jungle CCW Climb",
+        "segment": {
+          "id": 27215961,
+          "name": "Jungle CCW Climb"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:47.753Z"
+  },
+  "10162238805": {
+    "id": 10162238805,
+    "name": "Zwift - Volcano Circuit CCW in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Volcano Circuit CCW",
+        "segment": {
+          "id": 14032426,
+          "name": "Volcano Circuit CCW"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:48.136Z"
+  },
+  "10162217519": {
+    "id": 10162217519,
+    "name": "Zwift - Two Bridges Loop in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Two Bridges Loop",
+        "segment": {
+          "id": 26741685,
+          "name": "Two Bridges Loop"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:48.531Z"
+  },
+  "10162195907": {
+    "id": 10162195907,
+    "name": "Zwift - Beach Island Loop in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Beach Island Loop",
+        "segment": {
+          "id": 26741693,
+          "name": "Beach Island Loop"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:49.028Z"
+  },
+  "10139743417": {
+    "id": 10139743417,
+    "name": "Zwift - Group Ride: Tour of Watopia Ride 2023 | Stage 5 | Short on Canopies and Coastlines in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Titans Grove, Southbound",
+        "segment": {
+          "id": 21563640,
+          "name": "Titans Grove, Southbound"
+        }
+      },
+      {
+        "name": "Titans Grove Reverse KOM",
+        "segment": {
+          "id": 21343961,
+          "name": "Titans Grove Reverse KOM"
+        }
+      },
+      {
+        "name": "Canopies and Coastlines",
+        "segment": {
+          "id": 35696990,
+          "name": "Canopies and Coastlines"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:51.610Z"
+  },
+  "10099762454": {
+    "id": 10099762454,
+    "name": "Zwift - Eastern Eight in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Rebel Route: Eastern Eight",
+        "segment": {
+          "id": 22914116,
+          "name": "Rebel Route: Eastern Eight"
+        }
+      },
+      {
+        "name": "Titans Grove, Northbound",
+        "segment": {
+          "id": 21563651,
+          "name": "Titans Grove, Northbound"
+        }
+      },
+      {
+        "name": "Titans Grove KOM",
+        "segment": {
+          "id": 21343975,
+          "name": "Titans Grove KOM"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      },
+      {
+        "name": "Titans Grove, Southbound",
+        "segment": {
+          "id": 21563640,
+          "name": "Titans Grove, Southbound"
+        }
+      },
+      {
+        "name": "Titans Grove Reverse KOM",
+        "segment": {
+          "id": 21343961,
+          "name": "Titans Grove Reverse KOM"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:52.059Z"
+  },
+  "10093788322": {
+    "id": 10093788322,
+    "name": "Zwift - Wandering Flats in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Wandering Flats",
+        "segment": {
+          "id": 30408380,
+          "name": "Wandering Flats"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:52.515Z"
+  },
+  "10059088653": {
+    "id": 10059088653,
+    "name": "Zwift - The London Pretzel in London",
+    "segment_efforts": [
+      {
+        "name": "London Pretzel",
+        "segment": {
+          "id": 15155838,
+          "name": "London Pretzel"
+        }
+      },
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      },
+      {
+        "name": "The Mall Sprint Reverse",
+        "segment": {
+          "id": 12749402,
+          "name": "The Mall Sprint Reverse"
+        }
+      },
+      {
+        "name": "Fox Hill KOM",
+        "segment": {
+          "id": 16802545,
+          "name": "Fox Hill KOM"
+        }
+      },
+      {
+        "name": "Box Hill Descent",
+        "segment": {
+          "id": 27190601,
+          "name": "Box Hill Descent"
+        }
+      },
+      {
+        "name": "Whitehall Rd",
+        "segment": {
+          "id": 27191771,
+          "name": "Whitehall Rd"
+        }
+      },
+      {
+        "name": "Classique Final 1km",
+        "segment": {
+          "id": 27191777,
+          "name": "Classique Final 1km"
+        }
+      },
+      {
+        "name": "The Mall Sprint Forward",
+        "segment": {
+          "id": 12749377,
+          "name": "The Mall Sprint Forward"
+        }
+      },
+      {
+        "name": "Box Hill KOM",
+        "segment": {
+          "id": 12744502,
+          "name": "Box Hill KOM"
+        }
+      },
+      {
+        "name": "Fox Hill Descent",
+        "segment": {
+          "id": 27190651,
+          "name": "Fox Hill Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:53.051Z"
+  },
+  "10046951511": {
+    "id": 10046951511,
+    "name": "Zwift - Watopia's Waistband in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Watopia's Waistband",
+        "segment": {
+          "id": 20469780,
+          "name": "Watopia's Waistband"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:53.553Z"
+  },
+  "10034136336": {
+    "id": 10034136336,
+    "name": "Zwift - Neon Flats in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Neon Flats",
+        "segment": {
+          "id": 30414842,
+          "name": "Neon Flats"
+        }
+      },
+      {
+        "name": "Tower Sprint",
+        "segment": {
+          "id": 30412571,
+          "name": "Tower Sprint"
+        }
+      },
+      {
+        "name": "Alley Sprint Reverse",
+        "segment": {
+          "id": 30412916,
+          "name": "Alley Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:54.056Z"
+  },
+  "10016850143": {
+    "id": 10016850143,
+    "name": "Zwift - Dust In The Wind in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Dust in the Wind",
+        "segment": {
+          "id": 33852827,
+          "name": "Dust in the Wind"
+        }
+      },
+      {
+        "name": "Titans Grove, Southbound",
+        "segment": {
+          "id": 21563640,
+          "name": "Titans Grove, Southbound"
+        }
+      },
+      {
+        "name": "Titans Grove Reverse KOM",
+        "segment": {
+          "id": 21343961,
+          "name": "Titans Grove Reverse KOM"
+        }
+      },
+      {
+        "name": "Epic KOM Reverse - Start to Jungle Intersection ",
+        "segment": {
+          "id": 28770163,
+          "name": "Epic KOM Reverse - Start to Jungle Intersection "
+        }
+      },
+      {
+        "name": "Jungle Circuit Reverse Lead-In",
+        "segment": {
+          "id": 22391562,
+          "name": "Jungle Circuit Reverse Lead-In"
+        }
+      },
+      {
+        "name": "Jungle CCW Descent",
+        "segment": {
+          "id": 27215934,
+          "name": "Jungle CCW Descent"
+        }
+      },
+      {
+        "name": "Jungle CCW Climb",
+        "segment": {
+          "id": 27215961,
+          "name": "Jungle CCW Climb"
+        }
+      },
+      {
+        "name": "Titans Grove, Southbound",
+        "segment": {
+          "id": 21563640,
+          "name": "Titans Grove, Southbound"
+        }
+      },
+      {
+        "name": "Titans Grove Reverse KOM",
+        "segment": {
+          "id": 21343961,
+          "name": "Titans Grove Reverse KOM"
+        }
+      },
+      {
+        "name": "Fuego Flats Reverse Sprint",
+        "segment": {
+          "id": 20350066,
+          "name": "Fuego Flats Reverse Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:54.582Z"
+  },
+  "9792746760": {
+    "id": 9792746760,
+    "name": "Zwift - The Fan Flats in Richmond",
+    "segment_efforts": [
+      {
+        "name": "Monument Ave Sprint",
+        "segment": {
+          "id": 12128762,
+          "name": "Monument Ave Sprint"
+        }
+      },
+      {
+        "name": "The Fan Flats",
+        "segment": {
+          "id": 19852166,
+          "name": "The Fan Flats"
+        }
+      },
+      {
+        "name": "Monument Ave Sprint",
+        "segment": {
+          "id": 12128762,
+          "name": "Monument Ave Sprint"
+        }
+      },
+      {
+        "name": "The Fan Flats",
+        "segment": {
+          "id": 19852166,
+          "name": "The Fan Flats"
+        }
+      },
+      {
+        "name": "Monument Ave Sprint",
+        "segment": {
+          "id": 12128762,
+          "name": "Monument Ave Sprint"
+        }
+      },
+      {
+        "name": "The Fan Flats",
+        "segment": {
+          "id": 19852166,
+          "name": "The Fan Flats"
+        }
+      },
+      {
+        "name": "Monument Ave Sprint",
+        "segment": {
+          "id": 12128762,
+          "name": "Monument Ave Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:54.973Z"
+  },
+  "9759812928": {
+    "id": 9759812928,
+    "name": "Zwift - Two Village Loop in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Two Village Loop",
+        "segment": {
+          "id": 28433439,
+          "name": "Two Village Loop"
+        }
+      },
+      {
+        "name": "Village Onsen Outer North Road, CW",
+        "segment": {
+          "id": 28487929,
+          "name": "Village Onsen Outer North Road, CW"
+        }
+      },
+      {
+        "name": "Village Onsen Outer South Road, CW",
+        "segment": {
+          "id": 28487949,
+          "name": "Village Onsen Outer South Road, CW"
+        }
+      },
+      {
+        "name": "Village Onsen Outer North Road, CW",
+        "segment": {
+          "id": 28487929,
+          "name": "Village Onsen Outer North Road, CW"
+        }
+      },
+      {
+        "name": "Up Thru the Golden Forest",
+        "segment": {
+          "id": 28488055,
+          "name": "Up Thru the Golden Forest"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:55.364Z"
+  },
+  "9753270174": {
+    "id": 9753270174,
+    "name": "Zwift - Triple Flat Loops in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Rebel Route: Triple Flat Loops",
+        "segment": {
+          "id": 20453276,
+          "name": "Rebel Route: Triple Flat Loops"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:56.019Z"
+  },
+  "9746650352": {
+    "id": 9746650352,
+    "name": "Zwift - Watopia's Waistband in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Watopia's Waistband",
+        "segment": {
+          "id": 20469780,
+          "name": "Watopia's Waistband"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:58.516Z"
+  },
+  "8095173037": {
+    "id": 8095173037,
+    "name": "Zwift - The 6 Train in New York",
+    "segment_efforts": [
+      {
+        "name": "The 6 Train",
+        "segment": {
+          "id": 19172136,
+          "name": "The 6 Train"
+        }
+      },
+      {
+        "name": "The 6 Train",
+        "segment": {
+          "id": 19172136,
+          "name": "The 6 Train"
+        }
+      },
+      {
+        "name": "The 6 Train",
+        "segment": {
+          "id": 19172136,
+          "name": "The 6 Train"
+        }
+      },
+      {
+        "name": "Three Sisters - Fulgaz",
+        "segment": {
+          "id": 30349583,
+          "name": "Three Sisters - Fulgaz"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:58.987Z"
+  },
+  "8085291000": {
+    "id": 8085291000,
+    "name": "Zwift - Greatest London Flat in London",
+    "segment_efforts": [
+      {
+        "name": "The Mall Sprint Reverse",
+        "segment": {
+          "id": 12749402,
+          "name": "The Mall Sprint Reverse"
+        }
+      },
+      {
+        "name": "Greatest London Flat",
+        "segment": {
+          "id": 16982511,
+          "name": "Greatest London Flat"
+        }
+      },
+      {
+        "name": "Classique Reverse Leadin from Start Banner",
+        "segment": {
+          "id": 19480660,
+          "name": "Classique Reverse Leadin from Start Banner"
+        }
+      },
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      },
+      {
+        "name": "The Mall Sprint Reverse",
+        "segment": {
+          "id": 12749402,
+          "name": "The Mall Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:59.388Z"
+  },
+  "8050364767": {
+    "id": 8050364767,
+    "name": "Zwift - R.G.V. in France",
+    "segment_efforts": [
+      {
+        "name": "Start Pens Lead-In to Marina Sprint Banner",
+        "segment": {
+          "id": 24700908,
+          "name": "Start Pens Lead-In to Marina Sprint Banner"
+        }
+      },
+      {
+        "name": "R.G.V.",
+        "segment": {
+          "id": 24685955,
+          "name": "R.G.V."
+        }
+      },
+      {
+        "name": "Pavé Sprint Reverse",
+        "segment": {
+          "id": 24710570,
+          "name": "Pavé Sprint Reverse"
+        }
+      },
+      {
+        "name": "Aqueduc KOM Reverse",
+        "segment": {
+          "id": 24701010,
+          "name": "Aqueduc KOM Reverse"
+        }
+      },
+      {
+        "name": "Ballon Sprint Reverse",
+        "segment": {
+          "id": 24700963,
+          "name": "Ballon Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:45:59.936Z"
+  },
+  "8025312695": {
+    "id": 8025312695,
+    "name": "Zwift - Three Village Loop in Makuri Islands",
+    "segment_efforts": [],
+    "fetchedAt": "2026-06-05T20:46:00.300Z"
+  },
+  "7944142653": {
+    "id": 7944142653,
+    "name": "Zwift - Casse-Pattes in France",
+    "segment_efforts": [
+      {
+        "name": "Start Pens Lead-In to Marina Sprint Banner",
+        "segment": {
+          "id": 24700908,
+          "name": "Start Pens Lead-In to Marina Sprint Banner"
+        }
+      },
+      {
+        "name": "Casse-Pattes",
+        "segment": {
+          "id": 24674909,
+          "name": "Casse-Pattes"
+        }
+      },
+      {
+        "name": "Pavé Sprint Reverse",
+        "segment": {
+          "id": 24710570,
+          "name": "Pavé Sprint Reverse"
+        }
+      },
+      {
+        "name": "Aqueduc KOM Reverse",
+        "segment": {
+          "id": 24701010,
+          "name": "Aqueduc KOM Reverse"
+        }
+      },
+      {
+        "name": "Petit KOM",
+        "segment": {
+          "id": 24690967,
+          "name": "Petit KOM"
+        }
+      },
+      {
+        "name": "Start Pens Lead-In to Marina Sprint Banner",
+        "segment": {
+          "id": 24700908,
+          "name": "Start Pens Lead-In to Marina Sprint Banner"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:46:00.852Z"
+  },
+  "6841165799": {
+    "id": 6841165799,
+    "name": "Zwift - Astoria Line 8 in New York",
+    "segment_efforts": [
+      {
+        "name": "Astoria Line 8",
+        "segment": {
+          "id": 19141340,
+          "name": "Astoria Line 8"
+        }
+      },
+      {
+        "name": "East Side Drive Climb",
+        "segment": {
+          "id": 27207838,
+          "name": "East Side Drive Climb"
+        }
+      },
+      {
+        "name": "Three Sisters - Fulgaz",
+        "segment": {
+          "id": 30349583,
+          "name": "Three Sisters - Fulgaz"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:46:01.353Z"
+  },
+  "6764819129": {
+    "id": 6764819129,
+    "name": "Zwift - Ocean Lava Cliffside Loop in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Ocean Lava Cliffside Loop",
+        "segment": {
+          "id": 26741663,
+          "name": "Ocean Lava Cliffside Loop"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Epic KOM Reverse - Start to Jungle Intersection ",
+        "segment": {
+          "id": 28770163,
+          "name": "Epic KOM Reverse - Start to Jungle Intersection "
+        }
+      },
+      {
+        "name": "Epic KOM Bypass - Eastbound ",
+        "segment": {
+          "id": 28778320,
+          "name": "Epic KOM Bypass - Eastbound "
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:46:01.789Z"
+  },
+  "6714337843": {
+    "id": 6714337843,
+    "name": "Zwift - Lutece Express in Paris",
+    "segment_efforts": [
+      {
+        "name": "Lutece Express",
+        "segment": {
+          "id": 24674248,
+          "name": "Lutece Express"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:46:02.366Z"
+  },
+  "6708921035": {
+    "id": 6708921035,
+    "name": "Zwift - Whole Lotta Lava in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Whole Lotta Lava ",
+        "segment": {
+          "id": 20545879,
+          "name": "Whole Lotta Lava "
+        }
+      },
+      {
+        "name": "Volcano KOM",
+        "segment": {
+          "id": 14270131,
+          "name": "Volcano KOM"
+        }
+      },
+      {
+        "name": "Volcano Descent",
+        "segment": {
+          "id": 19970445,
+          "name": "Volcano Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-05T20:46:02.878Z"
+  },
+  "18813364820": {
+    "id": 18813364820,
+    "name": "Zwift - Toefield Tornado in New York",
+    "segment_efforts": [
+      {
+        "name": "Toefield Tornado",
+        "segment": {
+          "id": 40337526,
+          "name": "Toefield Tornado"
+        }
+      },
+      {
+        "name": "Center Sprint",
+        "segment": {
+          "id": 40338226,
+          "name": "Center Sprint"
+        }
+      },
+      {
+        "name": "Avon Flyer",
+        "segment": {
+          "id": 40325105,
+          "name": "Avon Flyer"
+        }
+      },
+      {
+        "name": "The Peristyle Sprint Reverse",
+        "segment": {
+          "id": 40338223,
+          "name": "The Peristyle Sprint Reverse"
+        }
+      },
+      {
+        "name": "Center Sprint",
+        "segment": {
+          "id": 40338226,
+          "name": "Center Sprint"
+        }
+      },
+      {
+        "name": "The Hill KOM",
+        "segment": {
+          "id": 40325329,
+          "name": "The Hill KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-06T17:18:10.486Z"
+  },
+  "18827914240": {
+    "id": 18827914240,
+    "name": "Zwift - Croissant in France",
+    "segment_efforts": [
+      {
+        "name": "Dos d'Âne Sprint Reverse",
+        "segment": {
+          "id": 38873968,
+          "name": "Dos d'Âne Sprint Reverse"
+        }
+      },
+      {
+        "name": "Croissant",
+        "segment": {
+          "id": 39270805,
+          "name": "Croissant"
+        }
+      },
+      {
+        "name": "Sprint du Cratère",
+        "segment": {
+          "id": 38874008,
+          "name": "Sprint du Cratère"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint Reverse",
+        "segment": {
+          "id": 38873955,
+          "name": "Sprinteur Sprint Reverse"
+        }
+      },
+      {
+        "name": "Dos d'Âne Sprint Reverse",
+        "segment": {
+          "id": 38873968,
+          "name": "Dos d'Âne Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-07T17:42:42.396Z"
+  }
+}

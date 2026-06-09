@@ -505,12 +505,24 @@ function getWorldColor(slug: string) {
   function applySorting() {
     const rows = Array.from(routeList.querySelectorAll(".route-row")) as HTMLElement[];
     const dir = activeSortDir === "asc" ? 1 : -1;
+    const li = activeLeadIn;
 
     rows.sort((a, b) => {
       if (activeSortField === "name") {
         return dir * a.dataset.name!.localeCompare(b.dataset.name!);
       }
-      return dir * (parseFloat(a.dataset[activeSortField]!) - parseFloat(b.dataset[activeSortField]!));
+      let aVal = parseFloat(a.dataset[activeSortField]!);
+      let bVal = parseFloat(b.dataset[activeSortField]!);
+      if (li) {
+        if (activeSortField === "distance") {
+          aVal += parseFloat(a.dataset.leadInDistance || "0");
+          bVal += parseFloat(b.dataset.leadInDistance || "0");
+        } else if (activeSortField === "elevation") {
+          aVal += parseFloat(a.dataset.leadInElevation || "0");
+          bVal += parseFloat(b.dataset.leadInElevation || "0");
+        }
+      }
+      return dir * (aVal - bVal);
     });
 
     for (const row of rows) {
@@ -657,6 +669,7 @@ function getWorldColor(slug: string) {
     activeLeadIn = false;
     saveState();
     applyUnits(activeUnits === "imperial");
+    applySorting();
   });
 
   leadInOnBtn.addEventListener("click", () => {
@@ -665,6 +678,7 @@ function getWorldColor(slug: string) {
     activeLeadIn = true;
     saveState();
     applyUnits(activeUnits === "imperial");
+    applySorting();
   });
 
   // Initial apply on page load

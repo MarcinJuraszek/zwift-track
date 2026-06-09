@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-06-09T01:19:44.654Z",
+  "syncedAt": "2026-06-09T01:27:08.802Z",
   "totalCompleted": 98,
   "totalRoutes": 279,
   "completedRoutes": [
@@ -261,21 +261,6 @@
     {
       "routeSlug": "three-musketeers",
       "routeName": "Three Musketeers",
-      "worldName": "France",
-      "activityId": 14503829868,
-      "activityName": "Zwift - Three Musketeers in France",
-      "date": "2025-05-16T18:58:46Z",
-      "distance": 36.004,
-      "movingTime": 4033,
-      "elapsedTime": 4033,
-      "elevationGain": 198,
-      "averageWatts": 161.8,
-      "stravaUrl": "https://www.strava.com/activities/14503829868",
-      "matchMethod": "segment"
-    },
-    {
-      "routeSlug": "macaron",
-      "routeName": "Macaron",
       "worldName": "France",
       "activityId": 14503829868,
       "activityName": "Zwift - Three Musketeers in France",
@@ -909,6 +894,21 @@
       "worldName": "Makuri Islands",
       "activityId": null,
       "activityName": "Confirmed completed in Zwift app, no matching Strava activity found",
+      "date": "2024-01-01T00:00:00Z",
+      "distance": null,
+      "movingTime": null,
+      "elapsedTime": null,
+      "elevationGain": null,
+      "averageWatts": null,
+      "stravaUrl": null,
+      "matchMethod": "manual"
+    },
+    {
+      "routeSlug": "greater-london-8",
+      "routeName": "Greater London 8",
+      "worldName": "London",
+      "activityId": null,
+      "activityName": "Confirmed completed in Zwift app, no matching Strava segment found",
       "date": "2024-01-01T00:00:00Z",
       "distance": null,
       "movingTime": null,

@@ -41,6 +41,11 @@
       "date": "2024-04-15T00:00:00Z",
       "note": "Segments show Three Musketeers/Macaron instead, confirmed completed in Zwift app",
       "stravaUrl": "https://www.strava.com/activities/14513448115"
+    },
+    {
+      "routeSlug": "greater-london-8",
+      "date": "2024-01-01T00:00:00Z",
+      "note": "Confirmed completed in Zwift app, no matching Strava segment found"
     }
   ],
   "exclusions": [
@@ -48,6 +53,16 @@
       "activityId": 8025312695,
       "routeSlug": "three-village-loop",
       "note": "Confirmed NOT completed in Zwift app"
+    },
+    {
+      "activityId": 14503829868,
+      "routeSlug": "macaron",
+      "note": "Activity was Three Musketeers, not Macaron. Confirmed NOT completed in Zwift app"
+    },
+    {
+      "activityId": 14513448115,
+      "routeSlug": "macaron",
+      "note": "Activity was Sacre Bleu, not Macaron. Confirmed NOT completed in Zwift app"
     }
   ]
 }

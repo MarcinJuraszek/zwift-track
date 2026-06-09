@@ -5008,5 +5008,19 @@
       }
     ],
     "fetchedAt": "2026-06-08T03:28:31.390Z"
+  },
+  "18844529691": {
+    "id": 18844529691,
+    "name": "Zwift - Rooftop Rendezvous in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Rooftop KOM",
+        "segment": {
+          "id": 30407861,
+          "name": "Rooftop KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-09T01:12:16.730Z"
   }
 }

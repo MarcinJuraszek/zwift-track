@@ -1,8 +1,351 @@
 {
-  "fetchedAt": "2026-06-08T03:28:30.825Z",
-  "totalActivities": 114,
-  "virtualRideCount": 114,
+  "fetchedAt": "2026-06-09T01:12:16.301Z",
+  "totalActivities": 115,
+  "virtualRideCount": 115,
   "virtualRides": [
+    {
+      "resource_state": 3,
+      "athlete": {
+        "id": 29432659,
+        "resource_state": 1
+      },
+      "name": "Zwift - Rooftop Rendezvous in Makuri Islands",
+      "distance": 6476.3,
+      "moving_time": 1169,
+      "elapsed_time": 1169,
+      "total_elevation_gain": 88,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Zwift",
+      "id": 18844529691,
+      "start_date": "2026-06-09T00:52:27Z",
+      "start_date_local": "2026-06-08T17:52:27Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "utc_offset": -25200,
+      "location_city": null,
+      "location_state": null,
+      "location_country": null,
+      "achievement_count": 2,
+      "kudos_count": 0,
+      "comment_count": 0,
+      "athlete_count": 1,
+      "photo_count": 0,
+      "map": {
+        "id": "a18844529691",
+        "polyline": "zmy`Aaffs^jCFlCNjA@VG`A{@VIh@AjBF^B\\NhAzAvArAjA|@r@t@nBpAnC|BHBHEDWH}AEWKWCKFyCFsABuABWNk@@KAKEISMWCq@?UJGHCL?V`@`C@XA\\G\\KROPm@ZIPATBNDLd@Zd@b@p@nAPHJ?PKHSNeA@iAA{ADkA?QI]Qk@q@}AMg@E[R{IAa@Eg@GWQ]QOQISE}EQUKW[KUCYJiDO{@?KBWRu@Fi@@o@CSEIIGMCMFILOp@MLSHwBAWKOOCS@IHSFEHERCbBBRCNKHOBM?i@HONI~@@HEDI@UCKGGKE_@CiCCOCOIEICSDSDEREp@AHGBE@OGYIOMIOE]AsA?[BSJKLEPAV@rAH^DFNFr@@LBLRDVAZKNWHg@?KDGJGPCTCfA@VFNNH|@HTJJRBXEVOPMFs@JGFIPEXA`@?fADzAAn@GZi@hACR?XBPFNXLf@D`BCTBJH@NCFOH[Bw@AK@IFCH?JBJh@n@R^Ff@EXOTWJM@YGi@c@s@oAWOMCM?ODMHEP?f@GPOHS@UEQKKQCSDk@CUOMSCQLCR?f@GRQFg@Bi@CSEQIISCS?i@BWHQPMTCdAATGLSBWEq@BWLUPOVIlAGVKNUDWCWOOWCq@ASOEW?WDWPKVEl@APOFU@q@JSTETDHTBl@?~ADVRNVBVEPKJU@WAeABWHURKX@TJJTBXKnABXNTTFn@@l@EPMFSBmCBu@O_A?OXeAFeAAe@IMSIMDMRId@OT",
+        "resource_state": 3,
+        "summary_polyline": "zmy`Aaffs^jCFlCNjA@VG`A{@VIh@AjBF^B\\NhAzAvArAjA|@r@t@nBpAnC|BHBHEDWH}AEWKWCKFyCFsABuABWNk@@KAKEISMWCq@?UJGHCL?V`@`C@XA\\G\\KROPm@ZIPATBNDLd@Zd@b@p@nAPHJ?PKHSNeA@iAA{ADkA?QI]Qk@q@}AMg@E[R{IAa@Eg@GWQ]QOQISE}EQUKW[KUCYJiDO{@?KBWRu@Fi@@o@CSEIIGMCMFILOp@MLSHwBAWKOOCS@IHSFEHERCbBBRCNKHOBM?i@HONI~@@HEDI@UCKGGKE_@CiCCOCOIEICSDSDEREp@AHGBE@OGYIOMIOE]AoA?_@BSJKLEPAV@rAH^DFNFr@@LBLRDVAZKNWHg@?KDGJGPCTCfA@VFNNH|@HTJJRBXEVOPMFs@JGFIPEXA`@?fADzAAn@GZi@hACR?XBPFNXLf@D`BCTBJH@NCFOH[Bw@AK@IFCH?JBJh@n@R^Ff@EXOTWJM@YGi@c@s@oAWOMCM?ODMHEP?f@GPOHS@UEQKKQCSDk@CUOMSCQLCR?f@GRQFg@Bi@CSEQIISCS?i@BWHQPMTCdAATGLSBWEq@BWLUPOVIlAGVKNUDWCWOOWCq@ASOEW?WDWPKVEl@APOFU@q@JSTETDHTBl@?~ADVRNVBVEPKJU@WAeABWHURKX@TJJTBXKnABXNTTFn@@l@EPMFSBmCBu@O_A?OXeAFeAAe@IMSIMDMRId@OT"
+      },
+      "trainer": false,
+      "commute": false,
+      "manual": false,
+      "private": false,
+      "visibility": "everyone",
+      "flagged": false,
+      "gear_id": "b8659402",
+      "start_latlng": [
+        -10.785093,
+        165.843052
+      ],
+      "end_latlng": [
+        -10.789085,
+        165.848867
+      ],
+      "average_speed": 5.54,
+      "max_speed": 14.76,
+      "average_cadence": 75.2,
+      "average_watts": 100.6,
+      "max_watts": 158,
+      "weighted_average_watts": 101,
+      "device_watts": true,
+      "kilojoules": 117.6,
+      "has_heartrate": false,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "elev_high": 131.4,
+      "elev_low": 61.8,
+      "upload_id": 19955813334,
+      "upload_id_str": "19955813334",
+      "external_id": "zwift-activity-2156356307471319040.fit",
+      "from_accepted_tag": false,
+      "pr_count": 0,
+      "total_photo_count": 2,
+      "has_kudoed": false,
+      "description": "",
+      "calories": 109,
+      "perceived_exertion": null,
+      "prefer_perceived_exertion": null,
+      "segment_efforts": [
+        {
+          "id": 3499235330557079000,
+          "resource_state": 2,
+          "name": "Rooftop KOM",
+          "activity": {
+            "id": 18844529691,
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 543,
+          "moving_time": 516,
+          "start_date": "2026-06-09T00:59:16Z",
+          "start_date_local": "2026-06-08T17:59:16Z",
+          "distance": 1873.3,
+          "start_index": 409,
+          "end_index": 935,
+          "average_cadence": 69.8,
+          "device_watts": true,
+          "average_watts": 100,
+          "segment": {
+            "id": 30407861,
+            "resource_state": 2,
+            "name": "Rooftop KOM",
+            "activity_type": "VirtualRide",
+            "distance": 1873.3,
+            "average_grade": 2.7,
+            "maximum_grade": 6.6,
+            "elevation_high": 191.4,
+            "elevation_low": 140.8,
+            "start_latlng": [
+              -10.789421,
+              165.847903
+            ],
+            "end_latlng": [
+              -10.788466,
+              165.8452
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Nemboe",
+            "state": "Temotu Province",
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 2,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 2
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        }
+      ],
+      "splits_metric": [
+        {
+          "distance": 1003.8,
+          "elapsed_time": 151,
+          "elevation_difference": -1.6,
+          "moving_time": 151,
+          "split": 1,
+          "average_speed": 6.65,
+          "average_grade_adjusted_speed": 6.66,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1000.3,
+          "elapsed_time": 184,
+          "elevation_difference": 12.2,
+          "moving_time": 184,
+          "split": 2,
+          "average_speed": 5.44,
+          "average_grade_adjusted_speed": 5.67,
+          "pace_zone": 0
+        },
+        {
+          "distance": 998.3,
+          "elapsed_time": 226,
+          "elevation_difference": 18,
+          "moving_time": 226,
+          "split": 3,
+          "average_speed": 4.42,
+          "average_grade_adjusted_speed": 4.72,
+          "pace_zone": 0
+        },
+        {
+          "distance": 999.3,
+          "elapsed_time": 286,
+          "elevation_difference": 25.6,
+          "moving_time": 286,
+          "split": 4,
+          "average_speed": 3.49,
+          "average_grade_adjusted_speed": 3.82,
+          "pace_zone": 0
+        },
+        {
+          "distance": 999.3,
+          "elapsed_time": 174,
+          "elevation_difference": 0.4,
+          "moving_time": 174,
+          "split": 5,
+          "average_speed": 5.74,
+          "average_grade_adjusted_speed": 5.83,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1008.9,
+          "elapsed_time": 76,
+          "elevation_difference": -40.2,
+          "moving_time": 76,
+          "split": 6,
+          "average_speed": 13.28,
+          "average_grade_adjusted_speed": 12.26,
+          "pace_zone": 0
+        },
+        {
+          "distance": 467.2,
+          "elapsed_time": 72,
+          "elevation_difference": 5.4,
+          "moving_time": 72,
+          "split": 7,
+          "average_speed": 6.49,
+          "average_grade_adjusted_speed": 6.79,
+          "pace_zone": 0
+        }
+      ],
+      "splits_standard": [
+        {
+          "distance": 1613.2,
+          "elapsed_time": 284,
+          "elevation_difference": 11.6,
+          "moving_time": 284,
+          "split": 1,
+          "average_speed": 5.68,
+          "average_grade_adjusted_speed": 5.85,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1609.2,
+          "elapsed_time": 320,
+          "elevation_difference": 20.6,
+          "moving_time": 320,
+          "split": 2,
+          "average_speed": 5.03,
+          "average_grade_adjusted_speed": 5.28,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1616.5,
+          "elapsed_time": 403,
+          "elevation_difference": 25.4,
+          "moving_time": 403,
+          "split": 3,
+          "average_speed": 4.01,
+          "average_grade_adjusted_speed": 4.26,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1601.7,
+          "elapsed_time": 149,
+          "elevation_difference": -37.6,
+          "moving_time": 149,
+          "split": 4,
+          "average_speed": 10.75,
+          "average_grade_adjusted_speed": 10.34,
+          "pace_zone": 0
+        },
+        {
+          "distance": 36.5,
+          "elapsed_time": 13,
+          "elevation_difference": -0.2,
+          "moving_time": 13,
+          "split": 5,
+          "average_speed": 2.81,
+          "average_grade_adjusted_speed": 2.76,
+          "pace_zone": 0
+        }
+      ],
+      "laps": [
+        {
+          "id": 67392656334,
+          "resource_state": 2,
+          "name": "Lap 1",
+          "activity": {
+            "id": 18844529691,
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 1169,
+          "moving_time": 1153,
+          "start_date": "2026-06-09T00:52:27Z",
+          "start_date_local": "2026-06-08T17:52:27Z",
+          "distance": 6477.11,
+          "average_speed": 5.62,
+          "max_speed": 14.76,
+          "lap_index": 1,
+          "split": 1,
+          "start_index": 0,
+          "end_index": 1152,
+          "total_elevation_gain": 79.4,
+          "average_cadence": 75.2,
+          "device_watts": true,
+          "average_watts": 100.6
+        }
+      ],
+      "gear": {
+        "id": "b8659402",
+        "primary": false,
+        "name": "Canyon Grail CF SL 8",
+        "nickname": "Canyon Grail CF SL 8",
+        "resource_state": 2,
+        "retired": false,
+        "distance": 20865317,
+        "converted_distance": 12965.1
+      },
+      "photos": {
+        "primary": {
+          "unique_id": "bc162860-c614-4c98-b9b0-5783ef48785f",
+          "urls": {
+            "100": "https://dgtzuqphqg23d.cloudfront.net/SClQGzx_yF9UIQhpCKA8UG3usLPVw27wnU61w4M9nzI-128x72.jpg",
+            "600": "https://dgtzuqphqg23d.cloudfront.net/SClQGzx_yF9UIQhpCKA8UG3usLPVw27wnU61w4M9nzI-768x432.jpg"
+          },
+          "source": 1,
+          "media_type": 1
+        },
+        "use_primary_photo": true,
+        "count": 2
+      },
+      "stats_visibility": [
+        {
+          "type": "heart_rate",
+          "visibility": "everyone"
+        },
+        {
+          "type": "pace",
+          "visibility": "everyone"
+        },
+        {
+          "type": "power",
+          "visibility": "everyone"
+        },
+        {
+          "type": "speed",
+          "visibility": "everyone"
+        },
+        {
+          "type": "calories",
+          "visibility": "everyone"
+        }
+      ],
+      "hide_from_home": false,
+      "embed_token": "fe20893f72695ffcc52c7c521008184ce6cc20ec",
+      "available_zones": [
+        "power"
+      ]
+    },
     {
       "resource_state": 3,
       "athlete": {

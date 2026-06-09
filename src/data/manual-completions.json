@@ -29,6 +29,12 @@
       "routeSlug": "flatland-loop",
       "date": "2024-01-01T00:00:00Z",
       "note": "Confirmed completed in Zwift app, no matching Strava activity found"
+    },
+    {
+      "routeSlug": "rooftop-rendezvous",
+      "date": "2026-06-09T00:52:27Z",
+      "note": "Strava segment for route not matched, only Rooftop KOM segment found",
+      "stravaUrl": "https://www.strava.com/activities/18844529691"
     }
   ],
   "exclusions": [

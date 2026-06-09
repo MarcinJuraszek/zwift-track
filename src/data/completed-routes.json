@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-09T01:12:16.736Z",
-  "totalCompleted": 96,
+  "syncedAt": "2026-06-09T01:17:41.828Z",
+  "totalCompleted": 97,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "rooftop-rendezvous",
+      "routeName": "Rooftop Rendezvous",
+      "worldName": "Makuri Islands",
+      "activityId": null,
+      "activityName": "Strava segment for route not matched, only Rooftop KOM segment found",
+      "date": "2026-06-09T00:52:27Z",
+      "distance": null,
+      "movingTime": null,
+      "elapsedTime": null,
+      "elevationGain": null,
+      "averageWatts": null,
+      "stravaUrl": "https://www.strava.com/activities/18844529691",
+      "matchMethod": "manual"
+    },
     {
       "routeSlug": "hilly-route",
       "routeName": "Watopia Hilly Route",

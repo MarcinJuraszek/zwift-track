@@ -5022,5 +5022,19 @@
       }
     ],
     "fetchedAt": "2026-06-09T01:12:16.730Z"
+  },
+  "18866465853": {
+    "id": 18866465853,
+    "name": "Zwift - Times Square Circuit in New York",
+    "segment_efforts": [
+      {
+        "name": "Times Square Circuit",
+        "segment": {
+          "id": 40342792,
+          "name": "Times Square Circuit"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-10T15:57:11.746Z"
   }
 }

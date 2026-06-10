@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-09T01:27:08.802Z",
-  "totalCompleted": 98,
+  "syncedAt": "2026-06-10T15:57:11.751Z",
+  "totalCompleted": 99,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "times-square-circuit",
+      "routeName": "Times Square Circuit",
+      "worldName": "New York",
+      "activityId": 18866465853,
+      "activityName": "Zwift - Times Square Circuit in New York",
+      "date": "2026-06-10T08:44:50Z",
+      "distance": 3.665,
+      "movingTime": 542,
+      "elapsedTime": 542,
+      "elevationGain": 19,
+      "averageWatts": 96.2,
+      "stravaUrl": "https://www.strava.com/activities/18866465853",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "rooftop-rendezvous",
       "routeName": "Rooftop Rendezvous",

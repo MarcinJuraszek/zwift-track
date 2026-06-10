@@ -50,6 +50,7 @@ jobs:
 
       - name: Update Strava refresh token secret
         if: hashFiles('.strava-refresh-token') != ''
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |

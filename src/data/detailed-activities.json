@@ -5036,5 +5036,54 @@
       }
     ],
     "fetchedAt": "2026-06-10T15:57:11.746Z"
+  },
+  "18871230858": {
+    "id": 18871230858,
+    "name": "Zwift - Issendorf Express in New York",
+    "segment_efforts": [
+      {
+        "name": "Issendorf Express",
+        "segment": {
+          "id": 40331604,
+          "name": "Issendorf Express"
+        }
+      },
+      {
+        "name": "Center Sprint",
+        "segment": {
+          "id": 40338226,
+          "name": "Center Sprint"
+        }
+      },
+      {
+        "name": "Avon Flyer",
+        "segment": {
+          "id": 40325105,
+          "name": "Avon Flyer"
+        }
+      },
+      {
+        "name": "The Peristyle Sprint Reverse",
+        "segment": {
+          "id": 40338223,
+          "name": "The Peristyle Sprint Reverse"
+        }
+      },
+      {
+        "name": "Center Sprint",
+        "segment": {
+          "id": 40338226,
+          "name": "Center Sprint"
+        }
+      },
+      {
+        "name": "The Hill KOM",
+        "segment": {
+          "id": 40325329,
+          "name": "The Hill KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-10T22:53:36.805Z"
   }
 }

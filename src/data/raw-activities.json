@@ -1,8 +1,646 @@
 {
-  "fetchedAt": "2026-06-10T15:57:11.247Z",
-  "totalActivities": 116,
-  "virtualRideCount": 116,
+  "fetchedAt": "2026-06-10T22:53:36.358Z",
+  "totalActivities": 117,
+  "virtualRideCount": 117,
   "virtualRides": [
+    {
+      "resource_state": 3,
+      "athlete": {
+        "id": 29432659,
+        "resource_state": 1
+      },
+      "name": "Zwift - Issendorf Express in New York",
+      "distance": 7345.5,
+      "moving_time": 1030,
+      "elapsed_time": 1030,
+      "total_elevation_gain": 52,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Zwift",
+      "id": 18871230858,
+      "start_date": "2026-06-10T22:36:01Z",
+      "start_date_local": "2026-06-10T15:36:01Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "utc_offset": -25200,
+      "location_city": null,
+      "location_state": null,
+      "location_country": null,
+      "achievement_count": 2,
+      "kudos_count": 0,
+      "comment_count": 0,
+      "athlete_count": 1,
+      "photo_count": 0,
+      "map": {
+        "id": "a18871230858",
+        "polyline": "kyewFfvnbMHEhAItABd@F^J\\LRN~BzBrBnAr@d@fA`Ap@v@l@`An@tAn@bBn@|BVp@t@rAz@bA`@\\XNl@R^H^B`@?^I\\QVY^i@Zm@Vq@Ja@He@R_CDUPi@b@u@bAsA`@w@vAaDT_@FOBg@Ie@_@sAO]c@c@eBaA[YKOQg@S{AOm@Ug@_AwAOMc@Oc@GaBKg@KQIc@W_@]]e@e@}@[eAKq@CY?u@J_CCaBFcHDSJOVWZOrAe@vDiB~Ay@~AeAb@Qb@KPAzAJP?b@Gp@SnAc@dBu@\\Ih@GjACz@F|@Pz@\\~A|@jA~@v@z@p@`At@vARn@Pr@n@`EZdDHb@XdA\\bAj@pA`@j@fAtA^r@h@~AP|@J~@@j@Cf@If@Wp@S\\UVc@Xc@P_APq@Bc@GuBc@o@Ca@Bg@Ng@Z}BlBkAfAc@Z_@Pa@Fe@@yBIaDCe@@e@NIAOOKUa@sASa@i@e@}Ay@YWKOOg@QyAOk@Ug@_AyAOMa@Oe@IaBKg@KQGw@i@]a@[g@Wk@Uo@Mq@Gs@@u@HaCCmADcGCk@IOKM_@K_@A]BgA?s@R_CbAkC`AyBbAy@j@q@r@q@bAw@|Am@nBQb@U\\[Ra@L_AJmABa@DYHq@`@]D_@Ce@OyAq@yAi@UGW?m@Ji@Xi@d@Uh@WrAEt@@b@Fb@Tl@l@l@bCfBjBnBXXh@\\dAh@tAf@\\Hj@Hj@B\\AdE]p@?x@F",
+        "resource_state": 3,
+        "summary_polyline": ""
+      },
+      "trainer": false,
+      "commute": false,
+      "manual": false,
+      "private": true,
+      "visibility": "only_me",
+      "flagged": false,
+      "gear_id": "b8659402",
+      "start_latlng": [],
+      "end_latlng": [],
+      "average_speed": 7.132,
+      "max_speed": 11.5,
+      "average_cadence": 73.3,
+      "average_watts": 108.8,
+      "max_watts": 185,
+      "weighted_average_watts": 114,
+      "device_watts": true,
+      "kilojoules": 112.1,
+      "has_heartrate": false,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "elev_high": 90.8,
+      "elev_low": 60.2,
+      "upload_id": 19982993592,
+      "upload_id_str": "19982993592",
+      "external_id": "zwift-activity-2157736782043561984.fit",
+      "from_accepted_tag": false,
+      "pr_count": 0,
+      "total_photo_count": 2,
+      "has_kudoed": false,
+      "description": null,
+      "calories": 107,
+      "perceived_exertion": null,
+      "prefer_perceived_exertion": null,
+      "segment_efforts": [
+        {
+          "id": 3499925261536262000,
+          "resource_state": 2,
+          "name": "Issendorf Express",
+          "activity": {
+            "id": 18871230858,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 1009,
+          "moving_time": 1009,
+          "start_date": "2026-06-10T22:36:09Z",
+          "start_date_local": "2026-06-10T15:36:09Z",
+          "distance": 7236.9,
+          "start_index": 8,
+          "end_index": 1017,
+          "average_cadence": 73.7,
+          "device_watts": true,
+          "average_watts": 110.7,
+          "segment": {
+            "id": 40331604,
+            "resource_state": 2,
+            "name": "Issendorf Express",
+            "activity_type": "VirtualRide",
+            "distance": 7236.9,
+            "average_grade": 0,
+            "maximum_grade": 6.4,
+            "elevation_high": 90.8,
+            "elevation_low": 60.2,
+            "start_latlng": [
+              40.667127,
+              -73.972315
+            ],
+            "end_latlng": [
+              40.66713,
+              -73.972321
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "USA",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3499925261539356700,
+          "resource_state": 2,
+          "name": "Center Sprint",
+          "activity": {
+            "id": 18871230858,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 20,
+          "moving_time": 20,
+          "start_date": "2026-06-10T22:39:41Z",
+          "start_date_local": "2026-06-10T15:39:41Z",
+          "distance": 202.4,
+          "start_index": 220,
+          "end_index": 240,
+          "average_cadence": 74.5,
+          "device_watts": true,
+          "average_watts": 90.3,
+          "segment": {
+            "id": 40338226,
+            "resource_state": 2,
+            "name": "Center Sprint",
+            "activity_type": "VirtualRide",
+            "distance": 202.4,
+            "average_grade": -2.2,
+            "maximum_grade": -1.3,
+            "elevation_high": 79.6,
+            "elevation_low": 75.2,
+            "start_latlng": [
+              40.659859,
+              -73.971435
+            ],
+            "end_latlng": [
+              40.661087,
+              -73.969933
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "USA",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3499925261537871000,
+          "resource_state": 2,
+          "name": "Avon Flyer",
+          "activity": {
+            "id": 18871230858,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 439,
+          "moving_time": 439,
+          "start_date": "2026-06-10T22:40:01Z",
+          "start_date_local": "2026-06-10T15:40:01Z",
+          "distance": 3295.7,
+          "start_index": 240,
+          "end_index": 679,
+          "average_cadence": 73.8,
+          "device_watts": true,
+          "average_watts": 120,
+          "segment": {
+            "id": 40325105,
+            "resource_state": 2,
+            "name": "Avon Flyer",
+            "activity_type": "VirtualRide",
+            "distance": 3295.7,
+            "average_grade": 0,
+            "maximum_grade": 6.4,
+            "elevation_high": 83.2,
+            "elevation_low": 60.2,
+            "start_latlng": [
+              40.661095,
+              -73.969928
+            ],
+            "end_latlng": [
+              40.661095,
+              -73.969928
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "USA",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 2,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 2
+            }
+          ],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3499925261537930000,
+          "resource_state": 2,
+          "name": "The Peristyle Sprint Reverse",
+          "activity": {
+            "id": 18871230858,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 48,
+          "moving_time": 48,
+          "start_date": "2026-06-10T22:42:06Z",
+          "start_date_local": "2026-06-10T15:42:06Z",
+          "distance": 396.7,
+          "start_index": 365,
+          "end_index": 413,
+          "average_cadence": 71.7,
+          "device_watts": true,
+          "average_watts": 116.8,
+          "segment": {
+            "id": 40338223,
+            "resource_state": 2,
+            "name": "The Peristyle Sprint Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 396.7,
+            "average_grade": 0.1,
+            "maximum_grade": 0.5,
+            "elevation_high": 62.8,
+            "elevation_low": 62.2,
+            "start_latlng": [
+              40.656399,
+              -73.96297
+            ],
+            "end_latlng": [
+              40.653875,
+              -73.965937
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "USA",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 3,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 3
+            }
+          ],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3499925261538375700,
+          "resource_state": 2,
+          "name": "Center Sprint",
+          "activity": {
+            "id": 18871230858,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 20,
+          "moving_time": 20,
+          "start_date": "2026-06-10T22:47:00Z",
+          "start_date_local": "2026-06-10T15:47:00Z",
+          "distance": 202.4,
+          "start_index": 659,
+          "end_index": 679,
+          "average_cadence": 79.4,
+          "device_watts": true,
+          "average_watts": 107.5,
+          "segment": {
+            "id": 40338226,
+            "resource_state": 2,
+            "name": "Center Sprint",
+            "activity_type": "VirtualRide",
+            "distance": 202.4,
+            "average_grade": -2.2,
+            "maximum_grade": -1.3,
+            "elevation_high": 79.6,
+            "elevation_low": 75.2,
+            "start_latlng": [
+              40.659859,
+              -73.971435
+            ],
+            "end_latlng": [
+              40.661087,
+              -73.969933
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "USA",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3499925261535986700,
+          "resource_state": 2,
+          "name": "The Hill KOM",
+          "activity": {
+            "id": 18871230858,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 130,
+          "moving_time": 130,
+          "start_date": "2026-06-10T22:48:58Z",
+          "start_date_local": "2026-06-10T15:48:58Z",
+          "distance": 519.9,
+          "start_index": 777,
+          "end_index": 907,
+          "average_cadence": 76.9,
+          "device_watts": true,
+          "average_watts": 124.3,
+          "segment": {
+            "id": 40325329,
+            "resource_state": 2,
+            "name": "The Hill KOM",
+            "activity_type": "VirtualRide",
+            "distance": 519.9,
+            "average_grade": 3.6,
+            "maximum_grade": 4.8,
+            "elevation_high": 89,
+            "elevation_low": 70.2,
+            "start_latlng": [
+              40.665902,
+              -73.966484
+            ],
+            "end_latlng": [
+              40.66971,
+              -73.9687
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "USA",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        }
+      ],
+      "splits_metric": [
+        {
+          "distance": 1002.2,
+          "elapsed_time": 158,
+          "elevation_difference": -1.4,
+          "moving_time": 158,
+          "split": 1,
+          "average_speed": 6.34,
+          "average_grade_adjusted_speed": 6.33,
+          "pace_zone": 0
+        },
+        {
+          "distance": 998.8,
+          "elapsed_time": 102,
+          "elevation_difference": -17.4,
+          "moving_time": 102,
+          "split": 2,
+          "average_speed": 9.79,
+          "average_grade_adjusted_speed": 9.44,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1007.1,
+          "elapsed_time": 108,
+          "elevation_difference": -7.6,
+          "moving_time": 108,
+          "split": 3,
+          "average_speed": 9.33,
+          "average_grade_adjusted_speed": 9.2,
+          "pace_zone": 0
+        },
+        {
+          "distance": 997.9,
+          "elapsed_time": 120,
+          "elevation_difference": -0.4,
+          "moving_time": 120,
+          "split": 4,
+          "average_speed": 8.32,
+          "average_grade_adjusted_speed": 8.32,
+          "pace_zone": 0
+        },
+        {
+          "distance": 997.8,
+          "elapsed_time": 185,
+          "elevation_difference": 14.8,
+          "moving_time": 185,
+          "split": 5,
+          "average_speed": 5.39,
+          "average_grade_adjusted_speed": 5.71,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1000.5,
+          "elapsed_time": 112,
+          "elevation_difference": -5.2,
+          "moving_time": 112,
+          "split": 6,
+          "average_speed": 8.93,
+          "average_grade_adjusted_speed": 8.87,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1003,
+          "elapsed_time": 202,
+          "elevation_difference": 17.2,
+          "moving_time": 202,
+          "split": 7,
+          "average_speed": 4.97,
+          "average_grade_adjusted_speed": 5.27,
+          "pace_zone": 0
+        },
+        {
+          "distance": 338.7,
+          "elapsed_time": 43,
+          "elevation_difference": -0.2,
+          "moving_time": 43,
+          "split": 8,
+          "average_speed": 7.88,
+          "average_grade_adjusted_speed": 7.87,
+          "pace_zone": 0
+        }
+      ],
+      "splits_standard": [
+        {
+          "distance": 1610.3,
+          "elapsed_time": 224,
+          "elevation_difference": -10.2,
+          "moving_time": 224,
+          "split": 1,
+          "average_speed": 7.19,
+          "average_grade_adjusted_speed": 7.1,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1614.4,
+          "elapsed_time": 170,
+          "elevation_difference": -15.8,
+          "moving_time": 170,
+          "split": 2,
+          "average_speed": 9.5,
+          "average_grade_adjusted_speed": 9.32,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1607.5,
+          "elapsed_time": 262,
+          "elevation_difference": 17.8,
+          "moving_time": 262,
+          "split": 3,
+          "average_speed": 6.14,
+          "average_grade_adjusted_speed": 6.38,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608.4,
+          "elapsed_time": 245,
+          "elevation_difference": 7.8,
+          "moving_time": 245,
+          "split": 4,
+          "average_speed": 6.56,
+          "average_grade_adjusted_speed": 6.74,
+          "pace_zone": 0
+        },
+        {
+          "distance": 905.4,
+          "elapsed_time": 129,
+          "elevation_difference": 0.2,
+          "moving_time": 129,
+          "split": 5,
+          "average_speed": 7.02,
+          "average_grade_adjusted_speed": 7.05,
+          "pace_zone": 0
+        }
+      ],
+      "laps": [
+        {
+          "id": 67483701857,
+          "resource_state": 2,
+          "name": "Lap 1",
+          "activity": {
+            "id": 18871230858,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 1030,
+          "moving_time": 1031,
+          "start_date": "2026-06-10T22:36:01Z",
+          "start_date_local": "2026-06-10T15:36:01Z",
+          "distance": 7345.99,
+          "average_speed": 7.13,
+          "max_speed": 11.5,
+          "lap_index": 1,
+          "split": 1,
+          "start_index": 0,
+          "end_index": 0,
+          "total_elevation_gain": 47.6,
+          "average_cadence": 73.3,
+          "device_watts": true,
+          "average_watts": 108.8
+        }
+      ],
+      "gear": {
+        "id": "b8659402",
+        "primary": false,
+        "name": "Canyon Grail CF SL 8",
+        "nickname": "Canyon Grail CF SL 8",
+        "resource_state": 2,
+        "retired": false,
+        "distance": 20875458,
+        "converted_distance": 12971.4
+      },
+      "photos": {
+        "primary": {
+          "unique_id": "ff3b869b-76f3-40be-b4b1-9d446830aa64",
+          "urls": {
+            "100": "https://dgtzuqphqg23d.cloudfront.net/bgGCNrXHlSzz553K9a2mQwyeO_9N28pSsQ-rkW1IP6g-128x73.jpg",
+            "600": "https://dgtzuqphqg23d.cloudfront.net/bgGCNrXHlSzz553K9a2mQwyeO_9N28pSsQ-rkW1IP6g-768x440.jpg"
+          },
+          "source": 1,
+          "media_type": 1
+        },
+        "use_primary_photo": true,
+        "count": 2
+      },
+      "stats_visibility": [
+        {
+          "type": "heart_rate",
+          "visibility": "everyone"
+        },
+        {
+          "type": "pace",
+          "visibility": "everyone"
+        },
+        {
+          "type": "power",
+          "visibility": "everyone"
+        },
+        {
+          "type": "speed",
+          "visibility": "everyone"
+        },
+        {
+          "type": "calories",
+          "visibility": "everyone"
+        }
+      ],
+      "hide_from_home": false,
+      "embed_token": "540339af0f5b0fd350e1050b6bad76f23a5020db",
+      "available_zones": [
+        "power"
+      ]
+    },
     {
       "resource_state": 2,
       "athlete": {

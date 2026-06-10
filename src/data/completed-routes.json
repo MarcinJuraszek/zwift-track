@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-10T15:57:11.751Z",
-  "totalCompleted": 99,
+  "syncedAt": "2026-06-10T22:53:36.811Z",
+  "totalCompleted": 100,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "issendorf-express",
+      "routeName": "Issendorf Express",
+      "worldName": "New York",
+      "activityId": 18871230858,
+      "activityName": "Zwift - Issendorf Express in New York",
+      "date": "2026-06-10T15:36:01Z",
+      "distance": 7.346,
+      "movingTime": 1030,
+      "elapsedTime": 1030,
+      "elevationGain": 52,
+      "averageWatts": 108.8,
+      "stravaUrl": "https://www.strava.com/activities/18871230858",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "times-square-circuit",
       "routeName": "Times Square Circuit",

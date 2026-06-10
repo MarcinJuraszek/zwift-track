@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-10T22:53:36.811Z",
-  "totalCompleted": 100,
+  "syncedAt": "2026-06-10T23:06:08.891Z",
+  "totalCompleted": 101,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "mech-isle-loop",
+      "routeName": "Mech Isle Loop",
+      "worldName": "Makuri Islands",
+      "activityId": 18871348136,
+      "activityName": "Zwift - Mech Isle Loop in Makuri Islands",
+      "date": "2026-06-10T15:54:42Z",
+      "distance": 4.088,
+      "movingTime": 662,
+      "elapsedTime": 662,
+      "elevationGain": 40,
+      "averageWatts": 114,
+      "stravaUrl": "https://www.strava.com/activities/18871348136",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "issendorf-express",
       "routeName": "Issendorf Express",

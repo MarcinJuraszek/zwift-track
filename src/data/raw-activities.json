@@ -1,8 +1,362 @@
 {
-  "fetchedAt": "2026-06-10T22:53:36.358Z",
-  "totalActivities": 117,
-  "virtualRideCount": 117,
+  "fetchedAt": "2026-06-10T23:06:08.302Z",
+  "totalActivities": 118,
+  "virtualRideCount": 118,
   "virtualRides": [
+    {
+      "resource_state": 3,
+      "athlete": {
+        "id": 29432659,
+        "resource_state": 1
+      },
+      "name": "Zwift - Mech Isle Loop in Makuri Islands",
+      "distance": 4088.4,
+      "moving_time": 662,
+      "elapsed_time": 662,
+      "total_elevation_gain": 40,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Zwift",
+      "id": 18871348136,
+      "start_date": "2026-06-10T22:54:42Z",
+      "start_date_local": "2026-06-10T15:54:42Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "utc_offset": -25200,
+      "location_city": null,
+      "location_state": null,
+      "location_country": null,
+      "achievement_count": 1,
+      "kudos_count": 0,
+      "comment_count": 0,
+      "athlete_count": 1,
+      "photo_count": 0,
+      "map": {
+        "id": "a18871348136",
+        "polyline": "ps{`Aeh`s^^WRG\\BXLLRFVJzADVBDHFR@ZE\\MZQXWV]N[Ha@@]G_@EKSOi@QcBYa@Ka@SMKGS@Q\\cA?QC_@QY}@aAc@Wc@MY@eAZW?SISMUYQ]Oi@Gm@H_@P[j@s@j@e@jAm@VIXCd@Dd@Lb@TZ\\NVDXA|ABJNRRJ\\HrBRZJTLPVFTP~AFVLVVJVFV?`BCv@Gf@[`@]JQBQ?]EYGWMWQSWK[Cc@Da@LWPSVKZAh@Dv@\\jCRjAZlCLn@Tn@T^LLPDh@B~BKl@?TBTFNNJRDTDn@OfEMf@KLQHSBc@?c@IMI_@k@[Ok@Ew@@u@RwBfA_@L]Ha@BOAOGi@]QEO?a@JWV]fAOVaAhAWPKD[D]AYKk@e@OCK@w@RM@OAYK]_@Se@G]C[@k@LWVOzAc@f@ULQDO?IIQOOWMiA_@[UKMM_@Es@GMa@c@EM?QF]NYh@o@x@q@XM\\ALDl@d@LBL?j@_@TG^BRJ",
+        "resource_state": 3,
+        "summary_polyline": ""
+      },
+      "trainer": false,
+      "commute": false,
+      "manual": false,
+      "private": true,
+      "visibility": "only_me",
+      "flagged": false,
+      "gear_id": "b8659402",
+      "start_latlng": [],
+      "end_latlng": [],
+      "average_speed": 6.176,
+      "max_speed": 13.14,
+      "average_cadence": 77.4,
+      "average_watts": 114,
+      "max_watts": 176,
+      "weighted_average_watts": 115,
+      "device_watts": true,
+      "kilojoules": 75.5,
+      "has_heartrate": false,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "elev_high": 25.6,
+      "elev_low": 3.6,
+      "upload_id": 19983112311,
+      "upload_id_str": "19983112311",
+      "external_id": "zwift-activity-2157746350920302608.fit",
+      "from_accepted_tag": false,
+      "pr_count": 0,
+      "total_photo_count": 1,
+      "has_kudoed": false,
+      "description": null,
+      "calories": 72,
+      "perceived_exertion": null,
+      "prefer_perceived_exertion": null,
+      "segment_efforts": [
+        {
+          "id": 3499928330015470600,
+          "resource_state": 2,
+          "name": "Mech Isle Loop",
+          "activity": {
+            "id": 18871348136,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 644,
+          "moving_time": 644,
+          "start_date": "2026-06-10T22:54:51Z",
+          "start_date_local": "2026-06-10T15:54:51Z",
+          "distance": 4021.4,
+          "start_index": 9,
+          "end_index": 653,
+          "average_cadence": 78,
+          "device_watts": true,
+          "average_watts": 115.7,
+          "segment": {
+            "id": 33214506,
+            "resource_state": 2,
+            "name": "Mech Isle Loop",
+            "activity_type": "VirtualRide",
+            "distance": 4021.4,
+            "average_grade": 0,
+            "maximum_grade": 6.8,
+            "elevation_high": 25.6,
+            "elevation_low": 3.6,
+            "start_latlng": [
+              -10.796355,
+              165.812767
+            ],
+            "end_latlng": [
+              -10.796359,
+              165.812767
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Nemboe",
+            "state": "Temotu Province",
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3499928330013635600,
+          "resource_state": 2,
+          "name": "Mech Isle Climb CW",
+          "activity": {
+            "id": 18871348136,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 199,
+          "moving_time": 199,
+          "start_date": "2026-06-10T22:58:10Z",
+          "start_date_local": "2026-06-10T15:58:10Z",
+          "distance": 714.5,
+          "start_index": 208,
+          "end_index": 407,
+          "average_cadence": 76.6,
+          "device_watts": true,
+          "average_watts": 127.4,
+          "segment": {
+            "id": 33263289,
+            "resource_state": 2,
+            "name": "Mech Isle Climb CW",
+            "activity_type": "VirtualRide",
+            "distance": 714.5,
+            "average_grade": 2.9,
+            "maximum_grade": 6.7,
+            "elevation_high": 25.4,
+            "elevation_low": 4.4,
+            "start_latlng": [
+              -10.796924,
+              165.815588
+            ],
+            "end_latlng": [
+              -10.798919,
+              165.814322
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Nemboe",
+            "state": "Temotu Province",
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 3,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 3
+            }
+          ],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        }
+      ],
+      "splits_metric": [
+        {
+          "distance": 1003,
+          "elapsed_time": 175,
+          "elevation_difference": -0.2,
+          "moving_time": 175,
+          "split": 1,
+          "average_speed": 5.73,
+          "average_grade_adjusted_speed": 5.76,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1002.5,
+          "elapsed_time": 242,
+          "elevation_difference": 20,
+          "moving_time": 242,
+          "split": 2,
+          "average_speed": 4.14,
+          "average_grade_adjusted_speed": 4.44,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1001.9,
+          "elapsed_time": 105,
+          "elevation_difference": -21.2,
+          "moving_time": 105,
+          "split": 3,
+          "average_speed": 9.54,
+          "average_grade_adjusted_speed": 9.18,
+          "pace_zone": 0
+        },
+        {
+          "distance": 999.6,
+          "elapsed_time": 127,
+          "elevation_difference": 1,
+          "moving_time": 127,
+          "split": 4,
+          "average_speed": 7.87,
+          "average_grade_adjusted_speed": 7.94,
+          "pace_zone": 0
+        },
+        {
+          "distance": 82,
+          "elapsed_time": 13,
+          "elevation_difference": 1.8,
+          "moving_time": 13,
+          "split": 5,
+          "average_speed": 6.31,
+          "average_grade_adjusted_speed": 6.7,
+          "pace_zone": 0
+        }
+      ],
+      "splits_standard": [
+        {
+          "distance": 1611.2,
+          "elapsed_time": 283,
+          "elevation_difference": 5,
+          "moving_time": 283,
+          "split": 1,
+          "average_speed": 5.69,
+          "average_grade_adjusted_speed": 5.78,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1613.3,
+          "elapsed_time": 265,
+          "elevation_difference": -5.2,
+          "moving_time": 265,
+          "split": 2,
+          "average_speed": 6.09,
+          "average_grade_adjusted_speed": 6.16,
+          "pace_zone": 0
+        },
+        {
+          "distance": 864.5,
+          "elapsed_time": 114,
+          "elevation_difference": 1.6,
+          "moving_time": 114,
+          "split": 3,
+          "average_speed": 7.58,
+          "average_grade_adjusted_speed": 7.67,
+          "pace_zone": 0
+        }
+      ],
+      "laps": [
+        {
+          "id": 67484044971,
+          "resource_state": 2,
+          "name": "Lap 1",
+          "activity": {
+            "id": 18871348136,
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "resource_state": 1
+          },
+          "elapsed_time": 662,
+          "moving_time": 663,
+          "start_date": "2026-06-10T22:54:42Z",
+          "start_date_local": "2026-06-10T15:54:42Z",
+          "distance": 4088.97,
+          "average_speed": 6.17,
+          "max_speed": 13.14,
+          "lap_index": 1,
+          "split": 1,
+          "start_index": 0,
+          "end_index": 0,
+          "total_elevation_gain": 34.8,
+          "average_cadence": 77.4,
+          "device_watts": true,
+          "average_watts": 114
+        }
+      ],
+      "gear": {
+        "id": "b8659402",
+        "primary": false,
+        "name": "Canyon Grail CF SL 8",
+        "nickname": "Canyon Grail CF SL 8",
+        "resource_state": 2,
+        "retired": false,
+        "distance": 20882804,
+        "converted_distance": 12976
+      },
+      "photos": {
+        "primary": {
+          "unique_id": "d9b01ac5-8952-4c78-b5a2-b4ddf4a36362",
+          "urls": {
+            "100": "https://dgtzuqphqg23d.cloudfront.net/AaIvUddg_Q-F5aOlPkzs8Rc4-RGgLpNQ5Az-dP6WfKE-128x73.jpg",
+            "600": "https://dgtzuqphqg23d.cloudfront.net/AaIvUddg_Q-F5aOlPkzs8Rc4-RGgLpNQ5Az-dP6WfKE-768x440.jpg"
+          },
+          "source": 1,
+          "media_type": 1
+        },
+        "use_primary_photo": true,
+        "count": 1
+      },
+      "stats_visibility": [
+        {
+          "type": "heart_rate",
+          "visibility": "everyone"
+        },
+        {
+          "type": "pace",
+          "visibility": "everyone"
+        },
+        {
+          "type": "power",
+          "visibility": "everyone"
+        },
+        {
+          "type": "speed",
+          "visibility": "everyone"
+        },
+        {
+          "type": "calories",
+          "visibility": "everyone"
+        }
+      ],
+      "hide_from_home": false,
+      "embed_token": "92fcb6765ab4f5e7f264c8882d4bffcf0f612df7",
+      "available_zones": [
+        "power"
+      ]
+    },
     {
       "resource_state": 3,
       "athlete": {

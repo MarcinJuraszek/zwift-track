@@ -5085,5 +5085,26 @@
       }
     ],
     "fetchedAt": "2026-06-10T22:53:36.805Z"
+  },
+  "18871348136": {
+    "id": 18871348136,
+    "name": "Zwift - Mech Isle Loop in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Mech Isle Loop",
+        "segment": {
+          "id": 33214506,
+          "name": "Mech Isle Loop"
+        }
+      },
+      {
+        "name": "Mech Isle Climb CW",
+        "segment": {
+          "id": 33263289,
+          "name": "Mech Isle Climb CW"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-10T23:06:08.885Z"
   }
 }

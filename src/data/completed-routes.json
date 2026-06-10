@@ -1,6 +1,6 @@
 {
-  "syncedAt": "2026-06-10T23:06:08.891Z",
-  "totalCompleted": 101,
+  "syncedAt": "2026-06-10T23:12:20.541Z",
+  "totalCompleted": 100,
   "totalRoutes": 279,
   "completedRoutes": [
     {
@@ -1426,21 +1426,6 @@
       "elevationGain": 86,
       "averageWatts": 141.1,
       "stravaUrl": "https://www.strava.com/activities/6040884442",
-      "matchMethod": "segment"
-    },
-    {
-      "routeSlug": "bell-lap",
-      "routeName": "The Bell Lap",
-      "worldName": "Crit City",
-      "activityId": 5972905493,
-      "activityName": "Cycle Nation Joburg Coffee Ride",
-      "date": "2021-09-16T21:00:02Z",
-      "distance": 28.352,
-      "movingTime": 3016,
-      "elapsedTime": 3016,
-      "elevationGain": 237,
-      "averageWatts": 152.3,
-      "stravaUrl": "https://www.strava.com/activities/5972905493",
       "matchMethod": "segment"
     },
     {

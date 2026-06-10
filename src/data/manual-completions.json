@@ -63,6 +63,11 @@
       "activityId": 14513448115,
       "routeSlug": "macaron",
       "note": "Activity was Sacre Bleu, not Macaron. Confirmed NOT completed in Zwift app"
+    },
+    {
+      "activityId": 5972905493,
+      "routeSlug": "bell-lap",
+      "note": "Activity was a coffee ride, not The Bell Lap. Confirmed NOT completed in Zwift app"
     }
   ]
 }

@@ -5148,5 +5148,19 @@
       }
     ],
     "fetchedAt": "2026-06-12T03:16:41.812Z"
+  },
+  "18895201804": {
+    "id": 18895201804,
+    "name": "Zwift - Sea to Tree in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Sea to Tree",
+        "segment": {
+          "id": 28432204,
+          "name": "Sea to Tree"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-12T21:00:05.057Z"
   }
 }

@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-12T03:16:41.818Z",
-  "totalCompleted": 101,
+  "syncedAt": "2026-06-12T21:00:05.063Z",
+  "totalCompleted": 102,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "sea-to-tree",
+      "routeName": "Sea to Tree",
+      "worldName": "Makuri Islands",
+      "activityId": 18895201804,
+      "activityName": "Zwift - Sea to Tree in Makuri Islands",
+      "date": "2026-06-12T13:39:08Z",
+      "distance": 3.603,
+      "movingTime": 1231,
+      "elapsedTime": 1231,
+      "elevationGain": 109,
+      "averageWatts": 100,
+      "stravaUrl": "https://www.strava.com/activities/18895201804",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "bridges-and-boardwalks",
       "routeName": "Bridges and Boardwalks",

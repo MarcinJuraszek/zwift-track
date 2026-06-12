@@ -5106,5 +5106,47 @@
       }
     ],
     "fetchedAt": "2026-06-10T23:06:08.885Z"
+  },
+  "18885903878": {
+    "id": 18885903878,
+    "name": "Zwift - Bridges and Boardwalks in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Boardwalk Sprint ",
+        "segment": {
+          "id": 38169040,
+          "name": "Boardwalk Sprint "
+        }
+      },
+      {
+        "name": "Bridges and Boardwalks",
+        "segment": {
+          "id": 33221600,
+          "name": "Bridges and Boardwalks"
+        }
+      },
+      {
+        "name": "Festival Harbor Climb CW",
+        "segment": {
+          "id": 33262927,
+          "name": "Festival Harbor Climb CW"
+        }
+      },
+      {
+        "name": "Shisa Sprint Reverse",
+        "segment": {
+          "id": 38169009,
+          "name": "Shisa Sprint Reverse"
+        }
+      },
+      {
+        "name": "Boardwalk Sprint ",
+        "segment": {
+          "id": 38169040,
+          "name": "Boardwalk Sprint "
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-12T03:16:41.812Z"
   }
 }

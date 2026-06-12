@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-10T23:12:20.541Z",
-  "totalCompleted": 100,
+  "syncedAt": "2026-06-12T03:16:41.818Z",
+  "totalCompleted": 101,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "bridges-and-boardwalks",
+      "routeName": "Bridges and Boardwalks",
+      "worldName": "Makuri Islands",
+      "activityId": 18885903878,
+      "activityName": "Zwift - Bridges and Boardwalks in Makuri Islands",
+      "date": "2026-06-11T19:55:33Z",
+      "distance": 8.279,
+      "movingTime": 1246,
+      "elapsedTime": 1246,
+      "elevationGain": 69,
+      "averageWatts": 108.3,
+      "stravaUrl": "https://www.strava.com/activities/18885903878",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "mech-isle-loop",
       "routeName": "Mech Isle Loop",

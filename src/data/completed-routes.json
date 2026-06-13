@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-12T21:00:05.063Z",
-  "totalCompleted": 102,
+  "syncedAt": "2026-06-13T17:14:36.275Z",
+  "totalCompleted": 103,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "fine-and-sandy",
+      "routeName": "Fine and Sandy",
+      "worldName": "Makuri Islands",
+      "activityId": 18906843097,
+      "activityName": "Zwift - Fine and Sandy in Makuri Islands",
+      "date": "2026-06-13T09:45:13Z",
+      "distance": 11.351,
+      "movingTime": 1737,
+      "elapsedTime": 1737,
+      "elevationGain": 83,
+      "averageWatts": 110.3,
+      "stravaUrl": "https://www.strava.com/activities/18906843097",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "sea-to-tree",
       "routeName": "Sea to Tree",

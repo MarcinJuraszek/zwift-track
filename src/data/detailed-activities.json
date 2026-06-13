@@ -5162,5 +5162,47 @@
       }
     ],
     "fetchedAt": "2026-06-12T21:00:05.057Z"
+  },
+  "18906843097": {
+    "id": 18906843097,
+    "name": "Zwift - Fine and Sandy in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Fine and Sandy",
+        "segment": {
+          "id": 33237114,
+          "name": "Fine and Sandy"
+        }
+      },
+      {
+        "name": "Mech Isle Climb CW",
+        "segment": {
+          "id": 33263289,
+          "name": "Mech Isle Climb CW"
+        }
+      },
+      {
+        "name": "Boardwalk Sprint ",
+        "segment": {
+          "id": 38169040,
+          "name": "Boardwalk Sprint "
+        }
+      },
+      {
+        "name": "Tidepool Sprint",
+        "segment": {
+          "id": 38169050,
+          "name": "Tidepool Sprint"
+        }
+      },
+      {
+        "name": "Mech Isle Climb CW",
+        "segment": {
+          "id": 33263289,
+          "name": "Mech Isle Climb CW"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-13T17:14:36.269Z"
   }
 }

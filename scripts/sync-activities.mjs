@@ -338,6 +338,13 @@ async function main() {
   const detailedCache = loadDetailedCache();
   let apiCalls = 0;
 
+  // Load previous completions for diff
+  let previousSlugs = new Set();
+  if (existsSync(outputPath)) {
+    const prev = JSON.parse(readFileSync(outputPath, "utf-8"));
+    previousSlugs = new Set((prev.completedRoutes || []).map((r) => r.routeSlug));
+  }
+
   // Get access token if we need to fetch any uncached activities
   const uncachedCount = virtualRides.filter(
     (a) => !detailedCache[String(a.id)]
@@ -426,6 +433,18 @@ async function main() {
             segmentMatchedRoutes: segRoutes.map((r) => r.name),
           });
         }
+      }
+    }
+
+    // Log per-activity match result for newly fetched activities
+    if (uncachedCount > 0 || !detailedCache[cacheKey]?.fetchedAt) {
+      const segNames = segRoutes.map((r) => r.name);
+      if (segNames.length > 0) {
+        console.log(`   📍 "${activity.name}" → ${segNames.join(", ")} (segment)`);
+      } else if (nameRoutes) {
+        console.log(`   📍 "${activity.name}" → ${nameRoutes.map((r) => r.name).join(", ")} (name only, review needed)`);
+      } else {
+        console.log(`   ❓ "${activity.name}" → no match`);
       }
     }
 
@@ -551,6 +570,29 @@ async function main() {
     `   Total unique routes completed: ${uniqueCompletions.length}/${routeData.routes.length}`
   );
   console.log(`   → ${outputPath}`);
+
+  // Show what changed since last sync
+  const currentSlugs = new Set(uniqueCompletions.map((r) => r.routeSlug));
+  const newlyCompleted = uniqueCompletions.filter((r) => !previousSlugs.has(r.routeSlug));
+  const removed = [...previousSlugs].filter((s) => !currentSlugs.has(s));
+
+  if (newlyCompleted.length > 0) {
+    console.log(`\n🆕 Newly completed routes (${newlyCompleted.length}):`);
+    for (const r of newlyCompleted) {
+      console.log(`   ✅ ${r.routeName} (${r.worldName}) — via ${r.matchMethod}`);
+    }
+  }
+
+  if (removed.length > 0) {
+    console.log(`\n🗑️  Removed from completions (${removed.length}):`);
+    for (const slug of removed) {
+      console.log(`   ❌ ${slug}`);
+    }
+  }
+
+  if (newlyCompleted.length === 0 && removed.length === 0) {
+    console.log(`\n   No changes since last sync.`);
+  }
 
   // Surface name/segment mismatches for manual review
   // Filter out items already in manual completions or exclusions

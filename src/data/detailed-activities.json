@@ -1236,17 +1236,17 @@
     "name": "ZHQ FutureWorks Circuit Race - Anti-sandbagging (C)",
     "segment_efforts": [
       {
-        "name": "Champs-\u00c9lys\u00e9es Lead-In from Start Pens",
+        "name": "Champs-Élysées Lead-In from Start Pens",
         "segment": {
           "id": 24710513,
-          "name": "Champs-\u00c9lys\u00e9es Lead-In from Start Pens"
+          "name": "Champs-Élysées Lead-In from Start Pens"
         }
       },
       {
-        "name": "Champs-\u00c9lys\u00e9es",
+        "name": "Champs-Élysées",
         "segment": {
           "id": 24674235,
-          "name": "Champs-\u00c9lys\u00e9es"
+          "name": "Champs-Élysées"
         }
       }
     ],
@@ -1894,24 +1894,24 @@
         }
       },
       {
-        "name": "Sprint du Crat\u00e8re Reverse",
+        "name": "Sprint du Cratère Reverse",
         "segment": {
           "id": 38873996,
-          "name": "Sprint du Crat\u00e8re Reverse"
+          "name": "Sprint du Cratère Reverse"
         }
       },
       {
-        "name": "Dos d'\u00c2ne Sprint",
+        "name": "Dos d'Âne Sprint",
         "segment": {
           "id": 38873975,
-          "name": "Dos d'\u00c2ne Sprint"
+          "name": "Dos d'Âne Sprint"
         }
       },
       {
-        "name": "Pav\u00e9 Sprint Reverse",
+        "name": "Pavé Sprint Reverse",
         "segment": {
           "id": 24710570,
-          "name": "Pav\u00e9 Sprint Reverse"
+          "name": "Pavé Sprint Reverse"
         }
       },
       {
@@ -1929,10 +1929,10 @@
         }
       },
       {
-        "name": "Dos d'\u00c2ne Sprint",
+        "name": "Dos d'Âne Sprint",
         "segment": {
           "id": 38873975,
-          "name": "Dos d'\u00c2ne Sprint"
+          "name": "Dos d'Âne Sprint"
         }
       },
       {
@@ -1950,10 +1950,10 @@
         }
       },
       {
-        "name": "Sprint du Crat\u00e8re Reverse",
+        "name": "Sprint du Cratère Reverse",
         "segment": {
           "id": 38873996,
-          "name": "Sprint du Crat\u00e8re Reverse"
+          "name": "Sprint du Cratère Reverse"
         }
       },
       {
@@ -1978,10 +1978,10 @@
         }
       },
       {
-        "name": "Sprint du Crat\u00e8re Reverse",
+        "name": "Sprint du Cratère Reverse",
         "segment": {
           "id": 38873996,
-          "name": "Sprint du Crat\u00e8re Reverse"
+          "name": "Sprint du Cratère Reverse"
         }
       },
       {
@@ -1999,24 +1999,24 @@
         }
       },
       {
-        "name": "Pav\u00e9 Sprint",
+        "name": "Pavé Sprint",
         "segment": {
           "id": 24710565,
-          "name": "Pav\u00e9 Sprint"
+          "name": "Pavé Sprint"
         }
       },
       {
-        "name": "Dos d'\u00c2ne Sprint Reverse",
+        "name": "Dos d'Âne Sprint Reverse",
         "segment": {
           "id": 38873968,
-          "name": "Dos d'\u00c2ne Sprint Reverse"
+          "name": "Dos d'Âne Sprint Reverse"
         }
       },
       {
-        "name": "Sprint du Crat\u00e8re",
+        "name": "Sprint du Cratère",
         "segment": {
           "id": 38874008,
-          "name": "Sprint du Crat\u00e8re"
+          "name": "Sprint du Cratère"
         }
       },
       {
@@ -2041,10 +2041,10 @@
         }
       },
       {
-        "name": "Dos d'\u00c2ne Sprint",
+        "name": "Dos d'Âne Sprint",
         "segment": {
           "id": 38873975,
-          "name": "Dos d'\u00c2ne Sprint"
+          "name": "Dos d'Âne Sprint"
         }
       },
       {
@@ -2083,24 +2083,24 @@
         }
       },
       {
-        "name": "Sprint du Crat\u00e8re Reverse",
+        "name": "Sprint du Cratère Reverse",
         "segment": {
           "id": 38873996,
-          "name": "Sprint du Crat\u00e8re Reverse"
+          "name": "Sprint du Cratère Reverse"
         }
       },
       {
-        "name": "Dos d'\u00c2ne Sprint",
+        "name": "Dos d'Âne Sprint",
         "segment": {
           "id": 38873975,
-          "name": "Dos d'\u00c2ne Sprint"
+          "name": "Dos d'Âne Sprint"
         }
       },
       {
-        "name": "Pav\u00e9 Sprint Reverse",
+        "name": "Pavé Sprint Reverse",
         "segment": {
           "id": 24710570,
-          "name": "Pav\u00e9 Sprint Reverse"
+          "name": "Pavé Sprint Reverse"
         }
       },
       {
@@ -2118,10 +2118,10 @@
         }
       },
       {
-        "name": "Dos d'\u00c2ne Sprint",
+        "name": "Dos d'Âne Sprint",
         "segment": {
           "id": 38873975,
-          "name": "Dos d'\u00c2ne Sprint"
+          "name": "Dos d'Âne Sprint"
         }
       },
       {
@@ -2139,10 +2139,10 @@
         }
       },
       {
-        "name": "Sprint du Crat\u00e8re Reverse",
+        "name": "Sprint du Cratère Reverse",
         "segment": {
           "id": 38873996,
-          "name": "Sprint du Crat\u00e8re Reverse"
+          "name": "Sprint du Cratère Reverse"
         }
       },
       {
@@ -2811,10 +2811,10 @@
         }
       },
       {
-        "name": "Pav\u00e9 Sprint",
+        "name": "Pavé Sprint",
         "segment": {
           "id": 24710565,
-          "name": "Pav\u00e9 Sprint"
+          "name": "Pavé Sprint"
         }
       },
       {
@@ -2958,10 +2958,10 @@
         }
       },
       {
-        "name": "Pav\u00e9 Sprint",
+        "name": "Pavé Sprint",
         "segment": {
           "id": 24710565,
-          "name": "Pav\u00e9 Sprint"
+          "name": "Pavé Sprint"
         }
       },
       {
@@ -4700,10 +4700,10 @@
         }
       },
       {
-        "name": "Pav\u00e9 Sprint Reverse",
+        "name": "Pavé Sprint Reverse",
         "segment": {
           "id": 24710570,
-          "name": "Pav\u00e9 Sprint Reverse"
+          "name": "Pavé Sprint Reverse"
         }
       },
       {
@@ -4748,10 +4748,10 @@
         }
       },
       {
-        "name": "Pav\u00e9 Sprint Reverse",
+        "name": "Pavé Sprint Reverse",
         "segment": {
           "id": 24710570,
-          "name": "Pav\u00e9 Sprint Reverse"
+          "name": "Pavé Sprint Reverse"
         }
       },
       {
@@ -4937,10 +4937,10 @@
     "name": "Zwift - Croissant in France",
     "segment_efforts": [
       {
-        "name": "Dos d'\u00c2ne Sprint Reverse",
+        "name": "Dos d'Âne Sprint Reverse",
         "segment": {
           "id": 38873968,
-          "name": "Dos d'\u00c2ne Sprint Reverse"
+          "name": "Dos d'Âne Sprint Reverse"
         }
       },
       {
@@ -4951,10 +4951,10 @@
         }
       },
       {
-        "name": "Sprint du Crat\u00e8re",
+        "name": "Sprint du Cratère",
         "segment": {
           "id": 38874008,
-          "name": "Sprint du Crat\u00e8re"
+          "name": "Sprint du Cratère"
         }
       },
       {
@@ -4965,10 +4965,10 @@
         }
       },
       {
-        "name": "Dos d'\u00c2ne Sprint Reverse",
+        "name": "Dos d'Âne Sprint Reverse",
         "segment": {
           "id": 38873968,
-          "name": "Dos d'\u00c2ne Sprint Reverse"
+          "name": "Dos d'Âne Sprint Reverse"
         }
       }
     ],
@@ -5204,5 +5204,54 @@
       }
     ],
     "fetchedAt": "2026-06-13T17:14:36.269Z"
+  },
+  "18921620080": {
+    "id": 18921620080,
+    "name": "Zwift - Red Zone Repeats in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Red Zone Repeats",
+        "segment": {
+          "id": 39889363,
+          "name": "Red Zone Repeats"
+        }
+      },
+      {
+        "name": "Tower Sprint Reverse",
+        "segment": {
+          "id": 38168840,
+          "name": "Tower Sprint Reverse"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Tower Sprint",
+        "segment": {
+          "id": 30412571,
+          "name": "Tower Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-14T20:13:36.609Z"
   }
 }

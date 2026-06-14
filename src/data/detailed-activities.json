@@ -5204,5 +5204,54 @@
       }
     ],
     "fetchedAt": "2026-06-13T17:14:36.269Z"
+  },
+  "18921620080": {
+    "id": 18921620080,
+    "name": "Zwift - Red Zone Repeats in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Red Zone Repeats",
+        "segment": {
+          "id": 39889363,
+          "name": "Red Zone Repeats"
+        }
+      },
+      {
+        "name": "Tower Sprint Reverse",
+        "segment": {
+          "id": 38168840,
+          "name": "Tower Sprint Reverse"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Tower Sprint",
+        "segment": {
+          "id": 30412571,
+          "name": "Tower Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-14T19:06:51.352Z"
   }
 }

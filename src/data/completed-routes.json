@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-13T17:14:36.275Z",
-  "totalCompleted": 103,
+  "syncedAt": "2026-06-14T19:06:51.358Z",
+  "totalCompleted": 104,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "red-zone-repeats",
+      "routeName": "Red Zone Repeats",
+      "worldName": "Makuri Islands",
+      "activityId": 18921620080,
+      "activityName": "Zwift - Red Zone Repeats in Makuri Islands",
+      "date": "2026-06-14T11:16:47Z",
+      "distance": 19.621,
+      "movingTime": 2492,
+      "elapsedTime": 2983,
+      "elevationGain": 87,
+      "averageWatts": 113.4,
+      "stravaUrl": "https://www.strava.com/activities/18921620080",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "fine-and-sandy",
       "routeName": "Fine and Sandy",

@@ -5253,5 +5253,40 @@
       }
     ],
     "fetchedAt": "2026-06-14T20:13:36.609Z"
+  },
+  "18937590205": {
+    "id": 18937590205,
+    "name": "Zwift - Island Outskirts in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Island Outskirts",
+        "segment": {
+          "id": 33237309,
+          "name": "Island Outskirts"
+        }
+      },
+      {
+        "name": "Festival Harbor Climb CCW",
+        "segment": {
+          "id": 33262947,
+          "name": "Festival Harbor Climb CCW"
+        }
+      },
+      {
+        "name": "Shisa Sprint",
+        "segment": {
+          "id": 38168992,
+          "name": "Shisa Sprint"
+        }
+      },
+      {
+        "name": "Tidepool Sprint",
+        "segment": {
+          "id": 38169050,
+          "name": "Tidepool Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-16T02:35:59.739Z"
   }
 }

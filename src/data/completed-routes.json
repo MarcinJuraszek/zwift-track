@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-14T23:06:26.993Z",
-  "totalCompleted": 104,
+  "syncedAt": "2026-06-16T02:35:59.749Z",
+  "totalCompleted": 105,
   "totalRoutes": 279,
   "completedRoutes": [
+    {
+      "routeSlug": "island-outskirts",
+      "routeName": "Island Outskirts",
+      "worldName": "Makuri Islands",
+      "activityId": 18937590205,
+      "activityName": "Zwift - Island Outskirts in Makuri Islands",
+      "date": "2026-06-15T19:06:17Z",
+      "distance": 11.377,
+      "movingTime": 1598,
+      "elapsedTime": 1757,
+      "elevationGain": 92,
+      "averageWatts": 117,
+      "stravaUrl": "https://www.strava.com/activities/18937590205",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "red-zone-repeats",
       "routeName": "Red Zone Repeats",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T02:41:50.012Z",
+  "generatedAt": "2026-06-16T02:45:00.658Z",
   "totalRoutes": 280,
   "worlds": [
     {
@@ -1927,16 +1927,17 @@
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/wandering-flats"
     },
     {
+      "id": 2521625692,
       "name": "Yumezi Grit",
       "slug": "yumezi-grit",
       "world": "makuri-islands",
       "worldName": "Makuri Islands",
-      "distance": 11.4,
-      "elevation": 90,
-      "gradient": 0.8,
+      "distance": 7.486,
+      "elevation": 83,
+      "gradient": 1.1,
       "experience": 150,
-      "leadInDistance": 0.1,
-      "leadInElevation": 2,
+      "leadInDistance": 4.273,
+      "leadInElevation": 67,
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,

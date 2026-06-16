@@ -19,14 +19,15 @@ const nameOverrides = {
 // Routes missing from zwift-data npm package (added to Zwift after last package update)
 const extraRoutes = [
   {
+    id: 2521625692,
     name: "Yumezi Grit",
     slug: "yumezi-grit",
     world: "makuri-islands",
     eventOnly: false,
-    distance: 11.4,
-    elevation: 90,
-    leadInDistance: 0.1,
-    leadInElevation: 2,
+    distance: 7.486,
+    elevation: 83,
+    leadInDistance: 4.273,
+    leadInElevation: 67,
     levelLocked: false,
     lap: true,
     sports: ["cycling"],

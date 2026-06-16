@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-16T02:45:00.702Z",
-  "totalCompleted": 105,
+  "syncedAt": "2026-06-16T23:55:57.850Z",
+  "totalCompleted": 106,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "railways-and-rooftops",
+      "routeName": "Railways and Rooftops",
+      "worldName": "Makuri Islands",
+      "activityId": 18951074812,
+      "activityName": "Zwift - Railways and Rooftops in Makuri Islands",
+      "date": "2026-06-16T16:35:42Z",
+      "distance": 8.15,
+      "movingTime": 1193,
+      "elapsedTime": 1193,
+      "elevationGain": 92,
+      "averageWatts": 122.8,
+      "stravaUrl": "https://www.strava.com/activities/18951074812",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "island-outskirts",
       "routeName": "Island Outskirts",

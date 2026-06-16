@@ -5288,5 +5288,33 @@
       }
     ],
     "fetchedAt": "2026-06-16T02:35:59.739Z"
+  },
+  "18951074812": {
+    "id": 18951074812,
+    "name": "Zwift - Railways and Rooftops in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Railways and Rooftops",
+        "segment": {
+          "id": 30407802,
+          "name": "Railways and Rooftops"
+        }
+      },
+      {
+        "name": "Railway Sprint",
+        "segment": {
+          "id": 30412927,
+          "name": "Railway Sprint"
+        }
+      },
+      {
+        "name": "Rooftop KOM Reverse",
+        "segment": {
+          "id": 32762879,
+          "name": "Rooftop KOM Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-16T23:55:57.838Z"
   }
 }

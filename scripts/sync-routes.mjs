@@ -16,9 +16,34 @@ const nameOverrides = {
   "mountain-route": "Mountain Route",
 };
 
+// Routes missing from zwift-data npm package (added to Zwift after last package update)
+const extraRoutes = [
+  {
+    name: "Yumezi Grit",
+    slug: "yumezi-grit",
+    world: "makuri-islands",
+    eventOnly: false,
+    distance: 11.4,
+    elevation: 90,
+    leadInDistance: 0.1,
+    leadInElevation: 2,
+    levelLocked: false,
+    lap: true,
+    sports: ["cycling"],
+    experience: 150,
+    stravaSegmentId: null,
+    stravaSegmentUrl: null,
+    zwiftInsiderUrl: "https://zwiftinsider.com/route/yumezi-grit",
+  },
+];
+
 // Only include routes that support cycling
-const routeData = routes
-  .filter((route) => route.sports.includes("cycling"))
+const allRoutes = [
+  ...routes.filter((route) => route.sports.includes("cycling")),
+  ...extraRoutes,
+];
+
+const routeData = allRoutes
   .map((route) => {
     const worldName = worldMap[route.world]?.name ?? route.world;
     return {

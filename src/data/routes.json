@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T02:35:59.215Z",
-  "totalRoutes": 279,
+  "generatedAt": "2026-06-16T02:41:50.012Z",
+  "totalRoutes": 280,
   "worlds": [
     {
       "slug": "watopia",
@@ -45,7 +45,7 @@
     {
       "slug": "makuri-islands",
       "name": "Makuri Islands",
-      "routeCount": 43
+      "routeCount": 44
     },
     {
       "slug": "france",
@@ -1925,6 +1925,24 @@
       "stravaSegmentId": 30408380,
       "stravaSegmentUrl": "https://www.strava.com/segments/30408380",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/wandering-flats"
+    },
+    {
+      "name": "Yumezi Grit",
+      "slug": "yumezi-grit",
+      "world": "makuri-islands",
+      "worldName": "Makuri Islands",
+      "distance": 11.4,
+      "elevation": 90,
+      "gradient": 0.8,
+      "experience": 150,
+      "leadInDistance": 0.1,
+      "leadInElevation": 2,
+      "eventOnly": false,
+      "lap": true,
+      "levelLocked": false,
+      "stravaSegmentId": null,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/yumezi-grit"
     },
     {
       "id": 2436095601,

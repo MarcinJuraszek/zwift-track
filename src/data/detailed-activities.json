@@ -5316,5 +5316,33 @@
       }
     ],
     "fetchedAt": "2026-06-16T23:55:57.838Z"
+  },
+  "18966330235": {
+    "id": 18966330235,
+    "name": "Zwift - The Epiloch in Scotland",
+    "segment_efforts": [
+      {
+        "name": "The Epiloch",
+        "segment": {
+          "id": 33636526,
+          "name": "The Epiloch"
+        }
+      },
+      {
+        "name": "Corkscrew Castle Climb",
+        "segment": {
+          "id": 38770365,
+          "name": "Corkscrew Castle Climb"
+        }
+      },
+      {
+        "name": "Breakaway Brae Reverse",
+        "segment": {
+          "id": 38170246,
+          "name": "Breakaway Brae Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-18T03:04:36.035Z"
   }
 }

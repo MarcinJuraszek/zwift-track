@@ -5372,5 +5372,33 @@
       }
     ],
     "fetchedAt": "2026-06-19T02:42:45.303Z"
+  },
+  "18985235393": {
+    "id": 18985235393,
+    "name": "Zwift - Castle Crit in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Castle Crit Lap",
+        "segment": {
+          "id": 30326079,
+          "name": "Castle Crit Lap"
+        }
+      },
+      {
+        "name": "Village Sprint",
+        "segment": {
+          "id": 38168903,
+          "name": "Village Sprint"
+        }
+      },
+      {
+        "name": "Village Sprint",
+        "segment": {
+          "id": 38168903,
+          "name": "Village Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-19T14:57:25.421Z"
   }
 }

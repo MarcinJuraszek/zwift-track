@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-19T02:42:45.314Z",
-  "totalCompleted": 108,
+  "syncedAt": "2026-06-19T14:57:25.430Z",
+  "totalCompleted": 109,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "castle-crit",
+      "routeName": "Castle Crit",
+      "worldName": "Makuri Islands",
+      "activityId": 18985235393,
+      "activityName": "Zwift - Castle Crit in Makuri Islands",
+      "date": "2026-06-19T07:40:46Z",
+      "distance": 6.513,
+      "movingTime": 974,
+      "elapsedTime": 974,
+      "elevationGain": 93,
+      "averageWatts": 137.7,
+      "stravaUrl": "https://www.strava.com/activities/18985235393",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "three-village-loop",
       "routeName": "Three Village Loop",

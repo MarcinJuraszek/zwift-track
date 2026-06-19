@@ -295,7 +295,9 @@ function getWorldColor(slug: string) {
 
           {/* Gradient */}
           <div class="hidden lg:flex items-center gap-1 w-16 flex-shrink-0 justify-end">
-            <span class={`text-xs font-mono ${route.gradient >= 3 ? 'text-red-400' : route.gradient >= 1.5 ? 'text-yellow-400' : 'text-green-400'}`}>
+            <span class="text-xs font-mono gradient-val"
+              data-dist={route.distance} data-elev={route.elevation}
+              data-lead-dist={route.leadInDistance} data-lead-elev={route.leadInElevation}>
               {route.gradient.toFixed(1)}%
             </span>
           </div>
@@ -520,6 +522,13 @@ function getWorldColor(slug: string) {
         } else if (activeSortField === "elevation") {
           aVal += parseFloat(a.dataset.leadInElevation || "0");
           bVal += parseFloat(b.dataset.leadInElevation || "0");
+        } else if (activeSortField === "gradient") {
+          const aDist = parseFloat(a.dataset.distance!) + parseFloat(a.dataset.leadInDistance || "0");
+          const aElev = parseFloat(a.dataset.elevation!) + parseFloat(a.dataset.leadInElevation || "0");
+          aVal = aDist > 0 ? aElev / (aDist * 1000) * 1000 / 10 : 0;
+          const bDist = parseFloat(b.dataset.distance!) + parseFloat(b.dataset.leadInDistance || "0");
+          const bElev = parseFloat(b.dataset.elevation!) + parseFloat(b.dataset.leadInElevation || "0");
+          bVal = bDist > 0 ? bElev / (bDist * 1000) * 1000 / 10 : 0;
         }
       }
       return dir * (aVal - bVal);
@@ -617,6 +626,15 @@ function getWorldColor(slug: string) {
     document.querySelectorAll(".elevation-val").forEach((el) => {
       const m = parseFloat((el as HTMLElement).dataset.m!) + (li ? parseFloat((el as HTMLElement).dataset.leadM || "0") : 0);
       el.textContent = imperial ? `${Math.round(m * 3.28084)} ft` : `${Math.round(m)} m`;
+    });
+    // Gradient
+    document.querySelectorAll(".gradient-val").forEach((el) => {
+      const e = el as HTMLElement;
+      const dist = parseFloat(e.dataset.dist!) + (li ? parseFloat(e.dataset.leadDist || "0") : 0);
+      const elev = parseFloat(e.dataset.elev!) + (li ? parseFloat(e.dataset.leadElev || "0") : 0);
+      const grad = dist > 0 ? Math.round((elev / (dist * 1000)) * 1000) / 10 : 0;
+      el.textContent = `${grad.toFixed(1)}%`;
+      e.className = `text-xs font-mono gradient-val ${grad >= 3 ? 'text-red-400' : grad >= 1.5 ? 'text-yellow-400' : 'text-green-400'}`;
     });
     // Hero distance
     document.querySelectorAll(".hero-dist-val").forEach((el) => {

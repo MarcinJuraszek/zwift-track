@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-18T03:04:36.046Z",
-  "totalCompleted": 107,
+  "syncedAt": "2026-06-19T02:42:45.314Z",
+  "totalCompleted": 108,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "three-village-loop",
+      "routeName": "Three Village Loop",
+      "worldName": "Makuri Islands",
+      "activityId": 18979249640,
+      "activityName": "Zwift - Three Village Loop in Makuri Islands",
+      "date": "2026-06-18T19:16:17Z",
+      "distance": 11.321,
+      "movingTime": 1563,
+      "elapsedTime": 1563,
+      "elevationGain": 92,
+      "averageWatts": 117.6,
+      "stravaUrl": "https://www.strava.com/activities/18979249640",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "the-epiloch",
       "routeName": "The Epiloch",

@@ -5344,5 +5344,33 @@
       }
     ],
     "fetchedAt": "2026-06-18T03:04:36.035Z"
+  },
+  "18979249640": {
+    "id": 18979249640,
+    "name": "Zwift - Three Village Loop in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Country Sprint Reverse",
+        "segment": {
+          "id": 38168940,
+          "name": "Country Sprint Reverse"
+        }
+      },
+      {
+        "name": "Three Village Loop",
+        "segment": {
+          "id": 28433076,
+          "name": "Three Village Loop"
+        }
+      },
+      {
+        "name": "Country Sprint Reverse",
+        "segment": {
+          "id": 38168940,
+          "name": "Country Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-19T02:42:45.303Z"
   }
 }

@@ -59,6 +59,8 @@ const routeData = allRoutes
       experience: route.experience ?? 0,
       leadInDistance: route.leadInDistanceFreeRide ?? route.leadInDistance ?? 0,
       leadInElevation: route.leadInElevationFreeRide ?? route.leadInElevation ?? 0,
+      leadInDistanceEvent: route.leadInDistance ?? 0,
+      leadInElevationEvent: route.leadInElevation ?? 0,
       eventOnly: route.eventOnly,
       lap: route.lap,
       levelLocked: route.levelLocked,

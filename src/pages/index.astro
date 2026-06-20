@@ -41,6 +41,10 @@ const totalLeadDist = routes.reduce((s: number, r: any) => s + (r.leadInDistance
 const doneLeadDist = routes.filter((r: any) => completedMap.has(r.slug)).reduce((s: number, r: any) => s + (r.leadInDistance || 0), 0);
 const totalLeadElev = routes.reduce((s: number, r: any) => s + (r.leadInElevation || 0), 0);
 const doneLeadElev = routes.filter((r: any) => completedMap.has(r.slug)).reduce((s: number, r: any) => s + (r.leadInElevation || 0), 0);
+const totalLeadDistEvent = routes.reduce((s: number, r: any) => s + (r.leadInDistanceEvent || 0), 0);
+const doneLeadDistEvent = routes.filter((r: any) => completedMap.has(r.slug)).reduce((s: number, r: any) => s + (r.leadInDistanceEvent || 0), 0);
+const totalLeadElevEvent = routes.reduce((s: number, r: any) => s + (r.leadInElevationEvent || 0), 0);
+const doneLeadElevEvent = routes.filter((r: any) => completedMap.has(r.slug)).reduce((s: number, r: any) => s + (r.leadInElevationEvent || 0), 0);
 
 const routesByWorld: Record<string, any[]> = {};
 for (const route of routes) {
@@ -96,14 +100,14 @@ function getWorldColor(slug: string) {
         <div class="text-sm text-gray-500 font-medium">xp earned</div>
       </div>
       <div class="text-center">
-        <div class="text-xl font-bold text-white hero-dist-val" data-done-km={doneDist.toFixed(1)} data-total-km={totalDist.toFixed(1)} data-done-lead-km={doneLeadDist.toFixed(1)} data-total-lead-km={totalLeadDist.toFixed(1)}>
+        <div class="text-xl font-bold text-white hero-dist-val" data-done-km={doneDist.toFixed(1)} data-total-km={totalDist.toFixed(1)} data-done-lead-km={doneLeadDist.toFixed(1)} data-total-lead-km={totalLeadDist.toFixed(1)} data-done-lead-km-event={doneLeadDistEvent.toFixed(1)} data-total-lead-km-event={totalLeadDistEvent.toFixed(1)}>
           {(doneDist * 0.621371).toFixed(0)}<span class="text-sm text-gray-500 font-semibold">/{(totalDist * 0.621371).toFixed(0)} mi</span>
           <span class="text-lg font-bold text-zwift-orange ml-2">{Math.round((doneDist / totalDist) * 100)}%</span>
         </div>
         <div class="text-sm text-gray-500 font-medium">distance ridden</div>
       </div>
       <div class="text-center">
-        <div class="text-xl font-bold text-white hero-elev-val" data-done-m={doneElev.toFixed(0)} data-total-m={totalElev.toFixed(0)} data-done-lead-m={doneLeadElev.toFixed(0)} data-total-lead-m={totalLeadElev.toFixed(0)}>
+        <div class="text-xl font-bold text-white hero-elev-val" data-done-m={doneElev.toFixed(0)} data-total-m={totalElev.toFixed(0)} data-done-lead-m={doneLeadElev.toFixed(0)} data-total-lead-m={totalLeadElev.toFixed(0)} data-done-lead-m-event={doneLeadElevEvent.toFixed(0)} data-total-lead-m-event={totalLeadElevEvent.toFixed(0)}>
           {Math.round(doneElev * 3.28084).toLocaleString()}<span class="text-sm text-gray-500 font-semibold">/{Math.round(totalElev * 3.28084).toLocaleString()} ft</span>
           <span class="text-lg font-bold text-zwift-orange ml-2">{Math.round((doneElev / totalElev) * 100)}%</span>
         </div>
@@ -237,6 +241,8 @@ function getWorldColor(slug: string) {
           data-elevation={route.elevation}
           data-lead-in-distance={route.leadInDistance}
           data-lead-in-elevation={route.leadInElevation}
+          data-lead-in-distance-event={route.leadInDistanceEvent}
+          data-lead-in-elevation-event={route.leadInElevationEvent}
           data-gradient={route.gradient}
           data-experience={route.experience}
           data-world-name={route.worldName}
@@ -282,7 +288,7 @@ function getWorldColor(slug: string) {
 
           {/* Distance */}
           <div class="hidden md:flex items-center w-20 flex-shrink-0 justify-end">
-            <span class="text-xs text-gray-400 font-mono distance-val" data-km={route.distance} data-lead-km={route.leadInDistance}>{formatDistance(route.distance)}</span>
+            <span class="text-xs text-gray-400 font-mono distance-val" data-km={route.distance} data-lead-km={route.leadInDistance} data-lead-km-event={route.leadInDistanceEvent}>{formatDistance(route.distance)}</span>
           </div>
 
           {/* Elevation */}
@@ -290,14 +296,15 @@ function getWorldColor(slug: string) {
             <svg class="w-3 h-3 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 17l6-8 4 5 6-10v13H2z" />
             </svg>
-            <span class="text-xs text-gray-400 font-mono elevation-val" data-m={route.elevation} data-lead-m={route.leadInElevation}>{formatElevation(route.elevation)}</span>
+            <span class="text-xs text-gray-400 font-mono elevation-val" data-m={route.elevation} data-lead-m={route.leadInElevation} data-lead-m-event={route.leadInElevationEvent}>{formatElevation(route.elevation)}</span>
           </div>
 
           {/* Gradient */}
           <div class="hidden lg:flex items-center gap-1 w-16 flex-shrink-0 justify-end">
             <span class="text-xs font-mono gradient-val"
               data-dist={route.distance} data-elev={route.elevation}
-              data-lead-dist={route.leadInDistance} data-lead-elev={route.leadInElevation}>
+              data-lead-dist={route.leadInDistance} data-lead-elev={route.leadInElevation}
+              data-lead-dist-event={route.leadInDistanceEvent} data-lead-elev-event={route.leadInElevationEvent}>
               {route.gradient.toFixed(1)}%
             </span>
           </div>
@@ -410,8 +417,11 @@ function getWorldColor(slug: string) {
   let activeEventFilter = "include";
   let activeUnits: "metric" | "imperial" = "imperial";
   let activeLeadIn = false;
+  let activeLeadInMode: "freeride" | "event" = "freeride";
   const leadInOffBtn = document.getElementById("leadin-off")!;
   const leadInOnBtn = document.getElementById("leadin-on")!;
+  const leadInFreeRideBtn = document.getElementById("leadin-freeride")!;
+  const leadInEventBtn = document.getElementById("leadin-event")!;
 
   function saveState() {
     localStorage.setItem("zwift-state", JSON.stringify({
@@ -422,6 +432,7 @@ function getWorldColor(slug: string) {
       eventFilter: activeEventFilter,
       units: activeUnits,
       leadIn: activeLeadIn,
+      leadInMode: activeLeadInMode,
       search: searchInput.value,
     }));
   }
@@ -436,6 +447,7 @@ function getWorldColor(slug: string) {
     if (saved.eventFilter) activeEventFilter = saved.eventFilter;
     if (saved.units) activeUnits = saved.units;
     if (saved.leadIn !== undefined) activeLeadIn = saved.leadIn;
+    if (saved.leadInMode) activeLeadInMode = saved.leadInMode;
     if (saved.search) searchInput.value = saved.search;
   } catch {}
 
@@ -477,9 +489,19 @@ function getWorldColor(slug: string) {
   if (activeLeadIn) {
     leadInOnBtn.classList.add("active");
     leadInOffBtn.classList.remove("active");
+    leadInFreeRideBtn.parentElement!.style.display = "";
   } else {
     leadInOffBtn.classList.add("active");
     leadInOnBtn.classList.remove("active");
+    leadInFreeRideBtn.parentElement!.style.display = "none";
+  }
+  // Restore lead-in mode toggle
+  if (activeLeadInMode === "event") {
+    leadInEventBtn.classList.add("active");
+    leadInFreeRideBtn.classList.remove("active");
+  } else {
+    leadInFreeRideBtn.classList.add("active");
+    leadInEventBtn.classList.remove("active");
   }
 
   function applyFilters() {
@@ -508,6 +530,14 @@ function getWorldColor(slug: string) {
     const rows = Array.from(routeList.querySelectorAll(".route-row")) as HTMLElement[];
     const dir = activeSortDir === "asc" ? 1 : -1;
     const li = activeLeadIn;
+    const ev = activeLeadInMode === "event";
+
+    function getLeadDist(el: HTMLElement) {
+      return parseFloat(ev ? (el.dataset.leadInDistanceEvent || el.dataset.leadInDistance || "0") : (el.dataset.leadInDistance || "0"));
+    }
+    function getLeadElev(el: HTMLElement) {
+      return parseFloat(ev ? (el.dataset.leadInElevationEvent || el.dataset.leadInElevation || "0") : (el.dataset.leadInElevation || "0"));
+    }
 
     rows.sort((a, b) => {
       if (activeSortField === "name") {
@@ -517,17 +547,17 @@ function getWorldColor(slug: string) {
       let bVal = parseFloat(b.dataset[activeSortField]!);
       if (li) {
         if (activeSortField === "distance") {
-          aVal += parseFloat(a.dataset.leadInDistance || "0");
-          bVal += parseFloat(b.dataset.leadInDistance || "0");
+          aVal += getLeadDist(a);
+          bVal += getLeadDist(b);
         } else if (activeSortField === "elevation") {
-          aVal += parseFloat(a.dataset.leadInElevation || "0");
-          bVal += parseFloat(b.dataset.leadInElevation || "0");
+          aVal += getLeadElev(a);
+          bVal += getLeadElev(b);
         } else if (activeSortField === "gradient") {
-          const aDist = parseFloat(a.dataset.distance!) + parseFloat(a.dataset.leadInDistance || "0");
-          const aElev = parseFloat(a.dataset.elevation!) + parseFloat(a.dataset.leadInElevation || "0");
+          const aDist = parseFloat(a.dataset.distance!) + getLeadDist(a);
+          const aElev = parseFloat(a.dataset.elevation!) + getLeadElev(a);
           aVal = aDist > 0 ? aElev / (aDist * 1000) * 1000 / 10 : 0;
-          const bDist = parseFloat(b.dataset.distance!) + parseFloat(b.dataset.leadInDistance || "0");
-          const bElev = parseFloat(b.dataset.elevation!) + parseFloat(b.dataset.leadInElevation || "0");
+          const bDist = parseFloat(b.dataset.distance!) + getLeadDist(b);
+          const bElev = parseFloat(b.dataset.elevation!) + getLeadElev(b);
           bVal = bDist > 0 ? bElev / (bDist * 1000) * 1000 / 10 : 0;
         }
       }
@@ -619,19 +649,26 @@ function getWorldColor(slug: string) {
   // Unit + lead-in display
   function applyUnits(imperial: boolean) {
     const li = activeLeadIn;
+    const ev = activeLeadInMode === "event";
     document.querySelectorAll(".distance-val").forEach((el) => {
-      const km = parseFloat((el as HTMLElement).dataset.km!) + (li ? parseFloat((el as HTMLElement).dataset.leadKm || "0") : 0);
+      const e = el as HTMLElement;
+      const leadKm = li ? parseFloat(ev ? (e.dataset.leadKmEvent || e.dataset.leadKm || "0") : (e.dataset.leadKm || "0")) : 0;
+      const km = parseFloat(e.dataset.km!) + leadKm;
       el.textContent = imperial ? `${(km * 0.621371).toFixed(1)} mi` : `${km.toFixed(1)} km`;
     });
     document.querySelectorAll(".elevation-val").forEach((el) => {
-      const m = parseFloat((el as HTMLElement).dataset.m!) + (li ? parseFloat((el as HTMLElement).dataset.leadM || "0") : 0);
+      const e = el as HTMLElement;
+      const leadM = li ? parseFloat(ev ? (e.dataset.leadMEvent || e.dataset.leadM || "0") : (e.dataset.leadM || "0")) : 0;
+      const m = parseFloat(e.dataset.m!) + leadM;
       el.textContent = imperial ? `${Math.round(m * 3.28084)} ft` : `${Math.round(m)} m`;
     });
     // Gradient
     document.querySelectorAll(".gradient-val").forEach((el) => {
       const e = el as HTMLElement;
-      const dist = parseFloat(e.dataset.dist!) + (li ? parseFloat(e.dataset.leadDist || "0") : 0);
-      const elev = parseFloat(e.dataset.elev!) + (li ? parseFloat(e.dataset.leadElev || "0") : 0);
+      const leadDist = li ? parseFloat(ev ? (e.dataset.leadDistEvent || e.dataset.leadDist || "0") : (e.dataset.leadDist || "0")) : 0;
+      const leadElev = li ? parseFloat(ev ? (e.dataset.leadElevEvent || e.dataset.leadElev || "0") : (e.dataset.leadElev || "0")) : 0;
+      const dist = parseFloat(e.dataset.dist!) + leadDist;
+      const elev = parseFloat(e.dataset.elev!) + leadElev;
       const grad = dist > 0 ? Math.round((elev / (dist * 1000)) * 1000) / 10 : 0;
       el.textContent = `${grad.toFixed(1)}%`;
       e.className = `text-xs font-mono gradient-val ${grad >= 3 ? 'text-red-400' : grad >= 1.5 ? 'text-yellow-400' : 'text-green-400'}`;
@@ -639,8 +676,10 @@ function getWorldColor(slug: string) {
     // Hero distance
     document.querySelectorAll(".hero-dist-val").forEach((el) => {
       const e = el as HTMLElement;
-      const doneKm = parseFloat(e.dataset.doneKm!) + (li ? parseFloat(e.dataset.doneLeadKm || "0") : 0);
-      const totalKm = parseFloat(e.dataset.totalKm!) + (li ? parseFloat(e.dataset.totalLeadKm || "0") : 0);
+      const doneLeadKm = li ? parseFloat(ev ? (e.dataset.doneLeadKmEvent || e.dataset.doneLeadKm || "0") : (e.dataset.doneLeadKm || "0")) : 0;
+      const totalLeadKm = li ? parseFloat(ev ? (e.dataset.totalLeadKmEvent || e.dataset.totalLeadKm || "0") : (e.dataset.totalLeadKm || "0")) : 0;
+      const doneKm = parseFloat(e.dataset.doneKm!) + doneLeadKm;
+      const totalKm = parseFloat(e.dataset.totalKm!) + totalLeadKm;
       const pct = Math.round((doneKm / totalKm) * 100);
       const pctSpan = `<span class="text-lg font-bold text-zwift-orange ml-2">${pct}%</span>`;
       if (imperial) {
@@ -652,8 +691,10 @@ function getWorldColor(slug: string) {
     // Hero elevation
     document.querySelectorAll(".hero-elev-val").forEach((el) => {
       const e = el as HTMLElement;
-      const doneM = parseFloat(e.dataset.doneM!) + (li ? parseFloat(e.dataset.doneLeadM || "0") : 0);
-      const totalM = parseFloat(e.dataset.totalM!) + (li ? parseFloat(e.dataset.totalLeadM || "0") : 0);
+      const doneLeadM = li ? parseFloat(ev ? (e.dataset.doneLeadMEvent || e.dataset.doneLeadM || "0") : (e.dataset.doneLeadM || "0")) : 0;
+      const totalLeadM = li ? parseFloat(ev ? (e.dataset.totalLeadMEvent || e.dataset.totalLeadM || "0") : (e.dataset.totalLeadM || "0")) : 0;
+      const doneM = parseFloat(e.dataset.doneM!) + doneLeadM;
+      const totalM = parseFloat(e.dataset.totalM!) + totalLeadM;
       const pct = Math.round((doneM / totalM) * 100);
       const pctSpan = `<span class="text-lg font-bold text-zwift-orange ml-2">${pct}%</span>`;
       if (imperial) {
@@ -685,6 +726,7 @@ function getWorldColor(slug: string) {
     leadInOffBtn.classList.add("active");
     leadInOnBtn.classList.remove("active");
     activeLeadIn = false;
+    leadInFreeRideBtn.parentElement!.style.display = "none";
     saveState();
     applyUnits(activeUnits === "imperial");
     applySorting();
@@ -694,6 +736,26 @@ function getWorldColor(slug: string) {
     leadInOnBtn.classList.add("active");
     leadInOffBtn.classList.remove("active");
     activeLeadIn = true;
+    leadInFreeRideBtn.parentElement!.style.display = "";
+    saveState();
+    applyUnits(activeUnits === "imperial");
+    applySorting();
+  });
+
+  // Lead-in mode toggle (Free Ride vs Event)
+  leadInFreeRideBtn.addEventListener("click", () => {
+    leadInFreeRideBtn.classList.add("active");
+    leadInEventBtn.classList.remove("active");
+    activeLeadInMode = "freeride";
+    saveState();
+    applyUnits(activeUnits === "imperial");
+    applySorting();
+  });
+
+  leadInEventBtn.addEventListener("click", () => {
+    leadInEventBtn.classList.add("active");
+    leadInFreeRideBtn.classList.remove("active");
+    activeLeadInMode = "event";
     saveState();
     applyUnits(activeUnits === "imperial");
     applySorting();

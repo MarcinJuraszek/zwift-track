@@ -5400,5 +5400,33 @@
       }
     ],
     "fetchedAt": "2026-06-19T14:57:25.421Z"
+  },
+  "18991357836": {
+    "id": 18991357836,
+    "name": "Zwift - Double Span Spin in New York",
+    "segment_efforts": [
+      {
+        "name": "Double Span Spin",
+        "segment": {
+          "id": 40325250,
+          "name": "Double Span Spin"
+        }
+      },
+      {
+        "name": "Brooklyn Bridge KOM",
+        "segment": {
+          "id": 40342819,
+          "name": "Brooklyn Bridge KOM"
+        }
+      },
+      {
+        "name": "Manhattan Sprint",
+        "segment": {
+          "id": 40342842,
+          "name": "Manhattan Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-20T03:24:47.111Z"
   }
 }

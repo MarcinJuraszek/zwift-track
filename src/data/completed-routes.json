@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-19T14:57:25.430Z",
-  "totalCompleted": 109,
+  "syncedAt": "2026-06-20T03:24:47.124Z",
+  "totalCompleted": 110,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "double-span-spin",
+      "routeName": "Double Span Spin",
+      "worldName": "New York",
+      "activityId": 18991357836,
+      "activityName": "Zwift - Double Span Spin in New York",
+      "date": "2026-06-19T20:05:16Z",
+      "distance": 8.135,
+      "movingTime": 1148,
+      "elapsedTime": 1148,
+      "elevationGain": 81,
+      "averageWatts": 120.9,
+      "stravaUrl": "https://www.strava.com/activities/18991357836",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "castle-crit",
       "routeName": "Castle Crit",

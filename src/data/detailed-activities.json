@@ -5428,5 +5428,33 @@
       }
     ],
     "fetchedAt": "2026-06-20T03:24:47.111Z"
+  },
+  "18991456064": {
+    "id": 18991456064,
+    "name": "Zwift - Yumezi Grit in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Yumezi Grit",
+        "segment": {
+          "id": 41092576,
+          "name": "Yumezi Grit"
+        }
+      },
+      {
+        "name": "Down Thru the Golden Forest",
+        "segment": {
+          "id": 28488066,
+          "name": "Down Thru the Golden Forest"
+        }
+      },
+      {
+        "name": "Village Sprint Reverse",
+        "segment": {
+          "id": 38168897,
+          "name": "Village Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-20T03:50:02.348Z"
   }
 }

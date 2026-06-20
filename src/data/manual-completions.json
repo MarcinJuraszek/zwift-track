@@ -46,6 +46,12 @@
       "routeSlug": "greater-london-8",
       "date": "2024-01-01T00:00:00Z",
       "note": "Confirmed completed in Zwift app, no matching Strava segment found"
+    },
+    {
+      "routeSlug": "yumezi-grit",
+      "date": "2026-06-19T00:00:00Z",
+      "note": "No Strava segment ID available for this route",
+      "stravaUrl": "https://www.strava.com/activities/18991456064"
     }
   ],
   "exclusions": [

@@ -1,6 +1,6 @@
 {
-  "syncedAt": "2026-06-20T03:50:02.357Z",
-  "totalCompleted": 110,
+  "syncedAt": "2026-06-20T03:52:19.432Z",
+  "totalCompleted": 111,
   "totalRoutes": 280,
   "completedRoutes": [
     {
@@ -32,6 +32,21 @@
       "averageWatts": 137.7,
       "stravaUrl": "https://www.strava.com/activities/18985235393",
       "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "yumezi-grit",
+      "routeName": "Yumezi Grit",
+      "worldName": "Makuri Islands",
+      "activityId": null,
+      "activityName": "No Strava segment ID available for this route",
+      "date": "2026-06-19T00:00:00Z",
+      "distance": null,
+      "movingTime": null,
+      "elapsedTime": null,
+      "elevationGain": null,
+      "averageWatts": null,
+      "stravaUrl": "https://www.strava.com/activities/18991456064",
+      "matchMethod": "manual"
     },
     {
       "routeSlug": "three-village-loop",

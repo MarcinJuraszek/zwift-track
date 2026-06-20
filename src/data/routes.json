@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T03:50:01.942Z",
+  "generatedAt": "2026-06-20T04:06:14.254Z",
   "totalRoutes": 280,
   "worlds": [
     {
@@ -1936,8 +1936,8 @@
       "elevation": 83,
       "gradient": 1.1,
       "experience": 150,
-      "leadInDistance": 4.273,
-      "leadInElevation": 67,
+      "leadInDistance": 0.01,
+      "leadInElevation": 0,
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,

@@ -5505,5 +5505,47 @@
       }
     ],
     "fetchedAt": "2026-06-27T03:38:09.105Z"
+  },
+  "19091021780": {
+    "id": 19091021780,
+    "name": "Zwift - Southern Coast Cruise in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Southern Coast Cruise",
+        "segment": {
+          "id": 40654231,
+          "name": "Southern Coast Cruise"
+        }
+      },
+      {
+        "name": "Woodland Sprint",
+        "segment": {
+          "id": 35705436,
+          "name": "Woodland Sprint"
+        }
+      },
+      {
+        "name": "Woodland Sprint Reverse",
+        "segment": {
+          "id": 38152352,
+          "name": "Woodland Sprint Reverse"
+        }
+      },
+      {
+        "name": "Sasquatch Sprint Reverse",
+        "segment": {
+          "id": 38152330,
+          "name": "Sasquatch Sprint Reverse"
+        }
+      },
+      {
+        "name": "Sasquatch Sprint",
+        "segment": {
+          "id": 38152327,
+          "name": "Sasquatch Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-27T22:17:31.793Z"
   }
 }

@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-27T22:17:31.806Z",
-  "totalCompleted": 112,
+  "syncedAt": "2026-06-27T22:20:28.481Z",
+  "totalCompleted": 113,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "southern-coast-cruise",
+      "routeName": "Southern Coast Cruise",
+      "worldName": "Watopia",
+      "activityId": null,
+      "activityName": "Segment not matched by Strava",
+      "date": "2026-06-27T00:00:00Z",
+      "distance": null,
+      "movingTime": null,
+      "elapsedTime": null,
+      "elevationGain": null,
+      "averageWatts": null,
+      "stravaUrl": "https://www.strava.com/activities/19091021780",
+      "matchMethod": "manual"
+    },
     {
       "routeSlug": "outer-scotland",
       "routeName": "Outer Scotland",

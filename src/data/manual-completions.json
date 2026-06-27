@@ -52,6 +52,12 @@
       "date": "2026-06-19T00:00:00Z",
       "note": "No Strava segment ID available for this route",
       "stravaUrl": "https://www.strava.com/activities/18991456064"
+    },
+    {
+      "routeSlug": "southern-coast-cruise",
+      "date": "2026-06-27T00:00:00Z",
+      "note": "Segment not matched by Strava",
+      "stravaUrl": "https://www.strava.com/activities/19091021780"
     }
   ],
   "exclusions": [

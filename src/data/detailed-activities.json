@@ -5456,5 +5456,54 @@
       }
     ],
     "fetchedAt": "2026-06-20T03:50:02.348Z"
+  },
+  "19080490091": {
+    "id": 19080490091,
+    "name": "Zwift - Outer Scotland in Scotland",
+    "segment_efforts": [
+      {
+        "name": "Rebel Route: Outer Scotland",
+        "segment": {
+          "id": 34255102,
+          "name": "Rebel Route: Outer Scotland"
+        }
+      },
+      {
+        "name": "The Epiloch (Lead-In)",
+        "segment": {
+          "id": 40621984,
+          "name": "The Epiloch (Lead-In)"
+        }
+      },
+      {
+        "name": "Corkscrew Castle Climb",
+        "segment": {
+          "id": 38770365,
+          "name": "Corkscrew Castle Climb"
+        }
+      },
+      {
+        "name": "Breakaway Brae Reverse",
+        "segment": {
+          "id": 38170246,
+          "name": "Breakaway Brae Reverse"
+        }
+      },
+      {
+        "name": "The Clyde Kicker",
+        "segment": {
+          "id": 38170244,
+          "name": "The Clyde Kicker"
+        }
+      },
+      {
+        "name": "Champion’s Sprint",
+        "segment": {
+          "id": 38170243,
+          "name": "Champion’s Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-27T03:38:09.105Z"
   }
 }

@@ -1,8 +1,737 @@
 {
-  "fetchedAt": "2026-06-20T03:50:01.860Z",
-  "totalActivities": 129,
-  "virtualRideCount": 129,
+  "fetchedAt": "2026-06-27T03:38:08.589Z",
+  "totalActivities": 130,
+  "virtualRideCount": 130,
   "virtualRides": [
+    {
+      "resource_state": 3,
+      "athlete": {
+        "id": 29432659,
+        "id_str": "29432659",
+        "resource_state": 1
+      },
+      "name": "Zwift - Outer Scotland in Scotland",
+      "distance": 11330.3,
+      "moving_time": 1398,
+      "elapsed_time": 1398,
+      "total_elevation_gain": 104,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Zwift",
+      "id": 19080490091,
+      "id_str": "19080490091",
+      "start_date": "2026-06-27T03:14:23Z",
+      "start_date_local": "2026-06-26T20:14:23Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "utc_offset": -25200,
+      "location_city": null,
+      "location_state": null,
+      "location_country": null,
+      "achievement_count": 2,
+      "kudos_count": 0,
+      "comment_count": 0,
+      "athlete_count": 1,
+      "photo_count": 0,
+      "map": {
+        "id": "a19080490091",
+        "polyline": "spqrIrgz^NFh@CvC@ZHJLHPDTDp@?bBEp@GTKPMHM@aE?MBKPAZAjJEx@GVKPMJMD]@gCIMBMHSf@Ml@AXChFHjADVNh@^p@hA~Ad@x@Rp@PnALd@fAxBTv@N`AF~BBnBEtAKr@KTKPMJOBOAi@c@MEMDILKh@IjBKb@IJKFUD{@IWHSRWj@]vAMx@E`ADl@Jd@TZVLdAHhAVl@Hz@AfAIJ@ZJTZVx@L`AHxAFbCDxBAlAGhAMp@MXGFSJU?k@I_@Aa@BUFs@Z]V[Xa@j@Ub@g@pAM|@CfBANI\\[j@WZc@\\e@R]B{@AqAOe@@KBKFILOd@KLKHMDKAMEKIKOKk@Cq@GUIQKKMEy@UuAe@k@Kk@C{@@iDA]FMFMPIRUlBGXYj@]b@cFhFuB~B_AxAqBfE]h@_@b@QJQFSBQAe@Oa@[]k@Wu@]yAUw@[o@OSc@a@SKUCU?k@H{A^YBWCUIWQSUQYQ_@Ka@QkAUyCQeAM]k@wAsBcEk@aBWeAQiAEg@AgA@c@H_A^kCVqBHe@La@LWROVETBVLPPLVH^@`@C^GZOf@MPOJI?QC[QqAcBUSKEMAKBKFy@`AMHMDO?OGKOUk@g@eCIWOQSCSLOXq@zASVWLY?WOw@kAsBoDYs@Sy@E_@?aCC]IYYc@]Wm@Qk@EwAAYBMB}A|@WDa@BWC_@KmAq@aAQ[QW_@Si@EYCs@@[Js@HUXa@dAy@`AkAZU^O`@Kd@Ex@Gf@IRKNSJ[N_A?a@Aa@I_@KY_@g@M[Aa@De@Ha@Z{@RSVERBTJRPPVJ\\Hb@NnBT~@`AnCNXPNTBRG`@]`EiGZ]^OPANFNLdAfBNNPHP@PE`@Un@i@PIN@NHLP`@bAJLNFNA^Iz@a@f@_@`B{Ap@e@^OVAH@THRXXn@x@dCP\\HJTPJBVETQZm@Lg@p@aDh@yB\\gAVi@Xa@h@e@ZOj@KXO`@i@Pa@Ru@TqAH}@FmBJaAR{@Zo@^a@VOTK`@E`@FRNRXr@rBTf@NJPANMH[PeBJ]LYPQPIf@KNKNSZsALQPKNAP@NLb@~@NFN?rAKN?^L|@d@j@Tx@RxAZpHbAx@@r@AbA@L?LCJMHQDUDq@?{JCi@EQGOIIKE_C?i@B]Fy@PqA^q@XY@KEKKGMMg@Ci@BwB?eW?i@BSP_@JGJC|CBhC?VELa@BmEDWHULMNC`@AdK?lADXJLHHNHTBX?rJCl@Q\\YDkICQJUh@MJQBOEKMWi@MIoC?I@GHELCb@?~IFj@HLLB`A?`IFbH@NFLLJVFt@@t@",
+        "resource_state": 3,
+        "summary_polyline": ""
+      },
+      "trainer": false,
+      "commute": false,
+      "manual": false,
+      "private": true,
+      "visibility": "only_me",
+      "flagged": false,
+      "gear_id": "b8659402",
+      "start_latlng": [],
+      "end_latlng": [],
+      "average_speed": 8.105,
+      "max_speed": 14.16,
+      "average_cadence": 77.4,
+      "average_watts": 140.6,
+      "max_watts": 286,
+      "weighted_average_watts": 146,
+      "device_watts": true,
+      "kilojoules": 196.6,
+      "has_heartrate": false,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "elev_high": 53.8,
+      "elev_low": 21.8,
+      "upload_id": 20195403123,
+      "upload_id_str": "20195403123",
+      "external_id": "zwift-activity-2169473466997178384.fit",
+      "from_accepted_tag": false,
+      "pr_count": 1,
+      "total_photo_count": 3,
+      "has_kudoed": false,
+      "description": null,
+      "calories": 187,
+      "perceived_exertion": null,
+      "prefer_perceived_exertion": null,
+      "segment_efforts": [
+        {
+          "id": 3505794985992795600,
+          "resource_state": 2,
+          "name": "Rebel Route: Outer Scotland",
+          "activity": {
+            "id": 19080490091,
+            "id_str": "19080490091",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 1374,
+          "moving_time": 1374,
+          "start_date": "2026-06-27T03:14:28Z",
+          "start_date_local": "2026-06-26T20:14:28Z",
+          "distance": 11148.4,
+          "start_index": 5,
+          "end_index": 1379,
+          "average_cadence": 77.5,
+          "device_watts": true,
+          "average_watts": 141.9,
+          "segment": {
+            "id": 34255102,
+            "resource_state": 2,
+            "name": "Rebel Route: Outer Scotland",
+            "activity_type": "VirtualRide",
+            "distance": 11148.4,
+            "average_grade": 0,
+            "maximum_grade": 10.3,
+            "elevation_high": 53.8,
+            "elevation_low": 21.8,
+            "start_latlng": [
+              55.636627,
+              -5.218691
+            ],
+            "end_latlng": [
+              55.636627,
+              -5.218692
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Scotland",
+            "country": "United Kingdom",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3505794985991440000,
+          "resource_state": 2,
+          "name": "The Epiloch (Lead-In)",
+          "activity": {
+            "id": 19080490091,
+            "id_str": "19080490091",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 392,
+          "moving_time": 392,
+          "start_date": "2026-06-27T03:14:28Z",
+          "start_date_local": "2026-06-26T20:14:28Z",
+          "distance": 2808.9,
+          "start_index": 5,
+          "end_index": 397,
+          "average_cadence": 73.5,
+          "device_watts": true,
+          "average_watts": 125.5,
+          "segment": {
+            "id": 40621984,
+            "resource_state": 2,
+            "name": "The Epiloch (Lead-In)",
+            "activity_type": "VirtualRide",
+            "distance": 2808.9,
+            "average_grade": 0.5,
+            "maximum_grade": 3.6,
+            "elevation_high": 53.8,
+            "elevation_low": 34.6,
+            "start_latlng": [
+              55.636622,
+              -5.218676
+            ],
+            "end_latlng": [
+              55.641943,
+              -5.239549
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Scotland",
+            "country": "United Kingdom",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3505794985990284000,
+          "resource_state": 2,
+          "name": "Corkscrew Castle Climb",
+          "activity": {
+            "id": 19080490091,
+            "id_str": "19080490091",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 74,
+          "moving_time": 74,
+          "start_date": "2026-06-27T03:23:15Z",
+          "start_date_local": "2026-06-26T20:23:15Z",
+          "distance": 365.2,
+          "start_index": 532,
+          "end_index": 606,
+          "average_cadence": 79,
+          "device_watts": true,
+          "average_watts": 150.4,
+          "segment": {
+            "id": 38770365,
+            "resource_state": 2,
+            "name": "Corkscrew Castle Climb",
+            "activity_type": "VirtualRide",
+            "distance": 365.2,
+            "average_grade": 4.3,
+            "maximum_grade": 10,
+            "elevation_high": 39,
+            "elevation_low": 23.4,
+            "start_latlng": [
+              55.652109,
+              -5.23755
+            ],
+            "end_latlng": [
+              55.651519,
+              -5.23603
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Scotland",
+            "country": "United Kingdom",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 2,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 2
+            }
+          ],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3505794985990953500,
+          "resource_state": 2,
+          "name": "Breakaway Brae Reverse",
+          "activity": {
+            "id": 19080490091,
+            "id_str": "19080490091",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 54,
+          "moving_time": 54,
+          "start_date": "2026-06-27T03:25:45Z",
+          "start_date_local": "2026-06-26T20:25:45Z",
+          "distance": 404.9,
+          "start_index": 682,
+          "end_index": 736,
+          "average_cadence": 84.8,
+          "device_watts": true,
+          "average_watts": 227.9,
+          "segment": {
+            "id": 38170246,
+            "resource_state": 2,
+            "name": "Breakaway Brae Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 404.9,
+            "average_grade": 2.1,
+            "maximum_grade": 5.1,
+            "elevation_high": 37.4,
+            "elevation_low": 29,
+            "start_latlng": [
+              55.656379,
+              -5.232118
+            ],
+            "end_latlng": [
+              55.658686,
+              -5.230422
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Scotland",
+            "country": "United Kingdom",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3505794985993193000,
+          "resource_state": 2,
+          "name": "The Clyde Kicker",
+          "activity": {
+            "id": 19080490091,
+            "id_str": "19080490091",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 55,
+          "moving_time": 55,
+          "start_date": "2026-06-27T03:33:28Z",
+          "start_date_local": "2026-06-26T20:33:28Z",
+          "distance": 300.9,
+          "start_index": 1145,
+          "end_index": 1200,
+          "average_cadence": 82.5,
+          "device_watts": true,
+          "average_watts": 189.1,
+          "segment": {
+            "id": 38170244,
+            "resource_state": 2,
+            "name": "The Clyde Kicker",
+            "activity_type": "VirtualRide",
+            "distance": 300.9,
+            "average_grade": 3.6,
+            "maximum_grade": 10,
+            "elevation_high": 50.6,
+            "elevation_low": 39.8,
+            "start_latlng": [
+              55.640693,
+              -5.220472
+            ],
+            "end_latlng": [
+              55.640742,
+              -5.215705
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Scotland",
+            "country": "United Kingdom",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3505794985993208300,
+          "resource_state": 2,
+          "name": "Champion’s Sprint",
+          "activity": {
+            "id": 19080490091,
+            "id_str": "19080490091",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 22,
+          "moving_time": 22,
+          "start_date": "2026-06-27T03:37:01Z",
+          "start_date_local": "2026-06-26T20:37:01Z",
+          "distance": 200.5,
+          "start_index": 1358,
+          "end_index": 1380,
+          "average_cadence": 74,
+          "device_watts": true,
+          "average_watts": 169.9,
+          "segment": {
+            "id": 38170243,
+            "resource_state": 2,
+            "name": "Champion’s Sprint",
+            "activity_type": "VirtualRide",
+            "distance": 200.5,
+            "average_grade": -0.4,
+            "maximum_grade": 1.8,
+            "elevation_high": 41,
+            "elevation_low": 39.8,
+            "start_latlng": [
+              55.638419,
+              -5.218661
+            ],
+            "end_latlng": [
+              55.636622,
+              -5.218676
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Scotland",
+            "country": "United Kingdom",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        }
+      ],
+      "splits_metric": [
+        {
+          "distance": 1003.3,
+          "elapsed_time": 133,
+          "elevation_difference": -2,
+          "moving_time": 133,
+          "split": 1,
+          "average_speed": 7.54,
+          "average_grade_adjusted_speed": 7.53,
+          "pace_zone": 0
+        },
+        {
+          "distance": 997.6,
+          "elapsed_time": 134,
+          "elevation_difference": 4.8,
+          "moving_time": 134,
+          "split": 2,
+          "average_speed": 7.44,
+          "average_grade_adjusted_speed": 7.55,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1003.2,
+          "elapsed_time": 151,
+          "elevation_difference": 10.8,
+          "moving_time": 151,
+          "split": 3,
+          "average_speed": 6.64,
+          "average_grade_adjusted_speed": 6.85,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1002,
+          "elapsed_time": 90,
+          "elevation_difference": -22.4,
+          "moving_time": 90,
+          "split": 4,
+          "average_speed": 11.13,
+          "average_grade_adjusted_speed": 10.65,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1005.4,
+          "elapsed_time": 137,
+          "elevation_difference": -2.6,
+          "moving_time": 137,
+          "split": 5,
+          "average_speed": 7.34,
+          "average_grade_adjusted_speed": 7.53,
+          "pace_zone": 0
+        },
+        {
+          "distance": 993.8,
+          "elapsed_time": 111,
+          "elevation_difference": 4.6,
+          "moving_time": 111,
+          "split": 6,
+          "average_speed": 8.95,
+          "average_grade_adjusted_speed": 9.13,
+          "pace_zone": 0
+        },
+        {
+          "distance": 997.2,
+          "elapsed_time": 95,
+          "elevation_difference": -10.2,
+          "moving_time": 95,
+          "split": 7,
+          "average_speed": 10.5,
+          "average_grade_adjusted_speed": 10.31,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1006,
+          "elapsed_time": 137,
+          "elevation_difference": 6.8,
+          "moving_time": 137,
+          "split": 8,
+          "average_speed": 7.34,
+          "average_grade_adjusted_speed": 7.5,
+          "pace_zone": 0
+        },
+        {
+          "distance": 992.3,
+          "elapsed_time": 126,
+          "elevation_difference": 7.8,
+          "moving_time": 126,
+          "split": 9,
+          "average_speed": 7.88,
+          "average_grade_adjusted_speed": 8.08,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1004.2,
+          "elapsed_time": 134,
+          "elevation_difference": 6.2,
+          "moving_time": 134,
+          "split": 10,
+          "average_speed": 7.49,
+          "average_grade_adjusted_speed": 7.82,
+          "pace_zone": 0
+        },
+        {
+          "distance": 997.2,
+          "elapsed_time": 115,
+          "elevation_difference": -3.2,
+          "moving_time": 115,
+          "split": 11,
+          "average_speed": 8.67,
+          "average_grade_adjusted_speed": 8.76,
+          "pace_zone": 0
+        },
+        {
+          "distance": 328.4,
+          "elapsed_time": 35,
+          "elevation_difference": -2.2,
+          "moving_time": 35,
+          "split": 12,
+          "average_speed": 9.38,
+          "average_grade_adjusted_speed": 9.28,
+          "pace_zone": 0
+        }
+      ],
+      "splits_standard": [
+        {
+          "distance": 1612.1,
+          "elapsed_time": 215,
+          "elevation_difference": -0.6,
+          "moving_time": 215,
+          "split": 1,
+          "average_speed": 7.5,
+          "average_grade_adjusted_speed": 7.51,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1611.1,
+          "elapsed_time": 225,
+          "elevation_difference": 10.2,
+          "moving_time": 225,
+          "split": 2,
+          "average_speed": 7.16,
+          "average_grade_adjusted_speed": 7.31,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1609.2,
+          "elapsed_time": 188,
+          "elevation_difference": -11.8,
+          "moving_time": 188,
+          "split": 3,
+          "average_speed": 8.56,
+          "average_grade_adjusted_speed": 8.59,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1607.2,
+          "elapsed_time": 165,
+          "elevation_difference": -14.6,
+          "moving_time": 165,
+          "split": 4,
+          "average_speed": 9.74,
+          "average_grade_adjusted_speed": 9.65,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1612.9,
+          "elapsed_time": 199,
+          "elevation_difference": 5,
+          "moving_time": 199,
+          "split": 5,
+          "average_speed": 8.11,
+          "average_grade_adjusted_speed": 8.2,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1609,
+          "elapsed_time": 224,
+          "elevation_difference": 18.2,
+          "moving_time": 224,
+          "split": 6,
+          "average_speed": 7.18,
+          "average_grade_adjusted_speed": 7.5,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1605.7,
+          "elapsed_time": 175,
+          "elevation_difference": -7.6,
+          "moving_time": 175,
+          "split": 7,
+          "average_speed": 9.18,
+          "average_grade_adjusted_speed": 9.23,
+          "pace_zone": 0
+        },
+        {
+          "distance": 63.4,
+          "elapsed_time": 7,
+          "elevation_difference": -0.4,
+          "moving_time": 7,
+          "split": 8,
+          "average_speed": 9.06,
+          "average_grade_adjusted_speed": 8.97,
+          "pace_zone": 0
+        }
+      ],
+      "laps": [
+        {
+          "id": 68202057112,
+          "resource_state": 2,
+          "name": "Lap 1",
+          "activity": {
+            "id": 19080490091,
+            "id_str": "19080490091",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 1398,
+          "moving_time": 1399,
+          "start_date": "2026-06-27T03:14:23Z",
+          "start_date_local": "2026-06-26T20:14:23Z",
+          "distance": 11330.6,
+          "average_speed": 8.1,
+          "max_speed": 14.16,
+          "lap_index": 1,
+          "split": 1,
+          "start_index": 0,
+          "end_index": 0,
+          "total_elevation_gain": 99.2,
+          "average_cadence": 77.4,
+          "device_watts": true,
+          "average_watts": 140.6
+        }
+      ],
+      "gear": {
+        "id": "b8659402",
+        "primary": false,
+        "name": "Canyon Grail CF SL 8",
+        "nickname": "Canyon Grail CF SL 8",
+        "resource_state": 2,
+        "retired": false,
+        "distance": 20991502,
+        "converted_distance": 13043.5
+      },
+      "photos": {
+        "primary": {
+          "unique_id": "754593e7-58ec-4f24-82d8-9b8825b20e57",
+          "urls": {
+            "100": "https://dgtzuqphqg23d.cloudfront.net/dBvyeY-cl0HmacrIe3h3bOxiJ1lXSVAHZDzuBK1aIic-128x73.jpg",
+            "600": "https://dgtzuqphqg23d.cloudfront.net/dBvyeY-cl0HmacrIe3h3bOxiJ1lXSVAHZDzuBK1aIic-768x440.jpg"
+          },
+          "source": 1,
+          "media_type": 1
+        },
+        "use_primary_photo": true,
+        "count": 3
+      },
+      "stats_visibility": [
+        {
+          "type": "heart_rate",
+          "visibility": "everyone"
+        },
+        {
+          "type": "pace",
+          "visibility": "everyone"
+        },
+        {
+          "type": "power",
+          "visibility": "everyone"
+        },
+        {
+          "type": "speed",
+          "visibility": "everyone"
+        },
+        {
+          "type": "calories",
+          "visibility": "everyone"
+        },
+        {
+          "type": "weight_lifted",
+          "visibility": "everyone"
+        }
+      ],
+      "hide_from_home": false,
+      "sport_image_visibility": "everyone",
+      "embed_token": "d3c9a107c7f0c95f4c82022f5324b7ed9cab3f1a",
+      "available_zones": [
+        "power"
+      ]
+    },
     {
       "resource_state": 3,
       "athlete": {

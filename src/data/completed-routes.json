@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-25T02:54:59.349Z",
-  "totalCompleted": 111,
+  "syncedAt": "2026-06-27T03:38:09.115Z",
+  "totalCompleted": 112,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "outer-scotland",
+      "routeName": "Outer Scotland",
+      "worldName": "Scotland",
+      "activityId": 19080490091,
+      "activityName": "Zwift - Outer Scotland in Scotland",
+      "date": "2026-06-26T20:14:23Z",
+      "distance": 11.33,
+      "movingTime": 1398,
+      "elapsedTime": 1398,
+      "elevationGain": 104,
+      "averageWatts": 140.6,
+      "stravaUrl": "https://www.strava.com/activities/19080490091",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "double-span-spin",
       "routeName": "Double Span Spin",

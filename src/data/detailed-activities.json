@@ -5582,5 +5582,33 @@
       }
     ],
     "fetchedAt": "2026-06-28T20:24:14.703Z"
+  },
+  "19103416284": {
+    "id": 19103416284,
+    "name": "Zwift - Gotham Grind in New York",
+    "segment_efforts": [
+      {
+        "name": "Southbound Counter-Clockwise Lead-in",
+        "segment": {
+          "id": 19179264,
+          "name": "Southbound Counter-Clockwise Lead-in"
+        }
+      },
+      {
+        "name": "Gotham Grind",
+        "segment": {
+          "id": 19820820,
+          "name": "Gotham Grind"
+        }
+      },
+      {
+        "name": "NY Sprint",
+        "segment": {
+          "id": 38152497,
+          "name": "NY Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-28T20:47:55.263Z"
   }
 }

@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-28T20:24:14.716Z",
-  "totalCompleted": 114,
+  "syncedAt": "2026-06-28T20:47:55.275Z",
+  "totalCompleted": 115,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "gotham-grind",
+      "routeName": "Gotham Grind",
+      "worldName": "New York",
+      "activityId": 19103416284,
+      "activityName": "Zwift - Gotham Grind in New York",
+      "date": "2026-06-28T13:26:19Z",
+      "distance": 9.733,
+      "movingTime": 1272,
+      "elapsedTime": 1272,
+      "elevationGain": 95,
+      "averageWatts": 126.6,
+      "stravaUrl": "https://www.strava.com/activities/19103416284",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "spinfinity",
       "routeName": "Spinfinity",

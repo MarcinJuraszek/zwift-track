@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-27T22:20:28.481Z",
-  "totalCompleted": 113,
+  "syncedAt": "2026-06-28T20:24:14.716Z",
+  "totalCompleted": 114,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "spinfinity",
+      "routeName": "Spinfinity",
+      "worldName": "New York",
+      "activityId": 19103227881,
+      "activityName": "Zwift - Spinfinity in New York",
+      "date": "2026-06-28T12:28:46Z",
+      "distance": 19.531,
+      "movingTime": 2438,
+      "elapsedTime": 3285,
+      "elevationGain": 155,
+      "averageWatts": 132.1,
+      "stravaUrl": "https://www.strava.com/activities/19103227881",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "southern-coast-cruise",
       "routeName": "Southern Coast Cruise",

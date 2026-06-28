@@ -5547,5 +5547,40 @@
       }
     ],
     "fetchedAt": "2026-06-27T22:17:31.793Z"
+  },
+  "19103227881": {
+    "id": 19103227881,
+    "name": "Zwift - Spinfinity in New York",
+    "segment_efforts": [
+      {
+        "name": "Spinfinity",
+        "segment": {
+          "id": 40331488,
+          "name": "Spinfinity"
+        }
+      },
+      {
+        "name": "Times Square Circuit",
+        "segment": {
+          "id": 40342792,
+          "name": "Times Square Circuit"
+        }
+      },
+      {
+        "name": "Brooklyn Bridge KOM",
+        "segment": {
+          "id": 40342819,
+          "name": "Brooklyn Bridge KOM"
+        }
+      },
+      {
+        "name": "Manhattan Sprint",
+        "segment": {
+          "id": 40342842,
+          "name": "Manhattan Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-28T20:24:14.703Z"
   }
 }

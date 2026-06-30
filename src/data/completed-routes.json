@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-29T01:47:33.247Z",
-  "totalCompleted": 115,
+  "syncedAt": "2026-06-30T02:55:02.543Z",
+  "totalCompleted": 116,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "neon-after-party",
+      "routeName": "Neon After Party",
+      "worldName": "Makuri Islands",
+      "activityId": 19118276669,
+      "activityName": "Zwift - Neon After Party in Makuri Islands",
+      "date": "2026-06-29T19:05:07Z",
+      "distance": 17.875,
+      "movingTime": 2389,
+      "elapsedTime": 2970,
+      "elevationGain": 141,
+      "averageWatts": 129.1,
+      "stravaUrl": "https://www.strava.com/activities/19118276669",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "gotham-grind",
       "routeName": "Gotham Grind",

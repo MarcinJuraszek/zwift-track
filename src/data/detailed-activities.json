@@ -5610,5 +5610,54 @@
       }
     ],
     "fetchedAt": "2026-06-28T20:47:55.263Z"
+  },
+  "19118276669": {
+    "id": 19118276669,
+    "name": "Zwift - Neon After Party in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Neon After Party",
+        "segment": {
+          "id": 38754616,
+          "name": "Neon After Party"
+        }
+      },
+      {
+        "name": "Tower Sprint Reverse",
+        "segment": {
+          "id": 38168840,
+          "name": "Tower Sprint Reverse"
+        }
+      },
+      {
+        "name": "Castle Park Sprint Reverse",
+        "segment": {
+          "id": 38168847,
+          "name": "Castle Park Sprint Reverse"
+        }
+      },
+      {
+        "name": "Alley Sprint",
+        "segment": {
+          "id": 30412903,
+          "name": "Alley Sprint"
+        }
+      },
+      {
+        "name": "Rooftop KOM",
+        "segment": {
+          "id": 30407861,
+          "name": "Rooftop KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-06-30T02:55:02.532Z"
   }
 }

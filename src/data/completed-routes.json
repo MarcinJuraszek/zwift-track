@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-06-30T02:55:02.543Z",
-  "totalCompleted": 116,
+  "syncedAt": "2026-07-01T03:20:24.711Z",
+  "totalCompleted": 117,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "london-loop",
+      "routeName": "London Loop",
+      "worldName": "London",
+      "activityId": 19132205538,
+      "activityName": "Zwift - London Loop in London",
+      "date": "2026-06-30T19:30:41Z",
+      "distance": 16.235,
+      "movingTime": 2542,
+      "elapsedTime": 2960,
+      "elevationGain": 244,
+      "averageWatts": 126.8,
+      "stravaUrl": "https://www.strava.com/activities/19132205538",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "neon-after-party",
       "routeName": "Neon After Party",

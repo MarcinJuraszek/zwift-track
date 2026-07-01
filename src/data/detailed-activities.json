@@ -5659,5 +5659,40 @@
       }
     ],
     "fetchedAt": "2026-06-30T02:55:02.532Z"
+  },
+  "19132205538": {
+    "id": 19132205538,
+    "name": "Zwift - London Loop in London",
+    "segment_efforts": [
+      {
+        "name": "London Loop",
+        "segment": {
+          "id": 12749649,
+          "name": "London Loop"
+        }
+      },
+      {
+        "name": "Northumberland Ave Climb",
+        "segment": {
+          "id": 27190459,
+          "name": "Northumberland Ave Climb"
+        }
+      },
+      {
+        "name": "Box Hill KOM",
+        "segment": {
+          "id": 12744502,
+          "name": "Box Hill KOM"
+        }
+      },
+      {
+        "name": "Fox Hill Descent",
+        "segment": {
+          "id": 27190651,
+          "name": "Fox Hill Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-07-01T03:20:24.703Z"
   }
 }

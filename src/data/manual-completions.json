@@ -48,6 +48,11 @@
       "note": "Confirmed completed in Zwift app, no matching Strava segment found"
     },
     {
+      "routeSlug": "libby-hill-after-party",
+      "date": "2026-07-03T00:00:00Z",
+      "note": "Zwift failed to upload to strava ..."
+    },
+    {
       "routeSlug": "yumezi-grit",
       "date": "2026-06-19T00:00:00Z",
       "note": "No Strava segment ID available for this route",

@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-07-03T03:03:15.678Z",
-  "totalCompleted": 117,
+  "syncedAt": "2026-07-04T00:04:17.482Z",
+  "totalCompleted": 118,
   "totalRoutes": 280,
   "completedRoutes": [
+    {
+      "routeSlug": "libby-hill-after-party",
+      "routeName": "Libby Hill After Party",
+      "worldName": "Richmond",
+      "activityId": null,
+      "activityName": "Zwift failed to upload to strava ...",
+      "date": "2026-07-03T00:00:00Z",
+      "distance": null,
+      "movingTime": null,
+      "elapsedTime": null,
+      "elevationGain": null,
+      "averageWatts": null,
+      "stravaUrl": null,
+      "matchMethod": "manual"
+    },
     {
       "routeSlug": "london-loop",
       "routeName": "London Loop",
@@ -1760,6 +1775,12 @@
     }
   ],
   "unmatchedActivities": [
+    {
+      "activityId": 19169384863,
+      "activityName": "Afternoon Ride",
+      "date": "2026-07-03T15:30:00Z",
+      "distance": 33.796
+    },
     {
       "activityId": 10712580126,
       "activityName": "2x Zwift - Climb Portal: Cote de Trebiac at 100% Elevation in Watopia",

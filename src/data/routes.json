@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T04:25:54.250Z",
+  "generatedAt": "2026-07-17T05:42:03.033Z",
   "totalRoutes": 288,
   "worlds": [
     {
@@ -3021,8 +3021,8 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
-      "stravaSegmentId": null,
-      "stravaSegmentUrl": null,
+      "stravaSegmentId": 41606378,
+      "stravaSegmentUrl": "https://www.strava.com/segments/41606378",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/cirque-du-suffer"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-07-17T04:27:07.432Z",
+  "syncedAt": "2026-07-17T05:42:10.660Z",
   "totalCompleted": 119,
   "totalRoutes": 288,
   "completedRoutes": [
@@ -7,16 +7,16 @@
       "routeSlug": "cirque-du-suffer",
       "routeName": "Cirque du Suffer",
       "worldName": "Paris",
-      "activityId": null,
-      "activityName": "New Paris route, no Strava segment ID available yet",
+      "activityId": 19345062270,
+      "activityName": "Zwift - Cirque du Suffer in Paris",
       "date": "2026-07-16T20:25:14Z",
-      "distance": null,
-      "movingTime": null,
-      "elapsedTime": null,
-      "elevationGain": null,
-      "averageWatts": null,
+      "distance": 22.574,
+      "movingTime": 2763,
+      "elapsedTime": 3145,
+      "elevationGain": 30,
+      "averageWatts": 124,
       "stravaUrl": "https://www.strava.com/activities/19345062270",
-      "matchMethod": "manual"
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "libby-hill-after-party",

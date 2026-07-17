@@ -178,8 +178,8 @@ const extraRoutes = [
     lap: true,
     sports: ["cycling"],
     experience: 0,
-    stravaSegmentId: null,
-    stravaSegmentUrl: null,
+    stravaSegmentId: 41606378,
+    stravaSegmentUrl: "https://www.strava.com/segments/41606378",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/cirque-du-suffer",
   },
 ];

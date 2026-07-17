@@ -63,6 +63,12 @@
       "date": "2026-06-27T00:00:00Z",
       "note": "Segment not matched by Strava",
       "stravaUrl": "https://www.strava.com/activities/19091021780"
+    },
+    {
+      "routeSlug": "cirque-du-suffer",
+      "date": "2026-07-16T20:25:14Z",
+      "note": "New Paris route, no Strava segment ID available yet",
+      "stravaUrl": "https://www.strava.com/activities/19345062270"
     }
   ],
   "exclusions": [

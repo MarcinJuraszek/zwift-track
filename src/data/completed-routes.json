@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-07-05T19:57:28.762Z",
-  "totalCompleted": 118,
-  "totalRoutes": 280,
+  "syncedAt": "2026-07-17T04:27:07.432Z",
+  "totalCompleted": 119,
+  "totalRoutes": 288,
   "completedRoutes": [
+    {
+      "routeSlug": "cirque-du-suffer",
+      "routeName": "Cirque du Suffer",
+      "worldName": "Paris",
+      "activityId": null,
+      "activityName": "New Paris route, no Strava segment ID available yet",
+      "date": "2026-07-16T20:25:14Z",
+      "distance": null,
+      "movingTime": null,
+      "elapsedTime": null,
+      "elevationGain": null,
+      "averageWatts": null,
+      "stravaUrl": "https://www.strava.com/activities/19345062270",
+      "matchMethod": "manual"
+    },
     {
       "routeSlug": "libby-hill-after-party",
       "routeName": "Libby Hill After Party",

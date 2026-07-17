@@ -5700,5 +5700,40 @@
     "name": "Afternoon Ride",
     "segment_efforts": [],
     "fetchedAt": "2026-07-04T00:04:17.467Z"
+  },
+  "19345062270": {
+    "id": 19345062270,
+    "name": "Zwift - Cirque du Suffer in Paris",
+    "segment_efforts": [
+      {
+        "name": "Paris last hill",
+        "segment": {
+          "id": 32886954,
+          "name": "Paris last hill"
+        }
+      },
+      {
+        "name": "Cirque du Suffer",
+        "segment": {
+          "id": 41606378,
+          "name": "Cirque du Suffer"
+        }
+      },
+      {
+        "name": "Champs-Élysées Sprint",
+        "segment": {
+          "id": 38169117,
+          "name": "Champs-Élysées Sprint"
+        }
+      },
+      {
+        "name": "Lutece Express Sprint",
+        "segment": {
+          "id": 38169108,
+          "name": "Lutece Express Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-07-17T04:26:47.890Z"
   }
 }

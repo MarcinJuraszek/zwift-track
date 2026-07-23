@@ -1,10 +1,10 @@
 {
-  "fetchedAt": "2026-07-23T03:05:51.068Z",
+  "fetchedAt": "2026-07-23T03:17:16.398Z",
   "totalActivities": 138,
   "virtualRideCount": 138,
   "virtualRides": [
     {
-      "resource_state": 2,
+      "resource_state": 3,
       "athlete": {
         "id": 29432659,
         "id_str": "29432659",
@@ -30,22 +30,29 @@
       "achievement_count": 3,
       "kudos_count": 0,
       "comment_count": 0,
-      "athlete_count": 1,
+      "athlete_count": 4,
       "photo_count": 0,
       "map": {
         "id": "a19426464203",
-        "summary_polyline": "",
-        "resource_state": 2
+        "polyline": "mjgiHglcMCTsWjlAeHn[oErROb@KJs@\\WTU\\Qd@Gj@ATDp@DVNf@LNZVLD^@NC\\QV]Pi@Ho@@YEq@Y_BCYFq@fG}WjNeo@|I_a@|L}j@FSJQLKNGNA`AHhDj@N@LEJMHQ|@uDd@_C|I_a@nCcMDU?UESUUeAu@sDyB{DsC?G{@_@U?UJSXMb@yAbHeKje@M~@A~AM~ACTQf@KLO?MGgMeIOQEKKoAG_@M[GKsAu@oB}@]GM@MFKLMd@_@nBCd@Ff@P^jBrAJLFR@TETU`@{UdOmD`C}@`AgBbCsHjJo@~@}D|EuAhB_A~@}@hAMBKCQ]y@{BIOKKOAoDDIAIGGMQ_CIkCCi@sDqZyAkNoB{PWkCWkAe@yAsAqCmAwBGQAWBUj@eBj@}Bn@wC^kC?WGSKQY[IO]oCIKKEK?cA\\I?KCc@]wAcB][_@UUEK?KDSRQXk@hA_@d@WLK@UA[KaAc@k@_@a@e@IQGU?WFk@p@oCL{@FiA?eCFgAVcAdAgCNy@@m@Go@c@cAGc@FqAl@qERo@POPCRBh@LVBRKP[HgA@gAKiEM{@K[MUOQc@_@{Aw@cBa@SAS?UBi@PcAZuBx@WLUVO^QhAo@~FkAdKKdACbABbBb@pM@v@AfCBt@DXPl@LRZ^fBhApBxAjDbC`A`AbAlAvCpEpDpGNZd@~ANZjC|EVr@F^J|Af@nDz@bIx@hGdBjPbEb]XzDPlAh@fIBZLRPANMh@u@zDuEnGiIpDqEbJkLz@mAlAiAZc@jBsA|GmE|NeJvBmAXWb@o@NCNDvDdCfAn@fFfDr@t@zAxBZj@FVDZAZQlAeBnH}FvW",
+        "resource_state": 3,
+        "summary_polyline": "mjgiHglcMCTsWjlAeHn[oErROb@KJs@\\WTU\\Qd@Gj@ATDp@DVNf@LNZVLD^@NC\\QV]Pi@Ho@@YEq@Y_BCYFq@fG}WjNeo@|I_a@|L}j@FSJQLKNGNA`AHhDj@N@LEJMHQ|@uDd@_C|I_a@nCcMDU?UESUUeAu@sDyB{DsC?G{@_@U?UJSXMb@yAbHeKje@M~@A~AM~ACTQf@KLO?MGgMeIOQEKKoAG_@M[GKsAu@oB}@]GM@MFKLMd@_@nBCd@Ff@P^jBrAJLFR@TETU`@{UdOmD`C}@`AgBbCsHjJo@~@}D|EuAhB_A~@}@hAMBKCQ]y@{BIOKKOAoDDIAIGGMQ_CIkCCi@sDqZyAkNoB{PWkCWkAe@yAsAqCmAwBGQAWBUj@eBj@}Bn@wC^kC?WGSKQY[IO]oCIKKEK?cA\\I?KCc@]wAcB][_@UUEK?KDSRQXk@hA_@d@WLK@UA[KaAc@k@_@a@e@IQGU?WFk@p@oCL{@FiA?eCFgAVcAdAgCNy@@m@Go@c@cAGc@FqAl@qERo@POPCRBh@LVBRKP[HgA@gAKiEM{@K[MUOQc@_@{Aw@cBa@SAS?UBi@PcAZuBx@WLUVO^QhAo@~FkAdKKdACbABbBb@pM@v@AfCBt@DXPl@LRZ^fBhApBxAjDbC`A`AbAlAvCpEpDpGNZd@~ANZjC|EVr@F^J|Af@nDz@bIx@hGdBjPbEb]XzDPlAh@fIBZLRPANMh@u@zDuEnGiIpDqEbJkLz@mAlAiAZc@jBsA|GmE|NeJvBmAXWb@o@NCNDvDdCfAn@fFfDr@t@zAxBZj@FVDZAZQlAeBnH}FvW"
       },
       "trainer": false,
       "commute": false,
       "manual": false,
-      "private": true,
-      "visibility": "only_me",
+      "private": false,
+      "visibility": "everyone",
       "flagged": false,
       "gear_id": "b8659402",
-      "start_latlng": [],
-      "end_latlng": [],
+      "start_latlng": [
+        48.867117,
+        2.31636
+      ],
+      "end_latlng": [
+        48.867616,
+        2.314726
+      ],
       "average_speed": 8.444,
       "max_speed": 16.44,
       "average_cadence": 79.5,
@@ -65,7 +72,816 @@
       "from_accepted_tag": false,
       "pr_count": 3,
       "total_photo_count": 2,
-      "has_kudoed": false
+      "has_kudoed": false,
+      "description": "",
+      "calories": 288,
+      "perceived_exertion": null,
+      "prefer_perceived_exertion": null,
+      "segment_efforts": [
+        {
+          "id": 3515208579799876000,
+          "resource_state": 2,
+          "name": "Crêpe Escape",
+          "activity": {
+            "id": 19426464203,
+            "id_str": "19426464203",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 2171,
+          "moving_time": 1941,
+          "start_date": "2026-07-23T02:27:30Z",
+          "start_date_local": "2026-07-22T19:27:30Z",
+          "distance": 16417.1,
+          "start_index": 6,
+          "end_index": 1958,
+          "average_cadence": 73.9,
+          "device_watts": true,
+          "average_watts": 150.9,
+          "segment": {
+            "id": 41606209,
+            "resource_state": 2,
+            "name": "Crêpe Escape",
+            "activity_type": "VirtualRide",
+            "distance": 16417.1,
+            "average_grade": 0,
+            "maximum_grade": 8.7,
+            "elevation_high": 112.4,
+            "elevation_low": 41.4,
+            "start_latlng": [
+              48.867171,
+              2.316144
+            ],
+            "end_latlng": [
+              48.867177,
+              2.316144
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Paris",
+            "state": "Paris",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3515208579798238700,
+          "resource_state": 2,
+          "name": "Paris last hill",
+          "activity": {
+            "id": 19426464203,
+            "id_str": "19426464203",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 169,
+          "moving_time": 169,
+          "start_date": "2026-07-23T02:28:21Z",
+          "start_date_local": "2026-07-22T19:28:21Z",
+          "distance": 1056.2,
+          "start_index": 57,
+          "end_index": 226,
+          "average_cadence": 76.4,
+          "device_watts": true,
+          "average_watts": 166.2,
+          "segment": {
+            "id": 32886954,
+            "resource_state": 2,
+            "name": "Paris last hill",
+            "activity_type": "VirtualRide",
+            "distance": 1056.2,
+            "average_grade": 1.7,
+            "maximum_grade": 3.7,
+            "elevation_high": 50.8,
+            "elevation_low": 33,
+            "start_latlng": [
+              48.868513,
+              2.311854
+            ],
+            "end_latlng": [
+              48.872596,
+              2.298845
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Paris",
+            "state": "Île-de-France",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3515208579798601000,
+          "resource_state": 2,
+          "name": "Champs-Élysées Sprint",
+          "activity": {
+            "id": 19426464203,
+            "id_str": "19426464203",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 26,
+          "moving_time": 26,
+          "start_date": "2026-07-23T02:30:33Z",
+          "start_date_local": "2026-07-22T19:30:33Z",
+          "distance": 151.4,
+          "start_index": 189,
+          "end_index": 215,
+          "average_cadence": 77.7,
+          "device_watts": true,
+          "average_watts": 191.3,
+          "segment": {
+            "id": 38169117,
+            "resource_state": 2,
+            "name": "Champs-Élysées Sprint",
+            "activity_type": "VirtualRide",
+            "distance": 151.4,
+            "average_grade": 3.3,
+            "maximum_grade": 4.9,
+            "elevation_high": 68.6,
+            "elevation_low": 63.6,
+            "start_latlng": [
+              48.871812,
+              2.301604
+            ],
+            "end_latlng": [
+              48.872407,
+              2.299745
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Paris",
+            "state": "Paris",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3515208579799205400,
+          "resource_state": 2,
+          "name": "Lutece Express Sprint",
+          "activity": {
+            "id": 19426464203,
+            "id_str": "19426464203",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 25,
+          "moving_time": 25,
+          "start_date": "2026-07-23T02:32:32Z",
+          "start_date_local": "2026-07-22T19:32:32Z",
+          "distance": 232,
+          "start_index": 308,
+          "end_index": 333,
+          "average_cadence": 79.8,
+          "device_watts": true,
+          "average_watts": 144.8,
+          "segment": {
+            "id": 38169108,
+            "resource_state": 2,
+            "name": "Lutece Express Sprint",
+            "activity_type": "VirtualRide",
+            "distance": 232,
+            "average_grade": -0.9,
+            "maximum_grade": 0,
+            "elevation_high": 70.8,
+            "elevation_low": 68.6,
+            "start_latlng": [
+              48.873298,
+              2.296841
+            ],
+            "end_latlng": [
+              48.872359,
+              2.299673
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Paris",
+            "state": "Paris",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3515208579800136000,
+          "resource_state": 2,
+          "name": "Église Sprint",
+          "activity": {
+            "id": 19426464203,
+            "id_str": "19426464203",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 29,
+          "moving_time": 29,
+          "start_date": "2026-07-23T02:46:37Z",
+          "start_date_local": "2026-07-22T19:46:37Z",
+          "distance": 249,
+          "start_index": 934,
+          "end_index": 963,
+          "average_cadence": 76.7,
+          "device_watts": true,
+          "average_watts": 131.9,
+          "segment": {
+            "id": 41640670,
+            "resource_state": 2,
+            "name": "Église Sprint",
+            "activity_type": "VirtualRide",
+            "distance": 249,
+            "average_grade": 0,
+            "maximum_grade": 0.7,
+            "elevation_high": 50.4,
+            "elevation_low": 50.2,
+            "start_latlng": [
+              48.872917,
+              2.321367
+            ],
+            "end_latlng": [
+              48.874934,
+              2.319884
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Paris",
+            "state": "Paris",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3515208579800731000,
+          "resource_state": 2,
+          "name": "Paris 2024 Road Race - Strava Challenge - Montmartre",
+          "activity": {
+            "id": 19426464203,
+            "id_str": "19426464203",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 181,
+          "moving_time": 181,
+          "start_date": "2026-07-23T02:52:08Z",
+          "start_date_local": "2026-07-22T19:52:08Z",
+          "distance": 1030,
+          "start_index": 1265,
+          "end_index": 1446,
+          "average_cadence": 87.4,
+          "device_watts": true,
+          "average_watts": 274.2,
+          "segment": {
+            "id": 35855084,
+            "resource_state": 2,
+            "name": "Paris 2024 Road Race - Strava Challenge - Montmartre",
+            "activity_type": "VirtualRide",
+            "distance": 1030,
+            "average_grade": 5.8,
+            "maximum_grade": 16.7,
+            "elevation_high": 126.7,
+            "elevation_low": 66,
+            "start_latlng": [
+              48.884298,
+              2.333204
+            ],
+            "end_latlng": [
+              48.886394,
+              2.341402
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Paris",
+            "state": "Paris",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3515208579797903000,
+          "resource_state": 2,
+          "name": "Tchou Tchou Sprint",
+          "activity": {
+            "id": 19426464203,
+            "id_str": "19426464203",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 13,
+          "moving_time": 13,
+          "start_date": "2026-07-23T02:58:28Z",
+          "start_date_local": "2026-07-22T19:58:28Z",
+          "distance": 150.2,
+          "start_index": 1645,
+          "end_index": 1658,
+          "average_cadence": 78.8,
+          "device_watts": true,
+          "average_watts": 151.5,
+          "segment": {
+            "id": 41640647,
+            "resource_state": 2,
+            "name": "Tchou Tchou Sprint",
+            "activity_type": "VirtualRide",
+            "distance": 150.2,
+            "average_grade": -0.3,
+            "maximum_grade": 0,
+            "elevation_high": 59,
+            "elevation_low": 58.6,
+            "start_latlng": [
+              48.88275,
+              2.32264
+            ],
+            "end_latlng": [
+              48.882374,
+              2.320669
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Paris",
+            "state": "Paris",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        }
+      ],
+      "splits_metric": [
+        {
+          "distance": 1003.7,
+          "elapsed_time": 158,
+          "elevation_difference": 12.8,
+          "moving_time": 158,
+          "split": 1,
+          "average_speed": 6.35,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 997,
+          "elapsed_time": 140,
+          "elevation_difference": 10.6,
+          "moving_time": 140,
+          "split": 2,
+          "average_speed": 7.12,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1001.4,
+          "elapsed_time": 92,
+          "elevation_difference": -18.6,
+          "moving_time": 92,
+          "split": 3,
+          "average_speed": 10.88,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1005.4,
+          "elapsed_time": 101,
+          "elevation_difference": -5.8,
+          "moving_time": 101,
+          "split": 4,
+          "average_speed": 9.95,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 998.5,
+          "elapsed_time": 116,
+          "elevation_difference": 1,
+          "moving_time": 116,
+          "split": 5,
+          "average_speed": 8.61,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 994.7,
+          "elapsed_time": 346,
+          "elevation_difference": -0.4,
+          "moving_time": 150,
+          "split": 6,
+          "average_speed": 6.63,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1000.6,
+          "elapsed_time": 176,
+          "elevation_difference": 4,
+          "moving_time": 142,
+          "split": 7,
+          "average_speed": 7.05,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1005.6,
+          "elapsed_time": 129,
+          "elevation_difference": 4.8,
+          "moving_time": 129,
+          "split": 8,
+          "average_speed": 7.8,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 995.1,
+          "elapsed_time": 132,
+          "elevation_difference": 4.6,
+          "moving_time": 132,
+          "split": 9,
+          "average_speed": 7.54,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1001.2,
+          "elapsed_time": 133,
+          "elevation_difference": 16.6,
+          "moving_time": 133,
+          "split": 10,
+          "average_speed": 7.53,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1002.5,
+          "elapsed_time": 157,
+          "elevation_difference": 28,
+          "moving_time": 157,
+          "split": 11,
+          "average_speed": 6.39,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1001.1,
+          "elapsed_time": 81,
+          "elevation_difference": -15.8,
+          "moving_time": 81,
+          "split": 12,
+          "average_speed": 12.36,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 997.7,
+          "elapsed_time": 77,
+          "elevation_difference": -27.2,
+          "moving_time": 77,
+          "split": 13,
+          "average_speed": 12.96,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 996.4,
+          "elapsed_time": 91,
+          "elevation_difference": -6,
+          "moving_time": 91,
+          "split": 14,
+          "average_speed": 10.95,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1000.9,
+          "elapsed_time": 98,
+          "elevation_difference": -6,
+          "moving_time": 98,
+          "split": 15,
+          "average_speed": 10.21,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1004.4,
+          "elapsed_time": 105,
+          "elevation_difference": -3.4,
+          "moving_time": 105,
+          "split": 16,
+          "average_speed": 9.57,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 552.9,
+          "elapsed_time": 59,
+          "elevation_difference": 1.2,
+          "moving_time": 59,
+          "split": 17,
+          "average_speed": 9.37,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        }
+      ],
+      "splits_standard": [
+        {
+          "distance": 1613.3,
+          "elapsed_time": 253,
+          "elevation_difference": 23.2,
+          "moving_time": 253,
+          "split": 1,
+          "average_speed": 6.38,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1609.6,
+          "elapsed_time": 155,
+          "elevation_difference": -23.2,
+          "moving_time": 155,
+          "split": 2,
+          "average_speed": 10.38,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608.8,
+          "elapsed_time": 179,
+          "elevation_difference": 0.6,
+          "moving_time": 179,
+          "split": 3,
+          "average_speed": 8.99,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608.6,
+          "elapsed_time": 470,
+          "elevation_difference": 3,
+          "moving_time": 240,
+          "split": 4,
+          "average_speed": 6.7,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608,
+          "elapsed_time": 207,
+          "elevation_difference": 4.8,
+          "moving_time": 207,
+          "split": 5,
+          "average_speed": 7.77,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1613.2,
+          "elapsed_time": 210,
+          "elevation_difference": 5.6,
+          "moving_time": 210,
+          "split": 6,
+          "average_speed": 7.68,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608.3,
+          "elapsed_time": 229,
+          "elevation_difference": 39,
+          "moving_time": 229,
+          "split": 7,
+          "average_speed": 7.02,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1606.3,
+          "elapsed_time": 124,
+          "elevation_difference": -38.2,
+          "moving_time": 124,
+          "split": 8,
+          "average_speed": 12.95,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1616.4,
+          "elapsed_time": 151,
+          "elevation_difference": -8.2,
+          "moving_time": 151,
+          "split": 9,
+          "average_speed": 10.7,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1609.9,
+          "elapsed_time": 163,
+          "elevation_difference": -7.6,
+          "moving_time": 163,
+          "split": 10,
+          "average_speed": 9.88,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 456.7,
+          "elapsed_time": 50,
+          "elevation_difference": 1.4,
+          "moving_time": 50,
+          "split": 11,
+          "average_speed": 9.13,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        }
+      ],
+      "laps": [
+        {
+          "id": 69395849893,
+          "resource_state": 2,
+          "name": "Lap 1",
+          "activity": {
+            "id": 19426464203,
+            "id_str": "19426464203",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 2191,
+          "moving_time": 1973,
+          "start_date": "2026-07-23T02:27:24Z",
+          "start_date_local": "2026-07-22T19:27:24Z",
+          "distance": 16559.1,
+          "average_speed": 8.39,
+          "max_speed": 16.44,
+          "lap_index": 1,
+          "split": 1,
+          "start_index": 0,
+          "end_index": 1972,
+          "total_elevation_gain": 97.6,
+          "average_cadence": 79.5,
+          "device_watts": true,
+          "average_watts": 154
+        }
+      ],
+      "gear": {
+        "id": "b8659402",
+        "primary": false,
+        "name": "Canyon Grail CF SL 8",
+        "nickname": "Canyon Grail CF SL 8",
+        "resource_state": 2,
+        "retired": false,
+        "distance": 21302371,
+        "converted_distance": 13236.7
+      },
+      "photos": {
+        "primary": {
+          "unique_id": "54bfed9e-a586-4979-85c3-feab1be5e1ba",
+          "urls": {
+            "100": "https://dgtzuqphqg23d.cloudfront.net/U0LUufQHnr18zxBXi75_Gp5fZ_-5vgJoXGUdqh6tTG4-128x73.jpg",
+            "600": "https://dgtzuqphqg23d.cloudfront.net/U0LUufQHnr18zxBXi75_Gp5fZ_-5vgJoXGUdqh6tTG4-768x440.jpg"
+          },
+          "source": 1,
+          "media_type": 1
+        },
+        "use_primary_photo": true,
+        "count": 2
+      },
+      "stats_visibility": [
+        {
+          "type": "heart_rate",
+          "visibility": "everyone"
+        },
+        {
+          "type": "pace",
+          "visibility": "everyone"
+        },
+        {
+          "type": "power",
+          "visibility": "everyone"
+        },
+        {
+          "type": "speed",
+          "visibility": "everyone"
+        },
+        {
+          "type": "calories",
+          "visibility": "everyone"
+        },
+        {
+          "type": "weight_lifted",
+          "visibility": "everyone"
+        }
+      ],
+      "hide_from_home": false,
+      "sport_image_visibility": "everyone",
+      "embed_token": "03e7035e5c58bec4f564fba07455c67aa540c0ed",
+      "available_zones": [
+        "power"
+      ]
     },
     {
       "resource_state": 2,

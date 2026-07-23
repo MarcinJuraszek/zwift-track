@@ -52,8 +52,8 @@ const extraRoutes = [
     lap: false,
     sports: ["cycling"],
     experience: 0,
-    stravaSegmentId: null,
-    stravaSegmentUrl: null,
+    stravaSegmentId: 41606209,
+    stravaSegmentUrl: "https://www.strava.com/segments/41606209",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/crepe-escape",
   },
   {

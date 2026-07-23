@@ -5735,5 +5735,61 @@
       }
     ],
     "fetchedAt": "2026-07-17T04:26:47.890Z"
+  },
+  "19426464203": {
+    "id": 19426464203,
+    "name": "Zwift - Crêpe Escape in Paris",
+    "segment_efforts": [
+      {
+        "name": "Crêpe Escape",
+        "segment": {
+          "id": 41606209,
+          "name": "Crêpe Escape"
+        }
+      },
+      {
+        "name": "Paris last hill",
+        "segment": {
+          "id": 32886954,
+          "name": "Paris last hill"
+        }
+      },
+      {
+        "name": "Champs-Élysées Sprint",
+        "segment": {
+          "id": 38169117,
+          "name": "Champs-Élysées Sprint"
+        }
+      },
+      {
+        "name": "Lutece Express Sprint",
+        "segment": {
+          "id": 38169108,
+          "name": "Lutece Express Sprint"
+        }
+      },
+      {
+        "name": "Église Sprint",
+        "segment": {
+          "id": 41640670,
+          "name": "Église Sprint"
+        }
+      },
+      {
+        "name": "Paris 2024 Road Race - Strava Challenge - Montmartre",
+        "segment": {
+          "id": 35855084,
+          "name": "Paris 2024 Road Race - Strava Challenge - Montmartre"
+        }
+      },
+      {
+        "name": "Tchou Tchou Sprint",
+        "segment": {
+          "id": 41640647,
+          "name": "Tchou Tchou Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-07-23T03:06:06.084Z"
   }
 }

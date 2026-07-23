@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T05:42:03.033Z",
+  "generatedAt": "2026-07-23T03:06:21.064Z",
   "totalRoutes": 288,
   "worlds": [
     {
@@ -3042,8 +3042,8 @@
       "eventOnly": true,
       "lap": false,
       "levelLocked": false,
-      "stravaSegmentId": null,
-      "stravaSegmentUrl": null,
+      "stravaSegmentId": 41606209,
+      "stravaSegmentUrl": "https://www.strava.com/segments/41606209",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/crepe-escape"
     },
     {

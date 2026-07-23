@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-07-17T05:42:10.660Z",
-  "totalCompleted": 119,
+  "syncedAt": "2026-07-23T03:06:21.113Z",
+  "totalCompleted": 120,
   "totalRoutes": 288,
   "completedRoutes": [
+    {
+      "routeSlug": "crepe-escape",
+      "routeName": "Crêpe Escape",
+      "worldName": "Paris",
+      "activityId": 19426464203,
+      "activityName": "Zwift - Crêpe Escape in Paris",
+      "date": "2026-07-22T19:27:24Z",
+      "distance": 16.559,
+      "movingTime": 1961,
+      "elapsedTime": 2191,
+      "elevationGain": 113,
+      "averageWatts": 154,
+      "stravaUrl": "https://www.strava.com/activities/19426464203",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "cirque-du-suffer",
       "routeName": "Cirque du Suffer",

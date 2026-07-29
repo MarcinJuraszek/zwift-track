@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T03:37:35.318Z",
+  "generatedAt": "2026-07-29T03:43:01.028Z",
   "totalRoutes": 288,
   "worlds": [
     {
@@ -3126,8 +3126,8 @@
       "eventOnly": false,
       "lap": true,
       "levelLocked": false,
-      "stravaSegmentId": null,
-      "stravaSegmentUrl": null,
+      "stravaSegmentId": 41622853,
+      "stravaSegmentUrl": "https://www.strava.com/segments/41622853",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/loop-de-loop-de-loop"
     },
     {

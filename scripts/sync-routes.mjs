@@ -160,8 +160,8 @@ const extraRoutes = [
     lap: true,
     sports: ["cycling"],
     experience: 0,
-    stravaSegmentId: null,
-    stravaSegmentUrl: null,
+    stravaSegmentId: 41622853,
+    stravaSegmentUrl: "https://www.strava.com/segments/41622853",
     zwiftInsiderUrl: "https://zwiftinsider.com/route/loop-de-loop-de-loop",
   },
   {

@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-07-29T03:37:35.829Z",
-  "totalCompleted": 120,
+  "syncedAt": "2026-07-29T03:43:01.078Z",
+  "totalCompleted": 121,
   "totalRoutes": 288,
   "completedRoutes": [
+    {
+      "routeSlug": "loop-de-loop-de-loop",
+      "routeName": "Loop de loop de loop",
+      "worldName": "Paris",
+      "activityId": 19509386936,
+      "activityName": "Zwift - Loop de loop de loop in Paris",
+      "date": "2026-07-28T20:21:59Z",
+      "distance": 8.11,
+      "movingTime": 908,
+      "elapsedTime": 908,
+      "elevationGain": 46,
+      "averageWatts": 177.4,
+      "stravaUrl": "https://www.strava.com/activities/19509386936",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "crepe-escape",
       "routeName": "Crêpe Escape",

@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-07-29T03:43:01.078Z",
+  "syncedAt": "2026-07-29T03:45:49.956Z",
   "totalCompleted": 121,
   "totalRoutes": 288,
   "completedRoutes": [
@@ -154,6 +154,21 @@
       "matchMethod": "segment"
     },
     {
+      "routeSlug": "yumezi-grit",
+      "routeName": "Yumezi Grit",
+      "worldName": "Makuri Islands",
+      "activityId": 18991456064,
+      "activityName": "Zwift - Yumezi Grit in Makuri Islands",
+      "date": "2026-06-19T20:29:30Z",
+      "distance": 8.074,
+      "movingTime": 1210,
+      "elapsedTime": 1210,
+      "elevationGain": 86,
+      "averageWatts": 127.4,
+      "stravaUrl": "https://www.strava.com/activities/18991456064",
+      "matchMethod": "segment"
+    },
+    {
       "routeSlug": "double-span-spin",
       "routeName": "Double Span Spin",
       "worldName": "New York",
@@ -182,21 +197,6 @@
       "averageWatts": 137.7,
       "stravaUrl": "https://www.strava.com/activities/18985235393",
       "matchMethod": "segment"
-    },
-    {
-      "routeSlug": "yumezi-grit",
-      "routeName": "Yumezi Grit",
-      "worldName": "Makuri Islands",
-      "activityId": null,
-      "activityName": "No Strava segment ID available for this route",
-      "date": "2026-06-19T00:00:00Z",
-      "distance": null,
-      "movingTime": null,
-      "elapsedTime": null,
-      "elevationGain": null,
-      "averageWatts": null,
-      "stravaUrl": "https://www.strava.com/activities/18991456064",
-      "matchMethod": "manual"
     },
     {
       "routeSlug": "three-village-loop",

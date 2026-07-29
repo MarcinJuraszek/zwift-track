@@ -25,7 +25,7 @@
   "dependencies": {
     "astro": "^6.4.4",
     "dotenv": "^17.4.2",
-    "zwift-data": "^1.48.6"
+    "zwift-data": "^1.49.0"
   },
   "devDependencies": {
     "playwright": "^1.60.0"

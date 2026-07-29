@@ -5791,5 +5791,40 @@
       }
     ],
     "fetchedAt": "2026-07-23T03:06:06.084Z"
+  },
+  "19509386936": {
+    "id": 19509386936,
+    "name": "Zwift - Loop de loop de loop in Paris",
+    "segment_efforts": [
+      {
+        "name": "Loop de loop de loop",
+        "segment": {
+          "id": 41622853,
+          "name": "Loop de loop de loop"
+        }
+      },
+      {
+        "name": "Paris last hill",
+        "segment": {
+          "id": 32886954,
+          "name": "Paris last hill"
+        }
+      },
+      {
+        "name": "Champs-Élysées Sprint",
+        "segment": {
+          "id": 38169117,
+          "name": "Champs-Élysées Sprint"
+        }
+      },
+      {
+        "name": "Monceau Sprint",
+        "segment": {
+          "id": 41640667,
+          "name": "Monceau Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-07-29T03:37:35.818Z"
   }
 }

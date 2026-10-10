@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-10-04T21:45:10.172Z",
-  "totalCompleted": 121,
+  "syncedAt": "2026-10-10T01:30:06.172Z",
+  "totalCompleted": 122,
   "totalRoutes": 288,
   "completedRoutes": [
+    {
+      "routeSlug": "london-flat",
+      "routeName": "London Flat",
+      "worldName": "London",
+      "activityId": 20521829277,
+      "activityName": "Zwift - London Flat in London",
+      "date": "2026-10-09T18:04:50Z",
+      "distance": 12.244,
+      "movingTime": 1491,
+      "elapsedTime": 1491,
+      "elevationGain": 114,
+      "averageWatts": 152.5,
+      "stravaUrl": "https://www.strava.com/activities/20521829277",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "loop-de-loop-de-loop",
       "routeName": "Loop de loop de loop",

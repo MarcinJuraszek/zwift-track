@@ -5826,5 +5826,26 @@
       }
     ],
     "fetchedAt": "2026-07-29T03:37:35.818Z"
+  },
+  "20521829277": {
+    "id": 20521829277,
+    "name": "Zwift - London Flat in London",
+    "segment_efforts": [
+      {
+        "name": "London Flat",
+        "segment": {
+          "id": 38274994,
+          "name": "London Flat"
+        }
+      },
+      {
+        "name": "Whitehall Rd",
+        "segment": {
+          "id": 27191771,
+          "name": "Whitehall Rd"
+        }
+      }
+    ],
+    "fetchedAt": "2026-10-10T01:30:06.161Z"
   }
 }

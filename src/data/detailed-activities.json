@@ -5847,5 +5847,47 @@
       }
     ],
     "fetchedAt": "2026-10-10T01:30:06.161Z"
+  },
+  "20575987312": {
+    "id": 20575987312,
+    "name": "Zwift - Watts the Limit in New York",
+    "segment_efforts": [
+      {
+        "name": "Watts the Limit",
+        "segment": {
+          "id": 40337473,
+          "name": "Watts the Limit"
+        }
+      },
+      {
+        "name": "Manhattan Bridge",
+        "segment": {
+          "id": 16061419,
+          "name": "Manhattan Bridge"
+        }
+      },
+      {
+        "name": "Manhattan Sprint Reverse",
+        "segment": {
+          "id": 40342857,
+          "name": "Manhattan Sprint Reverse"
+        }
+      },
+      {
+        "name": "Manhattan Sprint",
+        "segment": {
+          "id": 40342842,
+          "name": "Manhattan Sprint"
+        }
+      },
+      {
+        "name": "NY Sprint",
+        "segment": {
+          "id": 38152497,
+          "name": "NY Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-10-14T01:25:57.514Z"
   }
 }

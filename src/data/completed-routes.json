@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-10-11T22:38:42.848Z",
-  "totalCompleted": 122,
+  "syncedAt": "2026-10-14T01:25:57.524Z",
+  "totalCompleted": 123,
   "totalRoutes": 288,
   "completedRoutes": [
+    {
+      "routeSlug": "watts-the-limit",
+      "routeName": "Watts the Limit",
+      "worldName": "New York",
+      "activityId": 20575987312,
+      "activityName": "Zwift - Watts the Limit in New York",
+      "date": "2026-10-13T17:13:13Z",
+      "distance": 29.81,
+      "movingTime": 3231,
+      "elapsedTime": 4337,
+      "elevationGain": 203,
+      "averageWatts": 169.7,
+      "stravaUrl": "https://www.strava.com/activities/20575987312",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "london-flat",
       "routeName": "London Flat",

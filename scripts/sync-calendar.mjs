@@ -1,5 +1,5 @@
 // Scrapes the Zwift Insider world calendar using Playwright.
-// Extracts current and next month schedules, outputs world-calendar.json.
+// Extracts current and next month schedules when published, outputs world-calendar.json.
 //
 // Usage: node scripts/sync-calendar.mjs
 
@@ -35,7 +35,7 @@ function parseWorldName(text) {
 
 async function scrapeMonth(page) {
   // Get the month/year header
-  const monthHeader = await page.locator("table td").nth(2).textContent();
+  const monthHeader = await page.locator(".calendar-month").textContent();
   const [monthName, year] = monthHeader.trim().split(" ");
   const monthDate = new Date(`${monthName} 1, ${year}`);
   const monthNum = String(monthDate.getMonth() + 1).padStart(2, "0");
@@ -44,12 +44,12 @@ async function scrapeMonth(page) {
   console.log(`Scraping ${monthName} ${yearNum}...`);
 
   // Get all calendar day cells (skip header rows)
-  const allCells = await page.locator("table").first().locator("td").allTextContents();
+  const allCells = await page.locator("table.calendar-table td").allTextContents();
 
   const schedule = {};
   for (const cell of allCells) {
     // Day cells start with a number, followed by world names
-    const match = cell.match(/^(\d{1,2})(.+)/s);
+    const match = cell.match(/^(\d{1,2})(\D.*)/s);
     if (!match) continue;
 
     const day = parseInt(match[1], 10);
@@ -83,30 +83,54 @@ async function scrapeMonth(page) {
     }
   }
 
+  const dayCount = Object.keys(schedule).length;
+  const expectedDays = new Date(yearNum, monthDate.getMonth() + 1, 0).getDate();
+  if (dayCount > 0 && dayCount !== expectedDays) {
+    throw new Error(`Incomplete calendar for ${monthName} ${yearNum}: ${dayCount}/${expectedDays} days`);
+  }
+  if (dayCount === 0) {
+    console.log(`  No guest worlds published for ${monthName} ${yearNum} yet.`);
+  }
+
   return schedule;
 }
 
 async function main() {
   const browser = await chromium.launch();
-  const page = await browser.newPage();
+  let schedule;
+  try {
+    const page = await browser.newPage();
 
-  await page.goto("https://zwiftinsider.com/schedule/", {
-    waitUntil: "networkidle",
-  });
+    await page.goto("https://zwiftinsider.com/schedule/", {
+      waitUntil: "domcontentloaded",
+    });
+    await page.locator(".calendar-month").waitFor();
 
-  // Scrape current month
-  const currentSchedule = await scrapeMonth(page);
+    // Scrape current month
+    const currentSchedule = await scrapeMonth(page);
 
-  // Navigate to next month
-  await page.locator("table td a").filter({ hasText: ">" }).click();
-  await page.waitForTimeout(1000);
+    // Navigate to next month
+    await Promise.all([
+      page.waitForURL(
+        (url) => url.searchParams.has("month"),
+        { waitUntil: "domcontentloaded" }
+      ),
+      page.locator(".calendar-next a").click(),
+    ]);
+    await page.locator(".calendar-month").waitFor();
 
-  // Scrape next month
-  const nextSchedule = await scrapeMonth(page);
+    // Scrape next month
+    const nextSchedule = await scrapeMonth(page);
 
-  await browser.close();
+    schedule = { ...currentSchedule, ...nextSchedule };
+  } finally {
+    await browser.close();
+  }
 
-  const schedule = { ...currentSchedule, ...nextSchedule };
+  const todayKey = new Date().toLocaleDateString("en-CA");
+  if (!schedule[todayKey]?.length) {
+    throw new Error(`Calendar is missing today's guest worlds (${todayKey})`);
+  }
   const sortedSchedule = Object.fromEntries(
     Object.entries(schedule).sort(([a], [b]) => a.localeCompare(b))
   );

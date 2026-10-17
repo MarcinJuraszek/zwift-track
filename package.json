@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "sync:routes": "node scripts/sync-routes.mjs",
+    "sync:calendar": "node scripts/sync-calendar.mjs",
     "sync:activities": "node scripts/sync-activities.mjs",
     "strava:auth": "node scripts/strava-auth.mjs",
     "dev": "astro dev",

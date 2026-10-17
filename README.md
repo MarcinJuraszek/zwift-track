@@ -21,6 +21,7 @@ npm install      # Install dependencies
 
 ```bash
 npm run sync:routes       # Pull latest route data from zwift-data package
+npm run sync:calendar     # Refresh guest world calendars (next month when published)
 npm run strava:auth       # One-time Strava OAuth setup
 npm run sync:activities   # Fetch recent Zwift rides from Strava
 npm run dev               # Start dev server

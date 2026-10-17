@@ -1,7 +1,7 @@
 {
-  "syncedAt": "2026-10-14T01:25:57.524Z",
+  "syncedAt": "2026-10-17T21:38:51.029Z",
   "totalCompleted": 123,
-  "totalRoutes": 288,
+  "totalRoutes": 293,
   "completedRoutes": [
     {
       "routeSlug": "watts-the-limit",
@@ -740,7 +740,7 @@
     },
     {
       "routeSlug": "london-classique",
-      "routeName": "London Classique",
+      "routeName": "Classique",
       "worldName": "London",
       "activityId": 11342698918,
       "activityName": "Zwift - Classique in London",
@@ -816,6 +816,21 @@
     {
       "routeSlug": "spiral-into-the-volcano",
       "routeName": "Spiral into the Volcano",
+      "worldName": "Watopia",
+      "activityId": 11228120148,
+      "activityName": "Zwift - Spiral into the Volcano in Watopia",
+      "date": "2024-04-20T18:05:25Z",
+      "distance": 61.337,
+      "movingTime": 7367,
+      "elapsedTime": 7572,
+      "elevationGain": 368,
+      "averageWatts": 151.1,
+      "stravaUrl": "https://www.strava.com/activities/11228120148",
+      "matchMethod": "segment"
+    },
+    {
+      "routeSlug": "volcano-flat-rev",
+      "routeName": "Volcano Flat Reverse",
       "worldName": "Watopia",
       "activityId": 11228120148,
       "activityName": "Zwift - Spiral into the Volcano in Watopia",
@@ -1311,21 +1326,6 @@
     {
       "routeSlug": "the-big-ring",
       "routeName": "The Big Ring",
-      "worldName": "Watopia",
-      "activityId": 10168530902,
-      "activityName": "Zwift - The Big Ring in Watopia",
-      "date": "2023-11-05T18:54:11Z",
-      "distance": 49.052,
-      "movingTime": 6223,
-      "elapsedTime": 6223,
-      "elevationGain": 269,
-      "averageWatts": 151.1,
-      "stravaUrl": "https://www.strava.com/activities/10168530902",
-      "matchMethod": "segment"
-    },
-    {
-      "routeSlug": "going-coastal",
-      "routeName": "Going Coastal",
       "worldName": "Watopia",
       "activityId": 10168530902,
       "activityName": "Zwift - The Big Ring in Watopia",

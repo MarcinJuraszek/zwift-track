@@ -5889,5 +5889,61 @@
       }
     ],
     "fetchedAt": "2026-10-14T01:25:57.514Z"
+  },
+  "20798230374": {
+    "id": 20798230374,
+    "name": "Zwift - Pacific Pursuit in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Lead-In from Downtown Watopia to Jarvis Lap Arch",
+        "segment": {
+          "id": 38146699,
+          "name": "Lead-In from Downtown Watopia to Jarvis Lap Arch"
+        }
+      },
+      {
+        "name": "Pacific Pursuit",
+        "segment": {
+          "id": 42422497,
+          "name": "Pacific Pursuit"
+        }
+      },
+      {
+        "name": "Sunset Sprint Reverse",
+        "segment": {
+          "id": 42385747,
+          "name": "Sunset Sprint Reverse"
+        }
+      },
+      {
+        "name": "Epic KOM Bypass - Eastbound ",
+        "segment": {
+          "id": 28778320,
+          "name": "Epic KOM Bypass - Eastbound "
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      },
+      {
+        "name": "Titans Grove, Northbound",
+        "segment": {
+          "id": 21563651,
+          "name": "Titans Grove, Northbound"
+        }
+      },
+      {
+        "name": "Titans Grove KOM",
+        "segment": {
+          "id": 21343975,
+          "name": "Titans Grove KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-10-31T02:32:10.988Z"
   }
 }

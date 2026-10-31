@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-26T00:18:13.218Z",
+  "syncedAt": "2026-10-31T02:32:11.001Z",
   "totalCompleted": 123,
   "totalRoutes": 293,
   "completedRoutes": [
@@ -1850,6 +1850,12 @@
     }
   ],
   "unmatchedActivities": [
+    {
+      "activityId": 20798230374,
+      "activityName": "Zwift - Pacific Pursuit in Watopia",
+      "date": "2026-10-30T17:12:43Z",
+      "distance": 53.156
+    },
     {
       "activityId": 19169384863,
       "activityName": "Afternoon Ride",

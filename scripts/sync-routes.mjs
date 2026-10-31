@@ -1,10 +1,13 @@
 import { routes, worlds } from "zwift-data";
-import { writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const outputPath = resolve(__dirname, "../src/data/routes.json");
+const supplementalRoutes = JSON.parse(
+  readFileSync(resolve(__dirname, "../src/data/supplemental-routes.json"), "utf-8")
+).routes;
 
 const worldMap = Object.fromEntries(worlds.map((w) => [w.slug, w]));
 
@@ -17,8 +20,12 @@ const nameOverrides = {
 };
 
 
-// Only include routes that support cycling
-const allRoutes = routes.filter((route) => route.sports.includes("cycling"));
+// Prefer upstream data once a supplemental route is included in the package.
+const upstreamSlugs = new Set(routes.map((route) => route.slug));
+const allRoutes = [
+  ...routes,
+  ...supplementalRoutes.filter((route) => !upstreamSlugs.has(route.slug)),
+].filter((route) => route.sports.includes("cycling"));
 
 const routeData = allRoutes
   .map((route) => {

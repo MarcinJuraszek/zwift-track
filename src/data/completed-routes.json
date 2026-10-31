@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-10-31T02:32:11.001Z",
-  "totalCompleted": 123,
-  "totalRoutes": 293,
+  "syncedAt": "2026-10-31T03:18:43.274Z",
+  "totalCompleted": 124,
+  "totalRoutes": 302,
   "completedRoutes": [
+    {
+      "routeSlug": "pacific-pursuit",
+      "routeName": "Pacific Pursuit",
+      "worldName": "Watopia",
+      "activityId": 20798230374,
+      "activityName": "Zwift - Pacific Pursuit in Watopia",
+      "date": "2026-10-30T17:12:43Z",
+      "distance": 53.156,
+      "movingTime": 6396,
+      "elapsedTime": 8332,
+      "elevationGain": 382,
+      "averageWatts": 151.6,
+      "stravaUrl": "https://www.strava.com/activities/20798230374",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "watts-the-limit",
       "routeName": "Watts the Limit",
@@ -1850,12 +1865,6 @@
     }
   ],
   "unmatchedActivities": [
-    {
-      "activityId": 20798230374,
-      "activityName": "Zwift - Pacific Pursuit in Watopia",
-      "date": "2026-10-30T17:12:43Z",
-      "distance": 53.156
-    },
     {
       "activityId": 19169384863,
       "activityName": "Afternoon Ride",

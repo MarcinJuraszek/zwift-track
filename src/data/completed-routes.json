@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-10-31T03:18:43.274Z",
-  "totalCompleted": 124,
+  "syncedAt": "2026-10-31T20:11:38.522Z",
+  "totalCompleted": 125,
   "totalRoutes": 302,
   "completedRoutes": [
+    {
+      "routeSlug": "california-roll",
+      "routeName": "California Roll",
+      "worldName": "Watopia",
+      "activityId": 20808909617,
+      "activityName": "Zwift - California Roll in Watopia",
+      "date": "2026-10-31T11:59:25Z",
+      "distance": 33.841,
+      "movingTime": 3635,
+      "elapsedTime": 4292,
+      "elevationGain": 127,
+      "averageWatts": 172.3,
+      "stravaUrl": "https://www.strava.com/activities/20808909617",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "pacific-pursuit",
       "routeName": "Pacific Pursuit",

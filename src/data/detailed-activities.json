@@ -5945,5 +5945,33 @@
       }
     ],
     "fetchedAt": "2026-10-31T02:32:10.988Z"
+  },
+  "20808909617": {
+    "id": 20808909617,
+    "name": "Zwift - California Roll in Watopia",
+    "segment_efforts": [
+      {
+        "name": "California Roll",
+        "segment": {
+          "id": 42422101,
+          "name": "California Roll"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      },
+      {
+        "name": "The Esses",
+        "segment": {
+          "id": 28383456,
+          "name": "The Esses"
+        }
+      }
+    ],
+    "fetchedAt": "2026-10-31T20:11:38.513Z"
   }
 }

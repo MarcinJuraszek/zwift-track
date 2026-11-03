@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-01T20:14:06.809Z",
-  "totalRoutes": 302,
+  "generatedAt": "2026-11-03T02:14:34.711Z",
+  "totalRoutes": 305,
   "worlds": [
     {
       "slug": "watopia",
       "name": "Watopia",
-      "routeCount": 119
+      "routeCount": 122
     },
     {
       "slug": "richmond",
@@ -4097,6 +4097,27 @@
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/coastal-crown-loop"
     },
     {
+      "id": null,
+      "name": "Crit Cross",
+      "slug": "crit-cross",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 13.4,
+      "elevation": 33,
+      "gradient": 0.2,
+      "experience": 270,
+      "leadInDistance": 1.9,
+      "leadInElevation": 0,
+      "leadInDistanceEvent": 1.9,
+      "leadInElevationEvent": 0,
+      "eventOnly": false,
+      "lap": true,
+      "levelLocked": null,
+      "stravaSegmentId": 42381269,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42381269",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/crit-cross/"
+    },
+    {
       "id": 2888820995,
       "name": "Danger Noodle",
       "slug": "danger-noodle",
@@ -4769,6 +4790,27 @@
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mayan-san-remo"
     },
     {
+      "id": null,
+      "name": "Molten Momentum",
+      "slug": "molten-momentum",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 20.6,
+      "elevation": 202,
+      "gradient": 1,
+      "experience": 415,
+      "leadInDistance": 2.1,
+      "leadInElevation": 4,
+      "leadInDistanceEvent": 2.1,
+      "leadInElevationEvent": 4,
+      "eventOnly": false,
+      "lap": true,
+      "levelLocked": null,
+      "stravaSegmentId": 42375992,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42375992",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/molten-momentum/"
+    },
+    {
       "id": 2953010285,
       "name": "Mountain Mash",
       "slug": "mountain-mash",
@@ -4893,6 +4935,27 @@
       "stravaSegmentId": 37011743,
       "stravaSegmentUrl": "https://www.strava.com/segments/37011743",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/oh-hill-no"
+    },
+    {
+      "id": null,
+      "name": "One Ride to Rule Them All",
+      "slug": "one-ride-to-rule-them-all",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 38.5,
+      "elevation": 427,
+      "gradient": 1.1,
+      "experience": 770,
+      "leadInDistance": 1.8,
+      "leadInElevation": 0,
+      "leadInDistanceEvent": 1.8,
+      "leadInElevationEvent": 0,
+      "eventOnly": false,
+      "lap": false,
+      "levelLocked": null,
+      "stravaSegmentId": 42380499,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42380499",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/one-ride-to-rule-them-all/"
     },
     {
       "id": 2748657713,

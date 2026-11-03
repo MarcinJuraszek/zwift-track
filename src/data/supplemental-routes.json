@@ -1,6 +1,6 @@
 {
   "source": "https://forums.zwift.com/t/the-wild-isles-watopia-expansion-october-2026/672438",
-  "notes": "Cycling routes released October 26, 2026, not yet in zwift-data. Specifications and route segment IDs from each linked Zwift Insider route page. Upstream entries take precedence by slug.",
+  "notes": "Cycling routes released October 26 and November 2, 2026, not yet in zwift-data. Specifications and route segment IDs from each linked Zwift Insider route page; Crit Cross lead-in distance from https://zwiftbikes.com/routes/crit-cross. Upstream entries take precedence by slug.",
   "routes": [
     {
       "id": null,
@@ -139,6 +139,58 @@
       "stravaSegmentId": 42380444,
       "stravaSegmentUrl": "https://www.strava.com/segments/42380444",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/the-watopia-150/"
+    },
+    {
+      "id": null,
+      "name": "Crit Cross",
+      "slug": "crit-cross",
+      "world": "watopia",
+      "sports": ["cycling"],
+      "distance": 13.4,
+      "elevation": 33,
+      "experience": 270,
+      "leadInDistance": 1.9,
+      "eventOnly": false,
+      "lap": true,
+      "levelLocked": null,
+      "stravaSegmentId": 42381269,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42381269",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/crit-cross/"
+    },
+    {
+      "id": null,
+      "name": "Molten Momentum",
+      "slug": "molten-momentum",
+      "world": "watopia",
+      "sports": ["cycling"],
+      "distance": 20.6,
+      "elevation": 202,
+      "experience": 415,
+      "leadInDistance": 2.1,
+      "leadInElevation": 4,
+      "eventOnly": false,
+      "lap": true,
+      "levelLocked": null,
+      "stravaSegmentId": 42375992,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42375992",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/molten-momentum/"
+    },
+    {
+      "id": null,
+      "name": "One Ride to Rule Them All",
+      "slug": "one-ride-to-rule-them-all",
+      "world": "watopia",
+      "sports": ["cycling"],
+      "distance": 38.5,
+      "elevation": 427,
+      "experience": 770,
+      "leadInDistance": 1.8,
+      "eventOnly": false,
+      "lap": false,
+      "levelLocked": null,
+      "stravaSegmentId": 42380499,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42380499",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/one-ride-to-rule-them-all/"
     },
     {
       "id": null,

@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-07T04:58:57.982Z",
-  "totalCompleted": 128,
+  "syncedAt": "2026-11-07T05:27:17.955Z",
+  "totalCompleted": 129,
   "totalRoutes": 305,
   "completedRoutes": [
+    {
+      "routeSlug": "crit-cross",
+      "routeName": "Crit Cross",
+      "worldName": "Watopia",
+      "activityId": 20890246145,
+      "activityName": "Zwift - Group Ride: Short - Stage 5 - Tour of Watopia 2026",
+      "date": "2026-11-06T21:00:28Z",
+      "distance": 16.153,
+      "movingTime": 1588,
+      "elapsedTime": 1588,
+      "elevationGain": 45,
+      "averageWatts": 201.1,
+      "stravaUrl": "https://www.strava.com/activities/20890246145",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "seaside-sprint",
       "routeName": "Seaside Sprint",

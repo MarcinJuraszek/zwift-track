@@ -6029,5 +6029,19 @@
       }
     ],
     "fetchedAt": "2026-11-07T04:58:57.970Z"
+  },
+  "20890246145": {
+    "id": 20890246145,
+    "name": "Zwift - Group Ride: Short - Stage 5 - Tour of Watopia 2026",
+    "segment_efforts": [
+      {
+        "name": "Crit Cross",
+        "segment": {
+          "id": 42381269,
+          "name": "Crit Cross"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-07T05:27:17.941Z"
   }
 }

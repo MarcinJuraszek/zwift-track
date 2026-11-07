@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-07T04:43:04.045Z",
-  "totalCompleted": 127,
+  "syncedAt": "2026-11-07T04:58:57.982Z",
+  "totalCompleted": 128,
   "totalRoutes": 305,
   "completedRoutes": [
+    {
+      "routeSlug": "seaside-sprint",
+      "routeName": "Seaside Sprint",
+      "worldName": "Watopia",
+      "activityId": 20890152363,
+      "activityName": "Zwift - Seaside Sprint in Watopia",
+      "date": "2026-11-06T20:46:04Z",
+      "distance": 6.486,
+      "movingTime": 750,
+      "elapsedTime": 750,
+      "elevationGain": 47,
+      "averageWatts": 161.7,
+      "stravaUrl": "https://www.strava.com/activities/20890152363",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "caldera-coaster",
       "routeName": "Caldera Coaster",

@@ -6001,5 +6001,33 @@
       }
     ],
     "fetchedAt": "2026-11-07T04:43:04.039Z"
+  },
+  "20890152363": {
+    "id": 20890152363,
+    "name": "Zwift - Seaside Sprint in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Seaside Sprint",
+        "segment": {
+          "id": 22913457,
+          "name": "Seaside Sprint"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "JWB Sprint Reverse",
+        "segment": {
+          "id": 42371196,
+          "name": "JWB Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-07T04:58:57.970Z"
   }
 }

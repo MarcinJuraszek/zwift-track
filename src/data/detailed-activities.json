@@ -5973,5 +5973,19 @@
       }
     ],
     "fetchedAt": "2026-10-31T20:11:38.513Z"
+  },
+  "20890062757": {
+    "id": 20890062757,
+    "name": "Zwift - Seafoam Circuit in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Seafoam Circuit",
+        "segment": {
+          "id": 42380450,
+          "name": "Seafoam Circuit"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-07T04:31:43.182Z"
   }
 }

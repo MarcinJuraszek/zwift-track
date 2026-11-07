@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-04T19:10:52.087Z",
-  "totalCompleted": 125,
+  "syncedAt": "2026-11-07T04:31:43.192Z",
+  "totalCompleted": 126,
   "totalRoutes": 305,
   "completedRoutes": [
+    {
+      "routeSlug": "seafoam-circuit",
+      "routeName": "Seafoam Circuit",
+      "worldName": "Watopia",
+      "activityId": 20890062757,
+      "activityName": "Zwift - Seafoam Circuit in Watopia",
+      "date": "2026-11-06T20:24:08Z",
+      "distance": 3.612,
+      "movingTime": 432,
+      "elapsedTime": 432,
+      "elevationGain": 19,
+      "averageWatts": 147.6,
+      "stravaUrl": "https://www.strava.com/activities/20890062757",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "california-roll",
       "routeName": "California Roll",

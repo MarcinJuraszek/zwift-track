@@ -5987,5 +5987,19 @@
       }
     ],
     "fetchedAt": "2026-11-07T04:31:43.182Z"
+  },
+  "20890100542": {
+    "id": 20890100542,
+    "name": "Zwift - Caldera Coaster in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Caldera Coaster",
+        "segment": {
+          "id": 42374295,
+          "name": "Caldera Coaster"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-07T04:43:04.039Z"
   }
 }

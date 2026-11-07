@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-07T04:31:43.192Z",
-  "totalCompleted": 126,
+  "syncedAt": "2026-11-07T04:43:04.045Z",
+  "totalCompleted": 127,
   "totalRoutes": 305,
   "completedRoutes": [
+    {
+      "routeSlug": "caldera-coaster",
+      "routeName": "Caldera Coaster",
+      "worldName": "Watopia",
+      "activityId": 20890100542,
+      "activityName": "Zwift - Caldera Coaster in Watopia",
+      "date": "2026-11-06T20:34:22Z",
+      "distance": 4.154,
+      "movingTime": 501,
+      "elapsedTime": 501,
+      "elevationGain": 12,
+      "averageWatts": 141.1,
+      "stravaUrl": "https://www.strava.com/activities/20890100542",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "seafoam-circuit",
       "routeName": "Seafoam Circuit",

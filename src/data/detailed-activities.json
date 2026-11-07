@@ -6043,5 +6043,103 @@
       }
     ],
     "fetchedAt": "2026-11-07T05:27:17.941Z"
+  },
+  "20900977143": {
+    "id": 20900977143,
+    "name": "Zwift - The Watopia 150! in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "4 Lightning Laps Reverse",
+        "segment": {
+          "id": 42485384,
+          "name": "4 Lightning Laps Reverse"
+        }
+      },
+      {
+        "name": "6 Lightning Laps Reverse",
+        "segment": {
+          "id": 42485842,
+          "name": "6 Lightning Laps Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "4 Lightning Laps Reverse",
+        "segment": {
+          "id": 42485384,
+          "name": "4 Lightning Laps Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-07T22:51:45.703Z"
   }
 }

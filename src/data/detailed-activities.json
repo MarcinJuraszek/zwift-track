@@ -6141,5 +6141,75 @@
       }
     ],
     "fetchedAt": "2026-11-07T22:51:45.703Z"
+  },
+  "20928921975": {
+    "id": 20928921975,
+    "name": "Zwift - Group Ride: Standard - Stage 3 - Tour of Watopia 2026",
+    "segment_efforts": [
+      {
+        "name": "Acropolis Sprint Reverse",
+        "segment": {
+          "id": 38152312,
+          "name": "Acropolis Sprint Reverse"
+        }
+      },
+      {
+        "name": "Stoneway Sprint Reverse",
+        "segment": {
+          "id": 38152293,
+          "name": "Stoneway Sprint Reverse"
+        }
+      },
+      {
+        "name": "Mayan Mountainside KOM",
+        "segment": {
+          "id": 37049451,
+          "name": "Mayan Mountainside KOM"
+        }
+      },
+      {
+        "name": "Mayan + Itza KOMs",
+        "segment": {
+          "id": 38208710,
+          "name": "Mayan + Itza KOMs"
+        }
+      },
+      {
+        "name": "Coastal Crown Loop",
+        "segment": {
+          "id": 37039562,
+          "name": "Coastal Crown Loop"
+        }
+      },
+      {
+        "name": "Itza KOM",
+        "segment": {
+          "id": 37039571,
+          "name": "Itza KOM"
+        }
+      },
+      {
+        "name": "Acropolis Sprint Reverse",
+        "segment": {
+          "id": 38152312,
+          "name": "Acropolis Sprint Reverse"
+        }
+      },
+      {
+        "name": "Stoneway Sprint Reverse",
+        "segment": {
+          "id": 38152293,
+          "name": "Stoneway Sprint Reverse"
+        }
+      },
+      {
+        "name": "Mayan Mountainside KOM",
+        "segment": {
+          "id": 37049451,
+          "name": "Mayan Mountainside KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-10T05:49:44.046Z"
   }
 }

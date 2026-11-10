@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-07T22:51:45.714Z",
-  "totalCompleted": 129,
+  "syncedAt": "2026-11-10T05:49:44.054Z",
+  "totalCompleted": 130,
   "totalRoutes": 305,
   "completedRoutes": [
+    {
+      "routeSlug": "coastal-crown-loop",
+      "routeName": "Coastal Crown Loop",
+      "worldName": "Watopia",
+      "activityId": 20928921975,
+      "activityName": "Zwift - Group Ride: Standard - Stage 3 - Tour of Watopia 2026",
+      "date": "2026-11-09T21:00:35Z",
+      "distance": 22.854,
+      "movingTime": 2732,
+      "elapsedTime": 2924,
+      "elevationGain": 265,
+      "averageWatts": 178.6,
+      "stravaUrl": "https://www.strava.com/activities/20928921975",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "crit-cross",
       "routeName": "Crit Cross",

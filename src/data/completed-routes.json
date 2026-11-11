@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-10T05:49:44.054Z",
-  "totalCompleted": 130,
-  "totalRoutes": 305,
+  "syncedAt": "2026-11-11T04:45:45.883Z",
+  "totalCompleted": 131,
+  "totalRoutes": 310,
   "completedRoutes": [
+    {
+      "routeSlug": "loopipelago",
+      "routeName": "Loopipelago",
+      "worldName": "Watopia",
+      "activityId": 20942059748,
+      "activityName": "Zwift - Race: Stage 1 - ZRacing - Watopia Islands - Loopipelago (C)",
+      "date": "2026-11-10T20:12:43Z",
+      "distance": 20.996,
+      "movingTime": 1958,
+      "elapsedTime": 1958,
+      "elevationGain": 42,
+      "averageWatts": 201.2,
+      "stravaUrl": "https://www.strava.com/activities/20942059748",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "coastal-crown-loop",
       "routeName": "Coastal Crown Loop",

@@ -6211,5 +6211,26 @@
       }
     ],
     "fetchedAt": "2026-11-10T05:49:44.046Z"
+  },
+  "20942059748": {
+    "id": 20942059748,
+    "name": "Zwift - Race: Stage 1 - ZRacing - Watopia Islands - Loopipelago (C)",
+    "segment_efforts": [
+      {
+        "name": "Loopipelago",
+        "segment": {
+          "id": 42482499,
+          "name": "Loopipelago"
+        }
+      },
+      {
+        "name": "Lightning Lap",
+        "segment": {
+          "id": 42385728,
+          "name": "Lightning Lap"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-11T04:45:45.873Z"
   }
 }

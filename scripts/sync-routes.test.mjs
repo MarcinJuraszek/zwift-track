@@ -61,13 +61,17 @@ test("adds supplemental cycling routes with segment IDs without changing existin
     { ...existingRoute, slug: "running-only", sports: ["running"] },
   ]);
 
-  assert.equal(output.totalRoutes, 13);
-  assert.equal(output.worlds[0].routeCount, 13);
+  const expectedTotal = supplemental.length + 1;
+  assert.equal(output.totalRoutes, expectedTotal);
+  assert.equal(
+    output.worlds[0].routeCount,
+    supplemental.filter((route) => route.world === "watopia").length + 1
+  );
   assert.deepEqual(
     output.routes.find((route) => route.slug === existingRoute.slug),
     baseline.routes[0]
   );
-  assert.equal(new Set(output.routes.map((route) => route.slug)).size, 13);
+  assert.equal(new Set(output.routes.map((route) => route.slug)).size, expectedTotal);
   const pacific = output.routes.find((route) => route.slug === "pacific-pursuit");
   assert.equal(pacific.stravaSegmentId, 42422497);
   assert.equal(pacific.worldName, "Watopia");

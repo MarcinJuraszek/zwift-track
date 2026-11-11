@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-10T05:49:43.571Z",
-  "totalRoutes": 305,
+  "generatedAt": "2026-11-11T01:54:02.391Z",
+  "totalRoutes": 310,
   "worlds": [
     {
       "slug": "watopia",
       "name": "Watopia",
-      "routeCount": 122
+      "routeCount": 126
     },
     {
       "slug": "richmond",
@@ -55,7 +55,7 @@
     {
       "slug": "paris",
       "name": "Paris",
-      "routeCount": 10
+      "routeCount": 11
     },
     {
       "slug": "scotland",
@@ -3278,6 +3278,27 @@
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/paris-toujours"
     },
     {
+      "id": null,
+      "name": "Sacré Trois!",
+      "slug": "sacre-trois",
+      "world": "paris",
+      "worldName": "Paris",
+      "distance": 24.1,
+      "elevation": 217,
+      "gradient": 0.9,
+      "experience": 485,
+      "leadInDistance": 3.1,
+      "leadInElevation": 10,
+      "leadInDistanceEvent": 3.1,
+      "leadInElevationEvent": 10,
+      "eventOnly": true,
+      "lap": true,
+      "levelLocked": null,
+      "stravaSegmentId": null,
+      "stravaSegmentUrl": null,
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/sacre-trois/"
+    },
+    {
       "id": 1545087483,
       "name": "Cobbled Climbs",
       "slug": "cobbled-climbs",
@@ -3780,6 +3801,27 @@
       "stravaSegmentId": 26741693,
       "stravaSegmentUrl": "https://www.strava.com/segments/26741693",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/beach-island-loop"
+    },
+    {
+      "id": null,
+      "name": "Better Lap Than Never",
+      "slug": "better-lap-than-never",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 15.1,
+      "elevation": 185,
+      "gradient": 1.2,
+      "experience": 300,
+      "leadInDistance": 35.3,
+      "leadInElevation": 316,
+      "leadInDistanceEvent": 35.3,
+      "leadInElevationEvent": 316,
+      "eventOnly": true,
+      "lap": true,
+      "levelLocked": null,
+      "stravaSegmentId": 42494102,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42494102",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/better-lap-than-never/"
     },
     {
       "id": 1917017591,
@@ -4517,6 +4559,27 @@
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/hot-laps"
     },
     {
+      "id": null,
+      "name": "Island Interlude",
+      "slug": "island-interlude",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 49.2,
+      "elevation": 254,
+      "gradient": 0.5,
+      "experience": 985,
+      "leadInDistance": 0.9,
+      "leadInElevation": 3,
+      "leadInDistanceEvent": 0.9,
+      "leadInElevationEvent": 3,
+      "eventOnly": true,
+      "lap": true,
+      "levelLocked": null,
+      "stravaSegmentId": 42486420,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42486420",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/island-interlude/"
+    },
+    {
       "id": 2333249368,
       "name": "Itza Climb Finish",
       "slug": "itza-climb-finish",
@@ -4727,6 +4790,27 @@
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/loopin-lava"
     },
     {
+      "id": null,
+      "name": "Loopipelago",
+      "slug": "loopipelago",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 18.5,
+      "elevation": 35,
+      "gradient": 0.2,
+      "experience": 370,
+      "leadInDistance": 2.1,
+      "leadInElevation": 4,
+      "leadInDistanceEvent": 2.1,
+      "leadInElevationEvent": 4,
+      "eventOnly": true,
+      "lap": true,
+      "levelLocked": null,
+      "stravaSegmentId": 42482499,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42482499",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/loopipelago/"
+    },
+    {
       "id": 4084028627,
       "name": "Mayan 8",
       "slug": "mayan-8",
@@ -4788,6 +4872,27 @@
       "stravaSegmentId": 37098607,
       "stravaSegmentUrl": "https://www.strava.com/segments/37098607",
       "zwiftInsiderUrl": "https://zwiftinsider.com/route/mayan-san-remo"
+    },
+    {
+      "id": null,
+      "name": "Miles of Isles",
+      "slug": "miles-of-isles",
+      "world": "watopia",
+      "worldName": "Watopia",
+      "distance": 27.2,
+      "elevation": 161,
+      "gradient": 0.6,
+      "experience": 545,
+      "leadInDistance": 1.8,
+      "leadInElevation": 0,
+      "leadInDistanceEvent": 1.8,
+      "leadInElevationEvent": 0,
+      "eventOnly": true,
+      "lap": true,
+      "levelLocked": null,
+      "stravaSegmentId": 42486463,
+      "stravaSegmentUrl": "https://www.strava.com/segments/42486463",
+      "zwiftInsiderUrl": "https://zwiftinsider.com/route/miles-of-isles/"
     },
     {
       "id": null,

@@ -6232,5 +6232,26 @@
       }
     ],
     "fetchedAt": "2026-11-11T04:45:45.873Z"
+  },
+  "20955314883": {
+    "id": 20955314883,
+    "name": "Zwift - Group Ride: Short - Stage 4 - Tour of Watopia 2026",
+    "segment_efforts": [
+      {
+        "name": "California Dreamin'",
+        "segment": {
+          "id": 42374395,
+          "name": "California Dreamin'"
+        }
+      },
+      {
+        "name": "Hilly KOM",
+        "segment": {
+          "id": 12109030,
+          "name": "Hilly KOM"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-12T03:43:18.891Z"
   }
 }

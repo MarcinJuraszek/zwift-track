@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-11T04:45:45.883Z",
-  "totalCompleted": 131,
+  "syncedAt": "2026-11-12T03:43:18.903Z",
+  "totalCompleted": 132,
   "totalRoutes": 310,
   "completedRoutes": [
+    {
+      "routeSlug": "california-dreamin",
+      "routeName": "California Dreamin'",
+      "worldName": "Watopia",
+      "activityId": 20955314883,
+      "activityName": "Zwift - Group Ride: Short - Stage 4 - Tour of Watopia 2026",
+      "date": "2026-11-11T19:01:07Z",
+      "distance": 21.181,
+      "movingTime": 2509,
+      "elapsedTime": 2509,
+      "elevationGain": 108,
+      "averageWatts": 145.5,
+      "stravaUrl": "https://www.strava.com/activities/20955314883",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "loopipelago",
       "routeName": "Loopipelago",

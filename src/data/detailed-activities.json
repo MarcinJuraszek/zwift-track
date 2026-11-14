@@ -6253,5 +6253,33 @@
       }
     ],
     "fetchedAt": "2026-11-12T03:43:18.891Z"
+  },
+  "20978767838": {
+    "id": 20978767838,
+    "name": "Zwift - Group Ride: Short - Stage 1 - Tour of Watopia 2026",
+    "segment_efforts": [
+      {
+        "name": "Beach Island Loop",
+        "segment": {
+          "id": 26741693,
+          "name": "Beach Island Loop"
+        }
+      },
+      {
+        "name": "Dirty Sorpresa Climb",
+        "segment": {
+          "id": 27992422,
+          "name": "Dirty Sorpresa Climb"
+        }
+      },
+      {
+        "name": "Sprint Forward",
+        "segment": {
+          "id": 12109305,
+          "name": "Sprint Forward"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-14T02:24:42.343Z"
   }
 }

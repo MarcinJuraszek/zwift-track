@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-15T17:57:19.102Z",
-  "totalCompleted": 131,
+  "syncedAt": "2026-11-15T20:00:36.267Z",
+  "totalCompleted": 132,
   "totalRoutes": 278,
   "completedRoutes": [
+    {
+      "routeSlug": "one-ride-to-rule-them-all",
+      "routeName": "One Ride to Rule Them All",
+      "worldName": "Watopia",
+      "activityId": 21001943270,
+      "activityName": "Zwift - One Ride to Rule Them All in Watopia",
+      "date": "2026-11-15T10:30:50Z",
+      "distance": 40.554,
+      "movingTime": 4902,
+      "elapsedTime": 5363,
+      "elevationGain": 456,
+      "averageWatts": 151.6,
+      "stravaUrl": "https://www.strava.com/activities/21001943270",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "california-dreamin",
       "routeName": "California Dreamin'",

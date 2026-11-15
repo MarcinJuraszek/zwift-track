@@ -6400,5 +6400,68 @@
       }
     ],
     "fetchedAt": "2026-11-15T07:38:13.129Z"
+  },
+  "21001943270": {
+    "id": 21001943270,
+    "name": "Zwift - One Ride to Rule Them All in Watopia",
+    "segment_efforts": [
+      {
+        "name": "One Ride To Rule Them All",
+        "segment": {
+          "id": 42380499,
+          "name": "One Ride To Rule Them All"
+        }
+      },
+      {
+        "name": "The Esses Reverse",
+        "segment": {
+          "id": 28383452,
+          "name": "The Esses Reverse"
+        }
+      },
+      {
+        "name": "JWB Sprint Reverse",
+        "segment": {
+          "id": 42371196,
+          "name": "JWB Sprint Reverse"
+        }
+      },
+      {
+        "name": "Hilly KOM Reverse",
+        "segment": {
+          "id": 12128029,
+          "name": "Hilly KOM Reverse"
+        }
+      },
+      {
+        "name": "Titans Grove, Southbound",
+        "segment": {
+          "id": 21563640,
+          "name": "Titans Grove, Southbound"
+        }
+      },
+      {
+        "name": "Titans Grove Reverse KOM",
+        "segment": {
+          "id": 21343961,
+          "name": "Titans Grove Reverse KOM"
+        }
+      },
+      {
+        "name": "Volcano KOM",
+        "segment": {
+          "id": 14270131,
+          "name": "Volcano KOM"
+        }
+      },
+      {
+        "name": "Volcano Descent",
+        "segment": {
+          "id": 19970445,
+          "name": "Volcano Descent"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-15T20:00:36.257Z"
   }
 }

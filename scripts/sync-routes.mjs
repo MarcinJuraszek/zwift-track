@@ -19,13 +19,22 @@ const nameOverrides = {
   "mountain-route": "Mountain Route",
 };
 
+// Portal approaches have XP metadata but award climbing milestones, not route badges.
+const routesWithoutBadges = new Set([
+  "climb-portal-volcano",
+  "climb-portal-mont-saint-michel",
+]);
 
 // Prefer upstream data once a supplemental route is included in the package.
 const upstreamSlugs = new Set(routes.map((route) => route.slug));
 const allRoutes = [
   ...routes,
   ...supplementalRoutes.filter((route) => !upstreamSlugs.has(route.slug)),
-].filter((route) => route.sports.includes("cycling"));
+].filter((route) =>
+  route.sports.includes("cycling") &&
+  route.experience > 0 &&
+  !routesWithoutBadges.has(route.slug)
+);
 
 const routeData = allRoutes
   .map((route) => {

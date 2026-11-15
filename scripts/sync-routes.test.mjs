@@ -49,6 +49,7 @@ const existingRoute = {
   sports: ["cycling"],
   distance: 10,
   elevation: 100,
+  experience: 200,
 };
 
 test("adds supplemental cycling routes with segment IDs without changing existing routes", (t) => {
@@ -96,4 +97,29 @@ test("uses upstream specifications when a supplemental route is published upstre
   assert.equal(output.routes[0].id, upstream.id);
   assert.equal(output.routes[0].distance, upstream.distance);
   assert.equal(output.routes[0].stravaSegmentId, upstream.stravaSegmentId);
+});
+
+test("keeps event-only badges but excludes routes without cycling route badges", (t) => {
+  const eventBadge = { ...existingRoute, slug: "event-badge", eventOnly: true };
+  const output = syncFixture(t, [
+    existingRoute,
+    { ...existingRoute, slug: "no-badge", experience: 0 },
+    { ...existingRoute, slug: "missing-badge", experience: undefined },
+    { ...existingRoute, slug: "running-badge", sports: ["running"] },
+    { ...existingRoute, slug: "climb-portal-volcano" },
+    { ...existingRoute, slug: "climb-portal-mont-saint-michel" },
+    { ...existingRoute, slug: "upstream-without-badge", experience: 0 },
+  ], [
+    eventBadge,
+    { ...existingRoute, slug: "supplemental-without-badge", experience: 0 },
+    { ...existingRoute, slug: "upstream-without-badge" },
+  ]);
+
+  assert.deepEqual(
+    output.routes.map((route) => route.slug).sort(),
+    ["event-badge", "existing-route"]
+  );
+  assert.equal(output.totalRoutes, 2);
+  assert.equal(output.worlds[0].routeCount, 2);
+  assert.equal(output.routes.find((route) => route.slug === eventBadge.slug).eventOnly, true);
 });

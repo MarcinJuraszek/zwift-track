@@ -1,7 +1,7 @@
 {
-  "syncedAt": "2026-11-15T07:38:13.136Z",
-  "totalCompleted": 132,
-  "totalRoutes": 310,
+  "syncedAt": "2026-11-15T17:57:19.102Z",
+  "totalCompleted": 131,
+  "totalRoutes": 278,
   "completedRoutes": [
     {
       "routeSlug": "california-dreamin",
@@ -951,21 +951,6 @@
     {
       "routeSlug": "spiral-into-the-volcano",
       "routeName": "Spiral into the Volcano",
-      "worldName": "Watopia",
-      "activityId": 11228120148,
-      "activityName": "Zwift - Spiral into the Volcano in Watopia",
-      "date": "2024-04-20T18:05:25Z",
-      "distance": 61.337,
-      "movingTime": 7367,
-      "elapsedTime": 7572,
-      "elevationGain": 368,
-      "averageWatts": 151.1,
-      "stravaUrl": "https://www.strava.com/activities/11228120148",
-      "matchMethod": "segment"
-    },
-    {
-      "routeSlug": "volcano-flat-rev",
-      "routeName": "Volcano Flat Reverse",
       "worldName": "Watopia",
       "activityId": 11228120148,
       "activityName": "Zwift - Spiral into the Volcano in Watopia",
@@ -2014,6 +1999,12 @@
       "activityName": "Phil's Cookie Fundough",
       "date": "2021-09-18T19:02:38Z",
       "distance": 23.227
+    },
+    {
+      "activityId": 5972905493,
+      "activityName": "Cycle Nation Joburg Coffee Ride",
+      "date": "2021-09-16T21:00:02Z",
+      "distance": 28.352
     },
     {
       "activityId": 5962466924,

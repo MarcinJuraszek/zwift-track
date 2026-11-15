@@ -1,6 +1,6 @@
 # Zwift Route Tracker
 
-Track your Zwift route completion progress. View all available cycling routes and see which ones you've completed via Strava integration.
+Track your Zwift route badge progress. View cycling routes that award achievement badges, including unearned event-only badges, and see which ones you've completed via Strava integration.
 
 ## Setup
 
@@ -31,7 +31,7 @@ npm run preview           # Preview built site
 
 ## Architecture
 
-- **Route data**: Pulled from the [`zwift-data`](https://github.com/andipaetzold/zwift-data) npm package via a local sync script, stored as JSON in `src/data/routes.json`
+- **Route data**: Pulled from the [`zwift-data`](https://github.com/andipaetzold/zwift-data) npm package via a local sync script, stored as JSON in `src/data/routes.json`. Only cycling routes with completion XP are included; the two Climb Portal approach routes are excluded because they don't award route badges. Event-only badge routes remain included, so the total can exceed Zwift's displayed achievement total.
 - **Activity data**: Fetched from the Strava API (VirtualRide activities only), matched to routes by name, stored in `src/data/completed-routes.json`
 - **Site**: Built with [Astro](https://astro.build/) as a fully static site
 - **Hosting**: GitHub Pages

@@ -5,7 +5,7 @@ import completionData from "../data/completed-routes.json";
 import calendarData from "../data/world-calendar.json";
 
 const { worlds, routes, totalRoutes } = routeData;
-const { completedRoutes, totalCompleted } = completionData;
+const { completedRoutes } = completionData;
 const schedule = calendarData.schedule as Record<string, string[]>;
 
 // Build a map of completed routes by slug
@@ -13,6 +13,7 @@ const completedMap = new Map<string, any>();
 for (const c of completedRoutes) {
   completedMap.set(c.routeSlug, c);
 }
+const totalCompleted = routes.filter((route) => completedMap.has(route.slug)).length;
 
 // Pass full schedule to client-side JS for dynamic "today" computation
 const calendarSchedule = schedule;

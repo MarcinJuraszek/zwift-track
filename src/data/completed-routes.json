@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-15T03:33:37.798Z",
+  "syncedAt": "2026-11-15T07:38:13.136Z",
   "totalCompleted": 132,
   "totalRoutes": 310,
   "completedRoutes": [
@@ -1985,6 +1985,12 @@
     }
   ],
   "unmatchedActivities": [
+    {
+      "activityId": 20992860933,
+      "activityName": "Zwift - Group Ride: The Long Spin #1 | Watopia 150+ | 200 km TT Endurance with Draft (2.2-2.4 W/kg)",
+      "date": "2026-11-14T22:15:33Z",
+      "distance": 46.955
+    },
     {
       "activityId": 19169384863,
       "activityName": "Afternoon Ride",

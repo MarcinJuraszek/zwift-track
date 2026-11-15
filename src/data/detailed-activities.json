@@ -6309,5 +6309,96 @@
       }
     ],
     "fetchedAt": "2026-11-14T03:37:57.028Z"
+  },
+  "20992860933": {
+    "id": 20992860933,
+    "name": "Zwift - Group Ride: The Long Spin #1 | Watopia 150+ | 200 km TT Endurance with Draft (2.2-2.4 W/kg)",
+    "segment_efforts": [
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "4 Lightning Laps Reverse",
+        "segment": {
+          "id": 42485384,
+          "name": "4 Lightning Laps Reverse"
+        }
+      },
+      {
+        "name": "6 Lightning Laps Reverse",
+        "segment": {
+          "id": 42485842,
+          "name": "6 Lightning Laps Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "4 Lightning Laps Reverse",
+        "segment": {
+          "id": 42485384,
+          "name": "4 Lightning Laps Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      },
+      {
+        "name": "Lightning Lap Reverse",
+        "segment": {
+          "id": 42460888,
+          "name": "Lightning Lap Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-15T07:38:13.129Z"
   }
 }

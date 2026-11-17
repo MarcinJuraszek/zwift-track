@@ -2,6 +2,11 @@
   "_comment": "Manual overrides for route completion tracking. 'completions' force-marks routes as done. 'exclusions' prevents specific activities from counting as completion of a route.",
   "completions": [
     {
+      "routeSlug": "going-coastal",
+      "date": "2026-11-17T02:53:49Z",
+      "note": "Confirmed achieved in Zwift app. Ride and actual completion date unknown; date records confirmation on November 16, 2026."
+    },
+    {
       "routeSlug": "flat-out-fast",
       "date": "2025-11-19T20:00:00Z",
       "note": "Strava segments map to Tempus Fugit, but activity title confirms Flat Out Fast",

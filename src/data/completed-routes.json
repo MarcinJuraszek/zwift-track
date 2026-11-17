@@ -1,6 +1,6 @@
 {
-  "syncedAt": "2026-11-17T02:55:35.797Z",
-  "totalCompleted": 133,
+  "syncedAt": "2026-11-17T04:54:38.378Z",
+  "totalCompleted": 134,
   "totalRoutes": 278,
   "completedRoutes": [
     {
@@ -17,6 +17,21 @@
       "averageWatts": null,
       "stravaUrl": null,
       "matchMethod": "manual"
+    },
+    {
+      "routeSlug": "mech-isle-mayhem",
+      "routeName": "Mech Isle Mayhem",
+      "worldName": "Makuri Islands",
+      "activityId": 21017126472,
+      "activityName": "Zwift - Mech Isle Mayhem in Makuri Islands",
+      "date": "2026-11-16T20:17:08Z",
+      "distance": 18.503,
+      "movingTime": 2224,
+      "elapsedTime": 2224,
+      "elevationGain": 113,
+      "averageWatts": 156,
+      "stravaUrl": "https://www.strava.com/activities/21017126472",
+      "matchMethod": "segment"
     },
     {
       "routeSlug": "one-ride-to-rule-them-all",

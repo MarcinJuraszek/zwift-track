@@ -6463,5 +6463,68 @@
       }
     ],
     "fetchedAt": "2026-11-15T20:00:36.257Z"
+  },
+  "21017126472": {
+    "id": 21017126472,
+    "name": "Zwift - Mech Isle Mayhem in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Mech Isle Mayhem",
+        "segment": {
+          "id": 41888254,
+          "name": "Mech Isle Mayhem"
+        }
+      },
+      {
+        "name": "Boardwalk Sprint Reverse",
+        "segment": {
+          "id": 38169032,
+          "name": "Boardwalk Sprint Reverse"
+        }
+      },
+      {
+        "name": "Mech Isle Climb CCW",
+        "segment": {
+          "id": 33263296,
+          "name": "Mech Isle Climb CCW"
+        }
+      },
+      {
+        "name": "Tidepool Sprint Reverse",
+        "segment": {
+          "id": 38169055,
+          "name": "Tidepool Sprint Reverse"
+        }
+      },
+      {
+        "name": "Boardwalk Sprint Reverse",
+        "segment": {
+          "id": 38169032,
+          "name": "Boardwalk Sprint Reverse"
+        }
+      },
+      {
+        "name": "Mech Isle Loop",
+        "segment": {
+          "id": 33214506,
+          "name": "Mech Isle Loop"
+        }
+      },
+      {
+        "name": "Mech Isle Climb CW",
+        "segment": {
+          "id": 33263289,
+          "name": "Mech Isle Climb CW"
+        }
+      },
+      {
+        "name": "Tidepool Sprint Reverse",
+        "segment": {
+          "id": 38169055,
+          "name": "Tidepool Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-17T04:54:38.370Z"
   }
 }

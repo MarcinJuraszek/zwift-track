@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-18T04:25:22.573Z",
-  "totalCompleted": 135,
+  "syncedAt": "2026-11-18T04:42:24.111Z",
+  "totalCompleted": 136,
   "totalRoutes": 278,
   "completedRoutes": [
+    {
+      "routeSlug": "twilight-crit",
+      "routeName": "Twilight Crit",
+      "worldName": "Makuri Islands",
+      "activityId": 21030093413,
+      "activityName": "Zwift - Twilight Crit in Makuri Islands",
+      "date": "2026-11-17T20:32:44Z",
+      "distance": 4.874,
+      "movingTime": 555,
+      "elapsedTime": 555,
+      "elevationGain": 23,
+      "averageWatts": 157.1,
+      "stravaUrl": "https://www.strava.com/activities/21030093413",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "kaze-kicker",
       "routeName": "Kaze Kicker",

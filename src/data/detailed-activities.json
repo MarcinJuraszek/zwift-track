@@ -6575,5 +6575,33 @@
       }
     ],
     "fetchedAt": "2026-11-18T04:25:22.561Z"
+  },
+  "21030093413": {
+    "id": 21030093413,
+    "name": "Zwift - Twilight Crit in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Twilight Crit",
+        "segment": {
+          "id": 41882382,
+          "name": "Twilight Crit"
+        }
+      },
+      {
+        "name": "Twilight Crit Lead-In",
+        "segment": {
+          "id": 41882615,
+          "name": "Twilight Crit Lead-In"
+        }
+      },
+      {
+        "name": "Castle Park Sprint ",
+        "segment": {
+          "id": 38168855,
+          "name": "Castle Park Sprint "
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-18T04:42:24.104Z"
   }
 }

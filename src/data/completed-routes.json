@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-18T04:42:24.111Z",
-  "totalCompleted": 136,
+  "syncedAt": "2026-11-18T05:25:11.408Z",
+  "totalCompleted": 137,
   "totalRoutes": 278,
   "completedRoutes": [
+    {
+      "routeSlug": "chain-chomper",
+      "routeName": "Chain Chomper",
+      "worldName": "Makuri Islands",
+      "activityId": 21030257330,
+      "activityName": "Zwift - Chain Chomper in Makuri Islands",
+      "date": "2026-11-17T20:53:33Z",
+      "distance": 13.86,
+      "movingTime": 1756,
+      "elapsedTime": 1875,
+      "elevationGain": 186,
+      "averageWatts": 182.1,
+      "stravaUrl": "https://www.strava.com/activities/21030257330",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "twilight-crit",
       "routeName": "Twilight Crit",

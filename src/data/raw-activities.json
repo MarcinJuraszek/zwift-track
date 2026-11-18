@@ -1,8 +1,703 @@
 {
-  "fetchedAt": "2026-11-18T04:42:23.553Z",
-  "totalActivities": 158,
-  "virtualRideCount": 158,
+  "fetchedAt": "2026-11-18T05:25:10.616Z",
+  "totalActivities": 159,
+  "virtualRideCount": 159,
   "virtualRides": [
+    {
+      "resource_state": 3,
+      "athlete": {
+        "id": 29432659,
+        "id_str": "29432659",
+        "resource_state": 1
+      },
+      "name": "Zwift - Chain Chomper in Makuri Islands",
+      "distance": 13859.9,
+      "moving_time": 1756,
+      "elapsed_time": 1875,
+      "total_elevation_gain": 186,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Zwift",
+      "tags": [],
+      "id": 21030257330,
+      "id_str": "21030257330",
+      "start_date": "2026-11-18T04:53:33Z",
+      "start_date_local": "2026-11-17T20:53:33Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "utc_offset": -28800,
+      "location_city": null,
+      "location_state": null,
+      "location_country": null,
+      "achievement_count": 1,
+      "kudos_count": 0,
+      "comment_count": 0,
+      "athlete_count": 1,
+      "photo_count": 0,
+      "map": {
+        "id": "a21030257330",
+        "polyline": "|ss`Awhes^BjBDj@JRHFRJn@TTNDJHX@h@Gx@KXGJUNq@XWNQVKXOx@Ez@B\\Rh@Zb@b@Zh@PrBb@ZNt@d@^JP@`@CtAQtAKLGDOHaADOPYl@o@L[H_@?_@EOo@aAK]EaA@_@D_@J]TYXSbAk@VSN]BOH_BQaEOm@Um@S[}@m@SSKUMc@AMBYLWl@eAFODc@AOGOs@m@S[E_@Da@Rm@TYLGj@IxAK^MLQZsAROf@K`BSZIJGHILYFm@E[OUSQg@Qi@KaFYWEKGEKCM?YBy@DUDKFETA`AHJ?FG?KCIICs@Da@?a@ASEQIIQCS@ILOJAJ@FFFb@FDH@FEH[PKJ?VB`ARHFBL?^LH`@FLJBNARHLPBN?LGFKF]HMP?LFVj@JJNDN?NG\\e@VS\\GnACbBKb@OHIDOC[Um@SMUA{ACm@BYHMFeAr@MDg@?e@HWCkAa@a@I}BKWIg@i@GEICKBQPe@l@MFOAOIyAoAGMBOHM@OQ]BOfAyAJGJ?TLr@p@~@d@TRLFLCHIDMMi@Ck@CMSWq@c@YO[Ik@@[HUPa@p@{@bAKFWHe@Bc@CSGk@k@SGc@GOEo@g@SMUGcAKMEIIGMAO?[BQJOFCTCz@Hz@Tf@Tr@h@NFD?JK|@iA~@uAnAmBDKBMI[Ws@KMYQeAWOIGICMAQNcB?UEOW[aAe@USY]e@u@Qa@CW?{@Kq@CYT{CCw@@KFI^SFSEUe@w@AM@KDKLERD\\RLDTCJGFM@MAmBBOBELGV?TFFNFh@Px@HbANNN@FADCHMDUN}A@y@BMFMLGVGN@TLJLDR@RGt@?NHr@Pl@X`@\\VV@TC`@MPMHGFWFi@f@{@BMC}@Ba@DOJM^OP?LFHNVdAHL`A~@n@t@ZTP@dBUR@f@PR@NMJQDQ@SES[[]U_GgDi@_@OSGUAUBk@GaAIOWUYKa@Ko@CS@[Hw@b@O@OAMGEKAM@Mt@_BFUASOOSGm@GSGQOq@w@UKYAYFo@XqBbAm@PW@SCOMES@{C?QMKaC@OBWVILCRAPBTHPp@`@DPCPMNMJSFQG_@]i@So@Io@HUIOSWo@SOYEYDIVHt@EXYJY@WJMXSt@MVUNYBuAEw@I[BmB^{Av@W@UKWo@MUYGSNm@`AWLYAm@[UIYCY@UJORIV?VFVTl@FVAXUdA?VNNj@Rb@^LPHTBT?z@E`@ENIH[L}@Dq@La@@OEuAo@iAQMEKIEM?OT}ABo@CaACOIMKIq@MOEgBgAg@e@k@{@Y[QGe@A}ATaBFc@HOHMLa@l@MJa@R{Ad@QJOLGR?TBR\\rAHj@?l@GfCD`ALj@JPPNRJ|Bt@NNJRBT@h@CTi@bBET@Tp@tDR`@XZVp@@RGPS`@EP?RLb@l@z@BPUjABRn@bAFRJj@LbCZnA\\fBFdA@|AUlC@n@\\tAbBnFXr@JHLAzCeAL@JJFLhAlDpAnDbCbFTb@Z`@NLTFV?n@ETDRNn@z@d@^TJVFV?fAOTAVBRJNPHT^zATj@l@t@b@^RJRFV?RG^]fAsA`@Yf@Oz@MlAGR?RB`@R\\ZPb@Df@BbBBRFPLLNH|@\\JHL\\Dj@Ch@Id@MT",
+        "resource_state": 3,
+        "summary_polyline": ""
+      },
+      "trainer": false,
+      "commute": false,
+      "manual": false,
+      "private": true,
+      "visibility": "only_me",
+      "flagged": false,
+      "gear_id": "b8659402",
+      "start_latlng": [],
+      "end_latlng": [],
+      "average_speed": 7.893,
+      "max_speed": 15.88,
+      "average_cadence": 82.4,
+      "average_watts": 182.1,
+      "max_watts": 519,
+      "weighted_average_watts": 211,
+      "device_watts": true,
+      "kilojoules": 319.8,
+      "has_heartrate": false,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": false,
+      "elev_high": 223.4,
+      "elev_low": 67.6,
+      "upload_id": 22198515407,
+      "upload_id_str": "22198515407",
+      "external_id": "zwift-activity-2273891437198262304.fit",
+      "from_accepted_tag": false,
+      "pr_count": 1,
+      "total_photo_count": 2,
+      "has_kudoed": false,
+      "description": "⚡️ New 2min power best (90day)",
+      "calories": 303,
+      "perceived_exertion": null,
+      "prefer_perceived_exertion": null,
+      "segment_efforts": [
+        {
+          "id": 3558005784870765600,
+          "resource_state": 2,
+          "name": "Chain Chomper",
+          "activity": {
+            "id": 21030257330,
+            "id_str": "21030257330",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 1821,
+          "moving_time": 1702,
+          "start_date": "2026-11-18T04:54:05Z",
+          "start_date_local": "2026-11-17T20:54:05Z",
+          "distance": 13553.5,
+          "start_index": 26,
+          "end_index": 1733,
+          "average_cadence": 76.6,
+          "device_watts": true,
+          "average_watts": 180.5,
+          "segment": {
+            "id": 28430973,
+            "resource_state": 2,
+            "name": "Chain Chomper",
+            "activity_type": "VirtualRide",
+            "distance": 13553.5,
+            "average_grade": 0,
+            "maximum_grade": 9.2,
+            "elevation_high": 283.4,
+            "elevation_low": 127.6,
+            "start_latlng": [
+              -10.755378,
+              165.837711
+            ],
+            "end_latlng": [
+              -10.755378,
+              165.837711
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": null,
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558005784873575400,
+          "resource_state": 2,
+          "name": "Castle KOM",
+          "activity": {
+            "id": 21030257330,
+            "id_str": "21030257330",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 355,
+          "moving_time": 355,
+          "start_date": "2026-11-18T04:56:52Z",
+          "start_date_local": "2026-11-17T20:56:52Z",
+          "distance": 2674.9,
+          "start_index": 193,
+          "end_index": 548,
+          "average_cadence": 79.4,
+          "device_watts": true,
+          "average_watts": 229.3,
+          "segment": {
+            "id": 28433453,
+            "resource_state": 2,
+            "name": "Castle KOM",
+            "activity_type": "VirtualRide",
+            "distance": 2674.9,
+            "average_grade": 2.1,
+            "maximum_grade": 8.1,
+            "elevation_high": 184.2,
+            "elevation_low": 127.8,
+            "start_latlng": [
+              -10.758845,
+              165.839696
+            ],
+            "end_latlng": [
+              -10.759053,
+              165.846756
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": null,
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558005784873771000,
+          "resource_state": 2,
+          "name": "Castle + Temple KOMs",
+          "activity": {
+            "id": 21030257330,
+            "id_str": "21030257330",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 1078,
+          "moving_time": 959,
+          "start_date": "2026-11-18T04:56:52Z",
+          "start_date_local": "2026-11-17T20:56:52Z",
+          "distance": 5799.5,
+          "start_index": 193,
+          "end_index": 1157,
+          "average_cadence": 73.3,
+          "device_watts": true,
+          "average_watts": 204.9,
+          "segment": {
+            "id": 28488051,
+            "resource_state": 2,
+            "name": "Castle + Temple KOMs",
+            "activity_type": "VirtualRide",
+            "distance": 5799.5,
+            "average_grade": 2.6,
+            "maximum_grade": 9.1,
+            "elevation_high": 281.2,
+            "elevation_low": 127.8,
+            "start_latlng": [
+              -10.758843,
+              165.839696
+            ],
+            "end_latlng": [
+              -10.760959,
+              165.855671
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": null,
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558005784874609700,
+          "resource_state": 2,
+          "name": "Temple KOM from Castle Side",
+          "activity": {
+            "id": 21030257330,
+            "id_str": "21030257330",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 365,
+          "moving_time": 365,
+          "start_date": "2026-11-18T05:08:45Z",
+          "start_date_local": "2026-11-17T21:08:45Z",
+          "distance": 1887.8,
+          "start_index": 792,
+          "end_index": 1157,
+          "average_cadence": 88.4,
+          "device_watts": true,
+          "average_watts": 247.7,
+          "segment": {
+            "id": 28432293,
+            "resource_state": 2,
+            "name": "Temple KOM from Castle Side",
+            "activity_type": "VirtualRide",
+            "distance": 1887.8,
+            "average_grade": 3.5,
+            "maximum_grade": 9.2,
+            "elevation_high": 281.2,
+            "elevation_low": 214.6,
+            "start_latlng": [
+              -10.757149,
+              165.85094
+            ],
+            "end_latlng": [
+              -10.760955,
+              165.855671
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Temotu Province",
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558005784872788000,
+          "resource_state": 2,
+          "name": "Country Sprint Reverse",
+          "activity": {
+            "id": 21030257330,
+            "id_str": "21030257330",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 13,
+          "moving_time": 13,
+          "start_date": "2026-11-18T05:24:13Z",
+          "start_date_local": "2026-11-17T21:24:13Z",
+          "distance": 147.9,
+          "start_index": 1720,
+          "end_index": 1733,
+          "average_cadence": 88.3,
+          "device_watts": true,
+          "average_watts": 184.8,
+          "segment": {
+            "id": 38168940,
+            "resource_state": 2,
+            "name": "Country Sprint Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 147.9,
+            "average_grade": -1.1,
+            "maximum_grade": 0,
+            "elevation_high": 71.6,
+            "elevation_low": 70,
+            "start_latlng": [
+              -10.754896,
+              165.838859
+            ],
+            "end_latlng": [
+              -10.755379,
+              165.837711
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "Temotu",
+            "country": "Solomon Islands",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "only_me",
+          "kom_rank": null,
+          "hidden": false
+        }
+      ],
+      "splits_metric": [
+        {
+          "distance": 1004.6,
+          "elapsed_time": 143,
+          "elevation_difference": -2.4,
+          "moving_time": 143,
+          "split": 1,
+          "average_speed": 7.03,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 996.2,
+          "elapsed_time": 116,
+          "elevation_difference": 4.2,
+          "moving_time": 116,
+          "split": 2,
+          "average_speed": 8.59,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1006.2,
+          "elapsed_time": 141,
+          "elevation_difference": 22,
+          "moving_time": 141,
+          "split": 3,
+          "average_speed": 7.14,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1001.9,
+          "elapsed_time": 129,
+          "elevation_difference": 27.6,
+          "moving_time": 129,
+          "split": 4,
+          "average_speed": 7.77,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 991.3,
+          "elapsed_time": 275,
+          "elevation_difference": 14.2,
+          "moving_time": 156,
+          "split": 5,
+          "average_speed": 6.35,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1003.5,
+          "elapsed_time": 265,
+          "elevation_difference": 48.4,
+          "moving_time": 265,
+          "split": 6,
+          "average_speed": 3.79,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1005.4,
+          "elapsed_time": 176,
+          "elevation_difference": 34.8,
+          "moving_time": 176,
+          "split": 7,
+          "average_speed": 5.71,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 996.4,
+          "elapsed_time": 119,
+          "elevation_difference": -17.6,
+          "moving_time": 119,
+          "split": 8,
+          "average_speed": 8.37,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1008.8,
+          "elapsed_time": 80,
+          "elevation_difference": -44.2,
+          "moving_time": 80,
+          "split": 9,
+          "average_speed": 12.61,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 986.7,
+          "elapsed_time": 82,
+          "elevation_difference": -27,
+          "moving_time": 82,
+          "split": 10,
+          "average_speed": 12.03,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1004.4,
+          "elapsed_time": 93,
+          "elevation_difference": -18.4,
+          "moving_time": 93,
+          "split": 11,
+          "average_speed": 10.8,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1006.7,
+          "elapsed_time": 86,
+          "elevation_difference": -18.4,
+          "moving_time": 86,
+          "split": 12,
+          "average_speed": 11.71,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 992.4,
+          "elapsed_time": 93,
+          "elevation_difference": -13.4,
+          "moving_time": 93,
+          "split": 13,
+          "average_speed": 10.67,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 855.4,
+          "elapsed_time": 77,
+          "elevation_difference": -10.4,
+          "moving_time": 77,
+          "split": 14,
+          "average_speed": 11.11,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        }
+      ],
+      "splits_standard": [
+        {
+          "distance": 1613,
+          "elapsed_time": 213,
+          "elevation_difference": 0,
+          "moving_time": 213,
+          "split": 1,
+          "average_speed": 7.57,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1610.7,
+          "elapsed_time": 212,
+          "elevation_difference": 26.8,
+          "moving_time": 212,
+          "split": 2,
+          "average_speed": 7.6,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608,
+          "elapsed_time": 227,
+          "elevation_difference": 37.4,
+          "moving_time": 227,
+          "split": 3,
+          "average_speed": 7.08,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608.5,
+          "elapsed_time": 516,
+          "elevation_difference": 67.6,
+          "moving_time": 397,
+          "split": 4,
+          "average_speed": 4.05,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1609.7,
+          "elapsed_time": 199,
+          "elevation_difference": -3,
+          "moving_time": 199,
+          "split": 5,
+          "average_speed": 8.09,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608.5,
+          "elapsed_time": 122,
+          "elevation_difference": -69.8,
+          "moving_time": 122,
+          "split": 6,
+          "average_speed": 13.18,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1611.9,
+          "elapsed_time": 152,
+          "elevation_difference": -20.6,
+          "moving_time": 152,
+          "split": 7,
+          "average_speed": 10.6,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1609.9,
+          "elapsed_time": 148,
+          "elevation_difference": -25,
+          "moving_time": 148,
+          "split": 8,
+          "average_speed": 10.88,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        },
+        {
+          "distance": 979.7,
+          "elapsed_time": 86,
+          "elevation_difference": -14,
+          "moving_time": 86,
+          "split": 9,
+          "average_speed": 11.39,
+          "average_grade_adjusted_speed": null,
+          "pace_zone": 0
+        }
+      ],
+      "laps": [
+        {
+          "id": 75007992974,
+          "resource_state": 2,
+          "name": "Lap 0",
+          "activity": {
+            "id": 21030257330,
+            "id_str": "21030257330",
+            "visibility": "only_me",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 1875,
+          "moving_time": 1756,
+          "start_date": "2026-11-18T04:53:33Z",
+          "start_date_local": "2026-11-17T20:53:33Z",
+          "distance": 13859.9,
+          "average_speed": 7.89,
+          "max_speed": 15.88,
+          "lap_index": 0,
+          "split": 0,
+          "start_index": 0,
+          "end_index": 0,
+          "total_elevation_gain": 170.2,
+          "average_cadence": 82.4,
+          "device_watts": true,
+          "average_watts": 182.1
+        }
+      ],
+      "gear": {
+        "id": "b8659402",
+        "primary": false,
+        "name": "Canyon Grail CF SL 8",
+        "nickname": "Canyon Grail CF SL 8",
+        "resource_state": 2,
+        "retired": false,
+        "distance": 22258824,
+        "converted_distance": 13831
+      },
+      "photos": {
+        "primary": {
+          "unique_id": "c9a1fb22-5e85-4056-a135-f5e3352ec00b",
+          "urls": {
+            "100": "https://dgtzuqphqg23d.cloudfront.net/bbCeFEIIJpl1c-BtuU-OrvPI1OX5Tk6z0hQs4ZoPgV4-128x73.jpg",
+            "600": "https://dgtzuqphqg23d.cloudfront.net/bbCeFEIIJpl1c-BtuU-OrvPI1OX5Tk6z0hQs4ZoPgV4-768x440.jpg"
+          },
+          "source": 1,
+          "media_type": 1
+        },
+        "use_primary_photo": true,
+        "count": 2
+      },
+      "stats_visibility": [
+        {
+          "type": "heart_rate",
+          "visibility": "everyone"
+        },
+        {
+          "type": "pace",
+          "visibility": "everyone"
+        },
+        {
+          "type": "power",
+          "visibility": "everyone"
+        },
+        {
+          "type": "speed",
+          "visibility": "everyone"
+        },
+        {
+          "type": "calories",
+          "visibility": "everyone"
+        },
+        {
+          "type": "weight_lifted",
+          "visibility": "everyone"
+        }
+      ],
+      "hide_from_home": false,
+      "sport_image_visibility": "everyone",
+      "embed_token": "9a0abb214d4eea6b59a72c3d314043613a120513",
+      "available_zones": [
+        "power"
+      ]
+    },
     {
       "resource_state": 3,
       "athlete": {

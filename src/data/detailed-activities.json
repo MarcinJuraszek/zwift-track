@@ -6603,5 +6603,47 @@
       }
     ],
     "fetchedAt": "2026-11-18T04:42:24.104Z"
+  },
+  "21030257330": {
+    "id": 21030257330,
+    "name": "Zwift - Chain Chomper in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Chain Chomper",
+        "segment": {
+          "id": 28430973,
+          "name": "Chain Chomper"
+        }
+      },
+      {
+        "name": "Castle KOM",
+        "segment": {
+          "id": 28433453,
+          "name": "Castle KOM"
+        }
+      },
+      {
+        "name": "Castle + Temple KOMs",
+        "segment": {
+          "id": 28488051,
+          "name": "Castle + Temple KOMs"
+        }
+      },
+      {
+        "name": "Temple KOM from Castle Side",
+        "segment": {
+          "id": 28432293,
+          "name": "Temple KOM from Castle Side"
+        }
+      },
+      {
+        "name": "Country Sprint Reverse",
+        "segment": {
+          "id": 38168940,
+          "name": "Country Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-18T05:25:11.402Z"
   }
 }

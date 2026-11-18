@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-17T04:54:38.378Z",
-  "totalCompleted": 134,
+  "syncedAt": "2026-11-18T04:25:22.573Z",
+  "totalCompleted": 135,
   "totalRoutes": 278,
   "completedRoutes": [
+    {
+      "routeSlug": "kaze-kicker",
+      "routeName": "Kaze Kicker",
+      "worldName": "Makuri Islands",
+      "activityId": 21030029313,
+      "activityName": "Zwift - Kaze Kicker in Makuri Islands",
+      "date": "2026-11-17T19:50:47Z",
+      "distance": 17.77,
+      "movingTime": 2048,
+      "elapsedTime": 2048,
+      "elevationGain": 135,
+      "averageWatts": 170.2,
+      "stravaUrl": "https://www.strava.com/activities/21030029313",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "going-coastal",
       "routeName": "Going Coastal",

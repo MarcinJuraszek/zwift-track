@@ -6526,5 +6526,54 @@
       }
     ],
     "fetchedAt": "2026-11-17T04:54:38.370Z"
+  },
+  "21030029313": {
+    "id": 21030029313,
+    "name": "Zwift - Kaze Kicker in Makuri Islands",
+    "segment_efforts": [
+      {
+        "name": "Kaze Kicker",
+        "segment": {
+          "id": 40654914,
+          "name": "Kaze Kicker"
+        }
+      },
+      {
+        "name": "Tidepool Sprint Reverse",
+        "segment": {
+          "id": 38169055,
+          "name": "Tidepool Sprint Reverse"
+        }
+      },
+      {
+        "name": "Pain Cavern Climb",
+        "segment": {
+          "id": 33301770,
+          "name": "Pain Cavern Climb"
+        }
+      },
+      {
+        "name": "Tower Sprint",
+        "segment": {
+          "id": 30412571,
+          "name": "Tower Sprint"
+        }
+      },
+      {
+        "name": "Mech Isle Climb CW",
+        "segment": {
+          "id": 33263289,
+          "name": "Mech Isle Climb CW"
+        }
+      },
+      {
+        "name": "Boardwalk Sprint ",
+        "segment": {
+          "id": 38169040,
+          "name": "Boardwalk Sprint "
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-18T04:25:22.561Z"
   }
 }

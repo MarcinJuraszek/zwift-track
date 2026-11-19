@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-18T05:25:11.408Z",
-  "totalCompleted": 137,
+  "syncedAt": "2026-11-19T06:23:54.910Z",
+  "totalCompleted": 138,
   "totalRoutes": 278,
   "completedRoutes": [
+    {
+      "routeSlug": "laps-camera-traction",
+      "routeName": "Laps, Camera, Traction",
+      "worldName": "Watopia",
+      "activityId": 21043143527,
+      "activityName": "Zwift - Laps, Camera, Traction in Watopia",
+      "date": "2026-11-18T21:26:03Z",
+      "distance": 25.937,
+      "movingTime": 3363,
+      "elapsedTime": 3440,
+      "elevationGain": 204,
+      "averageWatts": 151.1,
+      "stravaUrl": "https://www.strava.com/activities/21043143527",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "chain-chomper",
       "routeName": "Chain Chomper",

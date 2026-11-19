@@ -6645,5 +6645,47 @@
       }
     ],
     "fetchedAt": "2026-11-18T05:25:11.402Z"
+  },
+  "21043143527": {
+    "id": 21043143527,
+    "name": "Zwift - Laps, Camera, Traction in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Laps, Camera, Traction",
+        "segment": {
+          "id": 42374729,
+          "name": "Laps, Camera, Traction"
+        }
+      },
+      {
+        "name": "Sunset Sprint Reverse",
+        "segment": {
+          "id": 42385747,
+          "name": "Sunset Sprint Reverse"
+        }
+      },
+      {
+        "name": "Mayan Bridge Westbound",
+        "segment": {
+          "id": 27216034,
+          "name": "Mayan Bridge Westbound"
+        }
+      },
+      {
+        "name": "Mayan Bridge Westbound",
+        "segment": {
+          "id": 27216034,
+          "name": "Mayan Bridge Westbound"
+        }
+      },
+      {
+        "name": "Sunset Sprint",
+        "segment": {
+          "id": 42385739,
+          "name": "Sunset Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-19T06:23:54.904Z"
   }
 }

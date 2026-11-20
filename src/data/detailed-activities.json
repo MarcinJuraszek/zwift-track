@@ -6687,5 +6687,103 @@
       }
     ],
     "fetchedAt": "2026-11-19T06:23:54.904Z"
+  },
+  "21054498836": {
+    "id": 21054498836,
+    "name": "Zwift - Bon Voyage in France",
+    "segment_efforts": [
+      {
+        "name": "Dos d'Âne Sprint Reverse",
+        "segment": {
+          "id": 38873968,
+          "name": "Dos d'Âne Sprint Reverse"
+        }
+      },
+      {
+        "name": "Bon Voyage",
+        "segment": {
+          "id": 39240977,
+          "name": "Bon Voyage"
+        }
+      },
+      {
+        "name": "Croissant",
+        "segment": {
+          "id": 39270805,
+          "name": "Croissant"
+        }
+      },
+      {
+        "name": "Sprint du Cratère",
+        "segment": {
+          "id": 38874008,
+          "name": "Sprint du Cratère"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint Reverse",
+        "segment": {
+          "id": 38873955,
+          "name": "Sprinteur Sprint Reverse"
+        }
+      },
+      {
+        "name": "Dos d'Âne Sprint Reverse",
+        "segment": {
+          "id": 38873968,
+          "name": "Dos d'Âne Sprint Reverse"
+        }
+      },
+      {
+        "name": "Croissant",
+        "segment": {
+          "id": 39270805,
+          "name": "Croissant"
+        }
+      },
+      {
+        "name": "Sprint du Cratère",
+        "segment": {
+          "id": 38874008,
+          "name": "Sprint du Cratère"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint Reverse",
+        "segment": {
+          "id": 38873955,
+          "name": "Sprinteur Sprint Reverse"
+        }
+      },
+      {
+        "name": "Dos d'Âne Sprint Reverse",
+        "segment": {
+          "id": 38873968,
+          "name": "Dos d'Âne Sprint Reverse"
+        }
+      },
+      {
+        "name": "Sprint du Cratère",
+        "segment": {
+          "id": 38874008,
+          "name": "Sprint du Cratère"
+        }
+      },
+      {
+        "name": "Sprinteur Sprint Reverse",
+        "segment": {
+          "id": 38873955,
+          "name": "Sprinteur Sprint Reverse"
+        }
+      },
+      {
+        "name": "Pavé Sprint Reverse",
+        "segment": {
+          "id": 24710570,
+          "name": "Pavé Sprint Reverse"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-20T04:22:39.611Z"
   }
 }

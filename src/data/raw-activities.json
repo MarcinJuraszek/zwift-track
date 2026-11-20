@@ -1,8 +1,1625 @@
 {
-  "fetchedAt": "2026-11-19T06:23:54.453Z",
-  "totalActivities": 160,
-  "virtualRideCount": 160,
+  "fetchedAt": "2026-11-20T04:22:38.979Z",
+  "totalActivities": 161,
+  "virtualRideCount": 161,
   "virtualRides": [
+    {
+      "resource_state": 3,
+      "athlete": {
+        "id": 29432659,
+        "id_str": "29432659",
+        "resource_state": 1
+      },
+      "name": "Zwift - Bon Voyage in France",
+      "distance": 32324.1,
+      "moving_time": 3737,
+      "elapsed_time": 3850,
+      "total_elevation_gain": 157,
+      "type": "VirtualRide",
+      "sport_type": "VirtualRide",
+      "device_name": "Zwift",
+      "tags": [],
+      "id": 21054498836,
+      "id_str": "21054498836",
+      "start_date": "2026-11-20T03:17:14Z",
+      "start_date_local": "2026-11-19T19:17:14Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "utc_offset": -28800,
+      "location_city": null,
+      "location_state": null,
+      "location_country": null,
+      "achievement_count": 9,
+      "kudos_count": 0,
+      "comment_count": 0,
+      "athlete_count": 1,
+      "photo_count": 0,
+      "map": {
+        "id": "a21054498836",
+        "polyline": "f`pcCkfcu^r@yBZs@J[Fk@DsA?YCYWo@_@i@UOs@MUMGKa@_Ay@gCq@yAYc@KG[GuAEoE?qGDOAKEIKE_@@oA@OHIp@a@HKH[^i@N_ANk@XmCCoB@QBQHM~@y@^e@n@k@^c@d@]RYDMB_@?q@K_C?}CCk@@MDMJGXIzAAXCVKj@k@LENC\\D~@XlAh@^DLAZMVUVg@J[B[?OG[I[g@uAgAgBWg@I]?OBOPYdEkDFKBO?OE]QWKGKCg@CWKOSe@{@WS]Iw@E[KOOm@s@WSMEOAO@MDYPSVE\\FZX^zHrFfJlG`@LP@NELKDOBOOw@@OJYXe@DOBOAQM]KKMG_@CeAAQCOIMMUa@Ke@Eg@Fg@HOLMvA_AVYXm@h@cBLYPUh@_@vAo@TOTUv@iA`ByCVULI^GL?ND~Ax@t@Xj@Jf@Bz@I|B]z@Q`A]PA`@Fl@Td@XrBvBdAtAh@~@Rj@h@vB^t@fU~Ul@z@Vf@JZF\\E^w@|AI\\Cp@BtCKz@Md@c@p@_@XQFsAHSFONITET@rACf@GPKLMFQBiA@QDMJKNEPGb@AnAEj@Ut@u@hBI\\E^@\\DNNXVRbK~FVPDLD\\Gj@Qf@UR}IbAQH[ZS`@ER?d@Pt@`@|@~@~AZt@DZ@bAJ`@NNRB^I@@\\QTANFNVn@zBVpAAZQv@Ud@SRa@XgA~@y@b@}Bz@s@LyARa@Jq@VsAn@k@PmB^s@HO?o@O_@?qEb@_@Hu@d@]Jq@F_@?OE]MWSm@i@y@cAq@a@IIi@mAKOwAoA_@c@O_@YcAS_@g@e@y@g@m@Sa@Gs@Aq@@a@Do@LiAf@_@Jq@Fa@Ea@OkAu@[[IOIe@?y@Hc@Vo@T{@j@oAF_@FaBCq@I]O]_@e@YOm@KMGKKi@mAu@_Cq@wA]g@MG_@EoACoCAkIDOAMEIME_@@sADOr@a@HIRi@V_@FUHm@Nk@XuCC}ABc@FOJMr@k@^g@p@m@j@q@XQTYDOBa@?a@KgC?cDCo@BMFKXKZCdA?f@GTQ`@a@LGNA\\D`AZp@\\ZJ^BNCZMTWVe@Li@?MC]e@aBWg@{@wAWe@K]?]BMHKlEwDFQ@UCSGQKOQGy@IOKKO_@s@KOMKQEiAIOG]Wi@q@QMSKW?UDSLQPITATFVLPNNbLbIpFtDb@PPBPCLKHM@QK{@?MJYXe@DOBO?OEQGMMKMGa@CgAAQEOKY_@Oe@Gg@Bi@FQV]jAs@XWJMVm@b@wA\\o@RQVOxAq@VQTWp@_AdB_DVWNG^GN@nB~@h@Tj@Lj@DfAKhBYjAWbA]b@Bl@Rh@ZTRbBdB|@hAr@pAZz@d@jBN\\PX|TtUh@n@Zh@Pl@B^I^s@rAI^Er@B|CEh@Mf@Sb@MN]Zg@JaABSFQNIRET@vACf@GPILOFQDw@?c@FOHINGPG`@ApAEj@Ut@u@jBI^E`@D`@DLHLXVlKdGJHFJBN@\\Kl@MXSRMBoI~@QH]XS`@Ed@Bd@Rr@Xl@~@|A\\t@D^BlAJZJHLBL?r@UXELDPRn@|BXxAA^Mn@Yf@STc@X_Ax@m@\\eC`Aq@LwARs@PsB|@g@NcB`@mAPQ?MC]K]AsEb@k@Nq@b@MD{@Jm@C[MWQu@o@s@_Aw@e@QWi@iA{@u@i@i@SWM[_@mAQ]q@m@i@Ym@U]Eq@C_A@m@H]HeBp@]Fa@@_@GOEiAq@g@c@IMKa@Ac@@c@H_@f@_Br@_BDe@F}AAi@I[MYOWSUYM[G[ISWe@eAq@uBu@aB[e@KG]GyAEgD?qHDMAMEIKCOAq@@o@BOp@a@JIFMH[^i@NaANk@T_C?aC@QDO|@w@j@o@n@k@^e@b@[RYBOBaAKaD?_CC{@BOHIXIZCnAAXEVO^a@JGNC\\B~@XjAh@\\FN?ZKVSXc@Ng@B]C[e@_BUg@sA}BK[C]BMRWfEoDDM@O?OI[OUKEs@GUKOS]s@WW]K{@E]KYYe@m@YSOEO?O@]NUVI\\D\\LVRRxIhG~HnFb@NP@PEJIFO@OKy@?MJY^u@BQAOCQGMKKOG_@CgAAQCOKY_@Qe@Gi@Di@FQX]nAu@X[Vo@j@eBLYPS`@Y`Bu@`@[v@iAvAmCT[XSLG^CN@LFbAh@bA`@h@Lt@Dx@IdC_@p@Or@YPEd@Bn@Th@\\pBrBhAvAj@dARj@f@pB\\r@bU|Ut@bA^z@H^C\\M\\i@~@K^Cp@BpCIz@Md@_@r@[ZQFSB}@DUDQLKPGRAT?fBEPGNMJODyAFQDMJINIb@EjBEd@Sn@o@~AMd@Gh@BVFTNPPNrKjGLNDP?d@Gb@O^KJOFOBaIz@QF_@\\U`@ER?f@Pt@Vl@lAvBTf@F\\BnABNFLJHNBLAt@WLAL?LFNVRx@\\jARpAC^On@OZUVq@d@w@r@q@^_C|@s@NyARu@PsB|@i@P{A\\aAPc@?o@M_@?iE^_@Jy@f@OFa@Fq@@a@G]Qq@k@q@}@UUu@a@S]c@aAyAqAa@g@O_@[gAS_@[Y{@i@o@Ua@Is@As@@c@Dq@N}An@a@Fc@?c@G_@Q_Am@[YIQKe@?}@Hc@Vo@Po@f@gAJ_@J_CCe@Uq@_@k@MIOGq@OMIKKq@cBk@eBs@}AU]MIOEuAEmDAuHFQAOEKMEc@?gABQJMj@[JKLa@Ze@DML{@Nm@VkCCkB@SFQfAcAV]v@s@b@i@\\UV]Fc@A}ACQGQKK_@MgCEwD@qBDmBE_AB_@EKGIMI_@@a@NaA@OGa@K]Q[q@i@]g@SW_Aq@]KMC_AAkDK{BSqBWqA[wAQqBc@m@Q]WiBkBMK_@OkHsAmAOwCe@YSQ[EMCe@LiB?UEWKSQOyC{Ak@a@a@k@Us@Gy@B]F[JWNUb@a@RI~@Ob@KpAk@LIHKFMBa@IiC@OF]HIVMh@MdAMJGFM@OC]@OFMHIXOf@Qd@YLCj@EXIVSt@iARSXOjBm@h@EpDDdBL",
+        "resource_state": 3,
+        "summary_polyline": "f`pcCkfcu^zAiEHsDw@yAgBw@gDeI}BUaND[GOk@B_BdAw@hAqDZaHxFcGCwLzCW`BaAxElAr@c@b@cAMcBqCsGzEuEDiA]_@kASmAcBqB[uAwAuAPYt@`@z@bT`Or@Nb@a@IwAl@qBg@q@eBEo@[a@gA@oAfCwBbBaElDuBxCcFrAg@dDxArANjJqArAn@rBvBnBtC|AxEfU~UpA~B@|@aAzB?fEY`BcAjAiCh@e@fEiBLk@`@UpD{A|EFl@f@l@`L~GAhAg@z@}IbAgAzAPzA|BrER`Cb@RtA[^^fAlESrAi@x@cD|B_NbEaDh@_BOqEb@sBz@aB@yE{Du@}AwBsB}@cCaBmAuD[mFnAcAUgBqASoBbB_FJsDy@aBaBo@oDmIyQMg@UCsBnBeC`@oBXwGzFmGGmLjDc@tA}@|EjAp@e@d@oAi@mCkBeDK{@zEqEAmAgBm@eA_BkBWmBcBm@Do@t@Dl@\\`@tSxNfAPVYI{Aj@oAAq@c@a@kCWi@eACqApCiCxAuDrD}BvC_FvAe@xCtAvARdJwAvAn@xBxBpBzCbB~EbWnXTlAgArCApESpA_AnAoCf@c@hE}BTYXWpD{AbFn@tAlKdGVd@IjAa@l@}IbAo@b@YfAVxAvB`EThCf@LlA[^XhAvEOnA_EnD_NbEqDr@{AQsEb@kBx@iBFuEuD{@aByBwB_AgC{AgA}D]qFnAaDcBUwBdB_FJmD{@cBeBw@iDcIcCUyMDe@S?aCdAy@hAsD\\cHtF_GGoLhD_@rA}@vEnAr@_@h@kA?y@e@_ByB_F~EuEAiAeBo@eA_BwB]yA{Ao@Cs@f@Cz@`@j@xSxNt@Pd@_@IwAj@oAAs@c@a@iCUk@eAAsAjCaCbBcEdDkBdDsFfA_@dDtA~AR|IuAxAr@pBrBtB|CxApEbU|UtA~BD|@cA|B?bEW`B{@nAkCd@c@dEwCj@_@dEyA~El@nArKjGR`@GhA[j@aJfAmAzAP|AzBlEVjCh@JbAYj@^dAvESnAaElDaNbE}Cn@sBMiE^kCbAsAEmEsDw@_B{ByB_AgCwAcAyD_@yFlA_DaBUuBfBkFFeDu@}AiBw@gDeIsBUcNDm@UA}BbAu@lA_E\\}GpFsFDaCWo@_TS_@u@RsBS_AuDwDsKq@{GeA_Du@uD_DqOiCq@}@HeDQk@kDkBmAmA]mBVqAr@w@`FgBJgF|C{@XcBzDoA`BqBdC}@`IL"
+      },
+      "trainer": false,
+      "commute": false,
+      "manual": false,
+      "private": false,
+      "visibility": "everyone",
+      "flagged": false,
+      "gear_id": "b8659402",
+      "start_latlng": [
+        -21.71412,
+        166.155429
+      ],
+      "end_latlng": [
+        -21.704028,
+        166.177048
+      ],
+      "average_speed": 8.65,
+      "max_speed": 15.14,
+      "average_cadence": 81.5,
+      "average_watts": 154.9,
+      "max_watts": 819,
+      "weighted_average_watts": 198,
+      "device_watts": true,
+      "kilojoules": 578.9,
+      "has_heartrate": true,
+      "average_heartrate": 142.7,
+      "max_heartrate": 181,
+      "heartrate_opt_out": false,
+      "display_hide_heartrate_option": true,
+      "elev_high": 25.2,
+      "elev_low": 10.2,
+      "upload_id": 22223114888,
+      "upload_id_str": "22223114888",
+      "external_id": "zwift-activity-2275292433795301392.fit",
+      "from_accepted_tag": false,
+      "pr_count": 5,
+      "total_photo_count": 5,
+      "has_kudoed": false,
+      "suffer_score": 80,
+      "description": "⚡️ New 1min power best (90day)",
+      "calories": 553,
+      "perceived_exertion": null,
+      "prefer_perceived_exertion": null,
+      "segment_efforts": [
+        {
+          "id": 3558714776157062700,
+          "resource_state": 2,
+          "name": "Dos d'Âne Sprint Reverse",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 112,
+          "moving_time": 112,
+          "start_date": "2026-11-20T03:22:29Z",
+          "start_date_local": "2026-11-19T19:22:29Z",
+          "distance": 760.3,
+          "start_index": 315,
+          "end_index": 427,
+          "average_cadence": 77.3,
+          "device_watts": true,
+          "average_watts": 150.5,
+          "average_heartrate": 130,
+          "max_heartrate": 133,
+          "segment": {
+            "id": 38873968,
+            "resource_state": 2,
+            "name": "Dos d'Âne Sprint Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 760.3,
+            "average_grade": 1.4,
+            "maximum_grade": 4.8,
+            "elevation_high": 25.2,
+            "elevation_low": 14.6,
+            "start_latlng": [
+              -21.714381,
+              166.169683
+            ],
+            "end_latlng": [
+              -21.714484,
+              166.169801
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776160091600,
+          "resource_state": 2,
+          "name": "Bon Voyage",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 3304,
+          "moving_time": 3191,
+          "start_date": "2026-11-20T03:24:21Z",
+          "start_date_local": "2026-11-19T19:24:21Z",
+          "distance": 28246.8,
+          "start_index": 427,
+          "end_index": 3623,
+          "average_cadence": 78.9,
+          "device_watts": true,
+          "average_watts": 158.9,
+          "average_heartrate": 144,
+          "max_heartrate": 181,
+          "segment": {
+            "id": 39240977,
+            "resource_state": 2,
+            "name": "Bon Voyage",
+            "activity_type": "VirtualRide",
+            "distance": 28246.8,
+            "average_grade": 0,
+            "maximum_grade": 4.3,
+            "elevation_high": 25.2,
+            "elevation_low": 10.2,
+            "start_latlng": [
+              -21.71449,
+              166.169801
+            ],
+            "end_latlng": [
+              -21.697849,
+              166.172687
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776157128000,
+          "resource_state": 2,
+          "name": "Croissant",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 1184,
+          "moving_time": 1071,
+          "start_date": "2026-11-20T03:24:21Z",
+          "start_date_local": "2026-11-19T19:24:21Z",
+          "distance": 9290.2,
+          "start_index": 427,
+          "end_index": 1503,
+          "average_cadence": 73.4,
+          "device_watts": true,
+          "average_watts": 152.7,
+          "average_heartrate": 133.4,
+          "max_heartrate": 180,
+          "segment": {
+            "id": 39270805,
+            "resource_state": 2,
+            "name": "Croissant",
+            "activity_type": "VirtualRide",
+            "distance": 9290.2,
+            "average_grade": 0,
+            "maximum_grade": 4.2,
+            "elevation_high": 25.2,
+            "elevation_low": 10.2,
+            "start_latlng": [
+              -21.714482,
+              166.169801
+            ],
+            "end_latlng": [
+              -21.714484,
+              166.169801
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 2,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 2
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776160707000,
+          "resource_state": 2,
+          "name": "Sprint du Cratère",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 37,
+          "moving_time": 37,
+          "start_date": "2026-11-20T03:27:51Z",
+          "start_date_local": "2026-11-19T19:27:51Z",
+          "distance": 300.5,
+          "start_index": 637,
+          "end_index": 674,
+          "average_cadence": 85.6,
+          "device_watts": true,
+          "average_watts": 129.6,
+          "average_heartrate": 131.7,
+          "max_heartrate": 133,
+          "segment": {
+            "id": 38874008,
+            "resource_state": 2,
+            "name": "Sprint du Cratère",
+            "activity_type": "VirtualRide",
+            "distance": 300.5,
+            "average_grade": 0.1,
+            "maximum_grade": 0.5,
+            "elevation_high": 19.8,
+            "elevation_low": 19.6,
+            "start_latlng": [
+              -21.723647,
+              166.172097
+            ],
+            "end_latlng": [
+              -21.725464,
+              166.169972
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776159757000,
+          "resource_state": 2,
+          "name": "Sprinteur Sprint Reverse",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 29,
+          "moving_time": 29,
+          "start_date": "2026-11-20T03:30:37Z",
+          "start_date_local": "2026-11-19T19:30:37Z",
+          "distance": 238.1,
+          "start_index": 803,
+          "end_index": 832,
+          "average_cadence": 83.8,
+          "device_watts": true,
+          "average_watts": 130.3,
+          "average_heartrate": 136.2,
+          "max_heartrate": 138,
+          "segment": {
+            "id": 38873955,
+            "resource_state": 2,
+            "name": "Sprinteur Sprint Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 238.1,
+            "average_grade": 0,
+            "maximum_grade": 0,
+            "elevation_high": 15,
+            "elevation_low": 15,
+            "start_latlng": [
+              -21.725024,
+              166.161529
+            ],
+            "end_latlng": [
+              -21.726082,
+              166.159952
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": null,
+          "achievements": [],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776157484500,
+          "resource_state": 2,
+          "name": "Dos d'Âne Sprint Reverse",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 68,
+          "moving_time": 68,
+          "start_date": "2026-11-20T03:42:57Z",
+          "start_date_local": "2026-11-19T19:42:57Z",
+          "distance": 760.3,
+          "start_index": 1435,
+          "end_index": 1503,
+          "average_cadence": 81,
+          "device_watts": true,
+          "average_watts": 469.8,
+          "average_heartrate": 165.2,
+          "max_heartrate": 180,
+          "segment": {
+            "id": 38873968,
+            "resource_state": 2,
+            "name": "Dos d'Âne Sprint Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 760.3,
+            "average_grade": 1.4,
+            "maximum_grade": 4.8,
+            "elevation_high": 25.2,
+            "elevation_low": 14.6,
+            "start_latlng": [
+              -21.714381,
+              166.169683
+            ],
+            "end_latlng": [
+              -21.714484,
+              166.169801
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776159515000,
+          "resource_state": 2,
+          "name": "Croissant",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 1100,
+          "moving_time": 1100,
+          "start_date": "2026-11-20T03:44:05Z",
+          "start_date_local": "2026-11-19T19:44:05Z",
+          "distance": 9290.2,
+          "start_index": 1503,
+          "end_index": 2603,
+          "average_cadence": 80.9,
+          "device_watts": true,
+          "average_watts": 135.6,
+          "average_heartrate": 144.6,
+          "max_heartrate": 181,
+          "segment": {
+            "id": 39270805,
+            "resource_state": 2,
+            "name": "Croissant",
+            "activity_type": "VirtualRide",
+            "distance": 9290.2,
+            "average_grade": 0,
+            "maximum_grade": 4.2,
+            "elevation_high": 25.2,
+            "elevation_low": 10.2,
+            "start_latlng": [
+              -21.714482,
+              166.169801
+            ],
+            "end_latlng": [
+              -21.714484,
+              166.169801
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776159081000,
+          "resource_state": 2,
+          "name": "Sprint du Cratère",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 35,
+          "moving_time": 35,
+          "start_date": "2026-11-20T03:47:24Z",
+          "start_date_local": "2026-11-19T19:47:24Z",
+          "distance": 300.5,
+          "start_index": 1702,
+          "end_index": 1737,
+          "average_cadence": 88.4,
+          "device_watts": true,
+          "average_watts": 143.6,
+          "average_heartrate": 143.3,
+          "max_heartrate": 144,
+          "segment": {
+            "id": 38874008,
+            "resource_state": 2,
+            "name": "Sprint du Cratère",
+            "activity_type": "VirtualRide",
+            "distance": 300.5,
+            "average_grade": 0.1,
+            "maximum_grade": 0.5,
+            "elevation_high": 19.8,
+            "elevation_low": 19.6,
+            "start_latlng": [
+              -21.723647,
+              166.172097
+            ],
+            "end_latlng": [
+              -21.725464,
+              166.169972
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 3,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 3
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776158530000,
+          "resource_state": 2,
+          "name": "Sprinteur Sprint Reverse",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 26,
+          "moving_time": 26,
+          "start_date": "2026-11-20T03:50:04Z",
+          "start_date_local": "2026-11-19T19:50:04Z",
+          "distance": 238.1,
+          "start_index": 1862,
+          "end_index": 1888,
+          "average_cadence": 88.8,
+          "device_watts": true,
+          "average_watts": 175.8,
+          "average_heartrate": 147.6,
+          "max_heartrate": 150,
+          "segment": {
+            "id": 38873955,
+            "resource_state": 2,
+            "name": "Sprinteur Sprint Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 238.1,
+            "average_grade": 0,
+            "maximum_grade": 0,
+            "elevation_high": 15,
+            "elevation_low": 15,
+            "start_latlng": [
+              -21.725024,
+              166.161529
+            ],
+            "end_latlng": [
+              -21.726082,
+              166.159952
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 2,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 2
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776157368000,
+          "resource_state": 2,
+          "name": "Dos d'Âne Sprint Reverse",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 109,
+          "moving_time": 109,
+          "start_date": "2026-11-20T04:00:36Z",
+          "start_date_local": "2026-11-19T20:00:36Z",
+          "distance": 760.3,
+          "start_index": 2494,
+          "end_index": 2603,
+          "average_cadence": 79.6,
+          "device_watts": true,
+          "average_watts": 160.9,
+          "average_heartrate": 145,
+          "max_heartrate": 148,
+          "segment": {
+            "id": 38873968,
+            "resource_state": 2,
+            "name": "Dos d'Âne Sprint Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 760.3,
+            "average_grade": 1.4,
+            "maximum_grade": 4.8,
+            "elevation_high": 25.2,
+            "elevation_low": 14.6,
+            "start_latlng": [
+              -21.714381,
+              166.169683
+            ],
+            "end_latlng": [
+              -21.714484,
+              166.169801
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 3,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 3
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776159734300,
+          "resource_state": 2,
+          "name": "Sprint du Cratère",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 23,
+          "moving_time": 23,
+          "start_date": "2026-11-20T04:05:50Z",
+          "start_date_local": "2026-11-19T20:05:50Z",
+          "distance": 300.5,
+          "start_index": 2808,
+          "end_index": 2831,
+          "average_cadence": 87.4,
+          "device_watts": true,
+          "average_watts": 661,
+          "average_heartrate": 159,
+          "max_heartrate": 171,
+          "segment": {
+            "id": 38874008,
+            "resource_state": 2,
+            "name": "Sprint du Cratère",
+            "activity_type": "VirtualRide",
+            "distance": 300.5,
+            "average_grade": 0.1,
+            "maximum_grade": 0.5,
+            "elevation_high": 19.8,
+            "elevation_low": 19.6,
+            "start_latlng": [
+              -21.723647,
+              166.172097
+            ],
+            "end_latlng": [
+              -21.725464,
+              166.169972
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776159552000,
+          "resource_state": 2,
+          "name": "Sprinteur Sprint Reverse",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 18,
+          "moving_time": 18,
+          "start_date": "2026-11-20T04:08:13Z",
+          "start_date_local": "2026-11-19T20:08:13Z",
+          "distance": 238.1,
+          "start_index": 2951,
+          "end_index": 2969,
+          "average_cadence": 97.1,
+          "device_watts": true,
+          "average_watts": 681.3,
+          "average_heartrate": 161.3,
+          "max_heartrate": 171,
+          "segment": {
+            "id": 38873955,
+            "resource_state": 2,
+            "name": "Sprinteur Sprint Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 238.1,
+            "average_grade": 0,
+            "maximum_grade": 0,
+            "elevation_high": 15,
+            "elevation_low": 15,
+            "start_latlng": [
+              -21.725024,
+              166.161529
+            ],
+            "end_latlng": [
+              -21.726082,
+              166.159952
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": "Thio",
+            "state": "South Province",
+            "country": "France",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        },
+        {
+          "id": 3558714776157020700,
+          "resource_state": 2,
+          "name": "Pavé Sprint Reverse",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 25,
+          "moving_time": 25,
+          "start_date": "2026-11-20T04:19:00Z",
+          "start_date_local": "2026-11-19T20:19:00Z",
+          "distance": 342.4,
+          "start_index": 3598,
+          "end_index": 3623,
+          "average_cadence": 96.3,
+          "device_watts": true,
+          "average_watts": 718.2,
+          "average_heartrate": 162.7,
+          "max_heartrate": 176,
+          "segment": {
+            "id": 24710570,
+            "resource_state": 2,
+            "name": "Pavé Sprint Reverse",
+            "activity_type": "VirtualRide",
+            "distance": 342.4,
+            "average_grade": 0,
+            "maximum_grade": 0,
+            "elevation_high": 13,
+            "elevation_low": 13,
+            "start_latlng": [
+              -21.699263,
+              166.170187
+            ],
+            "end_latlng": [
+              -21.697852,
+              166.172719
+            ],
+            "elevation_profile": null,
+            "elevation_profiles": null,
+            "climb_category": 0,
+            "city": null,
+            "state": "South Province",
+            "country": "New Caledonia",
+            "private": false,
+            "hazardous": false,
+            "starred": false
+          },
+          "pr_rank": 1,
+          "achievements": [
+            {
+              "type_id": 3,
+              "type": "pr",
+              "rank": 1
+            }
+          ],
+          "visibility": "everyone",
+          "kom_rank": null,
+          "hidden": false
+        }
+      ],
+      "splits_metric": [
+        {
+          "distance": 1005.3,
+          "elapsed_time": 149,
+          "elevation_difference": 2.4,
+          "moving_time": 149,
+          "split": 1,
+          "average_speed": 6.75,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 104.54362416107382,
+          "pace_zone": 0
+        },
+        {
+          "distance": 996.7,
+          "elapsed_time": 123,
+          "elevation_difference": 0.6,
+          "moving_time": 123,
+          "split": 2,
+          "average_speed": 8.1,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 118.20325203252033,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1002,
+          "elapsed_time": 137,
+          "elevation_difference": 10,
+          "moving_time": 137,
+          "split": 3,
+          "average_speed": 7.31,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 128.76642335766422,
+          "pace_zone": 0
+        },
+        {
+          "distance": 999.4,
+          "elapsed_time": 120,
+          "elevation_difference": -4.2,
+          "moving_time": 120,
+          "split": 4,
+          "average_speed": 8.33,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 130.575,
+          "pace_zone": 0
+        },
+        {
+          "distance": 997.5,
+          "elapsed_time": 121,
+          "elevation_difference": -0.2,
+          "moving_time": 121,
+          "split": 5,
+          "average_speed": 8.24,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 131.8181818181818,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1006,
+          "elapsed_time": 115,
+          "elevation_difference": -7.8,
+          "moving_time": 115,
+          "split": 6,
+          "average_speed": 8.75,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 132.10434782608695,
+          "pace_zone": 0
+        },
+        {
+          "distance": 994.7,
+          "elapsed_time": 114,
+          "elevation_difference": -1.2,
+          "moving_time": 114,
+          "split": 7,
+          "average_speed": 8.73,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 135.1315789473684,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1001.8,
+          "elapsed_time": 247,
+          "elevation_difference": 3.4,
+          "moving_time": 134,
+          "split": 8,
+          "average_speed": 7.48,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 126.93283582089552,
+          "pace_zone": 0
+        },
+        {
+          "distance": 998.9,
+          "elapsed_time": 110,
+          "elevation_difference": -1,
+          "moving_time": 110,
+          "split": 9,
+          "average_speed": 9.08,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 138.0909090909091,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1003.7,
+          "elapsed_time": 111,
+          "elevation_difference": 0,
+          "moving_time": 111,
+          "split": 10,
+          "average_speed": 9.04,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 141.97297297297297,
+          "pace_zone": 0
+        },
+        {
+          "distance": 995.8,
+          "elapsed_time": 117,
+          "elevation_difference": 1,
+          "moving_time": 117,
+          "split": 11,
+          "average_speed": 8.51,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 138.95726495726495,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1008.6,
+          "elapsed_time": 115,
+          "elevation_difference": 4.8,
+          "moving_time": 115,
+          "split": 12,
+          "average_speed": 8.77,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 144.1304347826087,
+          "pace_zone": 0
+        },
+        {
+          "distance": 990.4,
+          "elapsed_time": 92,
+          "elevation_difference": -1.2,
+          "moving_time": 92,
+          "split": 13,
+          "average_speed": 10.77,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 170.92391304347825,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1005.6,
+          "elapsed_time": 118,
+          "elevation_difference": 2,
+          "moving_time": 118,
+          "split": 14,
+          "average_speed": 8.52,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 154.3728813559322,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1000.1,
+          "elapsed_time": 117,
+          "elevation_difference": -0.6,
+          "moving_time": 117,
+          "split": 15,
+          "average_speed": 8.55,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 143,
+          "pace_zone": 0
+        },
+        {
+          "distance": 994.2,
+          "elapsed_time": 105,
+          "elevation_difference": -4,
+          "moving_time": 105,
+          "split": 16,
+          "average_speed": 9.47,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 145.78095238095239,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1006.1,
+          "elapsed_time": 117,
+          "elevation_difference": -0.2,
+          "moving_time": 117,
+          "split": 17,
+          "average_speed": 8.6,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 141.55555555555554,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1000.3,
+          "elapsed_time": 118,
+          "elevation_difference": -0.8,
+          "moving_time": 118,
+          "split": 18,
+          "average_speed": 8.48,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 140.0593220338983,
+          "pace_zone": 0
+        },
+        {
+          "distance": 995.5,
+          "elapsed_time": 119,
+          "elevation_difference": -1,
+          "moving_time": 119,
+          "split": 19,
+          "average_speed": 8.37,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 139.00840336134453,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1004,
+          "elapsed_time": 121,
+          "elevation_difference": 0,
+          "moving_time": 121,
+          "split": 20,
+          "average_speed": 8.3,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 141.92561983471074,
+          "pace_zone": 0
+        },
+        {
+          "distance": 996.9,
+          "elapsed_time": 124,
+          "elevation_difference": 1.6,
+          "moving_time": 124,
+          "split": 21,
+          "average_speed": 8.04,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 138.96774193548387,
+          "pace_zone": 0
+        },
+        {
+          "distance": 999.8,
+          "elapsed_time": 136,
+          "elevation_difference": 8.6,
+          "moving_time": 136,
+          "split": 22,
+          "average_speed": 7.35,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 146.3308823529412,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1001.9,
+          "elapsed_time": 115,
+          "elevation_difference": -1.8,
+          "moving_time": 115,
+          "split": 23,
+          "average_speed": 8.71,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 144.04347826086956,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1003.1,
+          "elapsed_time": 98,
+          "elevation_difference": -1.6,
+          "moving_time": 98,
+          "split": 24,
+          "average_speed": 10.24,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 153.8877551020408,
+          "pace_zone": 0
+        },
+        {
+          "distance": 997.5,
+          "elapsed_time": 106,
+          "elevation_difference": -4.8,
+          "moving_time": 106,
+          "split": 25,
+          "average_speed": 9.41,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 157.08490566037736,
+          "pace_zone": 0
+        },
+        {
+          "distance": 999.3,
+          "elapsed_time": 97,
+          "elevation_difference": -1.6,
+          "moving_time": 97,
+          "split": 26,
+          "average_speed": 10.3,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 165,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1001.6,
+          "elapsed_time": 111,
+          "elevation_difference": -0.4,
+          "moving_time": 111,
+          "split": 27,
+          "average_speed": 9.02,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 151.6216216216216,
+          "pace_zone": 0
+        },
+        {
+          "distance": 995.9,
+          "elapsed_time": 104,
+          "elevation_difference": 0,
+          "moving_time": 104,
+          "split": 28,
+          "average_speed": 9.58,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 155.32692307692307,
+          "pace_zone": 0
+        },
+        {
+          "distance": 998.1,
+          "elapsed_time": 106,
+          "elevation_difference": 2.4,
+          "moving_time": 106,
+          "split": 29,
+          "average_speed": 9.42,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 160.12264150943398,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1007.3,
+          "elapsed_time": 106,
+          "elevation_difference": -2.4,
+          "moving_time": 106,
+          "split": 30,
+          "average_speed": 9.5,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 162.27358490566039,
+          "pace_zone": 0
+        },
+        {
+          "distance": 993.6,
+          "elapsed_time": 113,
+          "elevation_difference": 0,
+          "moving_time": 113,
+          "split": 31,
+          "average_speed": 8.79,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 152.71681415929203,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1005.3,
+          "elapsed_time": 99,
+          "elevation_difference": 0,
+          "moving_time": 99,
+          "split": 32,
+          "average_speed": 10.15,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 166.92929292929293,
+          "pace_zone": 0
+        },
+        {
+          "distance": 317.2,
+          "elapsed_time": 49,
+          "elevation_difference": 0.4,
+          "moving_time": 49,
+          "split": 33,
+          "average_speed": 6.47,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 151.43478260869566,
+          "pace_zone": 0
+        }
+      ],
+      "splits_standard": [
+        {
+          "distance": 1613.4,
+          "elapsed_time": 223,
+          "elevation_difference": 2.4,
+          "moving_time": 223,
+          "split": 1,
+          "average_speed": 7.23,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 108.57847533632287,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1605.7,
+          "elapsed_time": 219,
+          "elevation_difference": 10,
+          "moving_time": 219,
+          "split": 2,
+          "average_speed": 7.33,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 127.3013698630137,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1616.9,
+          "elapsed_time": 188,
+          "elevation_difference": -3.8,
+          "moving_time": 188,
+          "split": 3,
+          "average_speed": 8.6,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 131.14893617021278,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1607.6,
+          "elapsed_time": 184,
+          "elevation_difference": -4.6,
+          "moving_time": 184,
+          "split": 4,
+          "average_speed": 8.74,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 132.77717391304347,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1603.4,
+          "elapsed_time": 317,
+          "elevation_difference": -1.4,
+          "moving_time": 204,
+          "split": 5,
+          "average_speed": 7.86,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 129.7892156862745,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1611.9,
+          "elapsed_time": 177,
+          "elevation_difference": -0.6,
+          "moving_time": 177,
+          "split": 6,
+          "average_speed": 9.11,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 139.85875706214688,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1610.4,
+          "elapsed_time": 189,
+          "elevation_difference": 0.6,
+          "moving_time": 189,
+          "split": 7,
+          "average_speed": 8.52,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 139.7089947089947,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1613.5,
+          "elapsed_time": 163,
+          "elevation_difference": 5.8,
+          "moving_time": 163,
+          "split": 8,
+          "average_speed": 9.9,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 158.72392638036808,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1609.3,
+          "elapsed_time": 186,
+          "elevation_difference": 0.4,
+          "moving_time": 186,
+          "split": 9,
+          "average_speed": 8.65,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 151.63440860215053,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1605,
+          "elapsed_time": 177,
+          "elevation_difference": -4.6,
+          "moving_time": 177,
+          "split": 10,
+          "average_speed": 9.07,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 144.71751412429379,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1612.8,
+          "elapsed_time": 186,
+          "elevation_difference": -2.2,
+          "moving_time": 186,
+          "split": 11,
+          "average_speed": 8.67,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 140.80107526881721,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1603.2,
+          "elapsed_time": 193,
+          "elevation_difference": 0,
+          "moving_time": 193,
+          "split": 12,
+          "average_speed": 8.31,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 139.2538860103627,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1610,
+          "elapsed_time": 198,
+          "elevation_difference": 1.6,
+          "moving_time": 198,
+          "split": 13,
+          "average_speed": 8.13,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 140.5,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1608.1,
+          "elapsed_time": 203,
+          "elevation_difference": 5.4,
+          "moving_time": 203,
+          "split": 14,
+          "average_speed": 7.92,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 145.86699507389162,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1616,
+          "elapsed_time": 171,
+          "elevation_difference": -0.4,
+          "moving_time": 171,
+          "split": 15,
+          "average_speed": 9.45,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 150.93567251461988,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1602.6,
+          "elapsed_time": 157,
+          "elevation_difference": -8.4,
+          "moving_time": 157,
+          "split": 16,
+          "average_speed": 10.21,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 161.27388535031847,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1616.1,
+          "elapsed_time": 181,
+          "elevation_difference": 1.8,
+          "moving_time": 181,
+          "split": 17,
+          "average_speed": 8.93,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 152.92265193370164,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1607.9,
+          "elapsed_time": 168,
+          "elevation_difference": 3.2,
+          "moving_time": 168,
+          "split": 18,
+          "average_speed": 9.57,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 158.58333333333334,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1607,
+          "elapsed_time": 176,
+          "elevation_difference": -3,
+          "moving_time": 176,
+          "split": 19,
+          "average_speed": 9.13,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 158.89772727272728,
+          "pace_zone": 0
+        },
+        {
+          "distance": 1611.2,
+          "elapsed_time": 168,
+          "elevation_difference": -0.2,
+          "moving_time": 168,
+          "split": 20,
+          "average_speed": 9.59,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 161.70238095238096,
+          "pace_zone": 0
+        },
+        {
+          "distance": 132.1,
+          "elapsed_time": 26,
+          "elevation_difference": 0.4,
+          "moving_time": 26,
+          "split": 21,
+          "average_speed": 5.08,
+          "average_grade_adjusted_speed": null,
+          "average_heartrate": 143.65217391304347,
+          "pace_zone": 0
+        }
+      ],
+      "laps": [
+        {
+          "id": 75092247091,
+          "resource_state": 2,
+          "name": "Lap 0",
+          "activity": {
+            "id": 21054498836,
+            "id_str": "21054498836",
+            "visibility": "everyone",
+            "resource_state": 1
+          },
+          "athlete": {
+            "id": 29432659,
+            "id_str": "29432659",
+            "resource_state": 1
+          },
+          "elapsed_time": 3850,
+          "moving_time": 3743,
+          "start_date": "2026-11-20T03:17:14Z",
+          "start_date_local": "2026-11-19T19:17:14Z",
+          "distance": 32324.1,
+          "average_speed": 8.64,
+          "max_speed": 15.14,
+          "lap_index": 0,
+          "split": 0,
+          "start_index": 0,
+          "end_index": 3742,
+          "total_elevation_gain": 123.6,
+          "average_cadence": 81.5,
+          "device_watts": true,
+          "average_watts": 154.9,
+          "average_heartrate": 142.7,
+          "max_heartrate": 181
+        }
+      ],
+      "gear": {
+        "id": "b8659402",
+        "primary": true,
+        "name": "Canyon Grail CF SL 8",
+        "nickname": "Canyon Grail CF SL 8",
+        "resource_state": 2,
+        "retired": false,
+        "distance": 22317085,
+        "converted_distance": 13867.2
+      },
+      "photos": {
+        "primary": {
+          "unique_id": "e9dce538-b2b9-4f51-a8db-dc863086e230",
+          "urls": {
+            "100": "https://dgtzuqphqg23d.cloudfront.net/szK9kZt4IxKDN7ncObath1MDNBiTeWt_eGUK-QQ2Urk-128x73.jpg",
+            "600": "https://dgtzuqphqg23d.cloudfront.net/szK9kZt4IxKDN7ncObath1MDNBiTeWt_eGUK-QQ2Urk-768x440.jpg"
+          },
+          "source": 1,
+          "media_type": 1
+        },
+        "use_primary_photo": true,
+        "count": 5
+      },
+      "stats_visibility": [
+        {
+          "type": "heart_rate",
+          "visibility": "everyone"
+        },
+        {
+          "type": "pace",
+          "visibility": "everyone"
+        },
+        {
+          "type": "power",
+          "visibility": "everyone"
+        },
+        {
+          "type": "speed",
+          "visibility": "everyone"
+        },
+        {
+          "type": "calories",
+          "visibility": "everyone"
+        },
+        {
+          "type": "weight_lifted",
+          "visibility": "everyone"
+        }
+      ],
+      "hide_from_home": false,
+      "sport_image_visibility": "everyone",
+      "embed_token": "e451e3ea085ab2af9c83ec87add25707c43404e6",
+      "available_zones": [
+        "heartrate",
+        "power"
+      ]
+    },
     {
       "resource_state": 3,
       "athlete": {

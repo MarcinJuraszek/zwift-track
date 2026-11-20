@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-19T06:23:54.910Z",
-  "totalCompleted": 138,
+  "syncedAt": "2026-11-20T04:22:39.624Z",
+  "totalCompleted": 139,
   "totalRoutes": 278,
   "completedRoutes": [
+    {
+      "routeSlug": "bon-voyage",
+      "routeName": "Bon Voyage",
+      "worldName": "France",
+      "activityId": 21054498836,
+      "activityName": "Zwift - Bon Voyage in France",
+      "date": "2026-11-19T19:17:14Z",
+      "distance": 32.324,
+      "movingTime": 3737,
+      "elapsedTime": 3850,
+      "elevationGain": 157,
+      "averageWatts": 154.9,
+      "stravaUrl": "https://www.strava.com/activities/21054498836",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "laps-camera-traction",
       "routeName": "Laps, Camera, Traction",

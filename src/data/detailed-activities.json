@@ -6897,5 +6897,89 @@
       }
     ],
     "fetchedAt": "2026-11-21T01:53:04.660Z"
+  },
+  "21076320938": {
+    "id": 21076320938,
+    "name": "Zwift - Four Foalsmen in Watopia",
+    "segment_efforts": [
+      {
+        "name": "Four Foalsmen",
+        "segment": {
+          "id": 42376396,
+          "name": "Four Foalsmen"
+        }
+      },
+      {
+        "name": "Titans Grove, Northbound",
+        "segment": {
+          "id": 21563651,
+          "name": "Titans Grove, Northbound"
+        }
+      },
+      {
+        "name": "Titans Grove KOM",
+        "segment": {
+          "id": 21343975,
+          "name": "Titans Grove KOM"
+        }
+      },
+      {
+        "name": "Volcano Circuit Lead-In from Start Banner",
+        "segment": {
+          "id": 19696157,
+          "name": "Volcano Circuit Lead-In from Start Banner"
+        }
+      },
+      {
+        "name": "Volcano KOM",
+        "segment": {
+          "id": 14270131,
+          "name": "Volcano KOM"
+        }
+      },
+      {
+        "name": "Volcano Descent",
+        "segment": {
+          "id": 19970445,
+          "name": "Volcano Descent"
+        }
+      },
+      {
+        "name": "Jarvis Sprint Reverse",
+        "segment": {
+          "id": 38151470,
+          "name": "Jarvis Sprint Reverse"
+        }
+      },
+      {
+        "name": "Jarvis KOM Reverse",
+        "segment": {
+          "id": 38132913,
+          "name": "Jarvis KOM Reverse"
+        }
+      },
+      {
+        "name": "Sunset Sprint Reverse",
+        "segment": {
+          "id": 42385747,
+          "name": "Sunset Sprint Reverse"
+        }
+      },
+      {
+        "name": "Hilly KOM Reverse",
+        "segment": {
+          "id": 12128029,
+          "name": "Hilly KOM Reverse"
+        }
+      },
+      {
+        "name": "Fuego Flats Forward Sprint",
+        "segment": {
+          "id": 20350107,
+          "name": "Fuego Flats Forward Sprint"
+        }
+      }
+    ],
+    "fetchedAt": "2026-11-21T22:14:42.043Z"
   }
 }

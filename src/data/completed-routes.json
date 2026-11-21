@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-21T01:53:04.671Z",
-  "totalCompleted": 140,
+  "syncedAt": "2026-11-21T22:14:42.048Z",
+  "totalCompleted": 141,
   "totalRoutes": 278,
   "completedRoutes": [
+    {
+      "routeSlug": "four-foalsmen",
+      "routeName": "Four Foalsmen",
+      "worldName": "Watopia",
+      "activityId": 21076320938,
+      "activityName": "Zwift - Four Foalsmen in Watopia",
+      "date": "2026-11-21T11:41:23Z",
+      "distance": 65.145,
+      "movingTime": 7687,
+      "elapsedTime": 9128,
+      "elevationGain": 576,
+      "averageWatts": 160,
+      "stravaUrl": "https://www.strava.com/activities/21076320938",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "double-espresso",
       "routeName": "Double Espresso",

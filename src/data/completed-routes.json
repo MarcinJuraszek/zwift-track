@@ -1,8 +1,23 @@
 {
-  "syncedAt": "2026-11-20T04:22:39.624Z",
-  "totalCompleted": 139,
+  "syncedAt": "2026-11-21T01:53:04.671Z",
+  "totalCompleted": 140,
   "totalRoutes": 278,
   "completedRoutes": [
+    {
+      "routeSlug": "double-espresso",
+      "routeName": "Double Espresso",
+      "worldName": "Paris",
+      "activityId": 21065205977,
+      "activityName": "Zwift - Double Espresso in Paris",
+      "date": "2026-11-20T16:45:27Z",
+      "distance": 30.804,
+      "movingTime": 3768,
+      "elapsedTime": 4028,
+      "elevationGain": 221,
+      "averageWatts": 156.1,
+      "stravaUrl": "https://www.strava.com/activities/21065205977",
+      "matchMethod": "segment"
+    },
     {
       "routeSlug": "bon-voyage",
       "routeName": "Bon Voyage",
